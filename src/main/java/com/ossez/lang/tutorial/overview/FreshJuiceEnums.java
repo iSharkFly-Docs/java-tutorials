@@ -1,7 +1,7 @@
 package com.ossez.lang.tutorial.overview;
 
 /**
- * Java Tutorial Enums
+ * Java Tutorial
  * 
  * @author YuCheng
  *
@@ -18,6 +18,5 @@ public class FreshJuiceEnums {
 	public static void main(String[] args) {
 		FreshJuice juice = new FreshJuice();
 		juice.size = FreshJuice.FreshJuiceSize.MEDIUM;
-		System.out.println("Size: " + juice.size);
 	}
 }
