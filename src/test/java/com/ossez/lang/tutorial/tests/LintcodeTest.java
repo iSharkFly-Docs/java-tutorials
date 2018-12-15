@@ -4,14 +4,19 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.TreeSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import javax.management.ListenerNotFoundException;
+
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import com.ossez.lang.tutorial.models.ListNode;
 
 /**
  * 
@@ -21,6 +26,62 @@ import org.slf4j.LoggerFactory;
 public class LintcodeTest {
 
 	private final static Logger logger = LoggerFactory.getLogger(LintcodeTest.class);
+
+	/**
+	 * 35 https://www.lintcode.com/problem/reverse-linked-list/description
+	 */
+	@Test
+	public void test0035Reverse() {
+		// INIT LINKED LIST
+		ListNode head = new ListNode(1);
+		head.next = new ListNode(2);
+		head.next.next = new ListNode(3);
+
+		// CHECK BEFORE
+		System.out.println(head.val);
+		System.out.println(head.next.val);
+		System.out.println(head.next.next.val);
+
+		// REVERSE
+		ListNode prev = null;
+		while (head != null) {
+			ListNode temp = head.next;
+			head.next = prev;
+			prev = head;
+			head = temp;
+		}
+
+		// CHECK AFTER
+		System.out.println(prev.val);
+		System.out.println(prev.next.val);
+		System.out.println(prev.next.next.val);
+	}
+
+	/**
+	 * 1480 https://www.lintcode.com/problem/dot-product/description
+	 */
+	@Test
+	public void test0044minSubArray() {
+
+		List<Integer> nums = new ArrayList<Integer>();
+		nums.add(1);
+		nums.add(1);
+
+		int min_ending_here = 0;
+		int retStatus = 0;
+
+		for (int i = 0; i < nums.size(); i++) {
+			if (min_ending_here > 0) {
+				min_ending_here = nums.get(i);
+			} else {
+				min_ending_here += nums.get(i);
+			}
+			retStatus = Math.min(retStatus, min_ending_here);
+		}
+
+		System.out.println(retStatus);
+
+	}
 
 	/**
 	 * 53 https://www.lintcode.com/problem/reverse-words-in-a-string/description
@@ -92,6 +153,36 @@ public class LintcodeTest {
 		}
 
 		System.out.println("" + retStatus);
+	}
+
+	/**
+	 * 411
+	 * 
+	 * <p>
+	 * <ul>
+	 * <li>@see
+	 * <a href="https://www.cwiki.us/display/ITCLASSIFICATION/Gray+Code">https://www.cwiki.us/display/ITCLASSIFICATION/Gray+Code</a>
+	 * <li>@see<a href="https://www.lintcode.com/problem/gray-code/description">https://www.lintcode.com/problem/gray-code/description</a>
+	 * </ul>
+	 * </p>
+	 * 
+	 */
+	@Test
+	public void test0411GrayCode() {
+		int n = 2;
+
+		List<Integer> retArray = new ArrayList<>();
+
+		if (n == 0) {
+			retArray.add(0);
+		}
+
+		for (int i = 0; i < (2 << (n - 1)); i++) {
+			int g = i ^ (i / 2);
+			retArray.add(g);
+		}
+
+		System.out.println(retArray);
 	}
 
 	/**
@@ -220,32 +311,6 @@ public class LintcodeTest {
 		}
 
 		System.out.println(retStatus);
-	}
-
-	/**
-	 * 1480 https://www.lintcode.com/problem/dot-product/description
-	 */
-	@Test
-	public void test0044minSubArray() {
-
-		List<Integer> nums = new ArrayList<Integer>();
-		nums.add(1);
-		nums.add(1);
-
-		int min_ending_here = 0;
-		int retStatus = 0;
-
-		for (int i = 0; i < nums.size(); i++) {
-			if (min_ending_here > 0) {
-				min_ending_here = nums.get(i);
-			} else {
-				min_ending_here += nums.get(i);
-			}
-			retStatus = Math.min(retStatus, min_ending_here);
-		}
-
-		System.out.println(retStatus);
-
 	}
 
 }
