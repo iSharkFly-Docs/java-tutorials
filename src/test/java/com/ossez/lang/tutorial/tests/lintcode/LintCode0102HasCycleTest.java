@@ -8,11 +8,11 @@ import com.ossez.lang.tutorial.models.ListNode;
 
 /**
  * <p>
- * 1480
+ * 102
  * <ul>
- * <li>@see
- * <a href= "https://www.cwiki.us/display/ITCLASSIFICATION/Dot+Product">https://www.cwiki.us/display/ITCLASSIFICATION/Dot+Product</a>
- * <li>@see<a href= "https://www.lintcode.com/problem/dot-product/">https://www.lintcode.com/problem/dot-product/</a>
+ * <li>@see <a href=
+ * "https://www.cwiki.us/display/ITCLASSIFICATION/Linked+List+Cycle">https://www.cwiki.us/display/ITCLASSIFICATION/Linked+List+Cycle</a>
+ * <li>@see<a href= "https://www.lintcode.com/problem/linked-list-cycle/">https://www.lintcode.com/problem/linked-list-cycle/</a>
  * </ul>
  * </p>
  * 
@@ -60,5 +60,4 @@ public class LintCode0102HasCycleTest {
 		System.out.println(retResult);
 
 	}
-
 }
