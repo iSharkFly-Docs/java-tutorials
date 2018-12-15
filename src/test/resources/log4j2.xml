@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE RelativeLayout>
+<Configuration status="WARN">
+
+	<Properties>
+		<Property name="baseDir">/home/logs/reoc/services/</Property>
+	</Properties>
+
+	<Appenders>
+		<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<!-- C O N S O L E - A P P E N D E R -->
+		<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<Console name="CONSOLE" target="SYSTEM_OUT">
+			<PatternLayout pattern="%-d{yyyy/MM/dd HH:mm:ss} %-5p [%c] - %m%n" />
+			<ThresholdFilter level="TRACE" onMatch="ACCEPT" onMismatch="DENY" />
+		</Console>
+
+		<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<!-- D E B U G _ F I L E - A P P E N D E R -->
+		<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<RollingFile name="FILE_DEBUG" append="true" fileName="${baseDir}/services_debug.log" filePattern="${baseDir}/$${date:yyyy-MM}/services-debug-%d{yyyy-MM-dd}-%i.log.gz">
+			<ThresholdFilter level="DEBUG" onMatch="ACCEPT" onMismatch="DENY" />
+			<PatternLayout>
+				<pattern>%-d{yyyy/MM/dd HH:mm:ss} %-5p [%c] - %m%n</pattern>
+			</PatternLayout>
+			<Policies>
+				<TimeBasedTriggeringPolicy />
+				<SizeBasedTriggeringPolicy size="250 MB"></SizeBasedTriggeringPolicy>
+			</Policies>
+			<DefaultRolloverStrategy max="12" />
+		</RollingFile>
+
+		<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<!-- I N F O _ F I L E - A P P E N D E R -->
+		<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<RollingFile name="FILE_INFO" append="true" fileName="${baseDir}/services_info.log" filePattern="${baseDir}/$${date:yyyy-MM}/services-info-%d{yyyy-MM-dd}.log.gz">
+			<ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY" />
+			<PatternLayout>
+				<pattern>%-d{yyyy/MM/dd HH:mm:ss} %-5p [%c] - %m%n</pattern>
+			</PatternLayout>
+			<Policies>
+				<TimeBasedTriggeringPolicy />
+				<SizeBasedTriggeringPolicy size="250 MB"></SizeBasedTriggeringPolicy>
+			</Policies>
+			<DefaultRolloverStrategy max="12" />
+		</RollingFile>
+		
+		<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<!-- F I L E _ W A R N - A P P E N D E R -->
+		<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<RollingFile name="FILE_WARN" append="true" fileName="${baseDir}/services_info.log" filePattern="${baseDir}/$${date:yyyy-MM}/services-warn-%d{yyyy-MM-dd}.log.gz">
+			<ThresholdFilter level="WARN" onMatch="ACCEPT" onMismatch="DENY" />
+			<PatternLayout>
+				<pattern>%-d{yyyy/MM/dd HH:mm:ss} %-5p [%c] - %m%n</pattern>
+			</PatternLayout>
+			<Policies>
+				<TimeBasedTriggeringPolicy />
+				<SizeBasedTriggeringPolicy size="250 MB"></SizeBasedTriggeringPolicy>
+			</Policies>
+			<DefaultRolloverStrategy max="12" />
+		</RollingFile>
+		
+		<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<!-- F I L E _ E R R O R - A P P E N D E R -->
+		<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<RollingFile name="FILE_ERROR" append="true" fileName="${baseDir}/services_error.log" filePattern="${baseDir}/$${date:yyyy-MM}/services-error-%d{yyyy-MM-dd}.log.gz">
+			<ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY" />
+			<PatternLayout>
+				<pattern>%-d{yyyy/MM/dd HH:mm:ss} %-5p [%c] - %m%n</pattern>
+			</PatternLayout>
+			<Policies>
+				<TimeBasedTriggeringPolicy />
+				<SizeBasedTriggeringPolicy size="250 MB"></SizeBasedTriggeringPolicy>
+			</Policies>
+			<DefaultRolloverStrategy max="12" />
+		</RollingFile>
+	</Appenders>
+
+	<!-- LOGGERS -->
+	<Loggers>
+
+		<Logger name="com.ossez" level="TRACE" additivity="false">
+			<AppenderRef ref="CONSOLE" level="DEBUG" />
+			<AppenderRef ref="FILE_DEBUG" level="DEBUG" />
+			<AppenderRef ref="FILE_INFO" level="INFO" />
+			<AppenderRef ref="FILE_WARN" level="WARN" />
+			<AppenderRef ref="FILE_ERROR" level="ERROR" />
+		</Logger>
+
+
+		<root level="TRACE">
+
+		</root>
+
+	</Loggers>
+
+</Configuration>
