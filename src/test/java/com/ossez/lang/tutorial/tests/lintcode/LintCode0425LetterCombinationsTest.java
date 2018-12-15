@@ -12,7 +12,8 @@ import org.slf4j.LoggerFactory;
  * <p>
  * 425
  * <ul>
- * <li>@see <a href="https://www.cwiki.us/display/ITCLASSIFICATION/Gray+Code">https://www.cwiki.us/display/ITCLASSIFICATION/Gray+Code</a>
+ * <li>@see <a href=
+ * "https://www.cwiki.us/display/ITCLASSIFICATION/Letter+Combinations+of+a+Phone+Number">https://www.cwiki.us/display/ITCLASSIFICATION/Letter+Combinations+of+a+Phone+Number</a>
  * <li>@see<a href=
  * "https://www.lintcode.com/problem/letter-combinations-of-a-phone-number/description">https://www.lintcode.com/problem/letter-combinations-of-a-phone-number/description</a>
  * </ul>
