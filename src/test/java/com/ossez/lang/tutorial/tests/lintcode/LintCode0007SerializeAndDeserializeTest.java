@@ -22,9 +22,9 @@ import com.ossez.lang.tutorial.models.TreeNode;
  * @author YuCheng
  *
  */
-public class LintCode0007SerializeAndDeserialize {
+public class LintCode0007SerializeAndDeserializeTest {
 
-	private final static Logger logger = LoggerFactory.getLogger(LintCode0007SerializeAndDeserialize.class);
+	private final static Logger logger = LoggerFactory.getLogger(LintCode0007SerializeAndDeserializeTest.class);
 
 	/**
 	 * 
