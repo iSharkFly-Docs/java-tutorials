@@ -25,9 +25,9 @@ import com.ossez.lang.tutorial.models.TreeNode;
  * @author YuCheng
  *
  */
-public class LintCode0069SLevelOrderTest {
+public class LintCode0069LevelOrderTest {
 
-	private final static Logger logger = LoggerFactory.getLogger(LintCode0069SLevelOrderTest.class);
+	private final static Logger logger = LoggerFactory.getLogger(LintCode0069LevelOrderTest.class);
 
 	/**
 	 * 
