@@ -27,23 +27,9 @@ public class LintCode1480DotProductTest {
 	@Test
 	public void testMain() {
 		logger.debug("BEGIN");
-		int[] A = { 1, 1, -1 };
-		int[] B = { 2147483647, 1, 3 };
-
-		int retStatus = 0;
-
-		// LENGTH CHECK
-		if (A.length == 0 || B.length == 0 || A.length != B.length)
-			retStatus = -1;
-
-		// ADDED
-		if (retStatus != -1) {
-			for (int i = 0; i < A.length; i++) {
-				retStatus = retStatus + A[i] * B[i];
-			}
-		}
-
-		System.out.println(retStatus);
+		int t = 87;
+		int[] dur = { 20, 25, 19, 37 };
+		// Write your code here
 	}
 
 }
