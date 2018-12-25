@@ -23,7 +23,8 @@ public class KayakTest {
 	@Test
 	public void testGetCoordinates() {
 		logger.debug("TEST Get Coordinat ");
-		logger.debug("LFFF - [{}]", KayakRobotMovement.getCoordinates("LFFF"));
+		logger.debug("LFFF - [{}]", KayakRobotMovement.getCoordinates("FF"));
+		logger.debug("LFFFRFFFRRFFF - [{}]", KayakRobotMovement.getCoordinates("LFFFRFFFRRFFF"));
 
 		assertEquals(KayakRobotMovement.getCoordinates("FF"), "0,2");
 		assertEquals(KayakRobotMovement.getCoordinates("LFFFRFFFRRFFF"), "-3,0");
