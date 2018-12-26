@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.ossez</groupId>
@@ -27,10 +28,6 @@
 		<ehcache.version>2.6.8</ehcache.version>
 		<hsqldb.version>2.3.2</hsqldb.version>
 
-		<!-- Test -->
-		<junit.version>4.11</junit.version>
-		<hamcrest.version>1.3</hamcrest.version>
-
 		<!-- CDN & CLOUD -->
 		<jclouds.version>1.9.0</jclouds.version>
 
@@ -45,6 +42,14 @@
 			<version>2.11.0</version>
 		</dependency>
 
+		<!-- TEST -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+		</dependency>
+
+
 		<!-- APACHE COMMONS -->
 		<dependency>
 			<groupId>org.apache.commons</groupId>
@@ -57,7 +62,7 @@
 			<artifactId>commons-math3</artifactId>
 			<version>3.6.1</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>antlr</groupId>
 			<artifactId>antlr</artifactId>
@@ -124,11 +129,7 @@
 			<version>0.2.9</version>
 		</dependency>
 
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.12</version>
-		</dependency>
+
 		<dependency>
 			<groupId>org.jasypt</groupId>
 			<artifactId>jasypt</artifactId>
