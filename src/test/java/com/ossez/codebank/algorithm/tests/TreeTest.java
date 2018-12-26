@@ -7,8 +7,8 @@ import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.ossez.lang.tutorial.models.TreeNode;
-import com.ossez.lang.tutorial.utils.TreeUtils;
+import com.ossez.codebank.algorithm.models.TreeNode;
+import com.ossez.codebank.algorithml.utils.TreeUtils;
 
 /**
  * 

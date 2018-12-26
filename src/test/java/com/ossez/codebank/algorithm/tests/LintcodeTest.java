@@ -17,7 +17,7 @@ import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.ossez.lang.tutorial.models.ListNode;
+import com.ossez.codebank.algorithm.models.ListNode;
 
 /**
  * 
