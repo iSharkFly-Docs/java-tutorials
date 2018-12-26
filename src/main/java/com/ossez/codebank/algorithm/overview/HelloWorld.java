@@ -1,4 +1,4 @@
-package com.ossez.lang.tutorial.overview;
+package com.ossez.codebank.algorithm.overview;
 
 /**
  * Java Tutorial
