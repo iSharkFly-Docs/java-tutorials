@@ -40,8 +40,37 @@ public class PillPackTest {
 		logger.debug("Test FlattenNestedArrays");
 
 		Object[] array = { 1, 2, new Object[] { 3, 4, new Object[] { 5, new Object[] { new Object[] { 6 } } }, 7 }, 8, 9, 10 };
-		logger.debug("{} - > {}", Arrays.deepToString(array), Arrays.toString(java8Flatten(array).toArray()));
+		logger.debug("LOOP: {} - > {}", Arrays.deepToString(array), Arrays.toString(loopFlatten(array)));
 
+		logger.debug("Java 8: {} - > {}", Arrays.deepToString(array), Arrays.toString(java8Flatten(array).toArray()));
+
+	}
+
+	/**
+	 * Loop And Recursive
+	 * 
+	 * @param inputArray
+	 * @return
+	 * @throws IllegalArgumentException
+	 */
+	private static Integer[] loopFlatten(Object[] inputArray) throws IllegalArgumentException {
+		// NULL CHECK
+		if (inputArray == null)
+			return null;
+
+		List<Integer> flatList = new ArrayList<Integer>();
+
+		for (Object element : inputArray) {
+			if (element instanceof Integer) {
+				flatList.add((Integer) element);
+			} else if (element instanceof Object[]) {
+				// Recursive
+				flatList.addAll(Arrays.asList(loopFlatten((Object[]) element)));
+			} else {
+				throw new IllegalArgumentException("Input must be an array of Integers or nested arrays of Integers");
+			}
+		}
+		return flatList.toArray(new Integer[flatList.size()]);
 	}
 
 	/**
@@ -51,7 +80,9 @@ public class PillPackTest {
 	 * @return
 	 */
 	private static Stream<Object> java8Flatten(Object[] array) {
+		// int[] flatInt = java8Flatten(array).mapToInt(Integer.class::cast).toArray();
 		return Arrays.stream(array).flatMap(o -> o instanceof Object[] ? java8Flatten((Object[]) o) : Stream.of(o));
+
 	}
 
 }
