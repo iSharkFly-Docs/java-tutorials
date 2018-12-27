@@ -39,7 +39,7 @@ public class PillPackTest {
 	public void testFlattenNestedArrays() {
 		logger.debug("Test FlattenNestedArrays");
 
-		Object[] array = { 1, 2, new Object[] { 3, 4, new Object[] { 5 }, 6, 7 }, 8, 9, 10 };
+		Object[] array = { 1, 2, new Object[] { 3, 4, new Object[] { 5, new Object[] { new Object[] { 6 } } }, 7 }, 8, 9, 10 };
 		logger.debug("{} - > {}", Arrays.deepToString(array), Arrays.toString(java8Flatten(array).toArray()));
 
 	}
