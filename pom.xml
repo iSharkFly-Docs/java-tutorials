@@ -49,6 +49,13 @@
 			<version>4.12</version>
 		</dependency>
 
+		<!-- EMAIL -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-email</artifactId>
+			<version>1.5</version>
+		</dependency>
+
 
 		<!-- APACHE COMMONS -->
 		<dependency>
