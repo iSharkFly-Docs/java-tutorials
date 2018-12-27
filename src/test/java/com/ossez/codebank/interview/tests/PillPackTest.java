@@ -1,7 +1,5 @@
 package com.ossez.codebank.interview.tests;
 
-import static org.junit.Assert.assertEquals;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -10,9 +8,6 @@ import java.util.stream.Stream;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import com.ossez.codebank.interview.KayakCountUpDown;
-import com.ossez.codebank.interview.KayakRobotMovement;
 
 /**
  * PillPack
