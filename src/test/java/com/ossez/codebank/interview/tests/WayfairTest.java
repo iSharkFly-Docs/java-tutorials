@@ -1,8 +1,10 @@
 package com.ossez.codebank.interview.tests;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.commons.math3.util.CombinatoricsUtils;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -72,6 +74,41 @@ public class WayfairTest {
 
 		logger.debug("H + V - [{}]", (h + v));
 
+	}
+
+	/**
+	 * https://www.cwiki.us/display/ITCLASSIFICATION/Binomial+Coefficient
+	 * 
+	 * Binomial Coefficient
+	 */
+	@Test
+	public void testBinomialCoefficient() {
+		int n = 40;
+		int k = 20;
+
+		BigDecimal bc = factorial(n).divide(factorial(k).multiply(factorial(n - k)));
+		// a.compareTo(new BigDecimal(1000000000))
+		logger.debug("{}", bc);
+		logger.debug("Check for Compare To - [{}]", bc.compareTo(new BigDecimal(1000000000)));
+		logger.debug("Value - [{}]", bc);
+
+		logger.debug("Apache CombinatoricsUtils Factorial - [{}]", CombinatoricsUtils.factorialDouble(20));
+		logger.debug("Apache CombinatoricsUtils Binomial Coefficient - [{}]", CombinatoricsUtils.binomialCoefficientDouble(40, 20));
+
+	}
+
+	/**
+	 * for factorial
+	 * 
+	 * @param x
+	 * @return
+	 */
+	private static BigDecimal factorial(int x) {
+		if (x == 1 || x == 0) {
+			return BigDecimal.valueOf(1);
+		} else {
+			return BigDecimal.valueOf(x).multiply(factorial(x - 1));
+		}
 	}
 
 }
