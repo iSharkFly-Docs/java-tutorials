@@ -1,4 +1,4 @@
-package hello;
+package us.cwiki.spring.batch.processing;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

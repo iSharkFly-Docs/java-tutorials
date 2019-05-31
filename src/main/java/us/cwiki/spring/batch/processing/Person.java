@@ -1,4 +1,4 @@
-package hello;
+package us.cwiki.spring.batch.processing;
 
 public class Person {
 

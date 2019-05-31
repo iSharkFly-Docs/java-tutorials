@@ -1,4 +1,4 @@
-package hello;
+package us.cwiki.spring.batch.processing;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
