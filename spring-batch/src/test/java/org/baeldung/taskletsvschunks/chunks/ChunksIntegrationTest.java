@@ -1,6 +1,6 @@
 package org.baeldung.taskletsvschunks.chunks;
 
-import org.baeldung.taskletsvschunks.config.ChunksConfig;
+import com.ossez.spring.taskletsvschunks.config.ChunksConfig;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

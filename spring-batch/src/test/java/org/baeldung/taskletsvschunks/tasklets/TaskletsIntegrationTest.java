@@ -1,6 +1,6 @@
 package org.baeldung.taskletsvschunks.tasklets;
 
-import org.baeldung.taskletsvschunks.config.TaskletsConfig;
+import com.ossez.spring.taskletsvschunks.config.TaskletsConfig;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,5 +1,6 @@
 package org.baeldung.batchscheduler;
 
+import com.ossez.spring.batchscheduler.SpringBatchScheduler;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

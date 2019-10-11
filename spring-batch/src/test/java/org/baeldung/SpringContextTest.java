@@ -1,6 +1,8 @@
 package org.baeldung;
 
-import org.baeldung.batch.App;
+
+import com.ossez.spring.batch.App;
+
 import org.junit.Test;
 
 public class SpringContextTest {
