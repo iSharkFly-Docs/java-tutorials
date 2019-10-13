@@ -1,4 +1,4 @@
-package com.baeldung.springamqp.broadcast;
+package com.ossez.springamqp.broadcast;
 
 import org.springframework.amqp.core.*;
 import org.springframework.context.annotation.Bean;

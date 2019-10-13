@@ -1,4 +1,4 @@
-package com.baeldung.springamqp.broadcast;
+package com.ossez.springamqp.broadcast;
 
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
@@ -6,8 +6,6 @@ import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-
-import static com.baeldung.springamqp.broadcast.BroadcastConfig.*;
 
 /**
  * Simple test application to send messages to rabbitMQ.
@@ -37,23 +35,23 @@ public class BroadcastMessageApp {
         };
     }
 
-    @RabbitListener(queues = { FANOUT_QUEUE_1_NAME })
+    @RabbitListener(queues = { BroadcastConfig.FANOUT_QUEUE_1_NAME })
     public void receiveMessageFromFanout1(String message) {
         System.out.println("Received fanout 1 message: " + message);
     }
 
-    @RabbitListener(queues = { FANOUT_QUEUE_2_NAME })
+    @RabbitListener(queues = { BroadcastConfig.FANOUT_QUEUE_2_NAME })
     public void receiveMessageFromFanout2(String message) {
         System.out.println("Received fanout 2 message: " + message);
     }
 
-    @RabbitListener(queues = { TOPIC_QUEUE_1_NAME })
+    @RabbitListener(queues = { BroadcastConfig.TOPIC_QUEUE_1_NAME })
     public void receiveMessageFromTopic1(String message) {
-        System.out.println("Received topic 1 (" + BINDING_PATTERN_IMPORTANT + ") message: " + message);
+        System.out.println("Received topic 1 (" + BroadcastConfig.BINDING_PATTERN_IMPORTANT + ") message: " + message);
     }
 
-    @RabbitListener(queues = { TOPIC_QUEUE_2_NAME })
+    @RabbitListener(queues = { BroadcastConfig.TOPIC_QUEUE_2_NAME })
     public void receiveMessageFromTopic2(String message) {
-        System.out.println("Received topic 2 (" + BINDING_PATTERN_ERROR + ") message: " + message);
+        System.out.println("Received topic 2 (" + BroadcastConfig.BINDING_PATTERN_ERROR + ") message: " + message);
     }
 }
