@@ -13,11 +13,17 @@ import org.springframework.context.annotation.Bean;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author YuCheng Hu
+ */
 @SpringBootApplication
 public class AMQPHelloWorldMessageApp {
 
     private static final boolean NON_DURABLE = true;
     private static final String MY_QUEUE_NAME = "com.ossez.real.estate";
+    private static final String MY_QUEUE_HOSTMANME = "mq.ossez.com";
+    private static final String MY_QUEUE_USERNAME = "username";
+    private static final String MY_QUEUE_PASSWORD = "password";
 
     public static void main(String[] args) {
 
@@ -32,9 +38,9 @@ public class AMQPHelloWorldMessageApp {
 
         @Bean
     public ConnectionFactory connectionFactory() {
-        CachingConnectionFactory connectionFactory = new CachingConnectionFactory("158.69.60.50");
-        connectionFactory.setUsername("admin");
-        connectionFactory.setPassword("Lucas#1120");
+        CachingConnectionFactory connectionFactory = new CachingConnectionFactory(MY_QUEUE_HOSTMANME);
+        connectionFactory.setUsername(MY_QUEUE_USERNAME);
+        connectionFactory.setPassword(MY_QUEUE_PASSWORD);
 
         return connectionFactory;
     }
@@ -71,7 +77,7 @@ public class AMQPHelloWorldMessageApp {
     public ApplicationRunner runner(RabbitTemplate template) {
         return args -> {
             for (int i =0; i<1000; i++) {
-                template.convertAndSend("Hello, world- YuCheng Hu!"+ i);
+                template.convertAndSend("Hello, world - OSSEZ.COM!"+ i);
             }
 
         };
