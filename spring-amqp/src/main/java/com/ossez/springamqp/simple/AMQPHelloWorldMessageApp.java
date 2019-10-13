@@ -56,13 +56,9 @@ public class AMQPHelloWorldMessageApp {
     @Bean
     Queue myQueue() {
         Map<String, Object> args = new HashMap<>();
-//        // set the queue with a dead letter feature
-//        args.put("x-queue-type", "classic");
+        args.put("x-queue-type", "classic");
 
         return new Queue(MY_QUEUE_NAME, NON_DURABLE, false, false, args);
-//        return new Queue(MY_QUEUE_NAME, NON_DURABLE);
-
-
     }
 
 
