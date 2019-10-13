@@ -66,7 +66,7 @@ public class AMQPHelloWorldMessageApp {
     public ApplicationRunner runner(RabbitTemplate template) {
         return args -> {
             for (int i = 0; i < 1000; i++) {
-                template.convertAndSend("Hello, world - OSSEZ.COM!" + i);
+                template.convertAndSend("Hello, world - OSSEZ.COM! >> " + i);
             }
 
         };
