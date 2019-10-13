@@ -27,16 +27,10 @@ public class AMQPHelloWorldMessageApp {
 
     public static void main(String[] args) {
 
-//        ApplicationContext context = new AnnotationConfigApplicationContext(HelloWorldConfiguration.class);
-//        AmqpTemplate amqpTemplate = context.getBean(AmqpTemplate.class);
-//
-//        amqpTemplate.convertAndSend("Hello World");
-//        System.out.println("Sent: Hello World");
-
         SpringApplication.run(AMQPHelloWorldMessageApp.class, args);
     }
 
-        @Bean
+    @Bean
     public ConnectionFactory connectionFactory() {
         CachingConnectionFactory connectionFactory = new CachingConnectionFactory(MY_QUEUE_HOSTMANME);
         connectionFactory.setUsername(MY_QUEUE_USERNAME);
@@ -69,20 +63,18 @@ public class AMQPHelloWorldMessageApp {
 //        return new Queue(MY_QUEUE_NAME, NON_DURABLE);
 
 
-
     }
 
 
     @Bean
     public ApplicationRunner runner(RabbitTemplate template) {
         return args -> {
-            for (int i =0; i<1000; i++) {
-                template.convertAndSend("Hello, world - OSSEZ.COM!"+ i);
+            for (int i = 0; i < 1000; i++) {
+                template.convertAndSend("Hello, world - OSSEZ.COM!" + i);
             }
 
         };
     }
-
 
 
     @RabbitListener(queues = MY_QUEUE_NAME)
