@@ -38,9 +38,9 @@ Running a Spring Boot module
 To run a Spring Boot module run the command: `mvn spring-boot:run` in the module directory
 
 
-Working with the IDE
+与 IDE 协同进行工作
 ====================
-This repo contains a large number of modules. 
+本仓库中包含有大量的模块。 
 When you're working with an individual module, there's no need to import all of them (or build all of them) - you can simply import that particular module in either Eclipse or IntelliJ. 
 
 
