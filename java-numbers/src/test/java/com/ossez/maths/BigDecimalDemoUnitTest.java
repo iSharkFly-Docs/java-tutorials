@@ -186,11 +186,24 @@ public class BigDecimalDemoUnitTest {
         // Set precision to 5
         MathContext mc = new MathContext(6);
 
-        bigNumber = new BigDecimal(RandomStringUtils.randomNumeric(10)+"E5", mc);
+        bigNumber = new BigDecimal(RandomStringUtils.randomNumeric(10) + "E5", mc);
 
         // apply toString() method
         logger.info("{}", bigNumber.toString());
         logger.info("{}", bigNumber.toEngineeringString());
         logger.info("{}", bigNumber.toPlainString());
+    }
+
+    /**
+     * To StripTrailingZeros
+     */
+    @Test
+    public void bigDecimalStripTrailingZerosTest() {
+        BigDecimal bigNumber = new BigDecimal("2707000000000");
+
+        // apply StripTrailingZeros function
+        logger.info("{}", bigNumber.toString());
+        logger.info("{}", bigNumber.stripTrailingZeros().toString());
+        logger.info("{}", bigNumber.stripTrailingZeros().toPlainString());
     }
 }
