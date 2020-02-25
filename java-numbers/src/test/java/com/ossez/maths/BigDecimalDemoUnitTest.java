@@ -133,7 +133,7 @@ public class BigDecimalDemoUnitTest {
      * To String without ScientificNotation
      */
     @Test
-    public void bigDecimalWithoutScientificNotation() {
+    public void bigDecimalWithoutScientificNotationTest() {
         String input = RandomStringUtils.randomNumeric(12)
                 + "12345678901234567"
                 + "8901234567890123"
