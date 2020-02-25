@@ -172,6 +172,9 @@ public class BigDecimalDemoUnitTest {
         logger.info("{}", numberStr);
     }
 
+    /**
+     * To String with ScientificNotation
+     */
     @Test
     public void bigDecimalScientificNotation() {
         // Create a BigDecimal object
