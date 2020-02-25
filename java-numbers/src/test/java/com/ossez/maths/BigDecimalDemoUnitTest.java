@@ -11,15 +11,26 @@ import java.math.MathContext;
 import java.math.RoundingMode;
 import java.util.Random;
 
+import org.apache.commons.lang3.RandomStringUtils;
+import org.apache.commons.lang3.RandomUtils;
+import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.math.NumberUtils;
 import org.junit.jupiter.api.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
+/**
+ *
+ */
 public class BigDecimalDemoUnitTest {
+
+    private static final Logger logger = LoggerFactory.getLogger(BigDecimalDemoUnitTest.class);
 
     @Test
     public void whenBigDecimalCreated_thenValueMatches() {
         BigDecimal bdFromString = new BigDecimal("0.1");
         BigDecimal bdFromCharArray = new BigDecimal(
-            new char[] { '3', '.', '1', '6', '1', '5' });
+                new char[]{'3', '.', '1', '6', '1', '5'});
         BigDecimal bdlFromInt = new BigDecimal(42);
         BigDecimal bdFromLong = new BigDecimal(123412345678901L);
         BigInteger bigInteger = BigInteger.probablePrime(100, new Random());
@@ -101,7 +112,7 @@ public class BigDecimalDemoUnitTest {
         BigDecimal bd = new BigDecimal("2.5");
         // Round to 1 digit using HALF_EVEN
         BigDecimal rounded = bd
-            .round(new MathContext(1, RoundingMode.HALF_EVEN));
+                .round(new MathContext(1, RoundingMode.HALF_EVEN));
 
         assertEquals("2", rounded.toString());
     }
@@ -114,7 +125,70 @@ public class BigDecimalDemoUnitTest {
         BigDecimal taxRate = new BigDecimal("0.0725");
 
         BigDecimal amountToBePaid = BigDecimalDemo
-            .calculateTotalAmount(quantity, unitPrice, discountRate, taxRate);
+                .calculateTotalAmount(quantity, unitPrice, discountRate, taxRate);
         assertEquals("11.68", amountToBePaid.toString());
+    }
+
+    /**
+     * To String without ScientificNotation
+     */
+    @Test
+    public void bigDecimalWithoutScientificNotation() {
+        String input = RandomStringUtils.randomNumeric(12)
+                + "12345678901234567"
+                + "8901234567890123"
+                + "4567890123456789"
+                + "0123456789012345"
+                + "6789012345678901"
+                + "2345678901234567"
+                + "8901234567890123"
+                + "4567890123456789"
+                + "0123456789012345"
+                + "6789012345678901"
+                + "2345678901234567"
+                + "8901234567890123"
+                + "4567890123456789"
+                + "0123456789012345"
+                + "6789012345678901"
+                + "2345678901234567"
+                + "8901234567890123"
+                + "4554324324362432"
+                + "7674637264783264"
+                + "7832678463726478"
+                + "3264736274673864"
+                + "7364732463546354"
+                + "6354632564532645"
+                + "6325463546536453"
+                + "6546325463546534"
+                + "6325465345326456"
+                + "4635463263453264";
+        // Converting to BigDecimal
+        BigDecimal bigNumber = new BigDecimal(input);
+
+        // Apply toString() method
+        String numberStr = bigNumber.toString();
+
+        // Print the result
+        logger.info("{}", numberStr);
+    }
+
+    @Test
+    public void bigDecimalScientificNotation() {
+        // Create a BigDecimal object
+        BigDecimal a;
+
+        // Create a String object
+        String s;
+
+        // Set precision to 5
+        MathContext mc = new MathContext(5);
+
+        a = new BigDecimal("4536785E4", mc);
+
+        // apply toString() method
+        s = a.toString();
+
+        // print the result
+        System.out.println(s);
     }
 }
