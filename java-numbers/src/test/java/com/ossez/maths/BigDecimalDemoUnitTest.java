@@ -175,20 +175,19 @@ public class BigDecimalDemoUnitTest {
     @Test
     public void bigDecimalScientificNotation() {
         // Create a BigDecimal object
-        BigDecimal a;
+        BigDecimal bigNumber;
 
         // Create a String object
-        String s;
+        String numberStr;
 
         // Set precision to 5
-        MathContext mc = new MathContext(5);
+        MathContext mc = new MathContext(6);
 
-        a = new BigDecimal("4536785E4", mc);
+        bigNumber = new BigDecimal(RandomStringUtils.randomNumeric(10)+"E5", mc);
 
         // apply toString() method
-        s = a.toString();
-
-        // print the result
-        System.out.println(s);
+        logger.info("{}", bigNumber.toString());
+        logger.info("{}", bigNumber.toEngineeringString());
+        logger.info("{}", bigNumber.toPlainString());
     }
 }
