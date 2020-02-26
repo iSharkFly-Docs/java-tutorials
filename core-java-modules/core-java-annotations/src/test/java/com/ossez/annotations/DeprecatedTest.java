@@ -1,6 +1,5 @@
 package com.ossez.annotations;
 
-import com.ossez.annotations.ClassWithDeprecatedMethod;
 import org.junit.jupiter.api.Test;
 
 public class DeprecatedTest {
