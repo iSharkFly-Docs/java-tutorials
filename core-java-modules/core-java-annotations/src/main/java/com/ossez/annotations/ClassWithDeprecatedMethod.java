@@ -1,7 +1,7 @@
 package com.ossez.annotations;
 
 
-class ClassWithDeprecatedMethod {
+public class ClassWithDeprecatedMethod {
 
     /**
      * Calculate period between versions
@@ -10,14 +10,14 @@ class ClassWithDeprecatedMethod {
      * * <p> Use {@link ClassWithDeprecatedMethod#updatedMethod()} instead.
      */
     @Deprecated
-    static void deprecatedMethod() {
+    public static void deprecatedMethod() {
 
     }
 
     /**
      * Updated Method instead of deprecatedMethod.
      */
-    static void updatedMethod() {
+    public static void updatedMethod() {
     }
 
 }
