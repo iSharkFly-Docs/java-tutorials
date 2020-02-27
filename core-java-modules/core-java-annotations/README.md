@@ -1,8 +1,8 @@
 =========
 
-## Core Java 8 Cookbooks and Examples
+## Core Java Cookbooks and Examples
 
-### Relevant Articles: 
+### 相关的文章： 
 - [Java @Override Annotation](https://www.baeldung.com/java-override)
 - [Java @SuppressWarnings Annotation](https://www.baeldung.com/java-suppresswarnings)
 - [Java @SafeVarargs Annotation](https://www.baeldung.com/java-safevarargs)
