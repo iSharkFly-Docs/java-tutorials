@@ -1,3 +1,2 @@
 ### 相关文章： 
-- [Spring Boot With H2 Database](https://www.baeldung.com/spring-boot-h2-database)
-- [Hibernate @NotNull vs @Column(nullable = false)](https://www.baeldung.com/hibernate-notnull-vs-nullable)
+- [Spring Boot 使用 H2 数据库的控制台（Console）](https://www.cwiki.us/pages/viewpage.action?pageId=57938747)
