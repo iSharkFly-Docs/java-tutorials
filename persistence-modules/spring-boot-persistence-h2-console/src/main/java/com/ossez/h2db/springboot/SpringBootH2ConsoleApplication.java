@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 import java.util.Arrays;
 
 /**
- *
+ * MAIN APPLICATION
  */
 @SpringBootApplication
 public class SpringBootH2ConsoleApplication {
