@@ -6,7 +6,7 @@
 
     <groupId>com.ossez</groupId>
     <artifactId>parent-modules</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>pom</packaging>
 
     <dependencies>
@@ -204,5 +204,18 @@
         <lombok.version>1.16.12</lombok.version>
         <h2.version>1.4.197</h2.version>
     </properties>
+	
+	<distributionManagement>
+		<repository>
+			<id>maven.ossez.com</id>
+			<name>Internal Release Repository</name>
+			<url>https://maven.ossez.com/repository/internal/</url>
+		</repository>
+		<snapshotRepository>
+			<id>maven.ossez.com</id>
+			<name>Internal Snapshot Repository</name>
+			<url>https://maven.ossez.com/repository/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 </project>
