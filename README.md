@@ -44,10 +44,10 @@ To run a Spring Boot module run the command: `mvn spring-boot:run` in the module
 When you're working with an individual module, there's no need to import all of them (or build all of them) - you can simply import that particular module in either Eclipse or IntelliJ. 
 
 
-Running Tests
+运行测试
 =============
-The command `mvn clean install` will run the unit tests in a module.
-To run the integration tests, use the command `mvn clean install -Pintegration-lite-first`
+运行 `mvn clean install` 将会在模块中运行单元测试（unit tests）。
+如果你希望运行整合测试（integration tests），请使用命令 `mvn clean install -Pintegration-lite-first`
 
 
 
