@@ -9,9 +9,9 @@
     <description>Hibernate tutorial illustrating the use of named parameters</description>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.ossez</groupId>
         <artifactId>persistence-modules</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
     <dependencies>
@@ -43,11 +43,6 @@
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-spatial</artifactId>
             <version>${hibernate-core.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.opengeo</groupId>
-            <artifactId>geodb</artifactId>
-            <version>${geodb.version}</version>
         </dependency>
     </dependencies>
 
