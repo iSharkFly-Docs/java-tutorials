@@ -23,19 +23,19 @@ A strong focus of these is, of course, the Spring Framework - Spring, Spring Boo
 In additional to Spring, the modules here are covering a number of aspects in Java. 
 
 
-Building the project
+构建（build）项目
 ====================
-To do the full build, do: `mvn clean install`
+如果你希望运行一个完整的构建（build），请运行命令：`mvn clean install`
 
 
-Building a single module
+构建（Building）一个单独模块（module） 
 ====================
-To build a specific module run the command: `mvn clean install` in the module directory
+如果你希望构建一个特定的模块（module）的话，请在模块目录中运行命令：`mvn clean install`
 
 
-Running a Spring Boot module
+运行一个 Spring Boot 模块
 ====================
-To run a Spring Boot module run the command: `mvn spring-boot:run` in the module directory
+如果你希望运行一个 Spring Boot 模块（module）请在模块目录中（module directory）运行命令: `mvn spring-boot:run` 
 
 
 与 IDE 协同进行工作
