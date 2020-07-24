@@ -35,8 +35,7 @@ public class MinimumCoinsTest {
         else if (coinsValueAfter5 == 3 || coinsValueAfter5 == 1)
             coinsCount = coinsCount + 1;
 
-
-        System.out.println(coinsCount);
+        logger.debug("count Number > {}",coinsCount);
     }
 
 }
