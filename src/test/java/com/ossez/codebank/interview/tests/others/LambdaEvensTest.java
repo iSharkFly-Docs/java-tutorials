@@ -14,36 +14,36 @@ import java.util.List;
  */
 public class LambdaEvensTest {
 
-	private final static Logger logger = LoggerFactory.getLogger(LambdaEvensTest.class);
+    private final static Logger logger = LoggerFactory.getLogger(LambdaEvensTest.class);
 
-	/**
-	 * Lambda Function
-	 */
+    /**
+     * Lambda Function
+     */
 
-	interface Arithmetic {
-		Long operation(Long a, Long b);
-	}
-
-
-	/**
-	 * https://www.cwiki.us/display/ITCLASSIFICATION/Build+Castles
-	 */
-	@Test
-	public void testLambdaEvents() {
-
-		String line = "1 2 3 4 5 6 ";
-
-		String[] lineArray = line.split(" ");
-		List<Long> numbers = new ArrayList<>();
-		Arithmetic division = (Long a, Long b) -> (a % b);
+    interface Arithmetic {
+        Long operation(Long a, Long b);
+    }
 
 
-		for (String lineChar : lineArray) {
-			if (division.operation(Long.parseLong(lineChar), 2L) == 0) {
-				System.out.print(lineChar + " ");
+    /**
+     * https://www.cwiki.us/display/ITCLASSIFICATION/Lambda+Evens
+     */
+    @Test
+    public void testLambdaEvents() {
+
+        String line = "1 2 3 4 5 6 ";
+
+        String[] lineArray = line.split(" ");
+        List<Long> numbers = new ArrayList<>();
+        Arithmetic division = (Long a, Long b) -> (a % b);
+
+
+        for (String lineChar : lineArray) {
+            if (division.operation(Long.parseLong(lineChar), 2L) == 0) {
+                System.out.print(lineChar + " ");
 //				logger.debug(lineChar + " ");
-			}
-		}
+            }
+        }
 
-	}
+    }
 }
