@@ -1,16 +1,15 @@
 package com.ossez.java.nio2;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import org.junit.Test;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.URI;
 import java.nio.file.NoSuchFileException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-import org.junit.Test;
+import static org.junit.Assert.*;
 
 public class PathManualTest {
 
@@ -191,4 +190,21 @@ public class PathManualTest {
         Path p1 = Paths.get("/baeldung/articles");
         assertTrue(p1.endsWith("articles"));
     }
+
+    @Test
+    public void getFileToPath() {
+        // Convert File to Path
+        File file = new File("/home/cwikius/test/file.txt");
+        Path path = file.toPath();
+        assertNotNull(path);
+    }
+
+    @Test
+    public void getPathToFile() {
+        // Convert Path to File
+        Path path = Paths.get("/home/cwikius/test/file.txt");
+        File file = path.toFile();
+        assertNotNull(file);
+    }
+
 }
