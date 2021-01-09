@@ -6,4 +6,4 @@
 
 - [Spring Boot 2.4 示例创建 POM 文件](https://www.ossez.com/t/spring-boot-2-4-pom/1089)
 - [Spring Boot 2.4 第一个示例程序添加 Classpath 依赖](https://www.ossez.com/t/spring-boot-2-4-classpath/1098)
-
+- [Spring Boot 2.4 第一个示例程序书写代码](https://www.ossez.com/t/spring-boot-2-4/1099)
