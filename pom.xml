@@ -157,11 +157,7 @@
                 <module>parent-boot-2</module>
                 <module>parent-java</module>
 
-                <module>java-jdi</module>
-                <module>java-lite</module>
-                <module>java-math</module>
                 <module>java-numbers</module>
-                <module>java-numbers-2</module>
             </modules>
         </profile>
     </profiles>
