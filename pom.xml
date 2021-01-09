@@ -11,11 +11,6 @@
 
     <!-- REPOSITORIES -->
     <repositories>
-        <repository>
-            <id>maven.ossez.com</id>
-            <name>OSSEZ-MAVEN-REPO</name>
-            <url>https://maven.ossez.com/repository/internal/</url>
-        </repository>
     </repositories>
 
     <!-- DISTRIBUTION -->
