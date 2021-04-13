@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc4dcfec-3698-4fde-a6cf-dd08b73f1f06" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="bc4dcfec-3698-4fde-a6cf-dd08b73f1f06" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +80,7 @@
       <updated>1618145802441</updated>
       <workItem from="1618145805266" duration="1634000" />
       <workItem from="1618147512704" duration="6933000" />
-      <workItem from="1618246818887" duration="1200000" />
+      <workItem from="1618246818887" duration="17236000" />
     </task>
     <task id="LOCAL-00001" summary="更新 POM 文件">
       <created>1618147556538</created>
