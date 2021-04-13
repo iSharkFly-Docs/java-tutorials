@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xmlns="http://maven.apache.org/POM/4.0.0"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+<modelVersion>4.0.0</modelVersion>
+>>>>>>> 361e407d91e00158295aadeaca0a91d84a534820
 	<groupId>com.ossez</groupId>
 	<artifactId>lang-tutorial</artifactId>
 	<version>0.0.1</version>
@@ -38,17 +47,26 @@
 
 
 	<dependencies>
+<<<<<<< HEAD
 		<!-- OSSEZ COMMON -->
 		<dependency>
 			<groupId>com.ossez</groupId>
 			<artifactId>reoc-common</artifactId>
 			<version>0.0.1</version>
+=======
+		<!-- LOG -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-slf4j-impl</artifactId>
+			<version>2.11.0</version>
+>>>>>>> 361e407d91e00158295aadeaca0a91d84a534820
 		</dependency>
 
 		<!-- APACHE COMMONS -->
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-compress</artifactId>
+<<<<<<< HEAD
 			<version>1.10</version>
 		</dependency>
 
@@ -57,6 +75,17 @@
 			<artifactId>velocity</artifactId>
 			<version>1.6</version>
 		</dependency>
+=======
+			<version>1.19</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-math3</artifactId>
+			<version>3.6.1</version>
+		</dependency>
+		
+>>>>>>> 361e407d91e00158295aadeaca0a91d84a534820
 		<dependency>
 			<groupId>antlr</groupId>
 			<artifactId>antlr</artifactId>
@@ -174,6 +203,7 @@
 			<version>1.3.2</version>
 		</dependency>
 
+<<<<<<< HEAD
 		<!-- RETS -->
 		<dependency>
 			<groupId>com.ossez.rets-io</groupId>
@@ -181,6 +211,24 @@
 			<version>0.1.0</version>
 		</dependency>
 
+=======
+		<!-- TESTS -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-api</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-engine</artifactId>
+			<scope>test</scope>
+		</dependency>
+>>>>>>> 361e407d91e00158295aadeaca0a91d84a534820
 	</dependencies>
 
 	<build>
@@ -248,4 +296,8 @@
 
 		</plugins>
 	</build>
+<<<<<<< HEAD
 </project>
+=======
+</project>
+>>>>>>> 361e407d91e00158295aadeaca0a91d84a534820
