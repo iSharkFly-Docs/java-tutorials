@@ -1,9 +1,21 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+=======
+>>>>>>> RB
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		 xmlns="http://maven.apache.org/POM/4.0.0"
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 <modelVersion>4.0.0</modelVersion>
+<<<<<<< HEAD
+=======
+>>>>>>> 361e407d91e00158295aadeaca0a91d84a534820
+>>>>>>> RB
 	<groupId>com.ossez</groupId>
 	<artifactId>lang-tutorial</artifactId>
 	<version>0.0.1</version>
@@ -41,17 +53,44 @@
 
 
 	<dependencies>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+		<!-- OSSEZ COMMON -->
+		<dependency>
+			<groupId>com.ossez</groupId>
+			<artifactId>reoc-common</artifactId>
+			<version>0.0.1</version>
+=======
+>>>>>>> RB
 		<!-- LOG -->
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-slf4j-impl</artifactId>
 			<version>2.11.0</version>
+<<<<<<< HEAD
+=======
+>>>>>>> 361e407d91e00158295aadeaca0a91d84a534820
+>>>>>>> RB
 		</dependency>
 
 		<!-- APACHE COMMONS -->
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-compress</artifactId>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+			<version>1.10</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.velocity</groupId>
+			<artifactId>velocity</artifactId>
+			<version>1.6</version>
+		</dependency>
+=======
+>>>>>>> RB
 			<version>1.19</version>
 		</dependency>
 
@@ -61,6 +100,10 @@
 			<version>3.6.1</version>
 		</dependency>
 		
+<<<<<<< HEAD
+=======
+>>>>>>> 361e407d91e00158295aadeaca0a91d84a534820
+>>>>>>> RB
 		<dependency>
 			<groupId>antlr</groupId>
 			<artifactId>antlr</artifactId>
@@ -178,6 +221,18 @@
 			<version>1.3.2</version>
 		</dependency>
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+		<!-- RETS -->
+		<dependency>
+			<groupId>com.ossez.rets-io</groupId>
+			<artifactId>rets-io-client</artifactId>
+			<version>0.1.0</version>
+		</dependency>
+
+=======
+>>>>>>> RB
 		<!-- TESTS -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -194,6 +249,10 @@
 			<artifactId>junit-jupiter-engine</artifactId>
 			<scope>test</scope>
 		</dependency>
+<<<<<<< HEAD
+=======
+>>>>>>> 361e407d91e00158295aadeaca0a91d84a534820
+>>>>>>> RB
 	</dependencies>
 
 	<build>
@@ -261,4 +320,12 @@
 
 		</plugins>
 	</build>
+<<<<<<< HEAD
 </project>
+=======
+<<<<<<< HEAD
+</project>
+=======
+</project>
+>>>>>>> 361e407d91e00158295aadeaca0a91d84a534820
+>>>>>>> RB

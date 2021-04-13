@@ -1,0 +1,9 @@
+description = "Spring Amqp"
+
+dependencies {
+    // SPRING
+    compile 'org.springframework.boot:spring-boot-starter-amqp:2.1.8.RELEASE'
+
+    testCompile group: 'org.awaitility', name: 'awaitility', version: '4.0.1'
+}
+
