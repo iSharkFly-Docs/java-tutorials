@@ -9,8 +9,10 @@
     <version>0.0.1</version>
     <packaging>pom</packaging>
 
-    <name>CWIKIUS-OSSEZ Java Tutorials For Algorithm And Learning</name>
+    <name>CWIKIUS-OSSEZ Java Parent Modules</name>
     <url>https://www.ossez.com/</url>
+
+    <description>CWIKIUS-OSSEZ Java Tutorials For Algorithm And Learning</description>
 
     <properties>
         <!-- Generic properties -->
