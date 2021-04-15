@@ -6,11 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="lang-tutorial" />
+        <module name="cwiki-us-demo-tutorials" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="lang-tutorial" target="1.8" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="cwiki-us-demo-tutorials" target="1.8" />
+      <module name="cwiki-us-demo-tutorials.spring-batch" target="11" />
+      <module name="cwiki-us-demo-tutorials.spring-batch.main" target="11" />
+      <module name="cwiki-us-demo-tutorials.spring-batch.test" target="11" />
+      <module name="lang-tutorial" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
