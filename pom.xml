@@ -10,9 +10,33 @@
     <packaging>pom</packaging>
 
     <name>CWIKIUS-OSSEZ Java Parent Modules</name>
+    <description>CWIKIUS-OSSEZ Java Tutorials For Algorithm And Learning</description>
     <url>https://www.ossez.com/</url>
 
-    <description>CWIKIUS-OSSEZ Java Tutorials For Algorithm And Learning</description>
+    <scm>
+        <connection>https://github.com/cwiki-us-docs/java-tutorials.git</connection>
+        <url>https://github.com/cwiki-us-docs/java-tutorials.git</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>YuCheng Hu</name>
+            <id>huyuchengus</id>
+            <email>huyuchengus@gmail.com</email>
+            <timezone>-5</timezone>
+            <organization>NORTH TECOM, LLC</organization>
+            <roles>
+                <role>Java Developer</role>
+            </roles>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>Apache 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
 
     <properties>
         <!-- Generic properties -->
