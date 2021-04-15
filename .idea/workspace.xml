@@ -53,6 +53,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-batch" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -92,7 +93,7 @@
       <workItem from="1618145805266" duration="1634000" />
       <workItem from="1618147512704" duration="6933000" />
       <workItem from="1618246818887" duration="17236000" />
-      <workItem from="1618429441584" duration="10010000" />
+      <workItem from="1618429441584" duration="11689000" />
     </task>
     <task id="LOCAL-00001" summary="更新 POM 文件">
       <created>1618147556538</created>
@@ -157,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618509340144</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="提交 OSSRH 的提交地址">
+      <created>1618515214208</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1618515214208</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +193,7 @@
     <MESSAGE value="adjust the pom to make project can be compile" />
     <MESSAGE value="DiscourseImportTest move to different project" />
     <MESSAGE value="Change the compiler version to 3.7.0 version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change the compiler version to 3.7.0 version" />
+    <MESSAGE value="提交 OSSRH 的提交地址" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交 OSSRH 的提交地址" />
   </component>
 </project>
