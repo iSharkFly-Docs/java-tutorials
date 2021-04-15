@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bc4dcfec-3698-4fde-a6cf-dd08b73f1f06" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent-boot-2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent-boot-2/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +92,7 @@
       <workItem from="1618145805266" duration="1634000" />
       <workItem from="1618147512704" duration="6933000" />
       <workItem from="1618246818887" duration="17236000" />
-      <workItem from="1618429441584" duration="7363000" />
+      <workItem from="1618429441584" duration="10010000" />
     </task>
     <task id="LOCAL-00001" summary="更新 POM 文件">
       <created>1618147556538</created>
@@ -151,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618503445699</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Change the compiler version to 3.7.0 version">
+      <created>1618509340144</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1618509340144</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +184,7 @@
     <MESSAGE value="完成所有的文件的提交，以便于下一步的代码演示和开发" />
     <MESSAGE value="adjust the pom to make project can be compile" />
     <MESSAGE value="DiscourseImportTest move to different project" />
-    <option name="LAST_COMMIT_MESSAGE" value="DiscourseImportTest move to different project" />
+    <MESSAGE value="Change the compiler version to 3.7.0 version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change the compiler version to 3.7.0 version" />
   </component>
 </project>
