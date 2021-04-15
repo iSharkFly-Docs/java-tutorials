@@ -93,7 +93,7 @@
       <workItem from="1618145805266" duration="1634000" />
       <workItem from="1618147512704" duration="6933000" />
       <workItem from="1618246818887" duration="17236000" />
-      <workItem from="1618429441584" duration="11689000" />
+      <workItem from="1618429441584" duration="11863000" />
     </task>
     <task id="LOCAL-00001" summary="更新 POM 文件">
       <created>1618147556538</created>
@@ -165,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618515214208</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add name and URL before push to OSSRH">
+      <created>1618519278569</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1618519278569</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +201,7 @@
     <MESSAGE value="DiscourseImportTest move to different project" />
     <MESSAGE value="Change the compiler version to 3.7.0 version" />
     <MESSAGE value="提交 OSSRH 的提交地址" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交 OSSRH 的提交地址" />
+    <MESSAGE value="Add name and URL before push to OSSRH" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add name and URL before push to OSSRH" />
   </component>
 </project>
