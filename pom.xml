@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.ossez</groupId>
-    <artifactId>java-tutorials</artifactId>
+    <artifactId>parent-modules</artifactId>
     <version>0.0.1</version>
     <packaging>pom</packaging>
 
@@ -208,7 +208,7 @@
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.1</version>
+                <version>3.7.0</version>
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>

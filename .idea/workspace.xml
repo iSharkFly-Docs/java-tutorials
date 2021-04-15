@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc4dcfec-3698-4fde-a6cf-dd08b73f1f06" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent-java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent-boot-2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent-boot-2/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-amqp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-amqp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ossez/lang/tutorial/overview/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ossez/lang/tutorial/overview/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toolkits/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/toolkits/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toolkits/discourse/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/toolkits/discourse/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toolkits/discourse/src/test/java/com/ossez/toolkits/discourse/DiscourseTopicsImportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/toolkits/discourse/src/test/java/com/ossez/toolkits/discourse/DiscourseTopicsImportTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +93,7 @@
       <workItem from="1618145805266" duration="1634000" />
       <workItem from="1618147512704" duration="6933000" />
       <workItem from="1618246818887" duration="17236000" />
-      <workItem from="1618429441584" duration="5857000" />
+      <workItem from="1618429441584" duration="7363000" />
     </task>
     <task id="LOCAL-00001" summary="更新 POM 文件">
       <created>1618147556538</created>
@@ -143,7 +137,21 @@
       <option name="project" value="LOCAL" />
       <updated>1618499203125</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="adjust the pom to make project can be compile">
+      <created>1618503350719</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1618503350719</updated>
+    </task>
+    <task id="LOCAL-00008" summary="DiscourseImportTest move to different project">
+      <created>1618503445699</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1618503445699</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +176,8 @@
     <MESSAGE value="Discourse" />
     <MESSAGE value="添加忽略文件的内容" />
     <MESSAGE value="完成所有的文件的提交，以便于下一步的代码演示和开发" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成所有的文件的提交，以便于下一步的代码演示和开发" />
+    <MESSAGE value="adjust the pom to make project can be compile" />
+    <MESSAGE value="DiscourseImportTest move to different project" />
+    <option name="LAST_COMMIT_MESSAGE" value="DiscourseImportTest move to different project" />
   </component>
 </project>
