@@ -112,8 +112,8 @@ public class DiscourseTopicsImportTest {
 
         HttpPost httpPost = new HttpPost("https://www.ossez.com/posts.json");
         httpPost.setHeader(HttpHeaders.CONTENT_TYPE, "application/json; charset=UTF-8");
-        httpPost.setHeader("Api-Key", "8d789c529c4c22bf1dac3de7dbe7b29af10f2429aeb9a1914eff6da70c2265a9");
-        httpPost.setHeader("Api-Username", "honeymoose");
+        httpPost.setHeader("Api-Key", "XXXX");
+        httpPost.setHeader("Api-Username", "XXXX");
 
         TopicRequest topicRequest = new TopicRequest();
         topicRequest.setTitle(bbsOssezForumPost.getSubject());
