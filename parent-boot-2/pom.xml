@@ -13,7 +13,7 @@
     <parent>
         <groupId>com.ossez</groupId>
         <artifactId>parent-modules</artifactId>
-        <version>1.0.0</version>
+        <version>0.0.1</version>
     </parent>
 
     <dependencyManagement>
