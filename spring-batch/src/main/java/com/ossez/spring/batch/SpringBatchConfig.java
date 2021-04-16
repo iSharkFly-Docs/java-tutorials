@@ -1,12 +1,12 @@
 package com.ossez.spring.batch;
 
-import org.baeldung.batch.model.Transaction;
-import org.baeldung.batch.service.CustomItemProcessor;
-import org.baeldung.batch.service.CustomSkipPolicy;
-import org.baeldung.batch.service.MissingUsernameException;
-import org.baeldung.batch.service.NegativeAmountException;
-import org.baeldung.batch.service.RecordFieldSetMapper;
-import org.baeldung.batch.service.SkippingItemProcessor;
+import com.ossez.spring.batch.model.Transaction;
+import com.ossez.spring.batch.service.CustomItemProcessor;
+import com.ossez.spring.batch.service.CustomSkipPolicy;
+import com.ossez.spring.batch.service.MissingUsernameException;
+import com.ossez.spring.batch.service.NegativeAmountException;
+import com.ossez.spring.batch.service.RecordFieldSetMapper;
+import com.ossez.spring.batch.service.SkippingItemProcessor;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.JobBuilderFactory;

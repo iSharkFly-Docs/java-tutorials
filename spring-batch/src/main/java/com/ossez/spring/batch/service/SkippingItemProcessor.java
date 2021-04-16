@@ -1,6 +1,6 @@
 package com.ossez.spring.batch.service;
 
-import org.baeldung.batch.model.Transaction;
+import com.ossez.spring.batch.model.Transaction;
 import org.springframework.batch.item.ItemProcessor;
 
 public class SkippingItemProcessor implements ItemProcessor<Transaction, Transaction> {

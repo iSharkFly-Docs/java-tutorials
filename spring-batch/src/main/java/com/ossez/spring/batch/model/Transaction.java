@@ -1,8 +1,7 @@
-package org.baeldung.batch.model;
-
-import java.util.Date;
+package com.ossez.spring.batch.model;
 
 import javax.xml.bind.annotation.XmlRootElement;
+import java.util.Date;
 
 @SuppressWarnings("restriction")
 @XmlRootElement(name = "transactionRecord")

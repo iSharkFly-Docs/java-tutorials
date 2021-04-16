@@ -1,7 +1,7 @@
 package com.ossez.spring.batch.partitioner;
 
-import org.baeldung.batch.model.Transaction;
-import org.baeldung.batch.service.RecordFieldSetMapper;
+import com.ossez.spring.batch.model.Transaction;
+import com.ossez.spring.batch.service.RecordFieldSetMapper;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
