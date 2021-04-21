@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="codebank" />
         <module name="discourse" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="discourse" target="1.8" />
-      <module name="toolkits" target="1.8" />
+      <module name="codebank" target="11" />
+      <module name="discourse" target="11" />
+      <module name="toolkits" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

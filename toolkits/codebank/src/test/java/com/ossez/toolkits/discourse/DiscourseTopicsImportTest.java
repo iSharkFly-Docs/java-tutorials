@@ -74,8 +74,8 @@ public class DiscourseTopicsImportTest {
     private void processPost(Long tid) throws IOException {
         String postCtx = StringUtils.EMPTY;
 
-        BBSOssezForumPost bbsOssezForumPost = new BBSOssezForumPost();
 //        BBSOssezForumPost bbsOssezForumPost = PostFactory.getBBSOssezForumPostTid(tid);
+        BBSOssezForumPost bbsOssezForumPost = new BBSOssezForumPost();
 //        if (bbsOssezForumPost == null)
 //            return;
 //
