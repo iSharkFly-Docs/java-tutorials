@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.ossez</groupId>
     <artifactId>discourse</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>discourse</name>
     <packaging>jar</packaging>
 
@@ -30,7 +30,7 @@
         <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
-            <version>2.10.10</version>
+            <version>2.10.6</version>
         </dependency>
 
         <dependency>

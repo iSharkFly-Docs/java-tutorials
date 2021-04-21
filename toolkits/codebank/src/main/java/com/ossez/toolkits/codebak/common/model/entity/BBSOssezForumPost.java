@@ -1,4 +1,4 @@
-package com.ossez.toolkits.discourse.common.model.entity;
+package com.ossez.toolkits.codebak.common.model.entity;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

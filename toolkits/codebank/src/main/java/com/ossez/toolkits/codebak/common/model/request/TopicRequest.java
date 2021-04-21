@@ -1,4 +1,4 @@
-package com.ossez.toolkits.discourse.common.model.request;
+package com.ossez.toolkits.codebak.common.model.request;
 
 import java.io.Serializable;
 

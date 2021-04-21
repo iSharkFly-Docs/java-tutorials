@@ -1,4 +1,4 @@
-package discourse.common.model.response;
+package com.ossez.toolkits.codebak.common.model.response;
 
 import java.io.Serializable;
 import java.util.Date;
