@@ -4,38 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc4dcfec-3698-4fde-a6cf-dd08b73f1f06" name="Default Changelist" comment="Discourse">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_8_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_logger_api_2_21_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_21_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="bc4dcfec-3698-4fde-a6cf-dd08b73f1f06" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lang-tutorial.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,10 +52,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/toolkits/discourse" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-batch" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\WorkDir\GitHub\cwiki-us-docs\java-tutorials\spring-batch" />
       <recent name="C:\WorkDir\GitHub\cwiki-us-docs\java-tutorials\toolkits\discourse" />
       <recent name="C:\WorkDir\GitHub\cwiki-us-docs\java-tutorials\toolkits" />
       <recent name="C:\WorkDir\GitHub\cwiki-us-docs\java-tutorials\toolkits\test\java\com\ossez\edtestbank\service\test" />
@@ -120,7 +93,7 @@
       <workItem from="1618145805266" duration="1634000" />
       <workItem from="1618147512704" duration="6933000" />
       <workItem from="1618246818887" duration="17236000" />
-      <workItem from="1618429441584" duration="2303000" />
+      <workItem from="1618429441584" duration="12732000" />
     </task>
     <task id="LOCAL-00001" summary="更新 POM 文件">
       <created>1618147556538</created>
@@ -150,7 +123,70 @@
       <option name="project" value="LOCAL" />
       <updated>1618157753954</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="添加忽略文件的内容">
+      <created>1618499169408</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1618499169408</updated>
+    </task>
+    <task id="LOCAL-00006" summary="完成所有的文件的提交，以便于下一步的代码演示和开发">
+      <created>1618499203125</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1618499203125</updated>
+    </task>
+    <task id="LOCAL-00007" summary="adjust the pom to make project can be compile">
+      <created>1618503350719</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1618503350719</updated>
+    </task>
+    <task id="LOCAL-00008" summary="DiscourseImportTest move to different project">
+      <created>1618503445699</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1618503445699</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Change the compiler version to 3.7.0 version">
+      <created>1618509340144</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1618509340144</updated>
+    </task>
+    <task id="LOCAL-00010" summary="提交 OSSRH 的提交地址">
+      <created>1618515214208</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1618515214208</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add name and URL before push to OSSRH">
+      <created>1618519278569</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1618519278569</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Upgrade to using JDK 11">
+      <created>1618519439477</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1618519439477</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Change name and description">
+      <created>1618519836247</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1618519836247</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +209,15 @@
     <MESSAGE value="Discourse Topic import" />
     <MESSAGE value="项目的 POM 配置文件&#10;# Conflicts:&#10;#&#9;pom.xml" />
     <MESSAGE value="Discourse" />
-    <option name="LAST_COMMIT_MESSAGE" value="Discourse" />
+    <MESSAGE value="添加忽略文件的内容" />
+    <MESSAGE value="完成所有的文件的提交，以便于下一步的代码演示和开发" />
+    <MESSAGE value="adjust the pom to make project can be compile" />
+    <MESSAGE value="DiscourseImportTest move to different project" />
+    <MESSAGE value="Change the compiler version to 3.7.0 version" />
+    <MESSAGE value="提交 OSSRH 的提交地址" />
+    <MESSAGE value="Add name and URL before push to OSSRH" />
+    <MESSAGE value="Upgrade to using JDK 11" />
+    <MESSAGE value="Change name and description" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change name and description" />
   </component>
 </project>

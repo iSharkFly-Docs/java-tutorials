@@ -24,5 +24,4 @@
     <properties>
         <start-class>com.baeldung.springamqp.simple.HelloWorldMessageApp</start-class>
     </properties>
-
 </project>

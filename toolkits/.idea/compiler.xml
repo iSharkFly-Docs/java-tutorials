@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="discourse" target="11.0.10" />
+      <module name="discourse" target="1.8" />
       <module name="toolkits" target="1.8" />
     </bytecodeTargetLevel>
   </component>

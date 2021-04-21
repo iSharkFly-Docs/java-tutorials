@@ -10,8 +10,8 @@
 
     <parent>
         <groupId>com.ossez</groupId>
-        <artifactId>parent-modules</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <artifactId>java-tutorials</artifactId>
+        <version>0.0.1</version>
     </parent>
 
     <dependencies>
@@ -26,11 +26,20 @@
             <artifactId>commons-io</artifactId>
             <version>${commons.io.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.6</version>
+        </dependency>
     </dependencies>
+
 
     <properties>
         <guava.version>23.0</guava.version>
         <commons.io.version>2.6</commons.io.version>
+
+        <!-- plugins -->
+        <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
     </properties>
 
 </project>
