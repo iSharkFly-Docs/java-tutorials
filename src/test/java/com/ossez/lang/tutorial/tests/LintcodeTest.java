@@ -2,16 +2,10 @@ package com.ossez.lang.tutorial.tests;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.TreeSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import javax.management.ListenerNotFoundException;
 
 import org.junit.Test;
 import org.slf4j.Logger;

@@ -10,7 +10,7 @@
 
     <parent>
         <groupId>com.ossez</groupId>
-        <artifactId>java-tutorials</artifactId>
+        <artifactId>parent-modules</artifactId>
         <version>0.0.1</version>
     </parent>
 
