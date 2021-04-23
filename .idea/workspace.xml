@@ -4,11 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc4dcfec-3698-4fde-a6cf-dd08b73f1f06" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="bc4dcfec-3698-4fde-a6cf-dd08b73f1f06" name="Default Changelist" comment="Update pom file for downloading from central maven repo">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ossez/codebank/algorithm/models/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ossez/codebank/algorithm/models/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ossez/codebank/interview/KayakCountUpDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ossez/codebank/interview/KayakRobotMovement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ossez/codebank/interview/ManNextFibonacciNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests/VariableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests/codility/CodilityBinaryGapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests/lintcode/LintCode0007SerializeAndDeserializeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests/lintcode/LintCode0069LevelOrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests/lintcode/LintCode0102HasCycleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests/lintcode/LintCode0165MergeTwoListsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests/lintcode/LintCode0425LetterCombinationsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests/lintcode/LintCode0433NumIslandsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests/lintcode/LintCode1480DotProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/interview/tests/AmazonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/interview/tests/KayakTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/interview/tests/MassMutual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/interview/tests/PillPackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/interview/tests/TennaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/interview/tests/WayfairTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/interview/tests/others/LambdaEvensTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/interview/tests/others/MinimumCoinsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ossez/lang/tutorial/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ossez/codebank/algorithm/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ossez/lang/tutorial/models/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ossez/lang/tutorial/models/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ossez/lang/tutorial/models/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ossez/lang/tutorial/models/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ossez/lang/tutorial/objplusclass/CreateObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ossez/codebank/algorithm/objplusclass/CreateObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ossez/lang/tutorial/overview/FreshJuiceEnums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ossez/codebank/algorithm/overview/FreshJuiceEnums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ossez/lang/tutorial/overview/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ossez/codebank/algorithm/overview/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ossez/lang/tutorial/usecases/VarargsCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ossez/codebank/algorithm/usecases/VarargsCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ossez/lang/tutorial/utils/TreeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ossez/codebank/algorithml/utils/TreeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/BitOperationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests/BitOperationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/LintcodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests/LintcodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests/SingletonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests/TreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/VariableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/VariableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/codility/CodilityBinaryGapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/codility/CodilityBinaryGapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/lintcode/LintCode0007SerializeAndDeserializeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/lintcode/LintCode0007SerializeAndDeserializeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/lintcode/LintCode0069LevelOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/lintcode/LintCode0069LevelOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/lintcode/LintCode0102HasCycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/lintcode/LintCode0102HasCycleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/lintcode/LintCode0165MergeTwoListsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/lintcode/LintCode0165MergeTwoListsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/lintcode/LintCode0425LetterCombinationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/lintcode/LintCode0425LetterCombinationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/lintcode/LintCode0433NumIslandsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/lintcode/LintCode0433NumIslandsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/lintcode/LintCode1480DotProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/lintcode/LintCode1480DotProductTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +110,21 @@
       <recent name="C:\WorkDir\GitHub\cwiki-us-docs\java-tutorials\src\test\java\com\ossez\lang\tutorial\tests" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -81,7 +137,6 @@
       <workItem from="1618147512704" duration="6933000" />
       <workItem from="1618246818887" duration="17236000" />
       <workItem from="1618429441584" duration="12732000" />
-      <workItem from="1619207993732" duration="192000" />
     </task>
     <task id="LOCAL-00001" summary="更新 POM 文件">
       <created>1618147556538</created>
@@ -174,14 +229,7 @@
       <option name="project" value="LOCAL" />
       <updated>1618519836247</updated>
     </task>
-    <task id="LOCAL-00014" summary="OSSEZ-88 Change the name of Readme file and content for JDK version 11">
-      <created>1619208153576</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1619208153576</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +261,6 @@
     <MESSAGE value="Add name and URL before push to OSSRH" />
     <MESSAGE value="Upgrade to using JDK 11" />
     <MESSAGE value="Change name and description" />
-    <MESSAGE value="OSSEZ-88 Change the name of Readme file and content for JDK version 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="OSSEZ-88 Change the name of Readme file and content for JDK version 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change name and description" />
   </component>
 </project>

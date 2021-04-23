@@ -1,4 +1,4 @@
-package com.ossez.lang.tutorial;
+package com.ossez.codebank.algorithm;
 
 import java.util.Properties;
 
