@@ -15,6 +15,7 @@
       <module name="cwiki-us-demo-tutorials.spring-batch.main" target="11" />
       <module name="cwiki-us-demo-tutorials.spring-batch.test" target="11" />
       <module name="lang-tutorial" target="1.5" />
+      <module name="parent-modules" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

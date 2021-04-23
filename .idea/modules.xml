@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-batch/cwiki-us-demo-tutorials.spring-batch.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-batch/cwiki-us-demo-tutorials.spring-batch.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-batch/cwiki-us-demo-tutorials.spring-batch.test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-batch/cwiki-us-demo-tutorials.spring-batch.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cwiki-us-demo-tutorials.test.iml" filepath="$PROJECT_DIR$/.idea/modules/cwiki-us-demo-tutorials.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent-modules.iml" filepath="$PROJECT_DIR$/parent-modules.iml" />
     </modules>
   </component>
 </project>
