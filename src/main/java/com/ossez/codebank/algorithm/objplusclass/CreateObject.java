@@ -1,4 +1,4 @@
-package com.ossez.lang.tutorial.objplusclass;
+package com.ossez.codebank.algorithm.objplusclass;
 
 /**
  * 
