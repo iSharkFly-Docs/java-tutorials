@@ -6,7 +6,7 @@
 
     <groupId>com.ossez</groupId>
     <artifactId>parent-modules</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>CWIKIUS-OSSEZ Java Parent Modules</name>
