@@ -1,7 +1,5 @@
 package com.ossez.toolkits.codebank.tests;
 
-import com.ossez.toolkits.codebank.common.model.TreeNode;
-import com.ossez.toolkits.codebank.common.utils.TreeUtils;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
