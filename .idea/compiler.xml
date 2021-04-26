@@ -7,18 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="codebank" />
-        <module name="cwiki-us-demo-tutorials" />
         <module name="discourse" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8">
+    <bytecodeTargetLevel>
       <module name="codebank" target="11" />
-      <module name="cwiki-us-demo-tutorials" target="11" />
-      <module name="cwiki-us-demo-tutorials.spring-batch" target="11" />
-      <module name="cwiki-us-demo-tutorials.spring-batch.main" target="11" />
-      <module name="cwiki-us-demo-tutorials.spring-batch.test" target="11" />
       <module name="discourse" target="11" />
-      <module name="lang-tutorial" target="1.5" />
       <module name="parent-modules" target="11" />
       <module name="toolkits" target="1.5" />
     </bytecodeTargetLevel>
