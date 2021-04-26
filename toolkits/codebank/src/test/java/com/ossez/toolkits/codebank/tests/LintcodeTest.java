@@ -1,23 +1,17 @@
-package com.ossez.lang.tutorial.tests;
+package com.ossez.toolkits.codebank.tests;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.TreeSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import javax.management.ListenerNotFoundException;
-
+import com.ossez.toolkits.codebank.common.model.ListNode;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.ossez.lang.tutorial.models.ListNode;
 
 /**
  * 

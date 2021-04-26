@@ -1,11 +1,8 @@
-package com.ossez.codebank.interview.tests.others;
+package com.ossez.toolkits.codebank.tests.interview;
 
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * For Minimum Coins

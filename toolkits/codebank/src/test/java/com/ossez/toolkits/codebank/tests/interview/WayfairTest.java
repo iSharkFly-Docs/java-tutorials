@@ -1,4 +1,4 @@
-package com.ossez.codebank.interview.tests;
+package com.ossez.toolkits.codebank.tests.interview;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

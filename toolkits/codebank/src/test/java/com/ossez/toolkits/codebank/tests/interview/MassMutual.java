@@ -1,4 +1,4 @@
-package com.ossez.codebank.interview.tests;
+package com.ossez.toolkits.codebank.tests.interview;
 
 import java.io.File;
 import java.nio.charset.StandardCharsets;

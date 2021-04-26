@@ -1,4 +1,4 @@
-package com.ossez.codebank.interview;
+package com.ossez.toolkits.codebank.common.interview;
 
 import java.util.ArrayList;
 import java.util.List;

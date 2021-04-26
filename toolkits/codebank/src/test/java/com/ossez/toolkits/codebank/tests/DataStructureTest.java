@@ -1,13 +1,12 @@
-package com.ossez.lang.tutorial.tests;
+package com.ossez.toolkits.codebank.tests;
 
+import junit.framework.TestCase;
 import org.junit.Test;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.TestInstance;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import junit.framework.TestCase;
 
 /**
  * Object of VariableOssez
@@ -28,14 +27,12 @@ class OssezVariable {
 }
 
 /**
- * 
- * @author YuCheng
- *
+ * @author YuCheng Hu
  */
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
-public class VariableTest extends TestCase {
+public class DataStructureTest{
 
-	private final static Logger logger = LoggerFactory.getLogger(VariableTest.class);
+	private final static Logger logger = LoggerFactory.getLogger(DataStructureTest.class);
 
 
 	@BeforeAll
@@ -51,15 +48,17 @@ public class VariableTest extends TestCase {
 	 * Do RetsServerConnection Test
 	 */
 	@Test
-	public void testStaticVariableChange() {
+	public void testArrayDataStructure() {
 
-		OssezVariable objA = new OssezVariable(1, 2, 3);
-		logger.debug("s1/s2/s3 - [{}]", Math.round(10.55));
+		int[] intArraySize = new int[3];
+		Integer intArrayW[] = new Integer[3];
+		logger.debug("Array Size - [{}]", intArraySize.length);
+		logger.debug("Array Size - [{}]", intArrayW.length);
 
+		int[] intArrayValue = {1,2,3};
+		String[] strArray = {"COM","OSSEZ","US"};
+		logger.debug("Array Size - [{}]", intArrayValue.length);
 
-		OssezVariable objB = new OssezVariable(4, 5, 6);
-		logger.debug("s1/s2/s3 - [{}]/[{}]/[{}]", objA.s1, objA.s2, OssezVariable.s3);
-		logger.debug("s1/s2/s3 - [{}]/[{}]/[{}]", objB.s1, objB.s2, OssezVariable.s3);
 	}
 
 }

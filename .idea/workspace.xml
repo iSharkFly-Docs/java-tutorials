@@ -4,263 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc4dcfec-3698-4fde-a6cf-dd08b73f1f06" name="Default Changelist" comment="Update pom file for downloading from central maven repo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ossez/codebank/algorithm/models/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ossez/codebank/algorithm/models/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ossez/codebank/interview/KayakCountUpDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ossez/codebank/interview/KayakRobotMovement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ossez/codebank/interview/ManNextFibonacciNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests/VariableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests/codility/CodilityBinaryGapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests/lintcode/LintCode0007SerializeAndDeserializeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests/lintcode/LintCode0069LevelOrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests/lintcode/LintCode0102HasCycleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests/lintcode/LintCode0165MergeTwoListsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests/lintcode/LintCode0425LetterCombinationsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests/lintcode/LintCode0433NumIslandsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests/lintcode/LintCode1480DotProductTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/interview/tests/AmazonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/interview/tests/KayakTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/interview/tests/MassMutual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/interview/tests/PillPackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/interview/tests/TennaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/interview/tests/WayfairTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/interview/tests/others/LambdaEvensTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/interview/tests/others/MinimumCoinsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ossez/lang/tutorial/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ossez/codebank/algorithm/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ossez/lang/tutorial/models/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ossez/lang/tutorial/models/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ossez/lang/tutorial/models/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ossez/lang/tutorial/models/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ossez/lang/tutorial/objplusclass/CreateObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ossez/codebank/algorithm/objplusclass/CreateObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ossez/lang/tutorial/overview/FreshJuiceEnums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ossez/codebank/algorithm/overview/FreshJuiceEnums.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ossez/lang/tutorial/overview/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ossez/codebank/algorithm/overview/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ossez/lang/tutorial/usecases/VarargsCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ossez/codebank/algorithm/usecases/VarargsCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ossez/lang/tutorial/utils/TreeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ossez/codebank/algorithml/utils/TreeUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/BitOperationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests/BitOperationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/LintcodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests/LintcodeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests/SingletonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests/TreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/VariableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/VariableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/codility/CodilityBinaryGapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/codility/CodilityBinaryGapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/lintcode/LintCode0007SerializeAndDeserializeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/lintcode/LintCode0007SerializeAndDeserializeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/lintcode/LintCode0069LevelOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/lintcode/LintCode0069LevelOrderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/lintcode/LintCode0102HasCycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/lintcode/LintCode0102HasCycleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/lintcode/LintCode0165MergeTwoListsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/lintcode/LintCode0165MergeTwoListsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/lintcode/LintCode0425LetterCombinationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/lintcode/LintCode0425LetterCombinationsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/lintcode/LintCode0433NumIslandsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/lintcode/LintCode0433NumIslandsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/lintcode/LintCode1480DotProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ossez/lang/tutorial/tests/lintcode/LintCode1480DotProductTest.java" afterDir="false" />
+    <list default="true" id="e4ccec40-1722-49be-ba56-1cba428e2e66" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries-with-intellij-classes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/toolkits/codebank/src/test/java/com/ossez/toolkits/codebank/tests/LintcodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/toolkits/codebank/src/test/java/com/ossez/toolkits/codebank/tests/LintcodeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeStyleSettingsInfer">
-    <option name="done" value="true" />
-  </component>
-  <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$">
-      <ProjectState />
-    </projectState>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="current" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="1" />
-  </component>
-  <component name="ProjectId" id="1r1Zx6oqLWRPWaxq39M8I4kCZrQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1rgubunw7ryTECA0xroZNQRefbN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-batch" />
-    <property name="nodejs_package_manager_path" value="npm" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\WorkDir\GitHub\cwiki-us-docs\java-tutorials\spring-batch" />
-      <recent name="C:\WorkDir\GitHub\cwiki-us-docs\java-tutorials\toolkits\discourse" />
-      <recent name="C:\WorkDir\GitHub\cwiki-us-docs\java-tutorials\toolkits" />
-      <recent name="C:\WorkDir\GitHub\cwiki-us-docs\java-tutorials\toolkits\test\java\com\ossez\edtestbank\service\test" />
-      <recent name="C:\WorkDir\GitHub\cwiki-us-docs\java-tutorials\src\test" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\WorkDir\GitHub\cwiki-us-docs\java-tutorials\src\test\java\com\ossez\lang\tutorial\tests" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bc4dcfec-3698-4fde-a6cf-dd08b73f1f06" name="Default Changelist" comment="" />
-      <created>1618145802441</created>
+      <changelist id="e4ccec40-1722-49be-ba56-1cba428e2e66" name="Default Changelist" comment="" />
+      <created>1619410137650</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1618145802441</updated>
-      <workItem from="1618145805266" duration="1634000" />
-      <workItem from="1618147512704" duration="6933000" />
-      <workItem from="1618246818887" duration="17236000" />
-      <workItem from="1618429441584" duration="12732000" />
+      <updated>1619410137650</updated>
+      <workItem from="1619410141685" duration="105000" />
     </task>
-    <task id="LOCAL-00001" summary="更新 POM 文件">
-      <created>1618147556538</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1618147556538</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Discourse Topic import">
-      <created>1618147882644</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1618147882644</updated>
-    </task>
-    <task id="LOCAL-00003" summary="项目的 POM 配置文件&#10;# Conflicts:&#10;#&#9;pom.xml">
-      <created>1618151038853</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1618151038853</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Discourse">
-      <created>1618157753954</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1618157753954</updated>
-    </task>
-    <task id="LOCAL-00005" summary="添加忽略文件的内容">
-      <created>1618499169408</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1618499169408</updated>
-    </task>
-    <task id="LOCAL-00006" summary="完成所有的文件的提交，以便于下一步的代码演示和开发">
-      <created>1618499203125</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1618499203125</updated>
-    </task>
-    <task id="LOCAL-00007" summary="adjust the pom to make project can be compile">
-      <created>1618503350719</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1618503350719</updated>
-    </task>
-    <task id="LOCAL-00008" summary="DiscourseImportTest move to different project">
-      <created>1618503445699</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1618503445699</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Change the compiler version to 3.7.0 version">
-      <created>1618509340144</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1618509340144</updated>
-    </task>
-    <task id="LOCAL-00010" summary="提交 OSSRH 的提交地址">
-      <created>1618515214208</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1618515214208</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Add name and URL before push to OSSRH">
-      <created>1618519278569</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1618519278569</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Upgrade to using JDK 11">
-      <created>1618519439477</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1618519439477</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Change name and description">
-      <created>1618519836247</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1618519836247</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="更新 POM 文件" />
-    <MESSAGE value="Discourse Topic import" />
-    <MESSAGE value="项目的 POM 配置文件&#10;# Conflicts:&#10;#&#9;pom.xml" />
-    <MESSAGE value="Discourse" />
-    <MESSAGE value="添加忽略文件的内容" />
-    <MESSAGE value="完成所有的文件的提交，以便于下一步的代码演示和开发" />
-    <MESSAGE value="adjust the pom to make project can be compile" />
-    <MESSAGE value="DiscourseImportTest move to different project" />
-    <MESSAGE value="Change the compiler version to 3.7.0 version" />
-    <MESSAGE value="提交 OSSRH 的提交地址" />
-    <MESSAGE value="Add name and URL before push to OSSRH" />
-    <MESSAGE value="Upgrade to using JDK 11" />
-    <MESSAGE value="Change name and description" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change name and description" />
   </component>
 </project>

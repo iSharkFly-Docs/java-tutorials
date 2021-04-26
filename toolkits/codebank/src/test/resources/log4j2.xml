@@ -7,10 +7,11 @@
     </Appenders>
     <Loggers>
         <Logger name="com.ossez" level="trace">
-            <AppenderRef ref="Console"/>
+            <AppenderRef ref="Console" />
         </Logger>
-        <Root level="error">
-            <AppenderRef ref="Console"/>
+
+        <Root level="all">
+
         </Root>
     </Loggers>
 </Configuration>
