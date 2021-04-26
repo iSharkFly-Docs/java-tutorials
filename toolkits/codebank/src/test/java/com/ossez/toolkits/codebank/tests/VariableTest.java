@@ -54,7 +54,8 @@ public class VariableTest extends TestCase {
 	public void testStaticVariableChange() {
 
 		OssezVariable objA = new OssezVariable(1, 2, 3);
-		logger.debug("s1/s2/s3 - [{}]/[{}]/[{}]", objA.s1, objA.s2, OssezVariable.s3);
+		logger.debug("s1/s2/s3 - [{}]", Math.round(10.55));
+
 
 		OssezVariable objB = new OssezVariable(4, 5, 6);
 		logger.debug("s1/s2/s3 - [{}]/[{}]/[{}]", objA.s1, objA.s2, OssezVariable.s3);

@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/toolkits/codebank/codebank.iml" filepath="$PROJECT_DIR$/toolkits/codebank/codebank.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cwiki-us-demo-tutorials.iml" filepath="$PROJECT_DIR$/.idea/modules/cwiki-us-demo-tutorials.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cwiki-us-demo-tutorials.main.iml" filepath="$PROJECT_DIR$/.idea/modules/cwiki-us-demo-tutorials.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-batch/cwiki-us-demo-tutorials.spring-batch.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-batch/cwiki-us-demo-tutorials.spring-batch.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-batch/cwiki-us-demo-tutorials.spring-batch.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-batch/cwiki-us-demo-tutorials.spring-batch.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-batch/cwiki-us-demo-tutorials.spring-batch.test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-batch/cwiki-us-demo-tutorials.spring-batch.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cwiki-us-demo-tutorials.test.iml" filepath="$PROJECT_DIR$/.idea/modules/cwiki-us-demo-tutorials.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/toolkits/discourse/discourse.iml" filepath="$PROJECT_DIR$/toolkits/discourse/discourse.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent-modules.iml" filepath="$PROJECT_DIR$/parent-modules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/toolkits/toolkits.iml" filepath="$PROJECT_DIR$/toolkits/toolkits.iml" />
     </modules>
   </component>
 </project>

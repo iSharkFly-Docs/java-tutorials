@@ -1,6 +1,5 @@
-package com.ossez.codebank.interview.tests;
+package com.ossez.toolkits.codebank.tests.interview;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;

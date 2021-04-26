@@ -1,4 +1,4 @@
-package com.ossez.codebank.interview;
+package com.ossez.toolkits.codebank.common.interview;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
