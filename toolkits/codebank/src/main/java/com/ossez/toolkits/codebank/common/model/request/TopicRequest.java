@@ -1,6 +1,10 @@
 package com.ossez.toolkits.codebank.common.model.request;
 
+import org.apache.commons.lang3.builder.EqualsBuilder;
+import org.apache.commons.lang3.builder.HashCodeBuilder;
+
 import java.io.Serializable;
+import java.util.Objects;
 
 
 /**
@@ -78,5 +82,21 @@ public class TopicRequest implements Serializable {
 
     public void setCreated_at(String created_at) {
         this.created_at = created_at;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+
+        if (o == null || getClass() != o.getClass()) return false;
+
+        TopicRequest that = (TopicRequest) o;
+
+        return new EqualsBuilder().append(title, that.title).append(topic_id, that.topic_id).append(raw, that.raw).append(category, that.category).append(target_recipients, that.target_recipients).append(archetype, that.archetype).append(created_at, that.created_at).isEquals();
+    }
+
+    @Override
+    public int hashCode() {
+        return new HashCodeBuilder(17, 37).append(title).append(topic_id).append(raw).append(category).append(target_recipients).append(archetype).append(created_at).toHashCode();
     }
 }
