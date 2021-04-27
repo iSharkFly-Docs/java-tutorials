@@ -14,7 +14,7 @@ import java.util.Map;
  * 7
  * <ul>
  * <li>@see <a href=
- * "https://www.cwiki.us/display/ITCLASSIFICATION/Serialize+and+Deserialize+Binary+Tree">https://www.cwiki.us/display/ITCLASSIFICATION/Serialize+and+Deserialize+Binary+Tree</a>
+ * "https://www.ossez.com/t/first-unique-character-in-a-string/13448">First Unique Character in a String (找到一个字符串中第一个不重复的字符)</a>
  * <li>@see<a href=
  * "https://leetcode.com/problems/first-unique-character-in-a-string/">https://leetcode.com/problems/first-unique-character-in-a-string/</a>
  * </ul>
