@@ -1,5 +1,7 @@
 package com.ossez.toolkits.codebank.tests;
 
+import com.google.api.gbase.client.NumberUnit;
+import com.ossez.toolkits.codebank.common.model.request.TopicRequest;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -25,6 +27,21 @@ public class BlackboardTest {
 	@Test
     public void testMain() {
         logger.debug("TREE TEST");
+
+		TopicRequest topicRequest = new TopicRequest();
+//		topicRequest.setTopic_id(11);
+		logger.debug("HashCode 1 - {}", topicRequest.hashCode());
+
+        logger.debug("HashCode AaAaAa - {}", "AaAaAa".hashCode());
+        logger.debug("HashCode BBAaBB - {}", "BBAaBB".hashCode());
+
+//        if((1/2) && false) {
+//
+//        }
+
+//		topicRequest = new TopicRequest();
+		logger.debug("HashCode 2 - {}", topicRequest.hashCode());
+
         String data = "{1,2,3,4,5,#,6,#,#,7,8,#,#}";
 
         this.subLogic(data);
