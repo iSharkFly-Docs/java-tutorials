@@ -1,6 +1,5 @@
 package com.ossez.toolkits.codebank.tests.algorithm;
 
-
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 import org.slf4j.Logger;
@@ -11,9 +10,9 @@ import java.util.List;
 
 /**
  * <p>
- * More details about question see link below
+ * Prime numbers from 1 to 100
  * <ul>
- * <li>@see <a href= "https://www.cwiki.us/display/ITCLASSIFICATION/Binary+Gap">https://www.cwiki.us/display/ITCLASSIFICATION/Binary+Gap</a>
+ * <li>@see <a href= "https://www.ossez.com/t/prime-numbers-from-1-to-100-100/13450">https://www.ossez.com/t/prime-numbers-from-1-to-100-100/13450</a>
  * </li>
  * </ul>
  * </p>
@@ -34,21 +33,21 @@ public class PrimeNumbersTest {
 
         int N = 100;
         List<Integer> primeNumberList = new ArrayList<>();
+
         for (int i = 2; i < N; i++) {
-			if (isPrimeNumber(i))
-				primeNumberList.add(i);
-		}
+            if (isPrimeNumber(i))
+                primeNumberList.add(i);
+        }
 
         logger.debug("primeNumber Count -[{}]", primeNumberList.size());
-		logger.debug("primeNumber Count -[{}]", primeNumberList);
+        logger.debug("primeNumber Count -[{}]", primeNumberList);
     }
 
     /**
      * @param number
      * @return
      */
-    public boolean isPrimeNumber(int number) {
-    	System.out.println(5%3);;
+    private boolean isPrimeNumber(int number) {
         for (int i = 2; i < number; i++) {
             if (number % i == 0) {
                 return false;
