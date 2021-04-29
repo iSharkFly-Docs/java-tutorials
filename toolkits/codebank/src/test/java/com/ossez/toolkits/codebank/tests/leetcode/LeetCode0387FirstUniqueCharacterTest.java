@@ -7,6 +7,7 @@ import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
+import java.util.Locale;
 import java.util.Map;
 
 /**
@@ -35,11 +36,12 @@ public class LeetCode0387FirstUniqueCharacterTest {
         String data = "lovelycomossez";
 
         System.out.println(firstUniqChar(data));
+        System.out.println(firstUniqCharString(data));
 
     }
 
     /**
-     * Deserialize from array to tree
+     * Return the first Uniq Char String index
      *
      * @param data
      * @return
@@ -76,5 +78,39 @@ public class LeetCode0387FirstUniqueCharacterTest {
 
     }
 
+    /**
+     * Return the first Uniq Char String without using Map
+     * @param data
+     * @return
+     */
+    private String firstUniqCharString(String data) {
+        // NULL CHECK
+        if (data.equals("")) {
+            return "";
+        }
+
+        char[] strArray = data.toCharArray();
+        String retStr = "";
+
+        if (data.length() == 1) {
+            retStr = data;
+        }
+
+        for (int i = 0; i < strArray.length; i++) {
+            String valStr = Character.toString(strArray[i]);
+            String rData = data;
+            rData = data.replace(valStr, "");
+            rData = rData.replace(valStr.toUpperCase(Locale.ROOT), "");
+            rData = rData.replace(valStr.toLowerCase(Locale.ROOT), "");
+
+            if (rData.length() == 0) {
+                retStr = "";
+            } else if (rData.length() + 1 == data.length()) {
+                retStr = valStr;
+                break;
+            }
+        }
+        return retStr;
+    }
 
 }
