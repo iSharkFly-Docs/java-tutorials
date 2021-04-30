@@ -1,4 +1,4 @@
-package com.ossez.lang.tutorial.tests.codility;
+package com.ossez.toolkits.codebank.tests.codility;
 
 import org.junit.Test;
 import org.slf4j.Logger;
