@@ -39,6 +39,7 @@
     </licenses>
 
     <modules>
+        <module>parent-java</module>
         <module>toolkits</module>
     </modules>
 
@@ -77,6 +78,7 @@
 
         <!-- CDN & CLOUD -->
         <jclouds.version>1.9.0</jclouds.version>
+        <modelmapper.version>2.4.4</modelmapper.version>
 
     </properties>
 

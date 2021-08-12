@@ -7,12 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="codebank" />
+        <module name="java-collections-conversions" />
+        <module name="java-collections-conversions-2" />
         <module name="discourse" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="codebank" target="11" />
       <module name="discourse" target="11" />
+      <module name="java-collections-conversions" target="11" />
+      <module name="java-collections-conversions-2" target="11" />
+      <module name="parent-java" target="11" />
       <module name="parent-modules" target="11" />
       <module name="toolkits" target="1.5" />
     </bytecodeTargetLevel>

@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.ossez</groupId>
     <artifactId>parent-java</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>parent-java</name>
     <description>Parent for all java modules</description>
     <packaging>pom</packaging>
@@ -11,7 +11,7 @@
     <parent>
         <groupId>com.ossez</groupId>
         <artifactId>parent-modules</artifactId>
-        <version>0.0.1</version>
+        <version>0.0.2-SNAPSHOT</version>
     </parent>
 
     <dependencies>

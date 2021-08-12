@@ -1,4 +1,4 @@
-package com.ossez.arrayconversion;
+package com.baeldung.arrayconversion;
 
 import org.assertj.core.api.ListAssert;
 import org.hamcrest.CoreMatchers;
@@ -10,27 +10,11 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-/**
- * <p>
- * ArrayToListConversionUnitTest
- * <ul>
- * <li>@see <a href= "https://www.ossez.com/t/java-arrays-aslist-new-arraylist-arrays-aslist/13680">Arrays.asList vs new ArrayList(Arrays.asList())</a>
- * </li>
- * </ul>
- * </p>
- *
- * @author YuCheng
- */
-
- /*Line 1
- Line 2
- Line 3*/
-
 public class ArrayToListConversionUnitTest {
 
     @Test(expected = UnsupportedOperationException.class)
     public void givenAnArray_whenConvertingToList_returnUnmodifiableListUnitTest() {
-        String[] stringArray = new String[]{"A", "B", "C", "D"};
+        String[] stringArray = new String[] { "A", "B", "C", "D" };
         List<String> stringList = Arrays.asList(stringArray);
         stringList.set(0, "E");
         assertThat(stringList).containsExactly("E", "B", "C", "D");
@@ -40,7 +24,7 @@ public class ArrayToListConversionUnitTest {
 
     @Test
     public void givenAnArray_whenConvertingToList_returnModifiableListUnitTest() {
-        String[] stringArray = new String[]{"A", "B", "C", "D"};
+        String[] stringArray = new String[] { "A", "B", "C", "D" };
         List<String> stringList = new ArrayList<>(Arrays.asList(stringArray));
         stringList.set(0, "E");
         assertThat(stringList).containsExactly("E", "B", "C", "D");

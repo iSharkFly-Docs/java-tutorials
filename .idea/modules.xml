@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/toolkits/codebank/codebank.iml" filepath="$PROJECT_DIR$/toolkits/codebank/codebank.iml" />
       <module fileurl="file://$PROJECT_DIR$/toolkits/discourse/discourse.iml" filepath="$PROJECT_DIR$/toolkits/discourse/discourse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-collections-conversions/java-collections-conversions.iml" filepath="$PROJECT_DIR$/java-collections-conversions/java-collections-conversions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-collections-conversions-2/java-collections-conversions-2.iml" filepath="$PROJECT_DIR$/java-collections-conversions-2/java-collections-conversions-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent-java/parent-java.iml" filepath="$PROJECT_DIR$/parent-java/parent-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent-modules.iml" filepath="$PROJECT_DIR$/parent-modules.iml" />
       <module fileurl="file://$PROJECT_DIR$/toolkits/toolkits.iml" filepath="$PROJECT_DIR$/toolkits/toolkits.iml" />
     </modules>

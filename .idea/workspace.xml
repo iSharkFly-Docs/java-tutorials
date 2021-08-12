@@ -5,8 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4ccec40-1722-49be-ba56-1cba428e2e66" name="Default Changelist" comment="Change code for full project compile">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-collections-conversions-2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-collections-conversions-2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-collections-conversions-2/src/main/java/com/baeldung/convertlisttomap/ListToMapConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-collections-conversions-2/src/main/java/com/baeldung/modelmapper/MapperUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-collections-conversions-2/src/main/java/com/baeldung/modelmapper/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-collections-conversions-2/src/main/java/com/baeldung/modelmapper/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-collections-conversions-2/src/main/java/com/baeldung/modelmapper/UserList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-collections-conversions-2/src/main/java/com/baeldung/modelmapper/UserListDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-collections-conversions-2/src/main/java/com/baeldung/modelmapper/UsersListConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-collections-conversions-2/src/test/java/com/baeldung/arrayconversion/ArrayToListConversionUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-collections-conversions-2/src/test/java/com/baeldung/convertarraytostring/ArrayToStringUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-collections-conversions-2/src/test/java/com/baeldung/convertlisttomap/ListToMapUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-collections-conversions-2/src/test/java/com/baeldung/modelmapper/UsersListMappingUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-collections-conversions-2/src/test/java/com/baeldung/setiteration/SetIteration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-conversions/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-conversions/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-conversions/src/test/java/com/ossez/arrayconversion/ArrayToListConversionUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-conversions/src/test/java/com/ossez/arrayconversion/ArrayToListConversionUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent-java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toolkits/codebank/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/toolkits/codebank/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toolkits/discourse/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/toolkits/discourse/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +38,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1rgubunw7ryTECA0xroZNQRefbN" />
@@ -24,13 +53,27 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/java-collections-conversions-2/pom.xml" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.18472221" />
+    <property name="project.structure.side.proportion" value="0.24043715" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkDir\Repository\GitHub\cwiki-us-docs\java-tutorials" />
+      <recent name="D:\WorkDir\Repository\GitHub\cwiki-us-docs\java-tutorials\parent-java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ArrayToListConversionUnitTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -42,6 +85,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArrayToListConversionUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-collections-conversions-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baeldung.arrayconversion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.baeldung.arrayconversion" />
+      <option name="MAIN_CLASS_NAME" value="com.baeldung.arrayconversion.ArrayToListConversionUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayToListConversionUnitTest.givenAnArray_whenConvertingToList_returnUnmodifiableListUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-collections-conversions-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baeldung.arrayconversion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.baeldung.arrayconversion" />
+      <option name="MAIN_CLASS_NAME" value="com.baeldung.arrayconversion.ArrayToListConversionUnitTest" />
+      <option name="METHOD_NAME" value="givenAnArray_whenConvertingToList_returnUnmodifiableListUnitTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ArrayToListConversionUnitTest" />
+        <item itemvalue="JUnit.ArrayToListConversionUnitTest.givenAnArray_whenConvertingToList_returnUnmodifiableListUnitTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -52,6 +132,7 @@
       <option name="presentableId" value="Default" />
       <updated>1619410137650</updated>
       <workItem from="1619410141685" duration="410000" />
+      <workItem from="1628774960541" duration="4091000" />
     </task>
     <task id="LOCAL-00001" summary="Change code for full project compile">
       <created>1619410303516</created>
@@ -76,6 +157,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Change code for full project compile" />
