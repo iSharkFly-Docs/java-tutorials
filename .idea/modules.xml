@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/toolkits/codebank/codebank.iml" filepath="$PROJECT_DIR$/toolkits/codebank/codebank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core-java-modules/core-java-annotations/core-java-annotations.iml" filepath="$PROJECT_DIR$/core-java-modules/core-java-annotations/core-java-annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core-java-modules/core-java-datetime-conversion/core-java-datetime-conversion.iml" filepath="$PROJECT_DIR$/core-java-modules/core-java-datetime-conversion/core-java-datetime-conversion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core-java-modules/core-java-io/core-java-io.iml" filepath="$PROJECT_DIR$/core-java-modules/core-java-io/core-java-io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core-java-modules/core-java-modules.iml" filepath="$PROJECT_DIR$/core-java-modules/core-java-modules.iml" />
       <module fileurl="file://$PROJECT_DIR$/toolkits/discourse/discourse.iml" filepath="$PROJECT_DIR$/toolkits/discourse/discourse.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-collections-conversions/java-collections-conversions.iml" filepath="$PROJECT_DIR$/java-collections-conversions/java-collections-conversions.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-collections-conversions-2/java-collections-conversions-2.iml" filepath="$PROJECT_DIR$/java-collections-conversions-2/java-collections-conversions-2.iml" />

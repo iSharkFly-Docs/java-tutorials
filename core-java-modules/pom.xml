@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.ossez.core-java-modules</groupId>
     <artifactId>core-java-modules</artifactId>
     <name>core-java-modules</name>
     <packaging>pom</packaging>
-    
+
     <parent>
         <artifactId>parent-modules</artifactId>
         <groupId>com.ossez</groupId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>0.0.2-SNAPSHOT</version>
+        <relativePath>../parent-java</relativePath>
     </parent>
 
     <modules>
-        <module>pre-jpms</module>
-        <module>core-java-optional</module>
-        <module>core-java-lang-operators</module>
-        <module>core-java-networking-2</module>
-        <module>core-java-security-manager</module>
+        <module>core-java-annotations</module>
+        <module>core-java-datetime-conversion</module>
+        <module>core-java-io</module>
     </modules>
-    
+
 </project>
