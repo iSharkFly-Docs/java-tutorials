@@ -1,12 +1,16 @@
 package com.ossez.toolkits.codebank.tests.algorithm;
 
+import org.apache.commons.lang3.math.NumberUtils;
+import org.apache.commons.math3.primes.Primes;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.IntStream;
 
 /**
  * <p>
@@ -42,6 +46,22 @@ public class PrimeNumbersTest {
         logger.debug("primeNumber Count -[{}]", primeNumberList.size());
         logger.debug("primeNumber Count -[{}]", primeNumberList);
     }
+
+    /**
+     * Prime Number Check Test
+     */
+    @Test
+    public void testIsPrime() {
+        int number = 10;
+        Boolean isPrime = number > 1
+                && IntStream.rangeClosed(2, (int) Math.sqrt(number))
+                .noneMatch(n -> (number % n == 0));
+
+        logger.debug(" {} Prime CORE Check is - [{}]", number, isPrime);
+        logger.debug(" {} Prime BigInteger Check is - [{}]", number, BigInteger.valueOf(number).isProbablePrime(100));
+        logger.debug(" {} Prime APACHE MATH3 Check is - [{}]", number, Primes.isPrime(number));
+    }
+
 
     /**
      * @param number

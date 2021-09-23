@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a855b03-5ee0-4324-b916-110994784a14" name="Changes" comment="Update change to different folder and set to rebuild">
+    <list default="true" id="2a855b03-5ee0-4324-b916-110994784a14" name="Changes" comment="Init commit all code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parent-java/java-numbers-2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent-java/java-numbers-2/src/test/java/com/ossez/prime/PrimeGeneratorUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/src/test/java/com/ossez/prime/PrimeGeneratorUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toolkits/codebank/src/test/java/com/ossez/toolkits/codebank/tests/algorithm/PrimeNumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/toolkits/codebank/src/test/java/com/ossez/toolkits/codebank/tests/algorithm/PrimeNumbersTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +33,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.NaNExample">
+  <component name="RunManager" selected="JUnit.PrimeNumbersTest.testIsPrime">
     <configuration name="NaNExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ossez.nan.NaNExample" />
       <module name="java-numbers-2" />
@@ -77,6 +79,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrimeNumbersTest.testIsPrime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codebank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ossez.toolkits.codebank.tests.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ossez.toolkits.codebank.tests.algorithm" />
+      <option name="MAIN_CLASS_NAME" value="com.ossez.toolkits.codebank.tests.algorithm.PrimeNumbersTest" />
+      <option name="METHOD_NAME" value="testIsPrime" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimeNumbersTest.testIsPrimeCore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codebank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ossez.toolkits.codebank.tests.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ossez.toolkits.codebank.tests.algorithm" />
+      <option name="MAIN_CLASS_NAME" value="com.ossez.toolkits.codebank.tests.algorithm.PrimeNumbersTest" />
+      <option name="METHOD_NAME" value="testIsPrimeCore" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,6 +124,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PrimeNumbersTest.testIsPrime" />
+        <item itemvalue="JUnit.PrimeNumbersTest.testIsPrimeCore" />
         <item itemvalue="Application.NaNExample" />
         <item itemvalue="JUnit.PrimeCheckerUnitTest.whenCheckIsPrime_thenTrue" />
       </list>
@@ -104,7 +140,7 @@
       <option name="presentableId" value="Default" />
       <updated>1632408056518</updated>
       <workItem from="1632408057926" duration="1144000" />
-      <workItem from="1632417263821" duration="2908000" />
+      <workItem from="1632417263821" duration="5653000" />
     </task>
     <task id="LOCAL-00001" summary="修改项目到不同的路径">
       <created>1632420206392</created>
@@ -120,7 +156,28 @@
       <option name="project" value="LOCAL" />
       <updated>1632420268850</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Java number related and examples">
+      <created>1632423632011</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1632423632011</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Init commit all code">
+      <created>1632423824690</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1632423824690</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Init commit all code">
+      <created>1632423847987</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1632423847987</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +197,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改项目到不同的路径" />
     <MESSAGE value="Update change to different folder and set to rebuild" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update change to different folder and set to rebuild" />
+    <MESSAGE value="Java number related and examples" />
+    <MESSAGE value="Init commit all code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init commit all code" />
   </component>
 </project>

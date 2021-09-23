@@ -1,7 +1,9 @@
 package com.ossez.prime;
 
+import org.apache.commons.math3.primes.Primes;
 import org.junit.Test;
 
+import java.math.BigInteger;
 import java.util.Arrays;
 import java.util.List;
 
@@ -25,5 +27,6 @@ public class PrimeGeneratorUnitTest {
     public void whenSieveOfEratosthenes_returnsSuccessfully() {
         final List<Integer> primeNumbers = sieveOfEratosthenes(20);
         assertEquals(Arrays.asList(new Integer[] { 2, 3, 5, 7, 11, 13, 17, 19 }), primeNumbers);
+        BigInteger bigInt = BigInteger.valueOf(100);
     }
 }

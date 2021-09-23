@@ -9,7 +9,7 @@
 - [Java 中的 NaN](https://www.ossez.com/t/java-nan/13748)
 - [Generating Prime Numbers in Java](https://www.baeldung.com/java-generate-prime-numbers)
 - [Using Math.pow in Java](https://www.baeldung.com/java-math-pow)
-- [Check If a Number Is Prime in Java](https://www.baeldung.com/java-prime-numbers)
+- [如何用 Java 判断一个给定的数是不是素数](https://www.ossez.com/t/java/13749)
 - [Binary Numbers in Java](https://www.baeldung.com/java-binary-numbers)
 - [Finding the Least Common Multiple in Java](https://www.baeldung.com/java-least-common-multiple)
 - [Binary Numbers in Java](https://www.baeldung.com/java-binary-numbers)
