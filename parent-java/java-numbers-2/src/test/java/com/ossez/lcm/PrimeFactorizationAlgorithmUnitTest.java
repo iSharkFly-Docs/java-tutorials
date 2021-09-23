@@ -6,6 +6,8 @@ import org.junit.Test;
 import java.util.HashMap;
 import java.util.Map;
 
+import static com.ossez.lcm.PrimeFactorizationAlgorithm.*;
+
 
 public class PrimeFactorizationAlgorithmUnitTest {
 

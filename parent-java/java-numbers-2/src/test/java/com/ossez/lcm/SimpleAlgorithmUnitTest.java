@@ -3,6 +3,8 @@ package com.ossez.lcm;
 import org.junit.Assert;
 import org.junit.Test;
 
+import static com.ossez.lcm.SimpleAlgorithm.*;
+
 public class SimpleAlgorithmUnitTest {
 
     @Test

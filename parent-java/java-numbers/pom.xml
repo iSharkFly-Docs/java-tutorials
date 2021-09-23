@@ -10,8 +10,7 @@
     <parent>
         <groupId>com.ossez</groupId>
         <artifactId>parent-java</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../parent-java</relativePath>
+        <version>0.0.2-SNAPSHOT</version>
     </parent>
 
     <dependencies>
