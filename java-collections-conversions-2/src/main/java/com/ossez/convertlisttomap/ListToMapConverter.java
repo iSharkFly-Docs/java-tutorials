@@ -1,4 +1,4 @@
-package com.baeldung.convertlisttomap;
+package com.ossez.convertlisttomap;
 
 import java.util.List;
 import java.util.Map;

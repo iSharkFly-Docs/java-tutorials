@@ -1,4 +1,4 @@
-package com.baeldung.convertarraytostring;
+package com.ossez.convertarraytostring;
 
 import com.google.common.base.Joiner;
 import com.google.common.base.Splitter;

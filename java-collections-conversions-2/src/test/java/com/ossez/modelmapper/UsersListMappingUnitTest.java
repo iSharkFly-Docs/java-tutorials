@@ -1,4 +1,4 @@
-package com.baeldung.modelmapper;
+package com.ossez.modelmapper;
 
 import org.hamcrest.Matchers;
 import org.junit.Before;

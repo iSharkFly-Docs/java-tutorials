@@ -40,6 +40,8 @@ public class ConvertInstantToTimestampUnitTest {
         df.setTimeZone(TimeZone.getTimeZone("UTC"));
 
         assertThat(formatter.format(instant)).isEqualTo(df.format(timestamp));
+
+
     }
 
 }

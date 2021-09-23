@@ -2,32 +2,15 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="codebank" />
-        <module name="core-java-io" />
-        <module name="core-java-datetime-conversion" />
-        <module name="java-collections-conversions" />
-        <module name="java-collections-conversions-2" />
-        <module name="core-java-annotations" />
+        <module name="java-numbers-2" />
+        <module name="java-numbers" />
         <module name="discourse" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="codebank" target="11" />
-      <module name="core-java-annotations" target="11" />
-      <module name="core-java-datetime-conversion" target="1.9" />
-      <module name="core-java-io" target="11" />
-      <module name="core-java-modules" target="11" />
-      <module name="discourse" target="11" />
-      <module name="java-collections-conversions" target="11" />
-      <module name="java-collections-conversions-2" target="11" />
-      <module name="parent-java" target="11" />
-      <module name="parent-modules" target="11" />
-      <module name="toolkits" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>

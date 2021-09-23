@@ -4,31 +4,101 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4ccec40-1722-49be-ba56-1cba428e2e66" name="Default Changelist" comment="修正项目结构">
-      <change afterPath="$PROJECT_DIR$/core-java-modules/core-java-datetime-conversion/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-java-modules/core-java-datetime-conversion/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-java-modules/core-java-datetime-conversion/src/main/java/com/baeldung/datetolocaldate/DateToLocalDateConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-java-modules/core-java-datetime-conversion/src/main/java/com/baeldung/datetolocaldate/DateToLocalDateTimeConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-java-modules/core-java-datetime-conversion/src/main/java/com/baeldung/datetolocaldate/LocalDateTimeToDateConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-java-modules/core-java-datetime-conversion/src/main/java/com/baeldung/datetolocaldate/LocalDateToDateConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-java-modules/core-java-datetime-conversion/src/test/java/com/baeldung/convert/ConvertDateTimeUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-java-modules/core-java-datetime-conversion/src/test/java/com/baeldung/datetime/ConvertInstantToTimestampUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-java-modules/core-java-datetime-conversion/src/test/java/com/baeldung/datetolocaldate/DateToLocalDateConverterUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-java-modules/core-java-datetime-conversion/src/test/java/com/baeldung/datetolocaldate/DateToLocalDateTimeConverterUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-java-modules/core-java-datetime-conversion/src/test/java/com/baeldung/datetolocaldate/LocalDateTimeToDateConverterUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-java-modules/core-java-datetime-conversion/src/test/java/com/baeldung/datetolocaldate/LocalDateToDateConverterUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-java-modules/core-java-datetime-conversion/src/test/java/com/baeldung/xmlgregoriancalendar/XmlGregorianCalendarConverterUnitTest.java" afterDir="false" />
+    <list default="true" id="2a855b03-5ee0-4324-b916-110994784a14" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-annotations/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-annotations/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-datetime-conversion/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-datetime-conversion/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-datetime-conversion/src/test/java/com/baeldung/datetime/ConvertInstantToTimestampUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-datetime-conversion/src/test/java/com/baeldung/datetime/ConvertInstantToTimestampUnitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-io/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-io/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core-java-modules/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-collections-conversions-2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-conversions-2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistence-modules/activejdbc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/persistence-modules/activejdbc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-conversions-2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-conversions-2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-conversions-2/src/main/java/com/baeldung/convertlisttomap/ListToMapConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-conversions-2/src/main/java/com/ossez/convertlisttomap/ListToMapConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-conversions-2/src/main/java/com/baeldung/modelmapper/MapperUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-conversions-2/src/main/java/com/ossez/modelmapper/MapperUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-conversions-2/src/main/java/com/baeldung/modelmapper/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-conversions-2/src/main/java/com/ossez/modelmapper/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-conversions-2/src/main/java/com/baeldung/modelmapper/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-conversions-2/src/main/java/com/ossez/modelmapper/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-conversions-2/src/main/java/com/baeldung/modelmapper/UserList.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-conversions-2/src/main/java/com/ossez/modelmapper/UserList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-conversions-2/src/main/java/com/baeldung/modelmapper/UserListDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-conversions-2/src/main/java/com/ossez/modelmapper/UserListDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-conversions-2/src/main/java/com/baeldung/modelmapper/UsersListConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-conversions-2/src/main/java/com/ossez/modelmapper/UsersListConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-conversions-2/src/test/java/com/baeldung/arrayconversion/ArrayToListConversionUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-conversions-2/src/test/java/com/ossez/arrayconversion/ArrayToListConversionUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-conversions-2/src/test/java/com/baeldung/convertarraytostring/ArrayToStringUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-conversions-2/src/test/java/com/ossez/convertarraytostring/ArrayToStringUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-conversions-2/src/test/java/com/baeldung/convertlisttomap/ListToMapUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-conversions-2/src/test/java/com/ossez/convertlisttomap/ListToMapUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-conversions-2/src/test/java/com/baeldung/modelmapper/UsersListMappingUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-conversions-2/src/test/java/com/ossez/modelmapper/UsersListMappingUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-conversions-2/src/test/java/com/baeldung/setiteration/SetIteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-conversions-2/src/test/java/com/ossez/setiteration/SetIteration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-conversions/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-conversions/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/src/main/java/com/ossez/algorithms/primechecker/BigIntegerPrimeChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/src/main/java/com/ossez/algorithms/primechecker/BigIntegerPrimeChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/src/main/java/com/ossez/algorithms/primechecker/BruteForcePrimeChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/src/main/java/com/ossez/algorithms/primechecker/BruteForcePrimeChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/src/main/java/com/ossez/algorithms/primechecker/OptimisedPrimeChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/src/main/java/com/ossez/algorithms/primechecker/OptimisedPrimeChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/src/main/java/com/ossez/algorithms/primechecker/PrimeChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/src/main/java/com/ossez/algorithms/primechecker/PrimeChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/src/main/java/com/ossez/algorithms/primechecker/PrimesPrimeChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/src/main/java/com/ossez/algorithms/primechecker/PrimesPrimeChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/src/main/java/com/ossez/area/circle/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/src/main/java/com/ossez/area/circle/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/src/main/java/com/ossez/area/circle/CircleArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/src/main/java/com/ossez/area/circle/CircleArea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/src/main/java/com/ossez/binarynumbers/BinaryNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/src/main/java/com/ossez/binarynumbers/BinaryNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/src/main/java/com/ossez/lcm/BigIntegerLCM.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/src/main/java/com/ossez/lcm/BigIntegerLCM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/src/main/java/com/ossez/lcm/EuclideanAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/src/main/java/com/ossez/lcm/EuclideanAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/src/main/java/com/ossez/lcm/PrimeFactorizationAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/src/main/java/com/ossez/lcm/PrimeFactorizationAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/src/main/java/com/ossez/lcm/SimpleAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/src/main/java/com/ossez/lcm/SimpleAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/src/main/java/com/ossez/nan/NaNExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/src/main/java/com/ossez/nan/NaNExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/src/main/java/com/ossez/pow/PowerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/src/main/java/com/ossez/pow/PowerExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/src/main/java/com/ossez/prime/PrimeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/src/main/java/com/ossez/prime/PrimeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/src/test/java/com/ossez/algorithms/primechecker/PrimeCheckerUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/src/test/java/com/ossez/algorithms/primechecker/PrimeCheckerUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/src/test/java/com/ossez/binarynumbers/BinaryNumbersUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/src/test/java/com/ossez/binarynumbers/BinaryNumbersUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/src/test/java/com/ossez/java/math/MathUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/src/test/java/com/ossez/java/math/MathUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/src/test/java/com/ossez/lcm/BigIntegerLCMUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/src/test/java/com/ossez/lcm/BigIntegerLCMUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/src/test/java/com/ossez/lcm/EuclideanAlgorithmUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/src/test/java/com/ossez/lcm/EuclideanAlgorithmUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/src/test/java/com/ossez/lcm/PrimeFactorizationAlgorithmUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/src/test/java/com/ossez/lcm/PrimeFactorizationAlgorithmUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/src/test/java/com/ossez/lcm/SimpleAlgorithmUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/src/test/java/com/ossez/lcm/SimpleAlgorithmUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/src/test/java/com/ossez/lossyconversion/ConversionTechniquesUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/src/test/java/com/ossez/lossyconversion/ConversionTechniquesUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/src/test/java/com/ossez/prime/PrimeGeneratorUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/src/test/java/com/ossez/prime/PrimeGeneratorUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers-2/src/test/java/com/ossez/primechecker/PrimeCheckerUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/main/java/com/ossez/maths/BigDecimalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/main/java/com/ossez/maths/BigDecimalDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/main/java/com/ossez/maths/FloatingPointArithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/main/java/com/ossez/maths/FloatingPointArithmetic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/main/java/com/ossez/maths/Round.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/main/java/com/ossez/maths/Round.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/main/java/com/ossez/nth/root/calculator/NthRootCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/main/java/com/ossez/nth/root/calculator/NthRootCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/main/java/com/ossez/nth/root/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/main/java/com/ossez/nth/root/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/main/java/com/ossez/numberofdigits/Benchmarking.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/main/java/com/ossez/numberofdigits/Benchmarking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/main/java/com/ossez/numberofdigits/NumberOfDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/main/java/com/ossez/numberofdigits/NumberOfDigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/main/java/com/ossez/numberofdigits/NumberOfDigitsDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/main/java/com/ossez/numberofdigits/NumberOfDigitsDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/main/java/com/ossez/pairsaddupnumber/DifferentPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/main/java/com/ossez/pairsaddupnumber/DifferentPairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/main/java/com/ossez/pairsaddupnumber/ExistingPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/main/java/com/ossez/pairsaddupnumber/ExistingPairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/main/java/com/ossez/pairsaddupnumber/FindPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/main/java/com/ossez/pairsaddupnumber/FindPairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/main/java/com/ossez/random/SecureRandomDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/main/java/com/ossez/random/SecureRandomDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/main/java/com/ossez/string/DoubleToString.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/main/java/com/ossez/string/DoubleToString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/test/java/com/ossez/decimalformat/DecimalFormatExamplesUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/test/java/com/ossez/decimalformat/DecimalFormatExamplesUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/test/java/com/ossez/maths/BigDecimalDemoUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/test/java/com/ossez/maths/BigDecimalDemoUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/test/java/com/ossez/maths/BigDecimalImplUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/test/java/com/ossez/maths/BigDecimalImplUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/test/java/com/ossez/maths/BigIntegerDemoUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/test/java/com/ossez/maths/BigIntegerDemoUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/test/java/com/ossez/maths/BigIntegerImplUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/test/java/com/ossez/maths/BigIntegerImplUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/test/java/com/ossez/maths/FloatingPointArithmeticUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/test/java/com/ossez/maths/FloatingPointArithmeticUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/test/java/com/ossez/maths/MathSinUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/test/java/com/ossez/maths/MathSinUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/test/java/com/ossez/maths/RoundUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/test/java/com/ossez/maths/RoundUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/test/java/com/ossez/nth/root/calculator/NthRootCalculatorUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/test/java/com/ossez/nth/root/calculator/NthRootCalculatorUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/test/java/com/ossez/nth/root/main/MainUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/test/java/com/ossez/nth/root/main/MainUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/test/java/com/ossez/numberofdigits/NumberOfDigitsIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/test/java/com/ossez/numberofdigits/NumberOfDigitsIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/test/java/com/ossez/pairsaddupnumber/DifferentPairsUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/test/java/com/ossez/pairsaddupnumber/DifferentPairsUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/test/java/com/ossez/pairsaddupnumber/ExistingPairsUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/test/java/com/ossez/pairsaddupnumber/ExistingPairsUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/test/java/com/ossez/random/JavaRandomUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/test/java/com/ossez/random/JavaRandomUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/test/java/com/ossez/removingdecimals/RemovingDecimalsManualTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/test/java/com/ossez/removingdecimals/RemovingDecimalsManualTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/test/java/com/ossez/removingdecimals/RemovingDecimalsUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/test/java/com/ossez/removingdecimals/RemovingDecimalsUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-numbers/src/test/java/com/ossez/string/DoubleToStringUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/src/test/java/com/ossez/string/DoubleToStringUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent-java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests/VariableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests/VariableTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,14 +107,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1rgubunw7ryTECA0xroZNQRefbN" />
+  <component name="ProjectId" id="1yXq0B5lme8eyBDkbRBUHlwFMj2" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,142 +117,76 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/core-java-modules/pom.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.18472221" />
-    <property name="project.structure.side.proportion" value="0.24043715" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\WorkDir\Repository\GitHub\cwiki-us-docs\java-tutorials" />
-      <recent name="D:\WorkDir\Repository\GitHub\cwiki-us-docs\java-tutorials\parent-java" />
-    </key>
-  </component>
-  <component name="RunManager" selected="JUnit.ConvertInstantToTimestampUnitTest.testISO1806">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayToListConversionUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-collections-conversions-2" />
+  <component name="RunManager">
+    <configuration name="PrimeCheckerUnitTest.whenCheckIsPrime_thenTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-numbers-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.baeldung.arrayconversion.*" />
+          <option name="PATTERN" value="com.ossez.algorithms.primechecker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.baeldung.arrayconversion" />
-      <option name="MAIN_CLASS_NAME" value="com.baeldung.arrayconversion.ArrayToListConversionUnitTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayToListConversionUnitTest.givenAnArray_whenConvertingToList_returnUnmodifiableListUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-collections-conversions-2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.baeldung.arrayconversion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.baeldung.arrayconversion" />
-      <option name="MAIN_CLASS_NAME" value="com.baeldung.arrayconversion.ArrayToListConversionUnitTest" />
-      <option name="METHOD_NAME" value="givenAnArray_whenConvertingToList_returnUnmodifiableListUnitTest" />
+      <option name="PACKAGE_NAME" value="com.ossez.algorithms.primechecker" />
+      <option name="MAIN_CLASS_NAME" value="com.ossez.algorithms.primechecker.PrimeCheckerUnitTest" />
+      <option name="METHOD_NAME" value="whenCheckIsPrime_thenTrue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConvertInstantToTimestampUnitTest.testISO1806" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core-java-datetime-conversion" />
+    <configuration name="PrimeCheckerUnitTest.whenCheckIsPrime_thenTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-numbers-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.baeldung.datetime.*" />
+          <option name="PATTERN" value="com.ossez.algorithms.primechecker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.baeldung.datetime" />
-      <option name="MAIN_CLASS_NAME" value="com.baeldung.datetime.ConvertInstantToTimestampUnitTest" />
-      <option name="METHOD_NAME" value="testISO1806" />
+      <option name="PACKAGE_NAME" value="com.ossez.algorithms.primechecker" />
+      <option name="MAIN_CLASS_NAME" value="com.ossez.algorithms.primechecker.PrimeCheckerUnitTest" />
+      <option name="METHOD_NAME" value="whenCheckIsPrime_thenTrue" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ConvertInstantToTimestampUnitTest.testISO1806" />
-        <item itemvalue="JUnit.ArrayToListConversionUnitTest" />
-        <item itemvalue="JUnit.ArrayToListConversionUnitTest.givenAnArray_whenConvertingToList_returnUnmodifiableListUnitTest" />
+        <item itemvalue="JUnit.PrimeCheckerUnitTest.whenCheckIsPrime_thenTrue" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e4ccec40-1722-49be-ba56-1cba428e2e66" name="Default Changelist" comment="" />
-      <created>1619410137650</created>
+      <changelist id="2a855b03-5ee0-4324-b916-110994784a14" name="Changes" comment="" />
+      <created>1632408056518</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1619410137650</updated>
-      <workItem from="1619410141685" duration="410000" />
-      <workItem from="1628774960541" duration="4091000" />
-      <workItem from="1628808291113" duration="100000" />
-      <workItem from="1628871072447" duration="9867000" />
+      <updated>1632408056518</updated>
+      <workItem from="1632408057926" duration="1144000" />
+      <workItem from="1632417263821" duration="622000" />
     </task>
-    <task id="LOCAL-00001" summary="Change code for full project compile">
-      <created>1619410303516</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1619410303516</updated>
-    </task>
-    <task id="LOCAL-00002" summary="修正项目结构">
-      <created>1628808340193</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1628808340193</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Change code for full project compile" />
-    <MESSAGE value="修正项目结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="修正项目结构" />
   </component>
 </project>

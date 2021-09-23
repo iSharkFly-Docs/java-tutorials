@@ -10,7 +10,7 @@
         <groupId>com.ossez.core-java-modules</groupId>
         <artifactId>core-java-modules</artifactId>
         <version>0.0.2-SNAPSHOT</version>
-        <relativePath>../</relativePath>
+        <relativePath></relativePath>
     </parent>
 
     <dependencies>
@@ -175,7 +175,7 @@
         <dependency>
             <groupId>com.nimbusds</groupId>
             <artifactId>nimbus-jose-jwt</artifactId>
-            <version>9.0.1</version>
+            <version>${nimbus-jose-jwt.version}</version>
         </dependency>
     </dependencies>
 
@@ -297,6 +297,7 @@
         <jmime-magic.version>0.1.5</jmime-magic.version>
         <maven-jar-plugin.version>3.1.0</maven-jar-plugin.version>
 
+        <nimbus-jose-jwt.version>9.13</nimbus-jose-jwt.version>
     </properties>
 
 </project>

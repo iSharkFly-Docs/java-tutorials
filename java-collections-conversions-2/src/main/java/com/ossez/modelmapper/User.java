@@ -1,4 +1,4 @@
-package com.baeldung.modelmapper;
+package com.ossez.modelmapper;
 
 /**
  * User model entity class
