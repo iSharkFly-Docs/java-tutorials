@@ -1,12 +1,12 @@
-## Java Number Cookbooks and Examples
+## Java 数字相关的文章和实例
 
-This module contains articles about numbers in Java.
+本模块中包含了与 Java 数字相关的一些文章
 
-### Relevant Articles
+### 相关文章
 - [Lossy Conversion in Java](https://www.baeldung.com/java-lossy-conversion)
 - [A Guide to the Java Math Class](https://www.baeldung.com/java-lang-math)
 - [Calculate the Area of a Circle in Java](https://www.baeldung.com/java-calculate-circle-area)
-- [NaN in Java](https://www.baeldung.com/java-not-a-number)
+- [Java 中的 NaN](https://www.ossez.com/t/java-nan/13748)
 - [Generating Prime Numbers in Java](https://www.baeldung.com/java-generate-prime-numbers)
 - [Using Math.pow in Java](https://www.baeldung.com/java-math-pow)
 - [Check If a Number Is Prime in Java](https://www.baeldung.com/java-prime-numbers)
