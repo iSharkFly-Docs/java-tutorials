@@ -9,6 +9,7 @@
         <module name="codebank" />
         <module name="java-numbers-2" />
         <module name="java-numbers" />
+        <module name="xml" />
         <module name="discourse" />
       </profile>
     </annotationProcessing>

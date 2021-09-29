@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a855b03-5ee0-4324-b916-110994784a14" name="Changes" comment="Init commit all code">
+    <list default="true" id="2a855b03-5ee0-4324-b916-110994784a14" name="Changes" comment="Check Prime numbers">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent-java/java-numbers-2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent-java/java-numbers-2/src/test/java/com/ossez/prime/PrimeGeneratorUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/src/test/java/com/ossez/prime/PrimeGeneratorUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toolkits/codebank/src/test/java/com/ossez/toolkits/codebank/tests/algorithm/PrimeNumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/toolkits/codebank/src/test/java/com/ossez/toolkits/codebank/tests/algorithm/PrimeNumbersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-io/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-io/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent-java/java-numbers-2/src/test/java/com/ossez/lossyconversion/ConversionTechniquesUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/src/test/java/com/ossez/lossyconversion/ConversionTechniquesUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toolkits/codebank/src/test/java/com/ossez/toolkits/codebank/tests/BlackboardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/toolkits/codebank/src/test/java/com/ossez/toolkits/codebank/tests/BlackboardTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +20,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1yXq0B5lme8eyBDkbRBUHlwFMj2" />
   <component name="ProjectViewState">
@@ -28,36 +39,98 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/xml/src/test/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.24043715" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JUnit.PrimeNumbersTest.testIsPrime">
-    <configuration name="NaNExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ossez.nan.NaNExample" />
-      <module name="java-numbers-2" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkDir\Repository\GitHub\cwiki-us-docs\java-tutorials\xml\src\test\resources" />
+      <recent name="D:\WorkDir\Repository\GitHub\cwiki-us-docs\java-tutorials" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Dom4JParserUnitTest.testCreateXMLFromSystemProperties">
+    <configuration name="DefaultParserUnitTest.getFirstLevelNodeListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ossez.nan.*" />
+          <option name="PATTERN" value="com.baeldung.xml.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.baeldung.xml" />
+      <option name="MAIN_CLASS_NAME" value="com.baeldung.xml.DefaultParserUnitTest" />
+      <option name="METHOD_NAME" value="getFirstLevelNodeListTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeCheckerUnitTest.whenCheckIsPrime_thenTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-numbers-2" />
+    <configuration name="DefaultParserUnitTest.getNodeListByTitleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ossez.algorithms.primechecker.*" />
+          <option name="PATTERN" value="com.baeldung.xml.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ossez.algorithms.primechecker" />
-      <option name="MAIN_CLASS_NAME" value="com.ossez.algorithms.primechecker.PrimeCheckerUnitTest" />
-      <option name="METHOD_NAME" value="whenCheckIsPrime_thenTrue" />
+      <option name="PACKAGE_NAME" value="com.baeldung.xml" />
+      <option name="MAIN_CLASS_NAME" value="com.baeldung.xml.DefaultParserUnitTest" />
+      <option name="METHOD_NAME" value="getNodeListByTitleTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dom4JParserUnitTest.generateNewDocumentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ossez.xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ossez.xml" />
+      <option name="MAIN_CLASS_NAME" value="com.ossez.xml.Dom4JParserUnitTest" />
+      <option name="METHOD_NAME" value="generateNewDocumentTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dom4JParserUnitTest.testCreateXML" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ossez.xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ossez.xml" />
+      <option name="MAIN_CLASS_NAME" value="com.ossez.xml.Dom4JParserUnitTest" />
+      <option name="METHOD_NAME" value="testCreateXML" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dom4JParserUnitTest.testCreateXMLFromSystemProperties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ossez.xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ossez.xml" />
+      <option name="MAIN_CLASS_NAME" value="com.ossez.xml.Dom4JParserUnitTest" />
+      <option name="METHOD_NAME" value="testCreateXMLFromSystemProperties" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,38 +147,6 @@
       <option name="PACKAGE_NAME" value="com.ossez.algorithms.primechecker" />
       <option name="MAIN_CLASS_NAME" value="com.ossez.algorithms.primechecker.PrimeCheckerUnitTest" />
       <option name="METHOD_NAME" value="whenCheckIsPrime_thenTrue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrimeNumbersTest.testIsPrime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codebank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ossez.toolkits.codebank.tests.algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ossez.toolkits.codebank.tests.algorithm" />
-      <option name="MAIN_CLASS_NAME" value="com.ossez.toolkits.codebank.tests.algorithm.PrimeNumbersTest" />
-      <option name="METHOD_NAME" value="testIsPrime" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrimeNumbersTest.testIsPrimeCore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codebank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ossez.toolkits.codebank.tests.algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ossez.toolkits.codebank.tests.algorithm" />
-      <option name="MAIN_CLASS_NAME" value="com.ossez.toolkits.codebank.tests.algorithm.PrimeNumbersTest" />
-      <option name="METHOD_NAME" value="testIsPrimeCore" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,10 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PrimeNumbersTest.testIsPrime" />
-        <item itemvalue="JUnit.PrimeNumbersTest.testIsPrimeCore" />
-        <item itemvalue="Application.NaNExample" />
-        <item itemvalue="JUnit.PrimeCheckerUnitTest.whenCheckIsPrime_thenTrue" />
+        <item itemvalue="JUnit.Dom4JParserUnitTest.testCreateXMLFromSystemProperties" />
+        <item itemvalue="JUnit.Dom4JParserUnitTest.testCreateXML" />
+        <item itemvalue="JUnit.Dom4JParserUnitTest.generateNewDocumentTest" />
+        <item itemvalue="JUnit.DefaultParserUnitTest.getNodeListByTitleTest" />
+        <item itemvalue="JUnit.DefaultParserUnitTest.getFirstLevelNodeListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +182,11 @@
       <option name="presentableId" value="Default" />
       <updated>1632408056518</updated>
       <workItem from="1632408057926" duration="1144000" />
-      <workItem from="1632417263821" duration="5653000" />
+      <workItem from="1632417263821" duration="6344000" />
+      <workItem from="1632505123573" duration="254000" />
+      <workItem from="1632767316507" duration="2832000" />
+      <workItem from="1632843147814" duration="70000" />
+      <workItem from="1632921802745" duration="10209000" />
     </task>
     <task id="LOCAL-00001" summary="修改项目到不同的路径">
       <created>1632420206392</created>
@@ -177,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632423847987</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Check Prime numbers">
+      <created>1632426542726</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1632426542726</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,12 +246,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改项目到不同的路径" />
     <MESSAGE value="Update change to different folder and set to rebuild" />
     <MESSAGE value="Java number related and examples" />
     <MESSAGE value="Init commit all code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init commit all code" />
+    <MESSAGE value="Check Prime numbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Check Prime numbers" />
   </component>
 </project>
