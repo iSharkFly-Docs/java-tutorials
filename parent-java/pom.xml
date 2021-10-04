@@ -17,6 +17,7 @@
     <modules>
         <module>java-numbers</module>
         <module>java-numbers-2</module>
+        <module>jmh</module>
     </modules>
 
     <dependencies>

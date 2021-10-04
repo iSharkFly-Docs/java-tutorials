@@ -4,14 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a855b03-5ee0-4324-b916-110994784a14" name="Changes" comment="Check Prime numbers">
+    <list default="true" id="2a855b03-5ee0-4324-b916-110994784a14" name="Changes" comment="Add docs for xml process">
+      <change afterPath="$PROJECT_DIR$/parent-java/jmh/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent-java/jmh/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent-java/jmh/src/main/java/com/ossez/BenchMark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent-java/jmh/src/main/java/com/ossez/BenchmarkRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent-java/jmh/src/main/java/com/ossez/bitset/Plotter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent-java/jmh/src/main/java/com/ossez/bitset/Sizing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent-java/jmh/src/main/java/com/ossez/bitset/VectorOfBitsBenchmark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent-java/jmh/src/main/java/com/ossez/falsesharing/FalseSharing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent-java/jmh/src/main/java/com/ossez/falsesharing/LongAdder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent-java/jmh/src/main/java/com/ossez/falsesharing/Striped64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent-java/jmh/src/main/resources/META-INF/BenchmarkList" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent-java/jmh/src/main/resources/bitset/cardinal.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent-java/jmh/src/main/resources/bitset/get.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent-java/jmh/src/main/resources/bitset/set.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent-java/jmh/src/main/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-io/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-io/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent-java/java-numbers-2/src/test/java/com/ossez/lossyconversion/ConversionTechniquesUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/src/test/java/com/ossez/lossyconversion/ConversionTechniquesUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toolkits/codebank/src/test/java/com/ossez/toolkits/codebank/tests/BlackboardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/toolkits/codebank/src/test/java/com/ossez/toolkits/codebank/tests/BlackboardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent-java/java-numbers-2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent-java/java-numbers/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent-java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,51 +53,33 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/xml/src/test/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/parent-java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.24043715" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkDir\Repository\GitHub\cwiki-us-docs\java-tutorials\parent-java" />
       <recent name="D:\WorkDir\Repository\GitHub\cwiki-us-docs\java-tutorials\xml\src\test\resources" />
       <recent name="D:\WorkDir\Repository\GitHub\cwiki-us-docs\java-tutorials" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Dom4JParserUnitTest.testCreateXMLFromSystemProperties">
-    <configuration name="DefaultParserUnitTest.getFirstLevelNodeListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xml" />
+  <component name="RunManager" selected="Application.BenchmarkRunner">
+    <configuration name="BenchmarkRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ossez.BenchmarkRunner" />
+      <module name="jmh" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.baeldung.xml.*" />
+          <option name="PATTERN" value="com.ossez.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.baeldung.xml" />
-      <option name="MAIN_CLASS_NAME" value="com.baeldung.xml.DefaultParserUnitTest" />
-      <option name="METHOD_NAME" value="getFirstLevelNodeListTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DefaultParserUnitTest.getNodeListByTitleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xml" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.baeldung.xml.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.baeldung.xml" />
-      <option name="MAIN_CLASS_NAME" value="com.baeldung.xml.DefaultParserUnitTest" />
-      <option name="METHOD_NAME" value="getNodeListByTitleTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,22 +132,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeCheckerUnitTest.whenCheckIsPrime_thenTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-numbers-2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ossez.algorithms.primechecker.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ossez.algorithms.primechecker" />
-      <option name="MAIN_CLASS_NAME" value="com.ossez.algorithms.primechecker.PrimeCheckerUnitTest" />
-      <option name="METHOD_NAME" value="whenCheckIsPrime_thenTrue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -163,13 +143,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.Dom4JParserUnitTest.generateNewDocumentTest" />
+      <item itemvalue="JUnit.Dom4JParserUnitTest.testCreateXML" />
+      <item itemvalue="JUnit.Dom4JParserUnitTest.testCreateXMLFromSystemProperties" />
+      <item itemvalue="Application.BenchmarkRunner" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BenchmarkRunner" />
         <item itemvalue="JUnit.Dom4JParserUnitTest.testCreateXMLFromSystemProperties" />
         <item itemvalue="JUnit.Dom4JParserUnitTest.testCreateXML" />
         <item itemvalue="JUnit.Dom4JParserUnitTest.generateNewDocumentTest" />
-        <item itemvalue="JUnit.DefaultParserUnitTest.getNodeListByTitleTest" />
-        <item itemvalue="JUnit.DefaultParserUnitTest.getFirstLevelNodeListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +171,8 @@
       <workItem from="1632505123573" duration="254000" />
       <workItem from="1632767316507" duration="2832000" />
       <workItem from="1632843147814" duration="70000" />
-      <workItem from="1632921802745" duration="10209000" />
+      <workItem from="1632921802745" duration="10467000" />
+      <workItem from="1633367518405" duration="4551000" />
     </task>
     <task id="LOCAL-00001" summary="修改项目到不同的路径">
       <created>1632420206392</created>
@@ -230,7 +216,21 @@
       <option name="project" value="LOCAL" />
       <updated>1632426542726</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add docs for xml process">
+      <created>1632937568332</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1632937568332</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add docs for xml process">
+      <created>1632937611560</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1632937611560</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +254,7 @@
     <MESSAGE value="Java number related and examples" />
     <MESSAGE value="Init commit all code" />
     <MESSAGE value="Check Prime numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Check Prime numbers" />
+    <MESSAGE value="Add docs for xml process" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add docs for xml process" />
   </component>
 </project>

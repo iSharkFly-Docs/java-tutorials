@@ -1,6 +1,6 @@
 ## Java 数字相关的文章和实例
 
-本模块中包含了与 Java 数字相关的一些文章
+本模块中包含了与 Java 数字相关的一些文章。
 
 ### 相关文章
 - [Lossy Conversion in Java](https://www.baeldung.com/java-lossy-conversion)

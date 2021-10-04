@@ -1,6 +1,6 @@
-## Java Number Cookbooks and Examples
+## Java 数字相关的文章和实例
 
-This module contains articles about numbers in Java.
+本模块中包含了与 Java 数字相关的一些文章
 
 ### Relevant Articles: 
 - [Number of Digits in an Integer in Java](http://www.baeldung.com/java-number-of-digits-in-int)

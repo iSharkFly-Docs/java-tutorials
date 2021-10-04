@@ -9,9 +9,15 @@
         <module name="codebank" />
         <module name="java-numbers-2" />
         <module name="java-numbers" />
+        <module name="jmh" />
         <module name="xml" />
         <module name="discourse" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="jmh" options="--add-exports java.base/jdk.internal.vm.annotation=ALL-UNNAMED" />
+    </option>
   </component>
 </project>
