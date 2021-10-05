@@ -4,28 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a855b03-5ee0-4324-b916-110994784a14" name="Changes" comment="Add docs for xml process">
-      <change afterPath="$PROJECT_DIR$/parent-java/jmh/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent-java/jmh/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent-java/jmh/src/main/java/com/ossez/BenchMark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent-java/jmh/src/main/java/com/ossez/BenchmarkRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent-java/jmh/src/main/java/com/ossez/bitset/Plotter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent-java/jmh/src/main/java/com/ossez/bitset/Sizing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent-java/jmh/src/main/java/com/ossez/bitset/VectorOfBitsBenchmark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent-java/jmh/src/main/java/com/ossez/falsesharing/FalseSharing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent-java/jmh/src/main/java/com/ossez/falsesharing/LongAdder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent-java/jmh/src/main/java/com/ossez/falsesharing/Striped64.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent-java/jmh/src/main/resources/META-INF/BenchmarkList" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent-java/jmh/src/main/resources/bitset/cardinal.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent-java/jmh/src/main/resources/bitset/get.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent-java/jmh/src/main/resources/bitset/set.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent-java/jmh/src/main/resources/logback.xml" afterDir="false" />
+    <list default="true" id="2a855b03-5ee0-4324-b916-110994784a14" name="Changes" comment="Add JMH document and source code">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent-java/java-numbers-2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers-2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent-java/java-numbers/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/java-numbers/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent-java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent-java/jmh/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/jmh/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +41,9 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.13908207" />
     <property name="project.structure.side.proportion" value="0.24043715" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
@@ -172,7 +156,7 @@
       <workItem from="1632767316507" duration="2832000" />
       <workItem from="1632843147814" duration="70000" />
       <workItem from="1632921802745" duration="10467000" />
-      <workItem from="1633367518405" duration="4551000" />
+      <workItem from="1633367518405" duration="8162000" />
     </task>
     <task id="LOCAL-00001" summary="修改项目到不同的路径">
       <created>1632420206392</created>
@@ -230,7 +214,21 @@
       <option name="project" value="LOCAL" />
       <updated>1632937611560</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="更新 JMH 的文档和代码">
+      <created>1633373116785</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1633373116785</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add JMH document and source code">
+      <created>1633373171820</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1633373171820</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +253,8 @@
     <MESSAGE value="Init commit all code" />
     <MESSAGE value="Check Prime numbers" />
     <MESSAGE value="Add docs for xml process" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add docs for xml process" />
+    <MESSAGE value="更新 JMH 的文档和代码" />
+    <MESSAGE value="Add JMH document and source code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add JMH document and source code" />
   </component>
 </project>

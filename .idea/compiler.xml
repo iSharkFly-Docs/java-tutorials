@@ -17,7 +17,12 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="codebank" options="" />
+      <module name="discourse" options="" />
+      <module name="java-numbers" options="" />
+      <module name="java-numbers-2" options="" />
       <module name="jmh" options="--add-exports java.base/jdk.internal.vm.annotation=ALL-UNNAMED" />
+      <module name="xml" options="" />
     </option>
   </component>
 </project>
