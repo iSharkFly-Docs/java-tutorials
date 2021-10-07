@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a855b03-5ee0-4324-b916-110994784a14" name="Changes" comment="Add JMH document and source code">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="2a855b03-5ee0-4324-b916-110994784a14" name="Changes" comment="Add compiler for JMH https://www.ossez.com/t/intellij-idea/13759">
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent-java/jmh/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/jmh/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent-java/jmh/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/jmh/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +25,13 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../DKits/Maven" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1yXq0B5lme8eyBDkbRBUHlwFMj2" />
   <component name="ProjectViewState">
@@ -45,7 +52,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.13908207" />
     <property name="project.structure.side.proportion" value="0.24043715" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -128,10 +135,10 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.BenchmarkRunner" />
       <item itemvalue="JUnit.Dom4JParserUnitTest.generateNewDocumentTest" />
       <item itemvalue="JUnit.Dom4JParserUnitTest.testCreateXML" />
       <item itemvalue="JUnit.Dom4JParserUnitTest.testCreateXMLFromSystemProperties" />
-      <item itemvalue="Application.BenchmarkRunner" />
     </list>
     <recent_temporary>
       <list>
@@ -156,7 +163,8 @@
       <workItem from="1632767316507" duration="2832000" />
       <workItem from="1632843147814" duration="70000" />
       <workItem from="1632921802745" duration="10467000" />
-      <workItem from="1633367518405" duration="8162000" />
+      <workItem from="1633367518405" duration="9878000" />
+      <workItem from="1633618804068" duration="450000" />
     </task>
     <task id="LOCAL-00001" summary="修改项目到不同的路径">
       <created>1632420206392</created>
@@ -228,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633373171820</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add compiler for JMH https://www.ossez.com/t/intellij-idea/13759">
+      <created>1633461594898</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1633461594898</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +270,7 @@
     <MESSAGE value="Add docs for xml process" />
     <MESSAGE value="更新 JMH 的文档和代码" />
     <MESSAGE value="Add JMH document and source code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add JMH document and source code" />
+    <MESSAGE value="Add compiler for JMH https://www.ossez.com/t/intellij-idea/13759" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add compiler for JMH https://www.ossez.com/t/intellij-idea/13759" />
   </component>
 </project>

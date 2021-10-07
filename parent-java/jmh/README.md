@@ -1,9 +1,11 @@
 ## Java Microbenchmark Harness
 
-This module contains articles about the Java Microbenchmark Harness (JMH).
+有关 the Java Microbenchmark Harness (JMH) 的内容。
 
-### Relevant articles:
+### 相关文章
 
-- [Microbenchmarking with Java](https://www.ossez.com/java-microbenchmark-harness)
-- [A Guide to False Sharing and @Contended](https://www.ossez.com/java-false-sharing-contended)
-- [Performance Comparison of boolean[] vs BitSet](https://www.ossez.com/java-boolean-array-bitset-performance)
+* [JMH（Java Microbenchmark Harness） 是什么](https://www.ossez.com/t/jmh-java-microbenchmark-harness/13760)
+* [Microbenchmarking with Java](https://www.baeldung.com/java-microbenchmark-harness)
+* [A Guide to False Sharing and @Contended](https://www.baeldung.com/java-false-sharing-contended)
+* [Performance Comparison of boolean[] vs BitSet](https://www.baeldung.com/java-boolean-array-bitset-performance)
+* 
