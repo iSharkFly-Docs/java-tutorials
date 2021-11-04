@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a855b03-5ee0-4324-b916-110994784a14" name="Changes" comment="Add compiler for JMH https://www.ossez.com/t/intellij-idea/13759">
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="2a855b03-5ee0-4324-b916-110994784a14" name="Changes" comment="Update link for Java Microbenchmark Harness">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent-java/jmh/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/parent-java/jmh/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ossez/codebank/algorithm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ossez/codebank/algorithm/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/parent-java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -56,12 +54,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkDir\Repository\GitHub\cwiki-us-docs\java-tutorials\src\test\java\com\ossez\codebank\algorithm\tests" />
       <recent name="D:\WorkDir\Repository\GitHub\cwiki-us-docs\java-tutorials\parent-java" />
       <recent name="D:\WorkDir\Repository\GitHub\cwiki-us-docs\java-tutorials\xml\src\test\resources" />
       <recent name="D:\WorkDir\Repository\GitHub\cwiki-us-docs\java-tutorials" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BenchmarkRunner">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="BenchmarkRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ossez.BenchmarkRunner" />
       <module name="jmh" />
@@ -75,17 +74,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dom4JParserUnitTest.generateNewDocumentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xml" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ossez.codebank.algorithm.Main" />
+      <module name="parent-modules" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ossez.xml.*" />
+          <option name="PATTERN" value="com.ossez.codebank.algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ossez.xml" />
-      <option name="MAIN_CLASS_NAME" value="com.ossez.xml.Dom4JParserUnitTest" />
-      <option name="METHOD_NAME" value="generateNewDocumentTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlankTemplateTest.testBlank" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="parent-modules" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ossez.codebank.algorithm.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ossez.codebank.algorithm.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.ossez.codebank.algorithm.tests.BlankTemplateTest" />
+      <option name="METHOD_NAME" value="testBlank" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,16 +148,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.BenchmarkRunner" />
-      <item itemvalue="JUnit.Dom4JParserUnitTest.generateNewDocumentTest" />
       <item itemvalue="JUnit.Dom4JParserUnitTest.testCreateXML" />
       <item itemvalue="JUnit.Dom4JParserUnitTest.testCreateXMLFromSystemProperties" />
+      <item itemvalue="JUnit.BlankTemplateTest.testBlank" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.BlankTemplateTest.testBlank" />
         <item itemvalue="Application.BenchmarkRunner" />
         <item itemvalue="JUnit.Dom4JParserUnitTest.testCreateXMLFromSystemProperties" />
         <item itemvalue="JUnit.Dom4JParserUnitTest.testCreateXML" />
-        <item itemvalue="JUnit.Dom4JParserUnitTest.generateNewDocumentTest" />
       </list>
     </recent_temporary>
   </component>
@@ -165,6 +179,10 @@
       <workItem from="1632921802745" duration="10467000" />
       <workItem from="1633367518405" duration="9878000" />
       <workItem from="1633618804068" duration="450000" />
+      <workItem from="1633632654458" duration="752000" />
+      <workItem from="1635345165318" duration="10334000" />
+      <workItem from="1635444765485" duration="1914000" />
+      <workItem from="1636036083756" duration="1603000" />
     </task>
     <task id="LOCAL-00001" summary="修改项目到不同的路径">
       <created>1632420206392</created>
@@ -243,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633461594898</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Update link for Java Microbenchmark Harness">
+      <created>1633632799545</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1633632799545</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +296,18 @@
     <MESSAGE value="更新 JMH 的文档和代码" />
     <MESSAGE value="Add JMH document and source code" />
     <MESSAGE value="Add compiler for JMH https://www.ossez.com/t/intellij-idea/13759" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add compiler for JMH https://www.ossez.com/t/intellij-idea/13759" />
+    <MESSAGE value="Update link for Java Microbenchmark Harness" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update link for Java Microbenchmark Harness" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/RedHat/java-11-openjdk-11.0.11-1/lib/src.zip!/java.base/java/lang/Integer.java</url>
+          <line>1056</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
