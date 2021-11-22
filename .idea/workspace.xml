@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a855b03-5ee0-4324-b916-110994784a14" name="Changes" comment="Update link for Java Microbenchmark Harness">
+    <list default="true" id="2a855b03-5ee0-4324-b916-110994784a14" name="Changes" comment="Rename package to ossez">
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ossez/codebank/algorithm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ossez/codebank/algorithm/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence-modules/hibernate-annotations/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/persistence-modules/hibernate-annotations/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/testing/junit-5-basics/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/migration/junit5/BeforeEachAndAfterEachAnnotationsUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/migration/junit5/BeforeEachAndAfterEachAnnotationsUnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +30,18 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="JPA Structure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="JPA Structure" value="false" />
+      </map>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -39,6 +57,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests" />
@@ -60,20 +79,7 @@
       <recent name="D:\WorkDir\Repository\GitHub\cwiki-us-docs\java-tutorials" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="BenchmarkRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ossez.BenchmarkRunner" />
-      <module name="jmh" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ossez.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.BeforeAllAndAfterAllAnnotationsUnitTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ossez.codebank.algorithm.Main" />
       <module name="parent-modules" />
@@ -87,49 +93,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BlankTemplateTest.testBlank" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="parent-modules" />
+    <configuration name="BeforeAllAndAfterAllAnnotationsUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-5-basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ossez.codebank.algorithm.tests.*" />
+          <option name="PATTERN" value="com.ossez.migration.junit5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ossez.codebank.algorithm.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.ossez.codebank.algorithm.tests.BlankTemplateTest" />
-      <option name="METHOD_NAME" value="testBlank" />
+      <option name="PACKAGE_NAME" value="com.ossez.migration.junit5" />
+      <option name="MAIN_CLASS_NAME" value="com.ossez.migration.junit5.BeforeAllAndAfterAllAnnotationsUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeforeEachAndAfterEachAnnotationsUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-5-basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baeldung.migration.junit5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.baeldung.migration.junit5" />
+      <option name="MAIN_CLASS_NAME" value="com.baeldung.migration.junit5.BeforeEachAndAfterEachAnnotationsUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeforeEachAndAfterEachAnnotationsUnitTest.whenCheckingListSizeAgain_ThenSizeEqualsToInit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-5-basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baeldung.migration.junit5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.baeldung.migration.junit5" />
+      <option name="MAIN_CLASS_NAME" value="com.baeldung.migration.junit5.BeforeEachAndAfterEachAnnotationsUnitTest" />
+      <option name="METHOD_NAME" value="whenCheckingListSizeAgain_ThenSizeEqualsToInit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dom4JParserUnitTest.testCreateXML" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xml" />
+    <configuration name="BeforeEachAndAfterEachAnnotationsUnitTest.whenCheckingListSize_ThenSizeEqualsToInit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-5-basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ossez.xml.*" />
+          <option name="PATTERN" value="com.baeldung.migration.junit5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ossez.xml" />
-      <option name="MAIN_CLASS_NAME" value="com.ossez.xml.Dom4JParserUnitTest" />
-      <option name="METHOD_NAME" value="testCreateXML" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Dom4JParserUnitTest.testCreateXMLFromSystemProperties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xml" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ossez.xml.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ossez.xml" />
-      <option name="MAIN_CLASS_NAME" value="com.ossez.xml.Dom4JParserUnitTest" />
-      <option name="METHOD_NAME" value="testCreateXMLFromSystemProperties" />
+      <option name="PACKAGE_NAME" value="com.baeldung.migration.junit5" />
+      <option name="MAIN_CLASS_NAME" value="com.baeldung.migration.junit5.BeforeEachAndAfterEachAnnotationsUnitTest" />
+      <option name="METHOD_NAME" value="whenCheckingListSize_ThenSizeEqualsToInit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,19 +167,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BenchmarkRunner" />
-      <item itemvalue="JUnit.Dom4JParserUnitTest.testCreateXML" />
-      <item itemvalue="JUnit.Dom4JParserUnitTest.testCreateXMLFromSystemProperties" />
-      <item itemvalue="JUnit.BlankTemplateTest.testBlank" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.BeforeEachAndAfterEachAnnotationsUnitTest.whenCheckingListSizeAgain_ThenSizeEqualsToInit" />
+      <item itemvalue="JUnit.BeforeEachAndAfterEachAnnotationsUnitTest.whenCheckingListSize_ThenSizeEqualsToInit" />
+      <item itemvalue="JUnit.BeforeEachAndAfterEachAnnotationsUnitTest" />
+      <item itemvalue="JUnit.BeforeAllAndAfterAllAnnotationsUnitTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BeforeAllAndAfterAllAnnotationsUnitTest" />
+        <item itemvalue="JUnit.BeforeEachAndAfterEachAnnotationsUnitTest" />
+        <item itemvalue="JUnit.BeforeEachAndAfterEachAnnotationsUnitTest.whenCheckingListSize_ThenSizeEqualsToInit" />
+        <item itemvalue="JUnit.BeforeEachAndAfterEachAnnotationsUnitTest.whenCheckingListSizeAgain_ThenSizeEqualsToInit" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.BlankTemplateTest.testBlank" />
-        <item itemvalue="Application.BenchmarkRunner" />
-        <item itemvalue="JUnit.Dom4JParserUnitTest.testCreateXMLFromSystemProperties" />
-        <item itemvalue="JUnit.Dom4JParserUnitTest.testCreateXML" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +202,8 @@
       <workItem from="1633632654458" duration="752000" />
       <workItem from="1635345165318" duration="10334000" />
       <workItem from="1635444765485" duration="1914000" />
-      <workItem from="1636036083756" duration="1603000" />
+      <workItem from="1636036083756" duration="1939000" />
+      <workItem from="1637604679020" duration="3881000" />
     </task>
     <task id="LOCAL-00001" summary="修改项目到不同的路径">
       <created>1632420206392</created>
@@ -268,7 +289,28 @@
       <option name="project" value="LOCAL" />
       <updated>1633632799545</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Main test function">
+      <created>1636038085011</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1636038085011</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add Junit5 test base">
+      <created>1637605886622</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1637605886622</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Rename package to ossez">
+      <created>1637606120688</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1637606120688</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +339,10 @@
     <MESSAGE value="Add JMH document and source code" />
     <MESSAGE value="Add compiler for JMH https://www.ossez.com/t/intellij-idea/13759" />
     <MESSAGE value="Update link for Java Microbenchmark Harness" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update link for Java Microbenchmark Harness" />
+    <MESSAGE value="Main test function" />
+    <MESSAGE value="Add Junit5 test base" />
+    <MESSAGE value="Rename package to ossez" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename package to ossez" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

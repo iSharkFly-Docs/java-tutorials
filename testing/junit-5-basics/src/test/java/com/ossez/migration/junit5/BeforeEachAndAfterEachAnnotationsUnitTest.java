@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import org.junit.BeforeClass;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -21,7 +22,8 @@ public class BeforeEachAndAfterEachAnnotationsUnitTest {
     
     private List<String> list;
     
-    @BeforeEach 
+    @BeforeEach
+
     public void init() {
         LOG.info("startup");
         list = new ArrayList<>(Arrays.asList("test1", "test2"));
