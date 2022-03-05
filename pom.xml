@@ -39,8 +39,10 @@
     </licenses>
 
     <modules>
+        <module>jackson-modules</module>
+        <module>jackson-simple</module>
         <module>parent-java</module>
-        <module>testing</module>
+        <module>testing-modules</module>
         <module>toolkits</module>
         <module>xml</module>
     </modules>

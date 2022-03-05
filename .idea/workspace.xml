@@ -4,20 +4,71 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a855b03-5ee0-4324-b916-110994784a14" name="Changes" comment="Rename package to ossez">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+    <list default="true" id="2a855b03-5ee0-4324-b916-110994784a14" name="Changes" comment="Update the link for Junit 4 and @Before">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistence-modules/hibernate-annotations/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/persistence-modules/hibernate-annotations/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/testing/junit-5-basics/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/migration/junit5/BeforeEachAndAfterEachAnnotationsUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/migration/junit5/BeforeEachAndAfterEachAnnotationsUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/main/java/com/ossez/failure_vs_error/SimpleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/main/java/com/ossez/failure_vs_error/SimpleCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/main/java/com/ossez/junit/tags/example/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/main/java/com/ossez/junit/tags/example/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/main/java/com/ossez/junit/tags/example/EmployeeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/main/java/com/ossez/junit/tags/example/EmployeeDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/main/java/com/ossez/junit/tags/example/EmployeeRowMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/main/java/com/ossez/junit/tags/example/EmployeeRowMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/main/java/com/ossez/junit/tags/example/SpringJdbcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/main/java/com/ossez/junit/tags/example/SpringJdbcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/main/java/com/ossez/junit5/Greetings.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/main/java/com/ossez/junit5/Greetings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/main/java/com/ossez/junit5/bean/NumbersBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/main/java/com/ossez/junit5/bean/NumbersBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/main/resources/jdbc/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/main/resources/jdbc/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/main/resources/jdbc/springJdbc-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/main/resources/jdbc/springJdbc-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/main/resources/jdbc/test-data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/main/resources/jdbc/test-data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/ExceptionUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/ExceptionUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/FirstUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/FirstUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/GreetingsUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/GreetingsUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/JUnit5NewFeaturesUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/JUnit5NewFeaturesUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/LiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/LiveTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/assertexception/ExceptionAssertionUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/assertexception/ExceptionAssertionUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/assertexception/migration/junit4/ExceptionAssertionUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/assertexception/migration/junit4/ExceptionAssertionUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/categories/EmployeeDAOCategoryIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/categories/EmployeeDAOCategoryIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/categories/EmployeeDAOUnitTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/categories/EmployeeDAOUnitTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/categories/IntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/categories/IntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/categories/UnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/categories/UnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/example/EmployeeDAOIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/example/EmployeeDAOIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/example/EmployeeUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/example/EmployeeUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/extensions/tempdir/SharedTemporaryDirectoryUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/extensions/tempdir/SharedTemporaryDirectoryUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/extensions/tempdir/TemporaryDirectoryUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/extensions/tempdir/TemporaryDirectoryUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/failure_vs_error/SimpleCalculatorUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/failure_vs_error/SimpleCalculatorUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/junit5/bean/test/NumbersBeanUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/junit5/bean/test/NumbersBeanUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/junit5/spring/GreetingsSpringUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/junit5/spring/GreetingsSpringUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/junit5/spring/SpringTestConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/junit5/spring/SpringTestConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/migration/junit4/AnnotationTestExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/migration/junit4/AnnotationTestExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/migration/junit4/AssertionsExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/migration/junit4/AssertionsExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/migration/junit4/BeforeAndAfterAnnotationsUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/migration/junit4/BeforeAndAfterAnnotationsUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/migration/junit4/BeforeClassAndAfterClassAnnotationsUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/migration/junit4/BeforeClassAndAfterClassAnnotationsUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/migration/junit4/RuleExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/migration/junit4/RuleExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/migration/junit4/categories/Annotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/migration/junit4/categories/Annotations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/migration/junit4/categories/JUnit4UnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/migration/junit4/categories/JUnit4UnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/migration/junit4/rules/TraceUnitTestRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/migration/junit4/rules/TraceUnitTestRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/migration/junit5/AnnotationTestExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/migration/junit5/AnnotationTestExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/migration/junit5/AssertionsExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/migration/junit5/AssertionsExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/migration/junit5/AssumptionUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/migration/junit5/AssumptionUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/migration/junit5/BeforeAllAndAfterAllAnnotationsUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/migration/junit5/BeforeAllAndAfterAllAnnotationsUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/migration/junit5/BeforeEachAndAfterEachAnnotationsUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/migration/junit5/BeforeEachAndAfterEachAnnotationsUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/migration/junit5/RuleExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/migration/junit5/RuleExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/migration/junit5/extensions/TraceUnitExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/migration/junit5/extensions/TraceUnitExtension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/resourcedirectory/ReadResourceDirectoryUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/resourcedirectory/ReadResourceDirectoryUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/suites/AllUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/suites/AllUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/tags/EmployeeDAOIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/tags/EmployeeDAOIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/java/com/ossez/tags/EmployeeDAOTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/java/com/ossez/tags/EmployeeDAOTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/junit-5-basics/src/test/resources/example_resource.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/resources/example_resource.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,20 +85,21 @@
     <option name="myId2FirstActivated">
       <map>
         <entry key="JPA Structure" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
         <entry key="JPA Structure" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../DKits/Maven" />
-      </MavenGeneralSettings>
-    </option>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1yXq0B5lme8eyBDkbRBUHlwFMj2" />
   <component name="ProjectViewState">
@@ -155,17 +207,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.BeforeEachAndAfterEachAnnotationsUnitTest.whenCheckingListSizeAgain_ThenSizeEqualsToInit" />
@@ -203,7 +244,9 @@
       <workItem from="1635345165318" duration="10334000" />
       <workItem from="1635444765485" duration="1914000" />
       <workItem from="1636036083756" duration="1939000" />
-      <workItem from="1637604679020" duration="3881000" />
+      <workItem from="1637604679020" duration="4122000" />
+      <workItem from="1643144156003" duration="50000" />
+      <workItem from="1646495852750" duration="934000" />
     </task>
     <task id="LOCAL-00001" summary="修改项目到不同的路径">
       <created>1632420206392</created>
@@ -310,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637606120688</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Update the link for Junit 4 and @Before">
+      <created>1637610032904</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1637610032904</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +376,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改项目到不同的路径" />
@@ -342,7 +391,8 @@
     <MESSAGE value="Main test function" />
     <MESSAGE value="Add Junit5 test base" />
     <MESSAGE value="Rename package to ossez" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rename package to ossez" />
+    <MESSAGE value="Update the link for Junit 4 and @Before" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update the link for Junit 4 and @Before" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
