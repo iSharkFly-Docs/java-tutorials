@@ -1,12 +1,12 @@
-## Jackson Cookbooks and Examples
+## Jackson 相关文章和实例
 
-This module contains articles about Jackson.
+这个模块主要是针对 Jackson 有关的文章
 
-### The Course
+### 相关课程和讨论
 
-The "REST With Spring" Classes: http://bit.ly/restwithspring
+有关 "计算机设计相关的课程" ：https://www.ossez.com/
 
-### Relevant Articles: 
+### 相关文章 
 - [Using Optional with Jackson](https://www.baeldung.com/jackson-optional)
 - [Compare Two JSON Objects with Jackson](https://www.baeldung.com/jackson-compare-two-json-objects)
 - [Jackson vs Gson](https://www.baeldung.com/jackson-vs-gson)

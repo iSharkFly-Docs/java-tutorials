@@ -1,6 +1,6 @@
-## Jackson Conversions
+## Jackson 转换
 
-This module contains articles about Jackson conversions.
+这个模块主要是针对 Jackson 转换（Jackson Conversions） 有关的文章。
 
 ### Relevant Articles:
 - [Jackson – Unmarshall to Collection/Array](https://www.baeldung.com/jackson-collection-array)
