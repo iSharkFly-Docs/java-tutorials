@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a855b03-5ee0-4324-b916-110994784a14" name="Changes" comment="Add logic for JSON to OBJ">
+    <list default="true" id="2a855b03-5ee0-4324-b916-110994784a14" name="Changes" comment="Format Jackson related source code and so on">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jackson-modules/jackson-conversions/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/jackson-modules/jackson-conversions/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jackson-modules/jackson/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/jackson-modules/jackson/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,96 +83,100 @@
       <recent name="D:\WorkDir\Repository\GitHub\cwiki-us-docs\java-tutorials" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BeforeAllAndAfterAllAnnotationsUnitTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ossez.codebank.algorithm.Main" />
-      <module name="parent-modules" />
+  <component name="RunManager" selected="JUnit.AddElementsUnitTest.givenAList_whenTargetListIsEmpty_thenReturnTargetListWithNewItems">
+    <configuration name="AddElementsUnitTest.givenAList_whenTargetListIsEmpty_thenReturnTargetListWithNewItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core-java-collections-list" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ossez.codebank.algorithm.*" />
+          <option name="PATTERN" value="com.baeldung.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BeforeAllAndAfterAllAnnotationsUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit-5-basics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ossez.migration.junit5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ossez.migration.junit5" />
-      <option name="MAIN_CLASS_NAME" value="com.ossez.migration.junit5.BeforeAllAndAfterAllAnnotationsUnitTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BeforeEachAndAfterEachAnnotationsUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit-5-basics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.baeldung.migration.junit5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.baeldung.migration.junit5" />
-      <option name="MAIN_CLASS_NAME" value="com.baeldung.migration.junit5.BeforeEachAndAfterEachAnnotationsUnitTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BeforeEachAndAfterEachAnnotationsUnitTest.whenCheckingListSizeAgain_ThenSizeEqualsToInit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit-5-basics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.baeldung.migration.junit5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.baeldung.migration.junit5" />
-      <option name="MAIN_CLASS_NAME" value="com.baeldung.migration.junit5.BeforeEachAndAfterEachAnnotationsUnitTest" />
-      <option name="METHOD_NAME" value="whenCheckingListSizeAgain_ThenSizeEqualsToInit" />
+      <option name="PACKAGE_NAME" value="com.baeldung.list" />
+      <option name="MAIN_CLASS_NAME" value="com.baeldung.list.AddElementsUnitTest" />
+      <option name="METHOD_NAME" value="givenAList_whenTargetListIsEmpty_thenReturnTargetListWithNewItems" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeforeEachAndAfterEachAnnotationsUnitTest.whenCheckingListSize_ThenSizeEqualsToInit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit-5-basics" />
+    <configuration name="CustomListUnitTest.givenEmptyList_whenIsEmpty_thenTrueIsReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core-java-collections-list" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.baeldung.migration.junit5.*" />
+          <option name="PATTERN" value="com.baeldung.java.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.baeldung.migration.junit5" />
-      <option name="MAIN_CLASS_NAME" value="com.baeldung.migration.junit5.BeforeEachAndAfterEachAnnotationsUnitTest" />
-      <option name="METHOD_NAME" value="whenCheckingListSize_ThenSizeEqualsToInit" />
+      <option name="PACKAGE_NAME" value="com.baeldung.java.list" />
+      <option name="MAIN_CLASS_NAME" value="com.baeldung.java.list.CustomListUnitTest" />
+      <option name="METHOD_NAME" value="givenEmptyList_whenIsEmpty_thenTrueIsReturned" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaCollectionCleanupUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core-java-collections-list" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baeldung.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.baeldung.collections" />
+      <option name="MAIN_CLASS_NAME" value="com.baeldung.collections.JavaCollectionCleanupUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomListElementUnitTest.givenList_whenRandomIndexChosen_shouldReturnARandomElementUsingRandom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core-java-collections-list" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baeldung.list.random.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.baeldung.list.random" />
+      <option name="MAIN_CLASS_NAME" value="com.baeldung.list.random.RandomListElementUnitTest" />
+      <option name="METHOD_NAME" value="givenList_whenRandomIndexChosen_shouldReturnARandomElementUsingRandom" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveAllUnitTest.givenAList_whenRemovingElementsWithWhileLoopUsingPrimitiveElement_thenTheResultCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core-java-collections-list" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baeldung.list.removeall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.baeldung.list.removeall" />
+      <option name="MAIN_CLASS_NAME" value="com.baeldung.list.removeall.RemoveAllUnitTest" />
+      <option name="METHOD_NAME" value="givenAList_whenRemovingElementsWithWhileLoopUsingPrimitiveElement_thenTheResultCorrect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.BeforeEachAndAfterEachAnnotationsUnitTest.whenCheckingListSizeAgain_ThenSizeEqualsToInit" />
-      <item itemvalue="JUnit.BeforeEachAndAfterEachAnnotationsUnitTest.whenCheckingListSize_ThenSizeEqualsToInit" />
-      <item itemvalue="JUnit.BeforeEachAndAfterEachAnnotationsUnitTest" />
-      <item itemvalue="JUnit.BeforeAllAndAfterAllAnnotationsUnitTest" />
+      <item itemvalue="JUnit.RandomListElementUnitTest.givenList_whenRandomIndexChosen_shouldReturnARandomElementUsingRandom" />
+      <item itemvalue="JUnit.CustomListUnitTest.givenEmptyList_whenIsEmpty_thenTrueIsReturned" />
+      <item itemvalue="JUnit.JavaCollectionCleanupUnitTest" />
+      <item itemvalue="JUnit.RemoveAllUnitTest.givenAList_whenRemovingElementsWithWhileLoopUsingPrimitiveElement_thenTheResultCorrect" />
+      <item itemvalue="JUnit.AddElementsUnitTest.givenAList_whenTargetListIsEmpty_thenReturnTargetListWithNewItems" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BeforeAllAndAfterAllAnnotationsUnitTest" />
-        <item itemvalue="JUnit.BeforeEachAndAfterEachAnnotationsUnitTest" />
-        <item itemvalue="JUnit.BeforeEachAndAfterEachAnnotationsUnitTest.whenCheckingListSize_ThenSizeEqualsToInit" />
-        <item itemvalue="JUnit.BeforeEachAndAfterEachAnnotationsUnitTest.whenCheckingListSizeAgain_ThenSizeEqualsToInit" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.AddElementsUnitTest.givenAList_whenTargetListIsEmpty_thenReturnTargetListWithNewItems" />
+        <item itemvalue="JUnit.RemoveAllUnitTest.givenAList_whenRemovingElementsWithWhileLoopUsingPrimitiveElement_thenTheResultCorrect" />
+        <item itemvalue="JUnit.JavaCollectionCleanupUnitTest" />
+        <item itemvalue="JUnit.CustomListUnitTest.givenEmptyList_whenIsEmpty_thenTrueIsReturned" />
+        <item itemvalue="JUnit.RandomListElementUnitTest.givenList_whenRandomIndexChosen_shouldReturnARandomElementUsingRandom" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +208,10 @@
       <workItem from="1648647071224" duration="51293000" />
       <workItem from="1649427299582" duration="1874000" />
       <workItem from="1649700348383" duration="1281000" />
-      <workItem from="1649775528408" duration="637000" />
+      <workItem from="1649775528408" duration="2679000" />
+      <workItem from="1649855691174" duration="61000" />
+      <workItem from="1649855771582" duration="613000" />
+      <workItem from="1650042038314" duration="2603000" />
     </task>
     <task id="LOCAL-00001" summary="修改项目到不同的路径">
       <created>1632420206392</created>
@@ -330,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646496916425</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Format Jackson related source code and so on">
+      <created>1649776367988</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1649776367988</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,7 +380,8 @@
     <MESSAGE value="Update the link for Junit 4 and @Before" />
     <MESSAGE value="Copy source code for testing and update testing object" />
     <MESSAGE value="Add logic for JSON to OBJ" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add logic for JSON to OBJ" />
+    <MESSAGE value="Format Jackson related source code and so on" />
+    <option name="LAST_COMMIT_MESSAGE" value="Format Jackson related source code and so on" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
