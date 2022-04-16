@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a855b03-5ee0-4324-b916-110994784a14" name="Changes" comment="update package info and change function for LinkedList and ArrayList">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/README.md" afterDir="false" />
+    <list default="true" id="2a855b03-5ee0-4324-b916-110994784a14" name="Changes" comment="Update the document link">
+      <change afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/ossez/list/RemoveFirstElementTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +210,7 @@
       <workItem from="1649775528408" duration="2679000" />
       <workItem from="1649855691174" duration="61000" />
       <workItem from="1649855771582" duration="613000" />
-      <workItem from="1650042038314" duration="5938000" />
+      <workItem from="1650042038314" duration="6257000" />
     </task>
     <task id="LOCAL-00001" summary="修改项目到不同的路径">
       <created>1632420206392</created>
@@ -367,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650113109971</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Update the document link">
+      <created>1650113251017</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1650113251017</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,7 +411,8 @@
     <MESSAGE value="修改项目的编译" />
     <MESSAGE value="针对 Java List 相关的一些操作进行说明和示例" />
     <MESSAGE value="update package info and change function for LinkedList and ArrayList" />
-    <option name="LAST_COMMIT_MESSAGE" value="update package info and change function for LinkedList and ArrayList" />
+    <MESSAGE value="Update the document link" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update the document link" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
