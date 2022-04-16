@@ -4,12 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a855b03-5ee0-4324-b916-110994784a14" name="Changes" comment="Format Jackson related source code and so on">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="2a855b03-5ee0-4324-b916-110994784a14" name="Changes" comment="针对 Java List 相关的一些操作进行说明和示例">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-java-modules/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/main/java/com/baeldung/findanelement/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/main/java/com/ossez/findanelement/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/main/java/com/baeldung/findanelement/FindACustomerInGivenList.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/main/java/com/ossez/findanelement/FindACustomerInGivenList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/main/java/com/baeldung/java/list/CustomList.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/main/java/com/ossez/java/list/CustomList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/main/java/com/baeldung/java/list/ReverseIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/main/java/com/ossez/java/list/ReverseIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/main/java/com/baeldung/java_8_features/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/main/java/com/ossez/java_8_features/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/main/java/com/baeldung/java_8_features/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/main/java/com/ossez/java_8_features/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/main/java/com/baeldung/list/Flower.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/main/java/com/ossez/list/Flower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/main/java/com/baeldung/list/listoflist/Pen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/main/java/com/ossez/list/listoflist/Pen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/main/java/com/baeldung/list/listoflist/Pencil.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/main/java/com/ossez/list/listoflist/Pencil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/main/java/com/baeldung/list/listoflist/Rubber.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/main/java/com/ossez/list/listoflist/Rubber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/main/java/com/baeldung/list/listoflist/Stationery.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/main/java/com/ossez/list/listoflist/Stationery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/main/java/com/baeldung/list/removeall/RemoveAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/main/java/com/ossez/list/removeall/RemoveAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/baeldung/collections/JavaCollectionCleanupUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/ossez/collections/JavaCollectionCleanupUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/baeldung/findanelement/FindACustomerInGivenListUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/ossez/findanelement/FindACustomerInGivenListUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/baeldung/java/list/CustomListUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/ossez/java/list/CustomListUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/baeldung/java/list/ReverseIteratorUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/ossez/java/list/ReverseIteratorUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/baeldung/java8/Java8CollectionCleanupUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/ossez/java8/Java8CollectionCleanupUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/baeldung/java8/Java8MaxMinUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/ossez/java8/Java8MaxMinUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/baeldung/list/AddElementsUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/ossez/list/AddElementsUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/baeldung/list/listoflist/ListOfListsUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/ossez/list/listoflist/ListOfListsUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/baeldung/list/random/RandomListElementUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/ossez/list/random/RandomListElementUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/baeldung/list/removeall/RemoveAllUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/ossez/list/removeall/RemoveAllUnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +99,9 @@
       <recent name="D:\WorkDir\Repository\GitHub\cwiki-us-docs\java-tutorials\parent-java" />
       <recent name="D:\WorkDir\Repository\GitHub\cwiki-us-docs\java-tutorials\xml\src\test\resources" />
       <recent name="D:\WorkDir\Repository\GitHub\cwiki-us-docs\java-tutorials" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.baeldung.list" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.AddElementsUnitTest.givenAList_whenTargetListIsEmpty_thenReturnTargetListWithNewItems">
@@ -211,7 +232,7 @@
       <workItem from="1649775528408" duration="2679000" />
       <workItem from="1649855691174" duration="61000" />
       <workItem from="1649855771582" duration="613000" />
-      <workItem from="1650042038314" duration="2603000" />
+      <workItem from="1650042038314" duration="5798000" />
     </task>
     <task id="LOCAL-00001" summary="修改项目到不同的路径">
       <created>1632420206392</created>
@@ -346,7 +367,21 @@
       <option name="project" value="LOCAL" />
       <updated>1649776367988</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="修改项目的编译">
+      <created>1650048905070</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1650048905070</updated>
+    </task>
+    <task id="LOCAL-00021" summary="针对 Java List 相关的一些操作进行说明和示例">
+      <created>1650048942808</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1650048942808</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +416,9 @@
     <MESSAGE value="Copy source code for testing and update testing object" />
     <MESSAGE value="Add logic for JSON to OBJ" />
     <MESSAGE value="Format Jackson related source code and so on" />
-    <option name="LAST_COMMIT_MESSAGE" value="Format Jackson related source code and so on" />
+    <MESSAGE value="修改项目的编译" />
+    <MESSAGE value="针对 Java List 相关的一些操作进行说明和示例" />
+    <option name="LAST_COMMIT_MESSAGE" value="针对 Java List 相关的一些操作进行说明和示例" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
