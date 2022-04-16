@@ -1,9 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/core-java-modules/core-java-8/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-java-modules/core-java-8/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-java-modules/core-java-annotations/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-java-modules/core-java-annotations/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-java-modules/core-java-datetime-conversion/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-java-modules/core-java-datetime-conversion/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-java-modules/core-java-io/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-java-modules/core-java-io/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-java-modules/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-java-modules/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jackson-modules/jackson-annotations/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jackson-modules/jackson-annotations/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jackson-modules/jackson-conversions-2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jackson-modules/jackson-conversions-2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jackson-modules/jackson-conversions/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jackson-modules/jackson-conversions/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jackson-modules/jackson-custom-conversions/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jackson-modules/jackson-custom-conversions/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jackson-modules/jackson-exceptions/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jackson-modules/jackson-exceptions/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jackson-modules/jackson/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jackson-modules/jackson/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jackson-modules/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jackson-modules/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jackson-simple/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jackson-simple/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent-java/java-numbers-2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent-java/java-numbers-2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent-java/java-numbers/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent-java/java-numbers/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent-java/jmh/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent-java/jmh/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent-java/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent-java/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testing-modules/easy-random/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testing-modules/easy-random/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testing-modules/junit-5-basics/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testing-modules/junit-5-basics/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testing-modules/mockito-2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testing-modules/mockito-2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testing-modules/mockserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testing-modules/mockserver/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testing-modules/rest-testing/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testing-modules/rest-testing/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testing-modules/spring-testing/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testing-modules/spring-testing/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testing-modules/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testing-modules/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/toolkits/codebank/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolkits/codebank/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/toolkits/discourse/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/toolkits/discourse/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xml/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xml/src/main/resources" charset="UTF-8" />
   </component>
 </project>

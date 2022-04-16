@@ -10,82 +10,88 @@ import org.apache.commons.cli.Options;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * Main Test Class
+ *
+ * @author YuCheng Hu
+ */
 public class Main {
-	private static final Logger logger = LoggerFactory.getLogger(Main.class);
+    private static final Logger logger = LoggerFactory.getLogger(Main.class);
 
-	private static Options options = new Options();
-	private static Properties properties = new Properties();
+    private static Options options = new Options();
+    private static Properties properties = new Properties();
 
-	private static CommandLine cl = null;
+    private static CommandLine cl = null;
 
-	private static boolean dryRun = false;
-	private static int limit = 0;
-	private static boolean force = false;
+    private static boolean dryRun = false;
+    private static int limit = 0;
+    private static boolean force = false;
 
-	public static void main(String[] args) {
 
-		// get the idx feed properties file
-		Main.parseProperties();
+    public static void main(String[] args) {
 
-		// load console options
-		Main.parseCommandLine(args);
+        // get the idx feed properties file
+        Main.parseProperties();
 
-		logger.debug("Starting feeds...");
-		System.out.println("starting feeds...");
+        // load console options
+        Main.parseCommandLine(args);
 
-		// execute the feeds
-		Main.executeFeeds();
+        logger.debug("Starting feeds...");
+        System.out.println("starting feeds...");
 
-	}
+        // execute the feeds
+        Main.executeFeeds();
 
-	/**
-	 * Executes the feeds specified in the feeds.properties file.
-	 */
-	private static void executeFeeds() {
+    }
 
-	}
+    /**
+     * Executes the feeds specified in the feeds.properties file.
+     */
+    private static void executeFeeds() {
 
-	/**
-	 * Parses the properties file to get a list of all feeds.
-	 */
-	private static void parseProperties() {
-		try {
-			// load the properties file
-			logger.debug("Parsing properties");
-			Main.properties.load(Main.class.getClassLoader().getResourceAsStream("rets.properties"));
+    }
 
-			// load the feeds
+    /**
+     * Parses the properties file to get a list of all feeds.
+     */
+    private static void parseProperties() {
+        try {
+            // load the properties file
+            logger.debug("Parsing properties");
+            Main.properties.load(Main.class.getClassLoader().getResourceAsStream("rets.properties"));
 
-		} catch (Exception ex) {
-			ex.printStackTrace();
-			logger.error("Could not parse feed properties", ex);
-		}
-	}
+            // load the feeds
 
-	/**
-	 * Handles creation of console options.
-	 */
-	private static void parseCommandLine(String[] args) {
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            logger.error("Could not parse feed properties", ex);
+        }
+    }
 
-		// parse command line options
-		CommandLineParser parser = new GnuParser();
+    /**
+     * Handles creation of console options.
+     */
+    private static void parseCommandLine(String[] args) {
 
-		try {
-			Main.cl = parser.parse(Main.options, args);
+        // parse command line options
+        CommandLineParser parser = new GnuParser();
 
-			// get the dry run option
-			Main.dryRun = Main.cl.hasOption("d");
-			logger.trace("Value of dryRun: " + dryRun);
+        try {
+            Main.cl = parser.parse(Main.options, args);
 
-			// get the limit option
-			// Main.limit = Utility.parseInt(Main.cl.getOptionValue("l", "0"));
-			logger.trace("Value of limit: " + Main.limit);
+            // get the dry run option
+            Main.dryRun = Main.cl.hasOption("d");
+            logger.trace("Value of dryRun: " + dryRun);
 
-			// get the force option
-			Main.force = Main.cl.hasOption("u");
-			logger.trace("Value of force: " + Main.force);
-		} catch (Exception ex) {
-			logger.error("An error ocurred parsing command line arguments", ex);
-		}
-	}
+            // get the limit option
+            // Main.limit = Utility.parseInt(Main.cl.getOptionValue("l", "0"));
+            logger.trace("Value of limit: " + Main.limit);
+
+            // get the force option
+            Main.force = Main.cl.hasOption("u");
+            logger.trace("Value of force: " + Main.force);
+        } catch (Exception ex) {
+            logger.error("An error ocurred parsing command line arguments", ex);
+        }
+    }
 }

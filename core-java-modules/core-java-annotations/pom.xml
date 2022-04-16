@@ -3,15 +3,15 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.ossez</groupId>
     <artifactId>core-java-annotations</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>${project.parent.version}</version>
     <name>core-java-annotations</name>
     <packaging>jar</packaging>
 
     <parent>
-        <groupId>com.ossez</groupId>
-        <artifactId>parent-java</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../../parent-java</relativePath>
+        <groupId>com.ossez.core-java-modules</groupId>
+        <artifactId>core-java-modules</artifactId>
+        <version>0.0.2-SNAPSHOT</version>
+        <relativePath></relativePath>
     </parent>
 
     <dependencies>
@@ -73,7 +73,7 @@
 
     <properties>
         <!-- testing -->
-        <assertj.version>3.6.1</assertj.version>
+        <assertj.version>3.17.2</assertj.version>
         <asspectj.version>1.8.9</asspectj.version>
         <jmh-core.version>1.19</jmh-core.version>
         <jmh-generator.version>1.19</jmh-generator.version>

@@ -6,15 +6,69 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="jmh" />
+        <module name="assertion-libraries" />
+        <module name="cucumber" />
+        <module name="core-java-annotations" />
+        <module name="jackson-simple" />
+        <module name="spring-testing-2" />
+        <module name="test-containers" />
+        <module name="mockserver" />
+        <module name="spring-testing" />
+        <module name="xml" />
+        <module name="core-java-datetime-conversion" />
+        <module name="testing-libraries" />
+        <module name="mocks" />
+        <module name="load-testing-comparison" />
+        <module name="junit-5-basics" />
+        <module name="mockito-2" />
+        <module name="testing-assertions" />
+        <module name="easymock" />
+        <module name="core-java-collections-list" />
+        <module name="junit5-migration" />
+        <module name="core-java-io" />
+        <module name="easy-random" />
+        <module name="junit-5" />
+        <module name="junit-4" />
+        <module name="junit-5-advanced" />
+        <module name="rest-testing" />
+        <module name="jackson-exceptions" />
+        <module name="core-java-8" />
+        <module name="jackson-conversions" />
+        <module name="math-test-functions" />
+        <module name="java-numbers-2" />
+        <module name="jackson-annotations" />
+        <module name="java-numbers" />
+        <module name="mockito" />
+        <module name="jackson" />
+        <module name="groovy-spock" />
+        <module name="jackson-conversions-2" />
         <module name="codebank" />
+        <module name="selenium-junit-testng" />
+        <module name="junit5-annotations" />
+        <module name="mockito-3" />
+        <module name="powermock" />
+        <module name="zerocode" />
+        <module name="gatling" />
         <module name="discourse" />
+        <module name="rest-assured" />
+        <module name="jackson-custom-conversions" />
+        <module name="testing-libraries-2" />
+        <module name="string-test-functions" />
+        <module name="xmlunit-2" />
+        <module name="testng" />
+        <module name="hamcrest" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="codebank" target="11" />
-      <module name="discourse" target="11" />
-      <module name="parent-modules" target="11" />
-      <module name="toolkits" target="1.5" />
-    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="codebank" options="" />
+      <module name="discourse" options="" />
+      <module name="java-numbers" options="" />
+      <module name="java-numbers-2" options="" />
+      <module name="jmh" options="--add-exports java.base/jdk.internal.vm.annotation=ALL-UNNAMED" />
+      <module name="xml" options="" />
+    </option>
   </component>
 </project>
