@@ -3,6 +3,7 @@ package com.ossez.list.random;
 import com.google.common.collect.Lists;
 import com.ossez.list.RemoveFirstElementTest;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestInstance;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,8 +11,13 @@ import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
+ * Test for Random remove item in listing
  *
+ * <p><a href="https://www.ossez.com/t/java-list/13934">https://www.ossez.com/t/java-list/13934</a></p>
+ *
+ * @author YuCheng
  */
+@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class RandomListElementUnitTest {
     private final static Logger logger = LoggerFactory.getLogger(RemoveFirstElementTest.class);
 
@@ -27,6 +33,7 @@ public class RandomListElementUnitTest {
     public void givenList_whenRandomIndexChosen_shouldReturnARandomElementUsingMathRandom() {
         List<Integer> givenList = Lists.newArrayList(1, 2, 3);
 
+        System.out.println(Math.random());
         givenList.get((int) (Math.random() * givenList.size()));
     }
 
