@@ -3,6 +3,8 @@ package com.ossez.list;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -11,12 +13,18 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
 /**
- * List Remove Tes
+ * Test for remove list
  *
- * @author YuCheng Hu
+ * <p><a href="https://www.ossez.com/t/java-list/13919">https://www.ossez.com/t/java-list/13919</a></p>
+ *
+ * @author YuCheng
  */
+
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class RemoveFirstElementTest {
+    private final static Logger logger = LoggerFactory.getLogger(RemoveFirstElementTest.class);
+
+
     private ArrayList<String> list = new ArrayList();
     private LinkedList<String> linkedList = new LinkedList<>();
 
@@ -41,6 +49,8 @@ public class RemoveFirstElementTest {
      */
     @Test
     public void testGivenList_whenRemoveFirst_thenRemoved() {
+        logger.debug("Get Size of List - [{}]", list.size());
+
         list.remove(0);
 
         assertThat(list, hasSize(4));
