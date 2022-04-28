@@ -1,12 +1,19 @@
 package com.ossez.list.random;
 
 import com.google.common.collect.Lists;
-import org.junit.Test;
+import com.ossez.list.RemoveFirstElementTest;
+import org.junit.jupiter.api.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
 
+/**
+ *
+ */
 public class RandomListElementUnitTest {
+    private final static Logger logger = LoggerFactory.getLogger(RemoveFirstElementTest.class);
 
     @Test
     public void givenList_whenRandomIndexChosen_shouldReturnARandomElementUsingRandom() {
@@ -53,6 +60,7 @@ public class RandomListElementUnitTest {
     @Test
     public void givenList_whenSeriesLengthChosen_shouldReturnRandomSeries() {
         List<Integer> givenList = Lists.newArrayList(1, 2, 3, 4, 5, 6);
+
         Collections.shuffle(givenList);
 
         int randomSeriesLength = 3;
