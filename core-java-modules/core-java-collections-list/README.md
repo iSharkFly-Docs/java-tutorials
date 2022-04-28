@@ -3,7 +3,7 @@
 This module contains articles about the Java List collection
 
 ### Relevant Articles: 
-- [Java – Get Random Item/Element From a List](http://www.baeldung.com/java-random-list-element)
+- [Java 如何从一个 List 中随机获得元素](https://www.ossez.com/t/java-list/13934)
 - [Removing all nulls from a List in Java](http://www.baeldung.com/java-remove-nulls-from-list)
 - [Removing all duplicates from a List in Java](http://www.baeldung.com/java-remove-duplicates-from-list)
 - [How to TDD a List Implementation in Java](http://www.baeldung.com/java-test-driven-list)
