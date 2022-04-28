@@ -1,6 +1,6 @@
 package com.ossez.util;
 
-import static org.junit.Assert.assertEquals;
+//import static org.junit.Assert.assertEquals;
 
 import java.time.Clock;
 import java.time.Instant;
@@ -9,7 +9,7 @@ import java.time.LocalTime;
 import java.time.ZoneId;
 import java.time.temporal.ChronoField;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 public class CurrentDateTimeUnitTest {
 
