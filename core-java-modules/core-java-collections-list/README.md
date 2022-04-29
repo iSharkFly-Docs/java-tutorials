@@ -1,8 +1,8 @@
-## Core Java Collections List
+## Java 核心（Core Java）集合中的 List 列表
 
-This module contains articles about the Java List collection
+这个模块包含有 Java List 集合有关的文章和内容
 
-### Relevant Articles: 
+### 相关文章： 
 - [Java 如何从一个 List 中随机获得元素](https://www.ossez.com/t/java-list/13934)
 - [Removing all nulls from a List in Java](http://www.baeldung.com/java-remove-nulls-from-list)
 - [Removing all duplicates from a List in Java](http://www.baeldung.com/java-remove-duplicates-from-list)
