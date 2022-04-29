@@ -8,22 +8,29 @@
     <packaging>pom</packaging>
 
     <parent>
-        <artifactId>parent-modules</artifactId>
         <groupId>com.ossez</groupId>
+        <artifactId>parent-modules</artifactId>
         <version>0.0.2-SNAPSHOT</version>
-        <relativePath>../parent-java</relativePath>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <modules>
         <module>core-java-8</module>
-        <module>core-java-annotations</module>
+<!--        <module>core-java-annotations</module>-->
         <module>core-java-collections-list</module>
-        <module>core-java-datetime-conversion</module>
-        <module>core-java-io</module>
+<!--        <module>core-java-datetime-conversion</module>-->
+<!--        <module>core-java-io</module>-->
     </modules>
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit4.version}</version>
+                <scope>test</scope>
+            </dependency>
+
             <dependency>
                 <groupId>org.junit.jupiter</groupId>
                 <artifactId>junit-jupiter</artifactId>
