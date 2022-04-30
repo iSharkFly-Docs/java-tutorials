@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a855b03-5ee0-4324-b916-110994784a14" name="Changes" comment="Update the document link">
-      <change afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/ossez/list/RemoveFirstElementTest.java" afterDir="false" />
+    <list default="true" id="080575e3-7e62-4649-ae70-06fb6130a866" name="Changes" comment="提交所有代码，为将默认分支名从 master 切换到 main 做准备">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jackson-modules/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jackson-modules/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests/VariableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests/VariableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing-modules/junit-5-basics/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testing-modules/junit-5-basics/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toolkits/codebank/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/toolkits/codebank/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toolkits/codebank/src/test/java/com/ossez/toolkits/codebank/tests/BitOperationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/toolkits/codebank/src/test/java/com/ossez/toolkits/codebank/tests/BitOperationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,362 +30,278 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="JpbToolWindowState">
-    <option name="myId2FirstActivated">
-      <map>
-        <entry key="JPA Structure" value="true" />
-        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
-      </map>
-    </option>
-    <option name="myId2Visible">
-      <map>
-        <entry key="JPA Structure" value="false" />
-        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
-        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
-      </map>
-    </option>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/resources/logback.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/ossez/list/RemoveFirstElementTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/ossez/list/random/RandomListElementUnitTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/toolkits/codebank/src/test/resources/log4j2.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/core-java-modules/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/core-java-modules/core-java-collections-list/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/log4j2.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/testing-modules/junit-5-advanced/src/test/resources/junit-platform.properties" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
-  <component name="ProjectId" id="1yXq0B5lme8eyBDkbRBUHlwFMj2" />
+  <component name="ProjectId" id="28NaD4KRCPKHeUH5DxePmSU7br2" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/ossez/codebank/algorithm/tests" />
+    <property name="go.format.on.save.advertiser.fired" value="true" />
+    <property name="go.formatter.settings.were.checked" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.13908207" />
-    <property name="project.structure.side.proportion" value="0.24043715" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WorkDir\Repository\GitHub\cwiki-us-docs\java-tutorials\src\test\java\com\ossez\codebank\algorithm\tests" />
-      <recent name="D:\WorkDir\Repository\GitHub\cwiki-us-docs\java-tutorials\parent-java" />
-      <recent name="D:\WorkDir\Repository\GitHub\cwiki-us-docs\java-tutorials\xml\src\test\resources" />
-      <recent name="D:\WorkDir\Repository\GitHub\cwiki-us-docs\java-tutorials" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.baeldung.list" />
+      <recent name="D:\WorkDir\Repository\GitHub\cwiki-us-docs\java-tutorials\core-java-modules\core-java-collections-list\src\test\resources" />
+      <recent name="D:\WorkDir\Repository\GitHub\cwiki-us-docs\java-tutorials\core-java-modules\core-java-collections-list\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AddElementsUnitTest.givenAList_whenTargetListIsEmpty_thenReturnTargetListWithNewItems">
-    <configuration name="AddElementsUnitTest.givenAList_whenTargetListIsEmpty_thenReturnTargetListWithNewItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.JavaCollectionCleanupUnitTest.givenListContainsNulls_whenRemovingNullsWithGuavaV1_thenCorrect">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="parent-modules" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="parent-modules" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration name="JavaCollectionCleanupUnitTest.givenListContainsNulls_whenRemovingNullsWithGuavaV1_thenCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core-java-collections-list" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.baeldung.list.*" />
+          <option name="PATTERN" value="com.ossez.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.baeldung.list" />
-      <option name="MAIN_CLASS_NAME" value="com.baeldung.list.AddElementsUnitTest" />
-      <option name="METHOD_NAME" value="givenAList_whenTargetListIsEmpty_thenReturnTargetListWithNewItems" />
+      <option name="PACKAGE_NAME" value="com.ossez.collections" />
+      <option name="MAIN_CLASS_NAME" value="com.ossez.collections.JavaCollectionCleanupUnitTest" />
+      <option name="METHOD_NAME" value="givenListContainsNulls_whenRemovingNullsWithGuavaV1_thenCorrect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomListUnitTest.givenEmptyList_whenIsEmpty_thenTrueIsReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JavaCollectionCleanupUnitTest.givenListContainsNulls_whenRemovingNullsWithPlainJavaAlternative_thenCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core-java-collections-list" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.baeldung.java.list.*" />
+          <option name="PATTERN" value="com.ossez.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.baeldung.java.list" />
-      <option name="MAIN_CLASS_NAME" value="com.baeldung.java.list.CustomListUnitTest" />
-      <option name="METHOD_NAME" value="givenEmptyList_whenIsEmpty_thenTrueIsReturned" />
+      <option name="PACKAGE_NAME" value="com.ossez.collections" />
+      <option name="MAIN_CLASS_NAME" value="com.ossez.collections.JavaCollectionCleanupUnitTest" />
+      <option name="METHOD_NAME" value="givenListContainsNulls_whenRemovingNullsWithPlainJavaAlternative_thenCorrect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaCollectionCleanupUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JavaCollectionCleanupUnitTest.givenListContainsNulls_whenRemovingNullsWithPlainJava_thenCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core-java-collections-list" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.baeldung.collections.*" />
+          <option name="PATTERN" value="com.ossez.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.baeldung.collections" />
-      <option name="MAIN_CLASS_NAME" value="com.baeldung.collections.JavaCollectionCleanupUnitTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RandomListElementUnitTest.givenList_whenRandomIndexChosen_shouldReturnARandomElementUsingRandom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core-java-collections-list" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.baeldung.list.random.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.baeldung.list.random" />
-      <option name="MAIN_CLASS_NAME" value="com.baeldung.list.random.RandomListElementUnitTest" />
-      <option name="METHOD_NAME" value="givenList_whenRandomIndexChosen_shouldReturnARandomElementUsingRandom" />
+      <option name="PACKAGE_NAME" value="com.ossez.collections" />
+      <option name="MAIN_CLASS_NAME" value="com.ossez.collections.JavaCollectionCleanupUnitTest" />
+      <option name="METHOD_NAME" value="givenListContainsNulls_whenRemovingNullsWithPlainJava_thenCorrect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveAllUnitTest.givenAList_whenRemovingElementsWithWhileLoopUsingPrimitiveElement_thenTheResultCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RandomListElementUnitTest.givenList_whenRandomIndexChosen_shouldReturnARandomElementUsingMathRandom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core-java-collections-list" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.baeldung.list.removeall.*" />
+          <option name="PATTERN" value="com.ossez.list.random.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.baeldung.list.removeall" />
-      <option name="MAIN_CLASS_NAME" value="com.baeldung.list.removeall.RemoveAllUnitTest" />
-      <option name="METHOD_NAME" value="givenAList_whenRemovingElementsWithWhileLoopUsingPrimitiveElement_thenTheResultCorrect" />
+      <option name="PACKAGE_NAME" value="com.ossez.list.random" />
+      <option name="MAIN_CLASS_NAME" value="com.ossez.list.random.RandomListElementUnitTest" />
+      <option name="METHOD_NAME" value="givenList_whenRandomIndexChosen_shouldReturnARandomElementUsingMathRandom" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="JUnit.RandomListElementUnitTest.givenList_whenRandomIndexChosen_shouldReturnARandomElementUsingRandom" />
-      <item itemvalue="JUnit.CustomListUnitTest.givenEmptyList_whenIsEmpty_thenTrueIsReturned" />
-      <item itemvalue="JUnit.JavaCollectionCleanupUnitTest" />
-      <item itemvalue="JUnit.RemoveAllUnitTest.givenAList_whenRemovingElementsWithWhileLoopUsingPrimitiveElement_thenTheResultCorrect" />
-      <item itemvalue="JUnit.AddElementsUnitTest.givenAList_whenTargetListIsEmpty_thenReturnTargetListWithNewItems" />
-    </list>
+    <configuration name="RandomListElementUnitTest.givenList_whenSeriesLengthChosen_shouldReturnRandomSeries" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core-java-collections-list" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ossez.list.random.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ossez.list.random" />
+      <option name="MAIN_CLASS_NAME" value="com.ossez.list.random.RandomListElementUnitTest" />
+      <option name="METHOD_NAME" value="givenList_whenSeriesLengthChosen_shouldReturnRandomSeries" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AddElementsUnitTest.givenAList_whenTargetListIsEmpty_thenReturnTargetListWithNewItems" />
-        <item itemvalue="JUnit.RemoveAllUnitTest.givenAList_whenRemovingElementsWithWhileLoopUsingPrimitiveElement_thenTheResultCorrect" />
-        <item itemvalue="JUnit.JavaCollectionCleanupUnitTest" />
-        <item itemvalue="JUnit.CustomListUnitTest.givenEmptyList_whenIsEmpty_thenTrueIsReturned" />
-        <item itemvalue="JUnit.RandomListElementUnitTest.givenList_whenRandomIndexChosen_shouldReturnARandomElementUsingRandom" />
+        <item itemvalue="JUnit.JavaCollectionCleanupUnitTest.givenListContainsNulls_whenRemovingNullsWithGuavaV1_thenCorrect" />
+        <item itemvalue="JUnit.JavaCollectionCleanupUnitTest.givenListContainsNulls_whenRemovingNullsWithPlainJavaAlternative_thenCorrect" />
+        <item itemvalue="JUnit.JavaCollectionCleanupUnitTest.givenListContainsNulls_whenRemovingNullsWithPlainJava_thenCorrect" />
+        <item itemvalue="JUnit.RandomListElementUnitTest.givenList_whenRandomIndexChosen_shouldReturnARandomElementUsingMathRandom" />
+        <item itemvalue="JUnit.RandomListElementUnitTest.givenList_whenSeriesLengthChosen_shouldReturnRandomSeries" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2a855b03-5ee0-4324-b916-110994784a14" name="Changes" comment="" />
-      <created>1632408056518</created>
+      <changelist id="080575e3-7e62-4649-ae70-06fb6130a866" name="Changes" comment="" />
+      <created>1651059375013</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1632408056518</updated>
-      <workItem from="1632408057926" duration="1144000" />
-      <workItem from="1632417263821" duration="6344000" />
-      <workItem from="1632505123573" duration="254000" />
-      <workItem from="1632767316507" duration="2832000" />
-      <workItem from="1632843147814" duration="70000" />
-      <workItem from="1632921802745" duration="10467000" />
-      <workItem from="1633367518405" duration="9878000" />
-      <workItem from="1633618804068" duration="450000" />
-      <workItem from="1633632654458" duration="752000" />
-      <workItem from="1635345165318" duration="10334000" />
-      <workItem from="1635444765485" duration="1914000" />
-      <workItem from="1636036083756" duration="1939000" />
-      <workItem from="1637604679020" duration="4122000" />
-      <workItem from="1643144156003" duration="50000" />
-      <workItem from="1646495852750" duration="4995000" />
-      <workItem from="1646839802700" duration="395000" />
-      <workItem from="1647437503983" duration="720000" />
-      <workItem from="1648647071224" duration="51293000" />
-      <workItem from="1649427299582" duration="1874000" />
-      <workItem from="1649700348383" duration="1281000" />
-      <workItem from="1649775528408" duration="2679000" />
-      <workItem from="1649855691174" duration="61000" />
-      <workItem from="1649855771582" duration="613000" />
-      <workItem from="1650042038314" duration="6257000" />
+      <updated>1651059375013</updated>
+      <workItem from="1651059377852" duration="757000" />
+      <workItem from="1651060151530" duration="12000" />
+      <workItem from="1651063834425" duration="112000" />
+      <workItem from="1651063966892" duration="19517000" />
     </task>
-    <task id="LOCAL-00001" summary="修改项目到不同的路径">
-      <created>1632420206392</created>
+    <task id="LOCAL-00001" summary="更新有关 List 的随机输出">
+      <created>1651174204368</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1632420206392</updated>
+      <updated>1651174204368</updated>
     </task>
-    <task id="LOCAL-00002" summary="Update change to different folder and set to rebuild">
-      <created>1632420268850</created>
+    <task id="LOCAL-00002" summary="更新有关测试使用的文档，并且添加链接">
+      <created>1651177632761</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1632420268850</updated>
+      <updated>1651177632761</updated>
     </task>
-    <task id="LOCAL-00003" summary="Java number related and examples">
-      <created>1632423632011</created>
+    <task id="LOCAL-00003" summary="从 List 中删除元素">
+      <created>1651189931419</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1632423632011</updated>
+      <updated>1651189931419</updated>
     </task>
-    <task id="LOCAL-00004" summary="Init commit all code">
-      <created>1632423824690</created>
+    <task id="LOCAL-00004" summary="格式化代码同时修改相对路径">
+      <created>1651189968886</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1632423824690</updated>
+      <updated>1651189968886</updated>
     </task>
-    <task id="LOCAL-00005" summary="Init commit all code">
-      <created>1632423847987</created>
+    <task id="LOCAL-00005" summary="更新 https://www.ossez.com/t/java-list/13934 的链接">
+      <created>1651189996855</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1632423847987</updated>
+      <updated>1651189996855</updated>
     </task>
-    <task id="LOCAL-00006" summary="Check Prime numbers">
-      <created>1632426542726</created>
+    <task id="LOCAL-00006" summary="添加 logger 的日志配置文件">
+      <created>1651190047607</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1632426542726</updated>
+      <updated>1651190047607</updated>
     </task>
-    <task id="LOCAL-00007" summary="Add docs for xml process">
-      <created>1632937568332</created>
+    <task id="LOCAL-00007" summary="更新 pom 文件，修改映射关系">
+      <created>1651190152784</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1632937568332</updated>
+      <updated>1651190152784</updated>
     </task>
-    <task id="LOCAL-00008" summary="Add docs for xml process">
-      <created>1632937611560</created>
+    <task id="LOCAL-00008" summary="更新测试文件">
+      <created>1651190189872</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1632937611560</updated>
+      <updated>1651190189872</updated>
     </task>
-    <task id="LOCAL-00009" summary="更新 JMH 的文档和代码">
-      <created>1633373116785</created>
+    <task id="LOCAL-00009" summary="测试更新使用不同的仓库地址">
+      <created>1651245772290</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1633373116785</updated>
+      <updated>1651245772290</updated>
     </task>
-    <task id="LOCAL-00010" summary="Add JMH document and source code">
-      <created>1633373171820</created>
+    <task id="LOCAL-00010" summary="更新 集合中的 List 列表 的文章内容">
+      <created>1651247850171</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1633373171820</updated>
+      <updated>1651247850171</updated>
     </task>
-    <task id="LOCAL-00011" summary="Add compiler for JMH https://www.ossez.com/t/intellij-idea/13759">
-      <created>1633461594898</created>
+    <task id="LOCAL-00011" summary="添加 Java 注解用例子模块">
+      <created>1651353616755</created>
       <option name="number" value="00011" />
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1633461594898</updated>
+      <updated>1651353616755</updated>
     </task>
-    <task id="LOCAL-00012" summary="Update link for Java Microbenchmark Harness">
-      <created>1633632799545</created>
+    <task id="LOCAL-00012" summary="导入项目需要的子模块">
+      <created>1651353670139</created>
       <option name="number" value="00012" />
       <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
-      <updated>1633632799545</updated>
+      <updated>1651353670139</updated>
     </task>
-    <task id="LOCAL-00013" summary="Main test function">
-      <created>1636038085011</created>
+    <task id="LOCAL-00013" summary="如何从一个 List 中删除 null 元素">
+      <created>1651356991801</created>
       <option name="number" value="00013" />
       <option name="presentableId" value="LOCAL-00013" />
       <option name="project" value="LOCAL" />
-      <updated>1636038085011</updated>
+      <updated>1651356991801</updated>
     </task>
-    <task id="LOCAL-00014" summary="Add Junit5 test base">
-      <created>1637605886622</created>
+    <task id="LOCAL-00014" summary="格式化代码并修改错误">
+      <created>1651357972110</created>
       <option name="number" value="00014" />
       <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
-      <updated>1637605886622</updated>
+      <updated>1651357972110</updated>
     </task>
-    <task id="LOCAL-00015" summary="Rename package to ossez">
-      <created>1637606120688</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1637606120688</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Update the link for Junit 4 and @Before">
-      <created>1637610032904</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1637610032904</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Copy source code for testing and update testing object">
-      <created>1646496865741</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1646496865741</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Add logic for JSON to OBJ">
-      <created>1646496916425</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1646496916425</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Format Jackson related source code and so on">
-      <created>1649776367988</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1649776367988</updated>
-    </task>
-    <task id="LOCAL-00020" summary="修改项目的编译">
-      <created>1650048905070</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1650048905070</updated>
-    </task>
-    <task id="LOCAL-00021" summary="针对 Java List 相关的一些操作进行说明和示例">
-      <created>1650048942808</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1650048942808</updated>
-    </task>
-    <task id="LOCAL-00022" summary="update package info and change function for LinkedList and ArrayList">
-      <created>1650113109971</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1650113109971</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Update the document link">
-      <created>1650113251017</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1650113251017</updated>
-    </task>
-    <option name="localTasksCounter" value="24" />
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,36 +319,35 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改项目到不同的路径" />
-    <MESSAGE value="Update change to different folder and set to rebuild" />
-    <MESSAGE value="Java number related and examples" />
-    <MESSAGE value="Init commit all code" />
-    <MESSAGE value="Check Prime numbers" />
-    <MESSAGE value="Add docs for xml process" />
-    <MESSAGE value="更新 JMH 的文档和代码" />
-    <MESSAGE value="Add JMH document and source code" />
-    <MESSAGE value="Add compiler for JMH https://www.ossez.com/t/intellij-idea/13759" />
-    <MESSAGE value="Update link for Java Microbenchmark Harness" />
-    <MESSAGE value="Main test function" />
-    <MESSAGE value="Add Junit5 test base" />
-    <MESSAGE value="Rename package to ossez" />
-    <MESSAGE value="Update the link for Junit 4 and @Before" />
-    <MESSAGE value="Copy source code for testing and update testing object" />
-    <MESSAGE value="Add logic for JSON to OBJ" />
-    <MESSAGE value="Format Jackson related source code and so on" />
-    <MESSAGE value="修改项目的编译" />
-    <MESSAGE value="针对 Java List 相关的一些操作进行说明和示例" />
-    <MESSAGE value="update package info and change function for LinkedList and ArrayList" />
-    <MESSAGE value="Update the document link" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update the document link" />
+    <MESSAGE value="更新有关 List 的随机输出" />
+    <MESSAGE value="更新有关测试使用的文档，并且添加链接" />
+    <MESSAGE value="从 List 中删除元素" />
+    <MESSAGE value="格式化代码同时修改相对路径" />
+    <MESSAGE value="更新 https://www.ossez.com/t/java-list/13934 的链接" />
+    <MESSAGE value="添加 logger 的日志配置文件" />
+    <MESSAGE value="更新 pom 文件，修改映射关系" />
+    <MESSAGE value="更新测试文件" />
+    <MESSAGE value="测试更新使用不同的仓库地址" />
+    <MESSAGE value="更新 集合中的 List 列表 的文章内容" />
+    <MESSAGE value="添加 Java 注解用例子模块" />
+    <MESSAGE value="导入项目需要的子模块" />
+    <MESSAGE value="如何从一个 List 中删除 null 元素" />
+    <MESSAGE value="格式化代码并修改错误" />
+    <MESSAGE value="提交所有代码，为将默认分支名从 master 切换到 main 做准备" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交所有代码，为将默认分支名从 master 切换到 main 做准备" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/RedHat/java-11-openjdk-11.0.11-1/lib/src.zip!/java.base/java/lang/Integer.java</url>
-          <line>1056</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/ossez/collections/JavaCollectionCleanupUnitTest.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/ossez/collections/JavaCollectionCleanupUnitTest.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

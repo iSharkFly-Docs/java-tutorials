@@ -1,7 +1,7 @@
 package com.ossez.toolkits.codebank.tests;
 
 import org.apache.commons.math3.util.FastMath;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

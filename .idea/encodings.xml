@@ -7,10 +7,6 @@
     <file url="file://$PROJECT_DIR$/core-java-modules/core-java-annotations/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core-java-modules/core-java-datetime-conversion/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core-java-modules/core-java-datetime-conversion/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core-java-modules/core-java-io/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core-java-modules/core-java-io/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-java-modules/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-java-modules/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jackson-modules/jackson-annotations/src/main/java" charset="UTF-8" />
@@ -39,17 +35,33 @@
     <file url="file://$PROJECT_DIR$/parent-java/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testing-modules/assertion-libraries/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testing-modules/assertion-libraries/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/testing-modules/easy-random/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/testing-modules/easy-random/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testing-modules/groovy-spock/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testing-modules/groovy-spock/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testing-modules/junit-5-advanced/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testing-modules/junit-5-advanced/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/testing-modules/junit-5-basics/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/testing-modules/junit-5-basics/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testing-modules/junit-5/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testing-modules/junit-5/src/test/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testing-modules/junit5-annotations/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testing-modules/junit5-annotations/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testing-modules/junit5-migration/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testing-modules/junit5-migration/src/test/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/testing-modules/mockito-2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/testing-modules/mockito-2/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/testing-modules/mockserver/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/testing-modules/mockserver/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testing-modules/rest-assured/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testing-modules/rest-assured/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/testing-modules/rest-testing/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/testing-modules/rest-testing/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testing-modules/spring-testing-2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testing-modules/spring-testing-2/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/testing-modules/spring-testing/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/testing-modules/spring-testing/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/testing-modules/src/main/java" charset="UTF-8" />
