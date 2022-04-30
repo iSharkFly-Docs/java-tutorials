@@ -2,73 +2,72 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="jmh" />
         <module name="assertion-libraries" />
-        <module name="cucumber" />
         <module name="core-java-annotations" />
-        <module name="jackson-simple" />
-        <module name="spring-testing-2" />
-        <module name="test-containers" />
-        <module name="mockserver" />
-        <module name="spring-testing" />
-        <module name="xml" />
-        <module name="core-java-datetime-conversion" />
-        <module name="testing-libraries" />
-        <module name="mocks" />
-        <module name="load-testing-comparison" />
-        <module name="junit-5-basics" />
-        <module name="mockito-2" />
-        <module name="testing-assertions" />
-        <module name="easymock" />
+        <module name="codebank" />
         <module name="core-java-collections-list" />
         <module name="junit5-migration" />
-        <module name="core-java-io" />
-        <module name="easy-random" />
-        <module name="junit-5" />
-        <module name="junit-4" />
-        <module name="junit-5-advanced" />
-        <module name="rest-testing" />
-        <module name="jackson-exceptions" />
-        <module name="core-java-8" />
-        <module name="jackson-conversions" />
-        <module name="math-test-functions" />
-        <module name="java-numbers-2" />
-        <module name="jackson-annotations" />
-        <module name="java-numbers" />
-        <module name="mockito" />
-        <module name="jackson" />
-        <module name="groovy-spock" />
-        <module name="jackson-conversions-2" />
-        <module name="codebank" />
-        <module name="selenium-junit-testng" />
-        <module name="junit5-annotations" />
-        <module name="mockito-3" />
-        <module name="powermock" />
-        <module name="zerocode" />
-        <module name="gatling" />
         <module name="discourse" />
-        <module name="rest-assured" />
-        <module name="jackson-custom-conversions" />
-        <module name="testing-libraries-2" />
-        <module name="string-test-functions" />
-        <module name="xmlunit-2" />
-        <module name="testng" />
-        <module name="hamcrest" />
+        <module name="core-java-8" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cucumber" target="14" />
+      <module name="easy-random" target="11" />
+      <module name="easymock" target="1.5" />
+      <module name="gatling" target="1.8" />
+      <module name="groovy-spock" target="11" />
+      <module name="hamcrest" target="1.5" />
+      <module name="jackson" target="11" />
+      <module name="jackson-annotations" target="11" />
+      <module name="jackson-conversions" target="11" />
+      <module name="jackson-conversions-2" target="11" />
+      <module name="jackson-custom-conversions" target="11" />
+      <module name="jackson-exceptions" target="11" />
+      <module name="jackson-modules" target="11" />
+      <module name="jackson-simple" target="11" />
+      <module name="java-numbers" target="11" />
+      <module name="java-numbers-2" target="11" />
+      <module name="jmh" target="11" />
+      <module name="junit-4" target="1.5" />
+      <module name="junit-5" target="11" />
+      <module name="junit-5-advanced" target="11" />
+      <module name="junit-5-basics" target="11" />
+      <module name="junit5-annotations" target="11" />
+      <module name="load-testing-comparison" target="1.8" />
+      <module name="math-test-functions" target="1.5" />
+      <module name="mockito" target="1.5" />
+      <module name="mockito-2" target="11" />
+      <module name="mockito-3" target="1.5" />
+      <module name="mocks" target="1.5" />
+      <module name="mockserver" target="11" />
+      <module name="parallel-tests-junit" target="1.5" />
+      <module name="parent-java" target="11" />
+      <module name="powermock" target="1.5" />
+      <module name="rest-assured" target="11" />
+      <module name="rest-testing" target="11" />
+      <module name="selenium-junit-testng" target="1.5" />
+      <module name="spring-testing" target="11" />
+      <module name="spring-testing-2" target="11" />
+      <module name="string-test-functions" target="1.5" />
+      <module name="test-containers" target="1.5" />
+      <module name="testing-assertions" target="1.5" />
+      <module name="testing-libraries" target="1.5" />
+      <module name="testing-libraries-2" target="1.5" />
+      <module name="testng" target="1.5" />
+      <module name="xml" target="11" />
+      <module name="xmlunit-2" target="1.5" />
+      <module name="zerocode" target="8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="codebank" options="" />
-      <module name="discourse" options="" />
-      <module name="java-numbers" options="" />
-      <module name="java-numbers-2" options="" />
       <module name="jmh" options="--add-exports java.base/jdk.internal.vm.annotation=ALL-UNNAMED" />
-      <module name="xml" options="" />
     </option>
   </component>
 </project>

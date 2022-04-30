@@ -5,6 +5,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/testing-modules/pom.xml" />
+        <option value="$PROJECT_DIR$/core-java-modules/pom.xml" />
+        <option value="$PROJECT_DIR$/testing-modules/junit5-migration/pom.xml" />
       </list>
     </option>
   </component>

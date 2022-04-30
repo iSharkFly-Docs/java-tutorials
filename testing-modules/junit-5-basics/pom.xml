@@ -10,9 +10,9 @@
 
     <parent>
         <groupId>com.ossez</groupId>
-        <artifactId>testing</artifactId>
+        <artifactId>testing-modules</artifactId>
         <version>0.0.2-SNAPSHOT</version>
-        <relativePath>../</relativePath>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <dependencies>
