@@ -34,7 +34,7 @@ public class JavaCollectionCleanupUnitTest {
     @Test
     public void givenListContainsNulls_whenRemovingNullsWithPlainJava_thenCorrect() {
         final List<Integer> list = Lists.newArrayList(null, 1, null);
-        while (list.remove(null));
+        while (list.remove(null)) ;
 
         assertThat(list, hasSize(1));
     }
