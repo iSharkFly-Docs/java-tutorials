@@ -1,9 +1,9 @@
 package com.ossez.collections;
 
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.containsInAnyOrder;
 import static org.hamcrest.Matchers.containsInRelativeOrder;
 import static org.hamcrest.Matchers.hasSize;
-import static org.junit.Assert.assertThat;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -13,22 +13,28 @@ import java.util.List;
 
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.collections4.PredicateUtils;
-import org.junit.Test;
 
 import com.google.common.base.Predicates;
 import com.google.common.collect.Iterables;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Sets;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestInstance;
 
+/**
+ * Test for list Clean up
+ *
+ * <p><a href="https://www.ossez.com/t/java-list-null/13940">https://www.ossez.com/t/java-list-null/13940</a></p>
+ *
+ * @author YuCheng
+ */
+@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class JavaCollectionCleanupUnitTest {
-
-    // tests - removing nulls
 
     @Test
     public void givenListContainsNulls_whenRemovingNullsWithPlainJava_thenCorrect() {
         final List<Integer> list = Lists.newArrayList(null, 1, null);
-        while (list.remove(null))
-            ;
+        while (list.remove(null));
 
         assertThat(list, hasSize(1));
     }
