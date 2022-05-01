@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="080575e3-7e62-4649-ae70-06fb6130a866" name="Changes" comment="init submit all for code branch">
+    <list default="true" id="080575e3-7e62-4649-ae70-06fb6130a866" name="Changes" comment="添加文章链接： https://www.ossez.com/t/java-list-null/13940">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/ossez/collections/JavaCollectionCleanupUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/ossez/collections/JavaCollectionCleanupUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/ossez/java8/Java8CollectionCleanupUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/ossez/java8/Java8CollectionCleanupUnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +63,11 @@
       <recent name="D:\WorkDir\Repository\GitHub\cwiki-us-docs\java-tutorials\core-java-modules\core-java-collections-list\src\test\resources" />
       <recent name="D:\WorkDir\Repository\GitHub\cwiki-us-docs\java-tutorials\core-java-modules\core-java-collections-list\src\test" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ossez.collections" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.JavaCollectionCleanupUnitTest.givenListContainsNulls_whenRemovingNullsWithGuavaV1_thenCorrect">
+  <component name="RunManager" selected="JUnit.JavaCollectionCleanupUnitTest.givenListContainsDuplicates_whenRemovingDuplicatesWithPlainJava_thenCorrect">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="junit-5-basics" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,6 +106,22 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <method v="2" />
+    </configuration>
+    <configuration name="JavaCollectionCleanupUnitTest.givenListContainsDuplicates_whenRemovingDuplicatesWithPlainJava_thenCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core-java-collections-list" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ossez.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ossez.collections" />
+      <option name="MAIN_CLASS_NAME" value="com.ossez.collections.JavaCollectionCleanupUnitTest" />
+      <option name="METHOD_NAME" value="givenListContainsDuplicates_whenRemovingDuplicatesWithPlainJava_thenCorrect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="JavaCollectionCleanupUnitTest.givenListContainsNulls_whenRemovingNullsWithGuavaV1_thenCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core-java-collections-list" />
@@ -162,22 +182,6 @@
       <option name="PACKAGE_NAME" value="com.ossez.list.random" />
       <option name="MAIN_CLASS_NAME" value="com.ossez.list.random.RandomListElementUnitTest" />
       <option name="METHOD_NAME" value="givenList_whenRandomIndexChosen_shouldReturnARandomElementUsingMathRandom" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RandomListElementUnitTest.givenList_whenSeriesLengthChosen_shouldReturnRandomSeries" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core-java-collections-list" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ossez.list.random.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ossez.list.random" />
-      <option name="MAIN_CLASS_NAME" value="com.ossez.list.random.RandomListElementUnitTest" />
-      <option name="METHOD_NAME" value="givenList_whenSeriesLengthChosen_shouldReturnRandomSeries" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -292,11 +296,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JavaCollectionCleanupUnitTest.givenListContainsDuplicates_whenRemovingDuplicatesWithPlainJava_thenCorrect" />
         <item itemvalue="JUnit.JavaCollectionCleanupUnitTest.givenListContainsNulls_whenRemovingNullsWithGuavaV1_thenCorrect" />
         <item itemvalue="JUnit.JavaCollectionCleanupUnitTest.givenListContainsNulls_whenRemovingNullsWithPlainJavaAlternative_thenCorrect" />
         <item itemvalue="JUnit.JavaCollectionCleanupUnitTest.givenListContainsNulls_whenRemovingNullsWithPlainJava_thenCorrect" />
         <item itemvalue="JUnit.RandomListElementUnitTest.givenList_whenRandomIndexChosen_shouldReturnARandomElementUsingMathRandom" />
-        <item itemvalue="JUnit.RandomListElementUnitTest.givenList_whenSeriesLengthChosen_shouldReturnRandomSeries" />
       </list>
     </recent_temporary>
   </component>
@@ -425,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651361573106</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="添加文章链接： https://www.ossez.com/t/java-list-null/13940">
+      <created>1651415236464</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1651415236464</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,7 +470,8 @@
     <MESSAGE value="格式化代码并修改错误" />
     <MESSAGE value="提交所有代码，为将默认分支名从 master 切换到 main 做准备" />
     <MESSAGE value="init submit all for code branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="init submit all for code branch" />
+    <MESSAGE value="添加文章链接： https://www.ossez.com/t/java-list-null/13940" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加文章链接： https://www.ossez.com/t/java-list-null/13940" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
