@@ -12,7 +12,16 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import com.google.common.collect.Lists;
+import org.junit.jupiter.api.TestInstance;
 
+/**
+ * Test for list Reverse
+ *
+ * <p><a href="https://www.ossez.com/t/java-list/13943">https://www.ossez.com/t/java-list/13943</a></p>
+ *
+ * @author YuCheng
+ */
+@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class ReverseIteratorUnitTest {
 
     private final ReverseIterator reverseIterator = new ReverseIterator();
