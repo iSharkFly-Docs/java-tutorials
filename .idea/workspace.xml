@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="080575e3-7e62-4649-ae70-06fb6130a866" name="Changes" comment="将所有本地已有的文件提交到 Git 以便于后续的修改">
-      <change afterPath="$PROJECT_DIR$/.idea/thriftCompiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="080575e3-7e62-4649-ae70-06fb6130a866" name="Changes" comment="init submit all for code branch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +42,6 @@
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.format.on.save.advertiser.fired" value="true" />
@@ -414,7 +411,21 @@
       <option name="project" value="LOCAL" />
       <updated>1651357972110</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="init submit all for code branch">
+      <created>1651361568862</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1651361568862</updated>
+    </task>
+    <task id="LOCAL-00016" summary="init submit all for code branch">
+      <created>1651361573106</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1651361573106</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,7 +458,8 @@
     <MESSAGE value="如何从一个 List 中删除 null 元素" />
     <MESSAGE value="格式化代码并修改错误" />
     <MESSAGE value="提交所有代码，为将默认分支名从 master 切换到 main 做准备" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交所有代码，为将默认分支名从 master 切换到 main 做准备" />
+    <MESSAGE value="init submit all for code branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="init submit all for code branch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

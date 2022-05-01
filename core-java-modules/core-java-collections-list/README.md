@@ -4,7 +4,7 @@
 
 ### 相关文章： 
 - [Java 如何从一个 List 中随机获得元素](https://www.ossez.com/t/java-list/13934)
-- [Removing all nulls from a List in Java](http://www.baeldung.com/java-remove-nulls-from-list)
+- [Java 从一个 List 中删除 null 元素](https://www.ossez.com/t/java-list-null/13940)
 - [Removing all duplicates from a List in Java](http://www.baeldung.com/java-remove-duplicates-from-list)
 - [How to TDD a List Implementation in Java](http://www.baeldung.com/java-test-driven-list)
 - [Iterating Backward Through a List](http://www.baeldung.com/java-list-iterate-backwards)
