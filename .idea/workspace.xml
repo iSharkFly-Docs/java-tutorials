@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="080575e3-7e62-4649-ae70-06fb6130a866" name="Changes" comment="添加文章链接： https://www.ossez.com/t/java-list-null/13940">
+    <list default="true" id="080575e3-7e62-4649-ae70-06fb6130a866" name="Changes" comment="Java 从一个 List 中删除所有重复的元素： https://www.ossez.com/t/java-list/13942">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/ossez/collections/JavaCollectionCleanupUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/ossez/collections/JavaCollectionCleanupUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/ossez/java8/Java8CollectionCleanupUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/ossez/java8/Java8CollectionCleanupUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -436,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651415236464</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Java 从一个 List 中删除所有重复的元素： https://www.ossez.com/t/java-list/13942">
+      <created>1651417575415</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1651417575415</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,7 +477,8 @@
     <MESSAGE value="提交所有代码，为将默认分支名从 master 切换到 main 做准备" />
     <MESSAGE value="init submit all for code branch" />
     <MESSAGE value="添加文章链接： https://www.ossez.com/t/java-list-null/13940" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加文章链接： https://www.ossez.com/t/java-list-null/13940" />
+    <MESSAGE value="Java 从一个 List 中删除所有重复的元素： https://www.ossez.com/t/java-list/13942" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java 从一个 List 中删除所有重复的元素： https://www.ossez.com/t/java-list/13942" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -5,7 +5,7 @@
 ### 相关文章： 
 - [Java 如何从一个 List 中随机获得元素](https://www.ossez.com/t/java-list/13934)
 - [Java 从一个 List 中删除 null 元素](https://www.ossez.com/t/java-list-null/13940)
-- [Removing all duplicates from a List in Java](http://www.baeldung.com/java-remove-duplicates-from-list)
+- [Java 从一个 List 中删除重复的元素](https://www.ossez.com/t/java-list/13942)
 - [How to TDD a List Implementation in Java](http://www.baeldung.com/java-test-driven-list)
 - [Iterating Backward Through a List](http://www.baeldung.com/java-list-iterate-backwards)
 - [如何从 Java 的 List 中删除第一个元素](https://www.ossez.com/t/java-list/13919)
