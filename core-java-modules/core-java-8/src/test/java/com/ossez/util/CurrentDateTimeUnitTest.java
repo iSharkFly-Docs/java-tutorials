@@ -1,6 +1,6 @@
 package com.ossez.util;
 
-//import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertEquals;
 
 import java.time.Clock;
 import java.time.Instant;

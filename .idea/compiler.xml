@@ -9,6 +9,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="codebank" />
         <module name="core-java-collections-list" />
+        <module name="core-java-io" />
+        <module name="core-java-datetime-conversion" />
         <module name="core-java-annotations" />
         <module name="core-java-8" />
         <module name="junit-5-basics" />
@@ -56,7 +58,6 @@
       <module name="core-java-exceptions-4" target="1.8" />
       <module name="core-java-function" target="1.8" />
       <module name="core-java-functional" target="1.8" />
-      <module name="core-java-io" target="1.8" />
       <module name="core-java-io-2" target="1.8" />
       <module name="core-java-io-3" target="1.8" />
       <module name="core-java-io-4" target="1.8" />
