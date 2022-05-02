@@ -209,8 +209,7 @@
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>${maven-javadoc-plugin.version}</version>
                 <configuration>
-                    <source>${maven.compiler.source}</source>
-                    <target>${maven.compiler.target}</target>
+                    <source>11</source>
                 </configuration>
             </plugin>
 
@@ -287,7 +286,7 @@
         <avaitility.version>1.7.0</avaitility.version>
 
         <!-- maven plugins -->
-        <maven-javadoc-plugin.version>3.3.1</maven-javadoc-plugin.version>
+        <maven-javadoc-plugin.version>3.3.2</maven-javadoc-plugin.version>
         <hsqldb.version>2.4.0</hsqldb.version>
         <esapi.version>2.3.0.0</esapi.version>
         <jmh-generator-annprocess.version>1.19</jmh-generator-annprocess.version>
