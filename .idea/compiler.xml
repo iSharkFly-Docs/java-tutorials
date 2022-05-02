@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="codebank" />
         <module name="core-java-collections-list" />
+        <module name="core-java-datetime-conversion" />
         <module name="core-java-annotations" />
         <module name="core-java-8" />
         <module name="junit-5-basics" />
