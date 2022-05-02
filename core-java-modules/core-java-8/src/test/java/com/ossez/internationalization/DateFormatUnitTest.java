@@ -1,7 +1,7 @@
 package com.ossez.internationalization;
 
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.text.DateFormat;
 import java.text.DateFormatSymbols;
@@ -14,7 +14,7 @@ import java.util.TimeZone;
 
 public class DateFormatUnitTest {
 
-    @Tes   t
+    @Test
     public void givenGregorianCalendar_whenLocaleSpecificDateInstance_givenLanguageSpecificMonths() {
         GregorianCalendar gregorianCalendar = new GregorianCalendar(2018, 1, 1, 10, 15, 20);
         Date date = gregorianCalendar.getTime();
