@@ -10,7 +10,7 @@
         <groupId>com.ossez.core-java-modules</groupId>
         <artifactId>core-java-modules</artifactId>
         <version>0.0.2-SNAPSHOT</version>
-        <relativePath></relativePath>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <dependencies>
