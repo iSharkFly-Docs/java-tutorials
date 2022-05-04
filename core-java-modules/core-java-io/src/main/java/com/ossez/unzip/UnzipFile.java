@@ -29,7 +29,7 @@ public class UnzipFile {
     }
     
     /**
-     * @see https://snyk.io/research/zip-slip-vulnerability
+     * https://snyk.io/research/zip-slip-vulnerability
      */
     public static File newFile(File destinationDir, ZipEntry zipEntry) throws IOException {
         File destFile = new File(destinationDir, zipEntry.getName());
