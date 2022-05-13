@@ -9,10 +9,15 @@ import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Optional;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
+/**
+ * Test for Java Optional
+ *
+ * <p><a href="https://www.ossez.com/t/java-8-optional/13964">https://www.ossez.com/t/java-8-optional/13964</a></p>
+ *
+ * @author YuCheng
+ */
 public class OptionalUnitTest {
 
     private static final Logger LOG = LoggerFactory.getLogger(OptionalUnitTest.class);
@@ -26,7 +31,7 @@ public class OptionalUnitTest {
 
     @Test
     public void givenNonNull_whenCreatesNonNullable_thenCorrect() {
-        String name = "baeldung";
+        String name = "HoneyMoose";
         Optional<String> opt = Optional.of(name);
         assertTrue(opt.isPresent());
     }
@@ -39,14 +44,14 @@ public class OptionalUnitTest {
 
     @Test
     public void givenNonNull_whenCreatesOptional_thenCorrect() {
-        String name = "baeldung";
+        String name = "HoneyMoose";
         Optional<String> opt = Optional.of(name);
         assertTrue(opt.isPresent());
     }
 
     @Test
     public void givenNonNull_whenCreatesNullable_thenCorrect() {
-        String name = "baeldung";
+        String name = "HoneyMoose";
         Optional<String> opt = Optional.ofNullable(name);
         assertTrue(opt.isPresent());
     }
@@ -61,7 +66,7 @@ public class OptionalUnitTest {
 
     @Test
     public void givenOptional_whenIsPresentWorks_thenCorrect() {
-        Optional<String> opt = Optional.of("Baeldung");
+        Optional<String> opt = Optional.of("HoneyMoose");
         assertTrue(opt.isPresent());
 
         opt = Optional.ofNullable(null);
@@ -88,12 +93,12 @@ public class OptionalUnitTest {
         Optional<String> opt = Optional.ofNullable(null);
         String name = opt.get();
     }
-    
+
     @Test
     public void givenAnEmptyOptional_thenIsEmptyBehavesAsExpected() {
         Optional<String> opt = Optional.of("Baeldung");
         assertTrue(opt.isPresent());
-     
+
         opt = Optional.ofNullable(null);
         assertFalse(opt.isPresent());
     }
@@ -103,11 +108,9 @@ public class OptionalUnitTest {
     public void whenOptionalFilterWorks_thenCorrect() {
         Integer year = 2016;
         Optional<Integer> yearOptional = Optional.of(year);
-        boolean is2016 = yearOptional.filter(y -> y == 2016)
-            .isPresent();
+        boolean is2016 = yearOptional.filter(y -> y == 2016).isPresent();
         assertTrue(is2016);
-        boolean is2017 = yearOptional.filter(y -> y == 2017)
-            .isPresent();
+        boolean is2017 = yearOptional.filter(y -> y == 2017).isPresent();
         assertFalse(is2017);
     }
 
@@ -139,11 +142,7 @@ public class OptionalUnitTest {
     }
 
     public boolean priceIsInRange2(Modem modem2) {
-        return Optional.ofNullable(modem2)
-            .map(Modem::getPrice)
-            .filter(p -> p >= 10)
-            .filter(p -> p <= 15)
-            .isPresent();
+        return Optional.ofNullable(modem2).map(Modem::getPrice).filter(p -> p >= 10).filter(p -> p <= 15).isPresent();
     }
 
     // Transforming Value With map()
@@ -152,8 +151,7 @@ public class OptionalUnitTest {
         List<String> companyNames = Arrays.asList("paypal", "oracle", "", "microsoft", "", "apple");
         Optional<List<String>> listOptional = Optional.of(companyNames);
 
-        int size = listOptional.map(List::size)
-            .orElse(0);
+        int size = listOptional.map(List::size).orElse(0);
         assertEquals(6, size);
     }
 
@@ -162,8 +160,7 @@ public class OptionalUnitTest {
         String name = "baeldung";
         Optional<String> nameOptional = Optional.of(name);
 
-        int len = nameOptional.map(String::length)
-            .orElse(0);
+        int len = nameOptional.map(String::length).orElse(0);
         assertEquals(8, len);
     }
 
@@ -171,13 +168,10 @@ public class OptionalUnitTest {
     public void givenOptional_whenMapWorksWithFilter_thenCorrect() {
         String password = " password ";
         Optional<String> passOpt = Optional.of(password);
-        boolean correctPassword = passOpt.filter(pass -> pass.equals("password"))
-            .isPresent();
+        boolean correctPassword = passOpt.filter(pass -> pass.equals("password")).isPresent();
         assertFalse(correctPassword);
 
-        correctPassword = passOpt.map(String::trim)
-            .filter(pass -> pass.equals("password"))
-            .isPresent();
+        correctPassword = passOpt.map(String::trim).filter(pass -> pass.equals("password")).isPresent();
         assertTrue(correctPassword);
     }
 
@@ -192,8 +186,7 @@ public class OptionalUnitTest {
         String name1 = nameOptional.orElseThrow(IllegalArgumentException::new);
         assertEquals("john", name1);
 
-        String name = personOptional.flatMap(Person::getName)
-            .orElseThrow(IllegalArgumentException::new);
+        String name = personOptional.flatMap(Person::getName).orElseThrow(IllegalArgumentException::new);
         assertEquals("john", name);
     }
 
@@ -203,9 +196,7 @@ public class OptionalUnitTest {
         person.setPassword("password");
         Optional<Person> personOptional = Optional.of(person);
 
-        String password = personOptional.flatMap(Person::getPassword)
-            .filter(cleanPass -> cleanPass.equals("password"))
-            .orElseThrow(IllegalArgumentException::new);
+        String password = personOptional.flatMap(Person::getPassword).filter(cleanPass -> cleanPass.equals("password")).orElseThrow(IllegalArgumentException::new);
         assertEquals("password", password);
     }
 
@@ -213,8 +204,7 @@ public class OptionalUnitTest {
     @Test
     public void whenOrElseWorks_thenCorrect() {
         String nullName = null;
-        String name = Optional.ofNullable(nullName)
-            .orElse("john");
+        String name = Optional.ofNullable(nullName).orElse("john");
         assertEquals("john", name);
     }
 
@@ -222,8 +212,7 @@ public class OptionalUnitTest {
     @Test
     public void whenOrElseGetWorks_thenCorrect() {
         String nullName = null;
-        String name = Optional.ofNullable(nullName)
-            .orElseGet(() -> "john");
+        String name = Optional.ofNullable(nullName).orElseGet(() -> "john");
         assertEquals("john", name);
 
     }
@@ -232,13 +221,11 @@ public class OptionalUnitTest {
     public void whenOrElseGetAndOrElseOverlap_thenCorrect() {
         String text = null;
         LOG.debug("Using orElseGet:");
-        String defaultText = Optional.ofNullable(text)
-            .orElseGet(this::getMyDefault);
+        String defaultText = Optional.ofNullable(text).orElseGet(this::getMyDefault);
         assertEquals("Default Value", defaultText);
 
         LOG.debug("Using orElse:");
-        defaultText = Optional.ofNullable(text)
-            .orElse(getMyDefault());
+        defaultText = Optional.ofNullable(text).orElse(getMyDefault());
         assertEquals("Default Value", defaultText);
     }
 
@@ -246,13 +233,11 @@ public class OptionalUnitTest {
     public void whenOrElseGetAndOrElseDiffer_thenCorrect() {
         String text = "Text present";
         LOG.debug("Using orElseGet:");
-        String defaultText = Optional.ofNullable(text)
-            .orElseGet(this::getMyDefault);
+        String defaultText = Optional.ofNullable(text).orElseGet(this::getMyDefault);
         assertEquals("Text present", defaultText);
 
         LOG.debug("Using orElse:");
-        defaultText = Optional.ofNullable(text)
-            .orElse(getMyDefault());
+        defaultText = Optional.ofNullable(text).orElse(getMyDefault());
         assertEquals("Text present", defaultText);
     }
 
@@ -260,8 +245,7 @@ public class OptionalUnitTest {
     @Test(expected = IllegalArgumentException.class)
     public void whenOrElseThrowWorks_thenCorrect() {
         String nullName = null;
-        String name = Optional.ofNullable(nullName)
-            .orElseThrow(IllegalArgumentException::new);
+        String name = Optional.ofNullable(nullName).orElseThrow(IllegalArgumentException::new);
     }
 
     @Test(expected = NoSuchElementException.class)
@@ -274,7 +258,7 @@ public class OptionalUnitTest {
         LOG.debug("Getting default value...");
         return "Default Value";
     }
-    
+
 //    Uncomment code when code base is compatible with Java 11
 //    @Test
 //    public void givenAnEmptyOptional_thenIsEmptyBehavesAsExpected() {
