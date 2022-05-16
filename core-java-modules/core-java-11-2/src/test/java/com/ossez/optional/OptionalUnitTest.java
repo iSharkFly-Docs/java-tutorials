@@ -76,16 +76,16 @@ public class OptionalUnitTest {
     // Condition Action With ifPresent()
     @Test
     public void givenOptional_whenIfPresentWorks_thenCorrect() {
-        Optional<String> opt = Optional.of("baeldung");
+        Optional<String> opt = Optional.of("HoneyMoose");
         opt.ifPresent(name -> LOG.debug("{}", name.length()));
     }
 
     // returning Value With get()
     @Test
     public void givenOptional_whenGetsValue_thenCorrect() {
-        Optional<String> opt = Optional.of("baeldung");
+        Optional<String> opt = Optional.of("HoneyMoose");
         String name = opt.get();
-        assertEquals("baeldung", name);
+        assertEquals("HoneyMoose", name);
     }
 
     @Test(expected = NoSuchElementException.class)
@@ -96,11 +96,21 @@ public class OptionalUnitTest {
 
     @Test
     public void givenAnEmptyOptional_thenIsEmptyBehavesAsExpected() {
-        Optional<String> opt = Optional.of("Baeldung");
+        Optional<String> opt = Optional.of("HoneyMoose");
         assertTrue(opt.isPresent());
 
         opt = Optional.ofNullable(null);
         assertFalse(opt.isPresent());
+    }
+
+    // This code only can be run in JDK 11
+    @Test
+    public void givenAnEmptyOptional_thenIsEmptyBehavesAsExpected_JDK11() {
+        Optional<String> opt = Optional.of("Baeldung");
+        assertFalse(opt.isEmpty());
+
+        opt = Optional.ofNullable(null);
+        assertTrue(opt.isEmpty());
     }
 
     // Conditional Return With filter()
@@ -157,11 +167,11 @@ public class OptionalUnitTest {
 
     @Test
     public void givenOptional_whenMapWorks_thenCorrect2() {
-        String name = "baeldung";
+        String name = "HoneyMoose";
         Optional<String> nameOptional = Optional.of(name);
 
         int len = nameOptional.map(String::length).orElse(0);
-        assertEquals(8, len);
+        assertEquals(10, len);
     }
 
     @Test
@@ -214,7 +224,6 @@ public class OptionalUnitTest {
         String nullName = null;
         String name = Optional.ofNullable(nullName).orElseGet(() -> "john");
         assertEquals("john", name);
-
     }
 
     @Test
@@ -259,14 +268,5 @@ public class OptionalUnitTest {
         return "Default Value";
     }
 
-//    Uncomment code when code base is compatible with Java 11
-//    @Test
-//    public void givenAnEmptyOptional_thenIsEmptyBehavesAsExpected() {
-//        Optional<String> opt = Optional.of("Baeldung");
-//        assertFalse(opt.isEmpty());
-//     
-//        opt = Optional.ofNullable(null);
-//        assertTrue(opt.isEmpty());
-//    }
 
 }

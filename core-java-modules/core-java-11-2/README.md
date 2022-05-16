@@ -3,7 +3,7 @@
 本模块中包含有关 Java 11 核心新增功能的的一些文章
 
 ### 相关文章
-- [Guide to Java 8 Optional](https://www.baeldung.com/java-optional)
+- [Java 8 开始新增的 Optional 类](https://www.ossez.com/t/java-8-optional/13964)
 - [Guide to Java Reflection](http://www.baeldung.com/java-reflection)
 - [Guide to Java 8’s Collectors](https://www.baeldung.com/java-8-collectors)
 - [New Features in Java 11](https://www.baeldung.com/java-11-new-features)
