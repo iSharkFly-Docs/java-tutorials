@@ -1,6 +1,6 @@
 ## Java 8 核心
 
-本模块中包含有关 Java 8 核心新增功能特性的一些文章
+本模块中包含有关 Java 8 核心新增功能特性的一些文章。
 
 ### 相关文章: 
 - [New Features in Java 8](https://www.baeldung.com/java-8-new-features)
@@ -12,4 +12,4 @@
 - [Finding Min/Max in an Array with Java](https://www.baeldung.com/java-array-min-max)
 - [Internationalization and Localization in Java 8](https://www.baeldung.com/java-8-localization)
 - [Generalized Target-Type Inference in Java](https://www.baeldung.com/java-generalized-target-type-inference)
-- [[More -->]](/core-java-modules/core-java-8-2)
+- [[Java 8 核心（第 2 部分） -->]](/core-java-modules/core-java-8-2)
