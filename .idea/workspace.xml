@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="080575e3-7e62-4649-ae70-06fb6130a866" name="Changes" comment="https://www.ossez.com/t/java-numberformatexception/13986 字符串格式数值的内容">
+    <list default="true" id="080575e3-7e62-4649-ae70-06fb6130a866" name="Changes" comment="理解 Java 中的 NumberFormatException 异常 https://www.ossez.com/t/java-numberformatexception/13986 文章提交到列表中">
+      <change afterPath="$PROJECT_DIR$/core-java-modules/core-java-numbers/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-java-modules/core-java-numbers/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -349,14 +351,7 @@
       <workItem from="1653133579274" duration="4835000" />
       <workItem from="1653576269130" duration="9777000" />
       <workItem from="1654280507748" duration="840000" />
-      <workItem from="1654352596497" duration="3735000" />
-    </task>
-    <task id="LOCAL-00005" summary="更新 https://www.ossez.com/t/java-list/13934 的链接">
-      <created>1651189996855</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1651189996855</updated>
+      <workItem from="1654352596497" duration="3875000" />
     </task>
     <task id="LOCAL-00006" summary="添加 logger 的日志配置文件">
       <created>1651190047607</created>
@@ -694,7 +689,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654370575196</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="理解 Java 中的 NumberFormatException 异常 https://www.ossez.com/t/java-numberformatexception/13986 文章提交到列表中">
+      <created>1654370877075</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1654370877075</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -712,7 +714,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&lt;relativePath&gt;../pom.xml&lt;/relativePath&gt; 参数是必须的" />
     <MESSAGE value="core-java-collections-3 模块添加到仓库列表中" />
     <MESSAGE value="core-java-collections-2 模块添加到仓库中" />
     <MESSAGE value="更新 pom 文件配置可能导致的编译错误" />
@@ -737,7 +738,8 @@
     <MESSAGE value="更新 Java 8 核心 相关的文章链接" />
     <MESSAGE value="更新 Java 字符串相关的内容和使用的版本" />
     <MESSAGE value="https://www.ossez.com/t/java-numberformatexception/13986 字符串格式数值的内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="https://www.ossez.com/t/java-numberformatexception/13986 字符串格式数值的内容" />
+    <MESSAGE value="理解 Java 中的 NumberFormatException 异常 https://www.ossez.com/t/java-numberformatexception/13986 文章提交到列表中" />
+    <option name="LAST_COMMIT_MESSAGE" value="理解 Java 中的 NumberFormatException 异常 https://www.ossez.com/t/java-numberformatexception/13986 文章提交到列表中" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
