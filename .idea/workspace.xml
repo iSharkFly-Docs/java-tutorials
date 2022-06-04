@@ -4,9 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="080575e3-7e62-4649-ae70-06fb6130a866" name="Changes" comment="更新： Java 从一个 List 中删除重复的元素 文章链接">
+    <list default="true" id="080575e3-7e62-4649-ae70-06fb6130a866" name="Changes" comment="更新 Java 字符串相关的内容和使用的版本">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/ossez/java/list/ReverseIteratorUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/ossez/java/list/ReverseIteratorUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-11/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-11/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-8-2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-8-2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-8-2/src/main/java/com/ossez/localization/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-8-2/src/main/java/com/ossez/localization/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-strings/src/main/java/com/baeldung/multiline/MultiLineString.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-strings/src/main/java/com/baeldung/multiline/MultiLineString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-strings/src/test/java/com/baeldung/multiline/MultiLineStringUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-strings/src/test/java/com/baeldung/multiline/MultiLineStringUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-java-modules/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +30,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$MAVEN_REPOSITORY$/commons-io/commons-io/2.7/commons-io-2.7.pom" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0.pom" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/core-java-modules/core-java-streams/pom.xml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/toolkits/codebank/src/test/resources/log4j2.xml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/resources/log4j2.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/parent-java/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/core-java-modules/core-java-io/src/main/java/com/ossez/unzip/UnzipFile.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LICENSE" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/core-java-modules/core-java-io/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -34,6 +61,9 @@
     </option>
   </component>
   <component name="ProjectId" id="28NaD4KRCPKHeUH5DxePmSU7br2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,18 +77,21 @@
     <property name="go.format.on.save.advertiser.fired" value="true" />
     <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/core-java-modules" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="build.tools" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkDir\Repository\GitHub\cwiki-us-docs\java-tutorials\core-java-modules" />
+      <recent name="D:\WorkDir\Repository\GitHub\cwiki-us-docs\java-tutorials\core-java-modules\core-java-strings" />
       <recent name="D:\WorkDir\Repository\GitHub\cwiki-us-docs\java-tutorials\core-java-modules\core-java-collections-list\src\test\resources" />
       <recent name="D:\WorkDir\Repository\GitHub\cwiki-us-docs\java-tutorials\core-java-modules\core-java-collections-list\src\test" />
     </key>
@@ -66,7 +99,7 @@
       <recent name="com.ossez.collections" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReverseIteratorUnitTest.whenIteratingUsingGuava_thenCorrect">
+  <component name="RunManager" selected="JUnit.NumberFormatExceptionTest.ConstructorNumberFormatException">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="junit-5-basics" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,81 +139,81 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
-    <configuration name="JavaCollectionCleanupUnitTest.givenListContainsDuplicates_whenRemovingDuplicatesWithPlainJava_thenCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core-java-collections-list" />
+    <configuration name="Java8DefaultStaticIntefaceMethodsUnitTest.callStaticInterfaceMethdosMethods_whenExpectedResults_thenCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core-java-8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ossez.collections.*" />
+          <option name="PATTERN" value="com.ossez.java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ossez.collections" />
-      <option name="MAIN_CLASS_NAME" value="com.ossez.collections.JavaCollectionCleanupUnitTest" />
-      <option name="METHOD_NAME" value="givenListContainsDuplicates_whenRemovingDuplicatesWithPlainJava_thenCorrect" />
+      <option name="PACKAGE_NAME" value="com.ossez.java8" />
+      <option name="MAIN_CLASS_NAME" value="com.ossez.java8.Java8DefaultStaticIntefaceMethodsUnitTest" />
+      <option name="METHOD_NAME" value="callStaticInterfaceMethdosMethods_whenExpectedResults_thenCorrect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaCollectionCleanupUnitTest.givenListContainsNulls_whenRemovingNullsWithGuavaV1_thenCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core-java-collections-list" />
+    <configuration name="NumberFormatExceptionTest.ConstructorNumberFormatException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core-java-numbers" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ossez.collections.*" />
+          <option name="PATTERN" value="com.ossez.number.foramt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ossez.collections" />
-      <option name="MAIN_CLASS_NAME" value="com.ossez.collections.JavaCollectionCleanupUnitTest" />
-      <option name="METHOD_NAME" value="givenListContainsNulls_whenRemovingNullsWithGuavaV1_thenCorrect" />
+      <option name="PACKAGE_NAME" value="com.ossez.number.foramt" />
+      <option name="MAIN_CLASS_NAME" value="com.ossez.number.foramt.NumberFormatExceptionTest" />
+      <option name="METHOD_NAME" value="ConstructorNumberFormatException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaCollectionCleanupUnitTest.givenListContainsNulls_whenRemovingNullsWithPlainJavaAlternative_thenCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core-java-collections-list" />
+    <configuration name="OptionalUnitTest.givenOptional_whenMapWorks_thenCorrect2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core-java-11-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ossez.collections.*" />
+          <option name="PATTERN" value="com.ossez.optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ossez.collections" />
-      <option name="MAIN_CLASS_NAME" value="com.ossez.collections.JavaCollectionCleanupUnitTest" />
-      <option name="METHOD_NAME" value="givenListContainsNulls_whenRemovingNullsWithPlainJavaAlternative_thenCorrect" />
+      <option name="PACKAGE_NAME" value="com.ossez.optional" />
+      <option name="MAIN_CLASS_NAME" value="com.ossez.optional.OptionalUnitTest" />
+      <option name="METHOD_NAME" value="givenOptional_whenMapWorks_thenCorrect2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaCollectionCleanupUnitTest.givenListContainsNulls_whenRemovingNullsWithPlainJava_thenCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core-java-collections-list" />
+    <configuration name="OptionalUnitTest.whenOrElseThrowWorks_thenCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core-java-11-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ossez.collections.*" />
+          <option name="PATTERN" value="com.ossez.optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ossez.collections" />
-      <option name="MAIN_CLASS_NAME" value="com.ossez.collections.JavaCollectionCleanupUnitTest" />
-      <option name="METHOD_NAME" value="givenListContainsNulls_whenRemovingNullsWithPlainJava_thenCorrect" />
+      <option name="PACKAGE_NAME" value="com.ossez.optional" />
+      <option name="MAIN_CLASS_NAME" value="com.ossez.optional.OptionalUnitTest" />
+      <option name="METHOD_NAME" value="whenOrElseThrowWorks_thenCorrect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseIteratorUnitTest.whenIteratingUsingGuava_thenCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core-java-collections-list" />
+    <configuration name="StrategyDesignPatternUnitTest.shouldDivideByTwo_WhenApplyingStaffDiscounter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core-java-8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ossez.java.list.*" />
+          <option name="PATTERN" value="com.ossez.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ossez.java.list" />
-      <option name="MAIN_CLASS_NAME" value="com.ossez.java.list.ReverseIteratorUnitTest" />
-      <option name="METHOD_NAME" value="whenIteratingUsingGuava_thenCorrect" />
+      <option name="PACKAGE_NAME" value="com.ossez.strategy" />
+      <option name="MAIN_CLASS_NAME" value="com.ossez.strategy.StrategyDesignPatternUnitTest" />
+      <option name="METHOD_NAME" value="shouldDivideByTwo_WhenApplyingStaffDiscounter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -295,11 +328,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ReverseIteratorUnitTest.whenIteratingUsingGuava_thenCorrect" />
-        <item itemvalue="JUnit.JavaCollectionCleanupUnitTest.givenListContainsDuplicates_whenRemovingDuplicatesWithPlainJava_thenCorrect" />
-        <item itemvalue="JUnit.JavaCollectionCleanupUnitTest.givenListContainsNulls_whenRemovingNullsWithGuavaV1_thenCorrect" />
-        <item itemvalue="JUnit.JavaCollectionCleanupUnitTest.givenListContainsNulls_whenRemovingNullsWithPlainJavaAlternative_thenCorrect" />
-        <item itemvalue="JUnit.JavaCollectionCleanupUnitTest.givenListContainsNulls_whenRemovingNullsWithPlainJava_thenCorrect" />
+        <item itemvalue="JUnit.NumberFormatExceptionTest.ConstructorNumberFormatException" />
+        <item itemvalue="JUnit.Java8DefaultStaticIntefaceMethodsUnitTest.callStaticInterfaceMethdosMethods_whenExpectedResults_thenCorrect" />
+        <item itemvalue="JUnit.StrategyDesignPatternUnitTest.shouldDivideByTwo_WhenApplyingStaffDiscounter" />
+        <item itemvalue="JUnit.OptionalUnitTest.givenOptional_whenMapWorks_thenCorrect2" />
+        <item itemvalue="JUnit.OptionalUnitTest.whenOrElseThrowWorks_thenCorrect" />
       </list>
     </recent_temporary>
   </component>
@@ -315,27 +348,20 @@
       <workItem from="1651060151530" duration="12000" />
       <workItem from="1651063834425" duration="112000" />
       <workItem from="1651063966892" duration="19517000" />
-    </task>
-    <task id="LOCAL-00001" summary="更新有关 List 的随机输出">
-      <created>1651174204368</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1651174204368</updated>
-    </task>
-    <task id="LOCAL-00002" summary="更新有关测试使用的文档，并且添加链接">
-      <created>1651177632761</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1651177632761</updated>
-    </task>
-    <task id="LOCAL-00003" summary="从 List 中删除元素">
-      <created>1651189931419</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1651189931419</updated>
+      <workItem from="1651495499831" duration="3233000" />
+      <workItem from="1651501362048" duration="3238000" />
+      <workItem from="1651581948958" duration="2558000" />
+      <workItem from="1651594498118" duration="11000" />
+      <workItem from="1651619176381" duration="4378000" />
+      <workItem from="1651703490486" duration="3328000" />
+      <workItem from="1652387444302" duration="1290000" />
+      <workItem from="1652466767993" duration="14619000" />
+      <workItem from="1653057868248" duration="1515000" />
+      <workItem from="1653071514321" duration="614000" />
+      <workItem from="1653133579274" duration="4835000" />
+      <workItem from="1653576269130" duration="9777000" />
+      <workItem from="1654280507748" duration="840000" />
+      <workItem from="1654352596497" duration="3394000" />
     </task>
     <task id="LOCAL-00004" summary="格式化代码同时修改相对路径">
       <created>1651189968886</created>
@@ -449,7 +475,238 @@
       <option name="project" value="LOCAL" />
       <updated>1651418643865</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="更新 逆向 List 的文章中的示例代码：https://www.ossez.com/t/java-list/13943">
+      <created>1651442554199</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1651442554199</updated>
+    </task>
+    <task id="LOCAL-00021" summary="更新文章 https://www.ossez.com/t/java-list/13943 如何逆向遍历 List 的文章列表">
+      <created>1651443467506</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1651443467506</updated>
+    </task>
+    <task id="LOCAL-00022" summary="修改编译错误并且根据 POM  依赖的提示提升版本">
+      <created>1651495910094</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1651495910094</updated>
+    </task>
+    <task id="LOCAL-00023" summary="导入新的子模块">
+      <created>1651496058923</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1651496058923</updated>
+    </task>
+    <task id="LOCAL-00024" summary="添加新的模块，并且替换被丢弃的 fileTreeTraverser 方法">
+      <created>1651500398300</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1651500398300</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Java 核心（Core Java）集合中的 List 列表 （第2部分）的内容">
+      <created>1651508482993</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1651508482993</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Java 核心（Core Java）集合中的 List 列表 （第3部分）的内容">
+      <created>1651508522565</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1651508522565</updated>
+    </task>
+    <task id="LOCAL-00027" summary="添加 集合 List 相关的代码">
+      <created>1651508558018</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1651508558018</updated>
+    </task>
+    <task id="LOCAL-00028" summary="提交集合模块的测试类内容">
+      <created>1651592866470</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1651592866470</updated>
+    </task>
+    <task id="LOCAL-00029" summary="&lt;relativePath&gt;../pom.xml&lt;/relativePath&gt; 参数是必须的">
+      <created>1651593497493</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1651593497493</updated>
+    </task>
+    <task id="LOCAL-00030" summary="core-java-collections-3 模块添加到仓库列表中">
+      <created>1651593585899</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1651593585899</updated>
+    </task>
+    <task id="LOCAL-00031" summary="core-java-collections-2 模块添加到仓库中">
+      <created>1651593620046</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1651593620046</updated>
+    </task>
+    <task id="LOCAL-00032" summary="更新 pom 文件配置可能导致的编译错误">
+      <created>1651593649959</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1651593649959</updated>
+    </task>
+    <task id="LOCAL-00033" summary="添加 Java 的 streams 处理模块">
+      <created>1651667224688</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1651667224688</updated>
+    </task>
+    <task id="LOCAL-00034" summary="更新 maven-javadoc-plugin 版本到 3.3.2">
+      <created>1651667966498</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1651667966498</updated>
+    </task>
+    <task id="LOCAL-00035" summary="@see 文件错误，修改 Docs 的编译错误">
+      <created>1651667990674</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1651667990674</updated>
+    </task>
+    <task id="LOCAL-00036" summary="添加 core-java-streams 模块">
+      <created>1651668008146</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1651668008146</updated>
+    </task>
+    <task id="LOCAL-00037" summary="删除 core-java-streams 中的版本依赖，&lt;version&gt;0.1.0-SNAPSHOT&lt;/version&gt; 与上级的 POM 文件保持一致">
+      <created>1651668048643</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1651668048643</updated>
+    </task>
+    <task id="LOCAL-00038" summary="删除 core-java-collections-3 中的版本属性">
+      <created>1651668076639</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1651668076639</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Update Guave version to 31.0.1">
+      <created>1651668511746</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1651668511746</updated>
+    </task>
+    <task id="LOCAL-00040" summary="更新 MIT 许可证版本到 2022 wiki-us">
+      <created>1651668639673</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1651668639673</updated>
+    </task>
+    <task id="LOCAL-00041" summary="更新自述文件提供更多的导航信息">
+      <created>1651668945359</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1651668945359</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Add guava.version to project and current version is 31.1-jre">
+      <created>1652467217267</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1652467217267</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Add two new modules: &lt;module&gt;core-java-11&lt;/module&gt; and &lt;module&gt;core-java-11-2&lt;/module&gt;">
+      <created>1652467251548</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1652467251548</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Add two new modules: &lt;module&gt;core-java-11&lt;/module&gt; to project">
+      <created>1652467279738</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1652467279738</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Add two new modules: &lt;module&gt;core-java-11-2&lt;/module&gt; to project">
+      <created>1652467314121</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1652467314121</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Rename the package: &lt;module&gt;core-java-11-&lt;/module&gt; to project">
+      <created>1652467461911</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1652467461911</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Rename the package: &lt;module&gt;core-java-11-2&lt;/module&gt; to project">
+      <created>1652467548356</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1652467548356</updated>
+    </task>
+    <task id="LOCAL-00048" summary="添加 https://www.ossez.com/t/java-8-optional/13964 文章相关的测试类">
+      <created>1652472239719</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1652472239719</updated>
+    </task>
+    <task id="LOCAL-00049" summary="添加 Optional 类的测试文件和文章说明连接： https://www.ossez.com/t/java-8-optional/13964">
+      <created>1652708735437</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1652708735437</updated>
+    </task>
+    <task id="LOCAL-00050" summary="添加文章： Java 8 中的设计模式策略 - https://www.ossez.com/t/java-8/13978">
+      <created>1653584133351</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1653584133352</updated>
+    </task>
+    <task id="LOCAL-00051" summary="更新 Java 8 核心 相关的文章链接">
+      <created>1653591608248</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1653591608248</updated>
+    </task>
+    <task id="LOCAL-00052" summary="更新 Java 字符串相关的内容和使用的版本">
+      <created>1653593301467</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1653593301467</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,26 +724,32 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="更新有关 List 的随机输出" />
-    <MESSAGE value="更新有关测试使用的文档，并且添加链接" />
-    <MESSAGE value="从 List 中删除元素" />
-    <MESSAGE value="格式化代码同时修改相对路径" />
-    <MESSAGE value="更新 https://www.ossez.com/t/java-list/13934 的链接" />
-    <MESSAGE value="添加 logger 的日志配置文件" />
-    <MESSAGE value="更新 pom 文件，修改映射关系" />
-    <MESSAGE value="更新测试文件" />
-    <MESSAGE value="测试更新使用不同的仓库地址" />
-    <MESSAGE value="更新 集合中的 List 列表 的文章内容" />
-    <MESSAGE value="添加 Java 注解用例子模块" />
-    <MESSAGE value="导入项目需要的子模块" />
-    <MESSAGE value="如何从一个 List 中删除 null 元素" />
-    <MESSAGE value="格式化代码并修改错误" />
-    <MESSAGE value="提交所有代码，为将默认分支名从 master 切换到 main 做准备" />
-    <MESSAGE value="init submit all for code branch" />
-    <MESSAGE value="添加文章链接： https://www.ossez.com/t/java-list-null/13940" />
-    <MESSAGE value="Java 从一个 List 中删除所有重复的元素： https://www.ossez.com/t/java-list/13942" />
-    <MESSAGE value="更新： Java 从一个 List 中删除重复的元素 文章链接" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新： Java 从一个 List 中删除重复的元素 文章链接" />
+    <MESSAGE value="提交集合模块的测试类内容" />
+    <MESSAGE value="&lt;relativePath&gt;../pom.xml&lt;/relativePath&gt; 参数是必须的" />
+    <MESSAGE value="core-java-collections-3 模块添加到仓库列表中" />
+    <MESSAGE value="core-java-collections-2 模块添加到仓库中" />
+    <MESSAGE value="更新 pom 文件配置可能导致的编译错误" />
+    <MESSAGE value="添加 Java 的 streams 处理模块" />
+    <MESSAGE value="更新 maven-javadoc-plugin 版本到 3.3.2" />
+    <MESSAGE value="@see 文件错误，修改 Docs 的编译错误" />
+    <MESSAGE value="添加 core-java-streams 模块" />
+    <MESSAGE value="删除 core-java-streams 中的版本依赖，&lt;version&gt;0.1.0-SNAPSHOT&lt;/version&gt; 与上级的 POM 文件保持一致" />
+    <MESSAGE value="删除 core-java-collections-3 中的版本属性" />
+    <MESSAGE value="Update Guave version to 31.0.1" />
+    <MESSAGE value="更新 MIT 许可证版本到 2022 wiki-us" />
+    <MESSAGE value="更新自述文件提供更多的导航信息" />
+    <MESSAGE value="Add guava.version to project and current version is 31.1-jre" />
+    <MESSAGE value="Add two new modules: &lt;module&gt;core-java-11&lt;/module&gt; and &lt;module&gt;core-java-11-2&lt;/module&gt;" />
+    <MESSAGE value="Add two new modules: &lt;module&gt;core-java-11&lt;/module&gt; to project" />
+    <MESSAGE value="Add two new modules: &lt;module&gt;core-java-11-2&lt;/module&gt; to project" />
+    <MESSAGE value="Rename the package: &lt;module&gt;core-java-11-&lt;/module&gt; to project" />
+    <MESSAGE value="Rename the package: &lt;module&gt;core-java-11-2&lt;/module&gt; to project" />
+    <MESSAGE value="添加 https://www.ossez.com/t/java-8-optional/13964 文章相关的测试类" />
+    <MESSAGE value="添加 Optional 类的测试文件和文章说明连接： https://www.ossez.com/t/java-8-optional/13964" />
+    <MESSAGE value="添加文章： Java 8 中的设计模式策略 - https://www.ossez.com/t/java-8/13978" />
+    <MESSAGE value="更新 Java 8 核心 相关的文章链接" />
+    <MESSAGE value="更新 Java 字符串相关的内容和使用的版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新 Java 字符串相关的内容和使用的版本" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -502,8 +765,18 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/test/java/com/ossez/java/list/ReverseIteratorUnitTest.java</url>
-          <line>88</line>
+          <url>file://$PROJECT_DIR$/core-java-modules/core-java-11-2/src/test/java/com/ossez/optional/OptionalUnitTest.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core-java-modules/core-java-11-2/src/test/java/com/ossez/optional/OptionalUnitTest.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core-java-modules/core-java-strings/src/main/java/com/baeldung/multiline/MultiLineString.java</url>
+          <line>73</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>

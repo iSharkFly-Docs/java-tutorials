@@ -9,18 +9,29 @@
         <outputRelativeToContentRoot value="true" />
         <module name="codebank" />
         <module name="core-java-collections-list" />
+        <module name="core-java-streams" />
         <module name="core-java-io" />
-        <module name="core-java-datetime-conversion" />
         <module name="core-java-annotations" />
+        <module name="core-java-8-2" />
+        <module name="core-java-numbers" />
+        <module name="discourse" />
+        <module name="core-java-11-2" />
+        <module name="core-java-strings" />
+        <module name="core-java-11" />
+        <module name="core-java-collections-list-2" />
+        <module name="core-java-collections" />
+        <module name="core-java-datetime-conversion" />
+        <module name="core-java-collections-list-3" />
         <module name="core-java-8" />
         <module name="junit-5-basics" />
-        <module name="discourse" />
+        <module name="core-java-collections-3" />
+        <module name="core-java-collections-2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="assertion-libraries" target="1.8" />
       <module name="core-java" target="1.8" />
-      <module name="core-java-8-2" target="1.8" />
+      <module name="core-java-8 (1)" target="11" />
       <module name="core-java-8-datetime" target="1.8" />
       <module name="core-java-8-datetime-2" target="1.8" />
       <module name="core-java-arrays-convert" target="1.8" />
@@ -30,13 +41,8 @@
       <module name="core-java-arrays-operations-basic" target="1.8" />
       <module name="core-java-arrays-sorting" target="1.8" />
       <module name="core-java-char" target="1.8" />
-      <module name="core-java-collections" target="1.8" />
-      <module name="core-java-collections-2" target="1.8" />
-      <module name="core-java-collections-3" target="1.8" />
-      <module name="core-java-collections-4" target="1.8" />
+      <module name="core-java-collections-4" target="11" />
       <module name="core-java-collections-array-list" target="1.8" />
-      <module name="core-java-collections-list-2" target="1.8" />
-      <module name="core-java-collections-list-3" target="1.8" />
       <module name="core-java-collections-maps" target="1.8" />
       <module name="core-java-collections-maps-2" target="1.8" />
       <module name="core-java-collections-maps-3" target="1.8" />
@@ -103,7 +109,6 @@
       <module name="core-java-security-3" target="1.8" />
       <module name="core-java-security-algorithms" target="1.8" />
       <module name="core-java-serialization" target="1.8" />
-      <module name="core-java-streams" target="1.8" />
       <module name="core-java-streams-2" target="1.8" />
       <module name="core-java-streams-3" target="1.8" />
       <module name="core-java-streams-4" target="1.8" />
@@ -168,6 +173,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="core-java-streams" options="-parameters" />
       <module name="jmh" options="--add-exports java.base/jdk.internal.vm.annotation=ALL-UNNAMED" />
     </option>
   </component>
