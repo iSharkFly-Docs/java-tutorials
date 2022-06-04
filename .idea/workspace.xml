@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="080575e3-7e62-4649-ae70-06fb6130a866" name="Changes" comment="更新 Java 字符串相关的内容和使用的版本">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="080575e3-7e62-4649-ae70-06fb6130a866" name="Changes" comment="https://www.ossez.com/t/java-numberformatexception/13986 字符串格式数值的内容">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-java-modules/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-11/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-11/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-8-2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-8-2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-8-2/src/main/java/com/ossez/localization/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-8-2/src/main/java/com/ossez/localization/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-strings/src/main/java/com/baeldung/multiline/MultiLineString.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-strings/src/main/java/com/baeldung/multiline/MultiLineString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-java-modules/core-java-strings/src/test/java/com/baeldung/multiline/MultiLineStringUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/core-java-strings/src/test/java/com/baeldung/multiline/MultiLineStringUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-java-modules/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core-java-modules/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -361,14 +349,7 @@
       <workItem from="1653133579274" duration="4835000" />
       <workItem from="1653576269130" duration="9777000" />
       <workItem from="1654280507748" duration="840000" />
-      <workItem from="1654352596497" duration="3394000" />
-    </task>
-    <task id="LOCAL-00004" summary="格式化代码同时修改相对路径">
-      <created>1651189968886</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1651189968886</updated>
+      <workItem from="1654352596497" duration="3735000" />
     </task>
     <task id="LOCAL-00005" summary="更新 https://www.ossez.com/t/java-list/13934 的链接">
       <created>1651189996855</created>
@@ -706,7 +687,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653593301467</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="https://www.ossez.com/t/java-numberformatexception/13986 字符串格式数值的内容">
+      <created>1654370575196</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1654370575196</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -724,7 +712,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="提交集合模块的测试类内容" />
     <MESSAGE value="&lt;relativePath&gt;../pom.xml&lt;/relativePath&gt; 参数是必须的" />
     <MESSAGE value="core-java-collections-3 模块添加到仓库列表中" />
     <MESSAGE value="core-java-collections-2 模块添加到仓库中" />
@@ -749,7 +736,8 @@
     <MESSAGE value="添加文章： Java 8 中的设计模式策略 - https://www.ossez.com/t/java-8/13978" />
     <MESSAGE value="更新 Java 8 核心 相关的文章链接" />
     <MESSAGE value="更新 Java 字符串相关的内容和使用的版本" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新 Java 字符串相关的内容和使用的版本" />
+    <MESSAGE value="https://www.ossez.com/t/java-numberformatexception/13986 字符串格式数值的内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="https://www.ossez.com/t/java-numberformatexception/13986 字符串格式数值的内容" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
