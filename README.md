@@ -21,11 +21,7 @@
 | 电子邮件    | [service@ossez.com](mailto:service@ossez.com)      |
 | QQ 或微信  | 103899765                                          |
 | QQ 交流群  | 15186112                                           |
-| 社区论坛    | [https://www.ossez.com/](https://www.ossez.com/)   |
-| WIKI 维基 | [https://www.cwiki.us/](https://www.cwiki.us/)     |
-| CN 博客   | [https://www.cwikius.cn/](https://www.cwikius.cn/) |
-
-## 公众平台
+| 社区论坛    | [ 公众平台
 我们建议您通过社区论坛来和我们进行沟通，请关注我们公众平台上的账号
 
 ## 微信公众号
@@ -34,4 +30,8 @@
 ## 头条号
 我们也在头条号上创建了我们的公众号，请扫描下面的 QR 关注我们的头条号。
 
-![](https://cdn.ossez.com/img/cwikius/cwikus-qr-toutiao.png)
+![](https://cdn.ossez.com/img/cwikius/cwikus-qr-toutiao.png)https://www.ossez.com/](https://www.ossez.com/)   |
+| WIKI 维基 | [https://www.cwiki.us/](https://www.cwiki.us/)     |
+| CN 博客   | [https://www.cwikius.cn/](https://www.cwikius.cn/) |
+
+##

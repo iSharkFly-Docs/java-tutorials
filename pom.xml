@@ -64,9 +64,10 @@
         <commons-lang.version>2.6</commons-lang.version>
         <commons-lang3.version>3.12.0</commons-lang3.version>
         <commons-collections4.version>4.4</commons-collections4.version>
-
         <commons-math3.version>3.6.1</commons-math3.version>
         <commons-cli.version>1.4</commons-cli.version>
+        <commons-io.version>2.11.0</commons-io.version>
+
         <maven-war-plugin.version>3.0.0</maven-war-plugin.version>
 
         <!-- UTILS -->
@@ -141,6 +142,12 @@
             <artifactId>commons-math3</artifactId>
             <version>${commons-math3.version}</version>
         </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>${commons-io.version}</version>
+        </dependency>
+
         <dependency>
             <groupId>org.apache.velocity</groupId>
             <artifactId>velocity-engine-core</artifactId>
