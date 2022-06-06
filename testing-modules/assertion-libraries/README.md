@@ -17,4 +17,4 @@
 - [Guide to JSpec](http://www.baeldung.com/jspec)
 - [Custom Assertions with AssertJ](http://www.baeldung.com/assertj-custom-assertion)
 - [Using Conditions with AssertJ Assertions](http://www.baeldung.com/assertj-conditions)
-- [AssertJ Exception Assertions](http://www.baeldung.com/assertj-exception-assertion)
+- [AssertJ 的异常（Exception ）断言](https://www.ossez.com/t/assertj-exception/13988)

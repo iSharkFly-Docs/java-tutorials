@@ -2,13 +2,14 @@ package com.ossez.number.foramt;
 
 
 import org.apache.commons.lang3.math.NumberUtils;
+import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 
 import java.util.Arrays;
 
-import static org.assertj.core.api.Assertions.assertThat;
-import static org.assertj.core.api.Assertions.assertThatThrownBy;
+import static org.assertj.core.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 
 /**
@@ -26,20 +27,25 @@ public class NumberFormatExceptionTest {
     @Test
     public void ConstructorNumberFormatException() {
 
-//        Exception exception = assertThrows(NumberFormatException.class, () -> {
-//            new Integer("one");
-//        });
+//        JUNIT 5 Assert
+        Exception exception = assertThrows(NumberFormatException.class, () -> {
+            new Integer("one");
+        });
+        System.out.println(exception);
 
-       assertThatThrownBy(() -> {
+//        AssertJ assertThatThrownBy
+        assertThatThrownBy(() -> {
             new Integer("one");
         }).isInstanceOf(NumberFormatException.class).hasMessageStartingWith("For input string");
 
-//        System.out.println(exception);
+        // AssertJ assertThatExceptionOfType
+        assertThatExceptionOfType(NumberFormatException.class).isThrownBy(() -> {
+            new Integer("one");
+        });
 
-        Integer aIntegerObj = new Integer("1");
 
 //		Integer aIntegerObj = new Integer("one");
-        Double doubleDecimalObj = new Double("two.2");
+//        Double doubleDecimalObj = new Double("two.2");
     }
 
 
