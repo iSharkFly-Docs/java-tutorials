@@ -7,8 +7,6 @@
 
 如果计算结果为 false ，则断言失败，抛出 AssertionError。
 
-assertion(断言) 在软件开发中是一种常用的调试方式，很多开发语言中都支持这种机制。
-
 ### 相关文章
 
 - [AssertJ’s Java 8 Features](http://www.baeldung.com/assertJ-java-8-features)
@@ -19,4 +17,4 @@ assertion(断言) 在软件开发中是一种常用的调试方式，很多开�
 - [Guide to JSpec](http://www.baeldung.com/jspec)
 - [Custom Assertions with AssertJ](http://www.baeldung.com/assertj-custom-assertion)
 - [Using Conditions with AssertJ Assertions](http://www.baeldung.com/assertj-conditions)
-- [AssertJ Exception Assertions](http://www.baeldung.com/assertj-exception-assertion)
+- [AssertJ 的异常（Exception ）断言](https://www.ossez.com/t/assertj-exception/13988)
