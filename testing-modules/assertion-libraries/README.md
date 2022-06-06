@@ -7,8 +7,6 @@
 
 如果计算结果为 false ，则断言失败，抛出 AssertionError。
 
-assertion(断言) 在软件开发中是一种常用的调试方式，很多开发语言中都支持这种机制。
-
 ### 相关文章
 
 - [AssertJ’s Java 8 Features](http://www.baeldung.com/assertJ-java-8-features)
