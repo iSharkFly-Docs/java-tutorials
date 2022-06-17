@@ -8,10 +8,9 @@
     <packaging>jar</packaging>
 
     <parent>
-        <groupId>com.ossez</groupId>
-        <artifactId>parent-modules</artifactId>
+        <groupId>com.ossez.core-java-modules</groupId>
+        <artifactId>core-java-modules</artifactId>
         <version>0.0.2-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <dependencies>
