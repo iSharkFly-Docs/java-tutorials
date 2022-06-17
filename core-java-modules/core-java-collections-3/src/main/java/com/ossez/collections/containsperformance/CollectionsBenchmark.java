@@ -1,4 +1,4 @@
-package com.ossez.collections.collections.containsperformance;
+package com.ossez.collections.containsperformance;
 
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.runner.Runner;

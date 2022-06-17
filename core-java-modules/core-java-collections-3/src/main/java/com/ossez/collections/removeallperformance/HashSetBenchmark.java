@@ -1,4 +1,4 @@
-package com.ossez.collections.collections.removeallperformance;
+package com.ossez.collections.removeallperformance;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
-import com.ossez.collections.collections.containsperformance.Employee;
+import com.ossez.collections.containsperformance.Employee;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.openjdk.jmh.annotations.Benchmark;
 import org.openjdk.jmh.annotations.BenchmarkMode;

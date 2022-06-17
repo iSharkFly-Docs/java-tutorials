@@ -1,4 +1,4 @@
-package com.ossez.collections.collections.iterators;
+package com.ossez.collections.iterators;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
