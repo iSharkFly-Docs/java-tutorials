@@ -1,8 +1,8 @@
 package com.ossez.collections.iterators;
 
-import static com.ossez.collections.collections.iterators.Iterators.failFast1;
-import static com.ossez.collections.collections.iterators.Iterators.failFast2;
-import static com.ossez.collections.collections.iterators.Iterators.failSafe1;
+import static com.ossez.collections.iterators.Iterators.failFast1;
+import static com.ossez.collections.iterators.Iterators.failFast2;
+import static com.ossez.collections.iterators.Iterators.failSafe1;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 

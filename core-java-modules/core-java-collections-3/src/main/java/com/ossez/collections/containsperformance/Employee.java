@@ -1,4 +1,4 @@
-package com.ossez.collections.collections.containsperformance;
+package com.ossez.collections.containsperformance;
 
 public class Employee {
 

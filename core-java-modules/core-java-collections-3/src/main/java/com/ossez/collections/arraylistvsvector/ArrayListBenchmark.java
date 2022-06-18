@@ -1,4 +1,4 @@
-package com.ossez.collections.collections.arraylistvsvector;
+package com.ossez.collections.arraylistvsvector;
 
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.runner.Runner;

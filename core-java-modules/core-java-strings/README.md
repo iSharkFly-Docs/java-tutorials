@@ -1,6 +1,6 @@
 ## Java 字符串（Strings）
 
-This module contains articles about strings in Java.
+本模块中包含有关 Java 字符串（String）有关的文章。
 
 ### 相关文章
 - [Use char[] Array over a String for Manipulating Passwords in Java?](https://www.baeldung.com/java-storing-passwords)

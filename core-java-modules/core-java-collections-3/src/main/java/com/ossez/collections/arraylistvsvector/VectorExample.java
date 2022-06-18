@@ -1,4 +1,4 @@
-package com.ossez.collections.collections.arraylistvsvector;
+package com.ossez.collections.arraylistvsvector;
 
 import java.util.Enumeration;
 import java.util.Iterator;

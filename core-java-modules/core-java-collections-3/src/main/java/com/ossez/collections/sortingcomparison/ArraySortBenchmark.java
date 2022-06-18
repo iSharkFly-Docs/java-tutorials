@@ -1,4 +1,4 @@
-package com.ossez.collections.collections.sortingcomparison;
+package com.ossez.collections.sortingcomparison;
 
 import java.util.Arrays;
 import java.util.concurrent.TimeUnit;

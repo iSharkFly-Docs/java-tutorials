@@ -1,4 +1,4 @@
-package com.ossez.collections.collections.arraylistvsvector;
+package com.ossez.collections.arraylistvsvector;
 
 public class Employee {
 
