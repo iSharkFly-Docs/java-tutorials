@@ -11,6 +11,6 @@
 - [Java – Generate Random String](https://www.baeldung.com/java-random-string)
 - [Java String Interview Questions and Answers](https://www.baeldung.com/java-string-interview-questions)
 - [Java Multi-line String](https://www.baeldung.com/java-multiline-string)
-- [Guide to Java String Pool](https://www.baeldung.com/java-string-pool)
+- [Java 中的 String Pool 简介](https://www.ossez.com/t/java-string-pool/14017)
 - [Fixing “constant string too long” Build Error](https://www.baeldung.com/java-constant-string-too-long-error)
 - [Java 对象如何安全的 toString](https://www.ossez.com/t/java-tostring/14000)
