@@ -20,10 +20,6 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 @TestInstance(TestInstance.Lifecycle.PER_METHOD)
 public class NumberFormatExceptionTest {
 
-
-    String stringPassword = "password";
-    char[] charPassword = new char[]{'p', 'a', 's', 's', 'w', 'o', 'r', 'd'};
-
     @Test
     public void ConstructorNumberFormatException() {
 
