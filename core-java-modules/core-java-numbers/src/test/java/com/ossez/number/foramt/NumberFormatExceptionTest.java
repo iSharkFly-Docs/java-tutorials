@@ -15,6 +15,8 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 /**
  * String format to number with NumberFormatException
  *
+ * <p><a href="https://www.ossez.com/t/java-numberformatexception/13986">https://www.ossez.com/t/java-numberformatexception/13986</a></p>
+ *
  * @author YuCheng
  */
 @TestInstance(TestInstance.Lifecycle.PER_METHOD)
