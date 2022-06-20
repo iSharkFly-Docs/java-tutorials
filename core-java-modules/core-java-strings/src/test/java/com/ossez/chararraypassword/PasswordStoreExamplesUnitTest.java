@@ -6,6 +6,11 @@ import java.util.Arrays;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+/**
+ * Java Password by using String or Char array
+ * <p>
+ * * <p><a href="https://www.ossez.com/t/java-char-array-string/14015">https://www.ossez.com/t/java-char-array-string/14015</a></p>
+ */
 public class PasswordStoreExamplesUnitTest {
 
     String stringPassword = "password";
