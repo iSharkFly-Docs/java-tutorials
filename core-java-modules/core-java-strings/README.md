@@ -3,7 +3,7 @@
 本模块中包含有关 Java 字符串（String）有关的文章。
 
 ### 相关文章
-- [Java 使用 char[] Array 还是 String 存储字符串](https://www.ossez.com/t/java-char-array-string/14015)
+- [Java 使用 char[] Array 还是 String 存储字符串密码](https://www.ossez.com/t/java-char-array-string/14015)
 - [Compact Strings in Java 9](https://www.baeldung.com/java-9-compact-string)
 - [String Not Empty Test Assertions in Java](https://www.baeldung.com/java-assert-string-not-empty)
 - [String Performance Hints](https://www.baeldung.com/java-string-performance)
