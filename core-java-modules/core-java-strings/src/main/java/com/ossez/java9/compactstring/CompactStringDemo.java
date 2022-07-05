@@ -5,6 +5,11 @@ import java.util.stream.IntStream;
 
 import static java.util.stream.Collectors.toList;
 
+/**
+ * Java 9 String Compact testing
+ * <p>
+ * <p><a href="https://www.ossez.com/t/java-9-string/14024">https://www.ossez.com/t/java-9-string/14024</a></p>
+ */
 public class CompactStringDemo {
 
     public static void main(String[] args) {
