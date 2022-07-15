@@ -20,7 +20,7 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>${guava.version}</version>
+            <version>${version.guava}</version>
         </dependency>
         <dependency>
             <groupId>org.openjdk.jmh</groupId>

@@ -43,6 +43,7 @@
 <!--        <module>jackson-modules</module>-->
 <!--        <module>jackson-simple</module>-->
 <!--        <module>parent-java</module>-->
+        <module>persistence-modules</module>
         <module>testing-modules</module>
         <module>toolkits</module>
 <!--        <module>xml</module>-->
@@ -55,9 +56,9 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <!-- Logging -->
-        <slf4j.version>1.7.30</slf4j.version>
-        <log4j.version>1.2.17</log4j.version>
-        <log4j2.version>2.2</log4j2.version>
+        <version.slf4j>1.7.36</version.slf4j>
+        <version.log4j>1.2.17</version.log4j>
+        <version.log4j2>2.18.0</version.log4j2>
 
         <!-- APACHE COMMONS-->
         <commons-io.version>2.8.0</commons-io.version>
@@ -71,7 +72,7 @@
         <maven-war-plugin.version>3.0.0</maven-war-plugin.version>
 
         <!-- UTILS -->
-        <guava.version>31.1-jre</guava.version>
+        <version.guava>31.1-jre</version.guava>
 
         <!-- Hibernate / JPA -->
         <hibernate.version>4.3.5.Final</hibernate.version>

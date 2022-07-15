@@ -5,7 +5,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <artifactId>parent-boot-2</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>parent-boot-2</name>
     <packaging>pom</packaging>
     <description>Parent for all Spring Boot 2 modules</description>
@@ -13,7 +13,7 @@
     <parent>
         <groupId>com.ossez</groupId>
         <artifactId>parent-modules</artifactId>
-        <version>0.0.1</version>
+        <version>0.0.2-SNAPSHOT</version>
     </parent>
 
     <dependencyManagement>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="codebank" />
+        <module name="core-java-collections-list" />
+        <module name="spring-data-jpa-repo-2" />
+        <module name="core-java-streams" />
+        <module name="assertion-libraries" />
+        <module name="core-java-io" />
+        <module name="core-java-annotations" />
+        <module name="core-java-8-2" />
+        <module name="core-java-numbers" />
+        <module name="discourse" />
+        <module name="core-java-strings" />
+        <module name="core-java-11" />
+        <module name="core-java-collections-list-2" />
+        <module name="core-java-collections" />
+        <module name="core-java-datetime-conversion" />
+        <module name="core-java-collections-list-3" />
+        <module name="core-java-8" />
+        <module name="junit-5-basics" />
+        <module name="core-java-collections-3" />
+        <module name="core-java-collections-2" />
+        <module name="activejdbc" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="core-java-11-2" target="11" />
+      <module name="hibernate-annotations" target="1.5" />
+      <module name="hibernate5" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="core-java-streams" options="-parameters" />
+    </option>
+  </component>
+</project>
