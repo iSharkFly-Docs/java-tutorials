@@ -12,6 +12,6 @@
 - [Java String Interview Questions and Answers](https://www.baeldung.com/java-string-interview-questions)
 - [Java Multi-line String](https://www.baeldung.com/java-multiline-string)
 - [Java 中的 String Pool 简介](https://www.ossez.com/t/java-string-pool/14017)
-- [Fixing “constant string too long” Build Error](https://www.baeldung.com/java-constant-string-too-long-error)
+- [Java “constant string too long” 编译错误](https://www.ossez.com/t/java-constant-string-too-long/14048)
 - [Java 对象如何安全的 toString](https://www.ossez.com/t/java-tostring/14000)
 - [编程常用的几种字符编码](https://www.ossez.com/t/topic/14022)
