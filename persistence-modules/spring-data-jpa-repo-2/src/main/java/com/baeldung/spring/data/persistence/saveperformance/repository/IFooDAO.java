@@ -1,4 +1,4 @@
-package com.baeldung.spring.data.persistence.repository;
+package com.baeldung.spring.data.persistence.saveperformance.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

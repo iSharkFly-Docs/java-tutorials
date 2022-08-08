@@ -1,4 +1,4 @@
-package com.baeldung.spring.data.persistence.repository;
+package com.baeldung.spring.data.persistence.saveperformance.repository;
 
 import javax.persistence.*;
 import java.io.Serializable;

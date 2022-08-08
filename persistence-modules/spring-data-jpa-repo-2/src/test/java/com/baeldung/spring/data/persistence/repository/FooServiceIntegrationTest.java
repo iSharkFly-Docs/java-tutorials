@@ -1,5 +1,8 @@
 package com.baeldung.spring.data.persistence.repository;
 
+import com.baeldung.spring.data.persistence.saveperformance.repository.Foo;
+import com.baeldung.spring.data.persistence.saveperformance.repository.IFooService;
+import com.baeldung.spring.data.persistence.saveperformance.repository.PersistenceConfig;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
