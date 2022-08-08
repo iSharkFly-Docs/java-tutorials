@@ -1,4 +1,4 @@
-package com.baeldung.spring.data.persistence.repository;
+package com.baeldung.spring.data.persistence.saveperformance.repository;
 
 import com.google.common.base.Preconditions;
 import org.springframework.beans.factory.annotation.Autowired;

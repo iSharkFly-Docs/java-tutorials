@@ -15,6 +15,7 @@
     </parent>
 
     <modules>
+        <module>core-java</module>
         <module>core-java-8</module>
         <module>core-java-8-2</module>
         <module>core-java-11</module>

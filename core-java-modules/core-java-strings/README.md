@@ -10,7 +10,7 @@
 - [Java Localization – Formatting Messages](https://www.baeldung.com/java-localization-messages-formatting)
 - [Java – Generate Random String](https://www.baeldung.com/java-random-string)
 - [Java String Interview Questions and Answers](https://www.baeldung.com/java-string-interview-questions)
-- [Java Multi-line String](https://www.baeldung.com/java-multiline-string)
+- [Java 多行字符串](https://www.ossez.com/t/java/14049)
 - [Java 中的 String Pool 简介](https://www.ossez.com/t/java-string-pool/14017)
 - [Java “constant string too long” 编译错误](https://www.ossez.com/t/java-constant-string-too-long/14048)
 - [Java 对象如何安全的 toString](https://www.ossez.com/t/java-tostring/14000)
