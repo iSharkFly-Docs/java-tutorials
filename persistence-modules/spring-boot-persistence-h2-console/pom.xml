@@ -56,7 +56,7 @@
         <start-class>com.ossez.h2db.demo.server.SpringBootApp</start-class>
         <spring-boot.version>2.2.4.RELEASE</spring-boot.version>
         <hibernate.version>5.4.24.Final</hibernate.version>
-        <db-util.version>1.0.4</db-util.version>
+        <db-util.version>1.0.7</db-util.version>
     </properties>
 
 </project>
