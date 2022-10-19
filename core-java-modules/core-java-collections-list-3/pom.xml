@@ -50,7 +50,7 @@
 
     <properties>
         <trove4j.version>3.0.2</trove4j.version>
-        <fastutil.version>8.1.0</fastutil.version>
+        <fastutil.version>8.5.9</fastutil.version>
         <colt.version>1.2.0</colt.version>
     </properties>
 
