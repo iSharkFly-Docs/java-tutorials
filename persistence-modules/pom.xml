@@ -76,7 +76,7 @@
 <!--        <module>spring-data-keyvalue</module>-->
 <!--        <module>spring-data-mongodb</module>-->
 <!--        <module>spring-data-neo4j</module>-->
-<!--        <module>spring-data-redis</module>-->
+        <module>spring-data-redis</module>
 <!--        <module>spring-data-solr</module>-->
 <!--        <module>spring-hibernate-3</module>-->
 <!--        <module>spring-hibernate-5</module> &lt;!&ndash; long running &ndash;&gt;-->

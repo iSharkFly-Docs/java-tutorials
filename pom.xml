@@ -40,13 +40,13 @@
 
     <modules>
         <module>core-java-modules</module>
-<!--        <module>jackson-modules</module>-->
-<!--        <module>jackson-simple</module>-->
-<!--        <module>parent-java</module>-->
+        <!--        <module>jackson-modules</module>-->
+        <!--        <module>jackson-simple</module>-->
+        <!--        <module>parent-java</module>-->
         <module>persistence-modules</module>
         <module>testing-modules</module>
         <module>toolkits</module>
-<!--        <module>xml</module>-->
+        <!--        <module>xml</module>-->
     </modules>
 
     <properties>
@@ -109,7 +109,7 @@
         <moneta.version>1.3</moneta.version>
         <jmh-core.version>1.33</jmh-core.version>
         <exec-maven-plugin.version>3.0.0</exec-maven-plugin.version>
-        <maven-surefire-plugin.version>2.21.0</maven-surefire-plugin.version>
+        <maven-surefire-plugin.version>3.0.0-M8</maven-surefire-plugin.version>
         <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
         <logback-classic.version>1.2.5</logback-classic.version>
         <rest-assured.version>3.1.1</rest-assured.version>
@@ -309,6 +309,16 @@
 
     <build>
         <defaultGoal>package</defaultGoal>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>${maven-surefire-plugin.version}</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -321,7 +331,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.12.4</version>
+                <version>${maven-surefire-plugin.version}</version>
                 <configuration>
                     <skipTests>true</skipTests>
                 </configuration>

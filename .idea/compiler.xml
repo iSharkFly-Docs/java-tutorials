@@ -17,6 +17,7 @@
         <module name="core-java-8-2" />
         <module name="core-java-numbers" />
         <module name="discourse" />
+        <module name="spring-data-redis" />
         <module name="core-java-strings" />
         <module name="core-java" />
         <module name="core-java-11" />
