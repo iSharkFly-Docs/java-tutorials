@@ -44,7 +44,7 @@
     </dependencies>
 
     <properties>
-        <eclipse.collections.version>7.1.0</eclipse.collections.version>
+        <eclipse.collections.version>7.1.2</eclipse.collections.version>
         <commons-exec.version>1.3</commons-exec.version>
     </properties>
 
