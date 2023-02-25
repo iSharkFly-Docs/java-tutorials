@@ -87,7 +87,7 @@
         <h2.version>1.4.200</h2.version>
 
         <!-- DATA STRUCTURES -->
-        <jackson.version>2.12.4</jackson.version>
+        <jackson.version>2.14.2</jackson.version>
 
         <!-- TEST -->
         <junit4.version>4.13.2</junit4.version>
