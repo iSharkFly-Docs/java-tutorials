@@ -78,7 +78,7 @@
 
     <properties>
         <hibernate.version>5.4.24.Final</hibernate.version>
-        <mysql.version>8.0.24</mysql.version>
+        <mysql.version>8.0.32</mysql.version>
         <mariaDB4j.version>2.2.3</mariaDB4j.version>
         <assertj-core.version>3.8.0</assertj-core.version>
         <openjdk-jmh.version>1.21</openjdk-jmh.version>
