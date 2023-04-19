@@ -47,7 +47,7 @@
     </build>
 
     <properties>
-        <icu4j.version>61.1</icu4j.version>
+        <icu4j.version>61.2</icu4j.version>
         <maven.compiler.release>11</maven.compiler.release>
     </properties>
 
