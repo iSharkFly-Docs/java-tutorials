@@ -7,16 +7,6 @@
       <option name="url" value="https://repo.ossez.com/repository/maven-snapshots/" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="central" />
-      <option name="name" value="Central Repository" />
-      <option name="url" value="https://repo.maven.apache.org/maven2" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="geodb-repo" />
-      <option name="name" value="GeoDB repository" />
-      <option name="url" value="http://repo.boundlessgeo.com/main/" />
-    </remote-repository>
-    <remote-repository>
       <option name="id" value="ossez-repo-releases" />
       <option name="name" value="OSSEZ Private Releases" />
       <option name="url" value="https://repo.ossez.com/repository/maven-releases/" />
