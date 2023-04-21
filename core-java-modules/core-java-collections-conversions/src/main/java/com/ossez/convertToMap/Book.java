@@ -1,4 +1,4 @@
-package com.baeldung.convertToMap;
+package com.ossez.convertToMap;
 
 public class Book {
     private String name;

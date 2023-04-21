@@ -1,11 +1,11 @@
-## Java Collections Cookbooks and Examples
+## Java 集合（Collections）相关文章和实例
 
-This module contains articles about conversions among Collection types and arrays in Java.
+本模块中的内容包含有 Java 集合（Collections）转换相关的方法。
 
-### Relevant Articles: 
+### 相关文章
 - [Converting between an Array and a List in Java](https://www.baeldung.com/convert-array-to-list-and-list-to-array)
 - [Converting Between an Array and a Set in Java](https://www.baeldung.com/convert-array-to-set-and-set-to-array)
-- [Convert a Map to an Array, List or Set in Java](https://www.baeldung.com/convert-map-values-to-array-list-set)
+- [Java 把 Map 的值（Value）转换为 Array, List 或 Set](https://www.ossez.com/t/java-map-value-array-list-set/14388)
 - [Converting a List to String in Java](https://www.baeldung.com/java-list-to-string)
 - [How to Convert List to Map in Java](https://www.baeldung.com/java-list-to-map)
 - [Converting a Collection to ArrayList in Java](https://www.baeldung.com/java-convert-collection-arraylist)

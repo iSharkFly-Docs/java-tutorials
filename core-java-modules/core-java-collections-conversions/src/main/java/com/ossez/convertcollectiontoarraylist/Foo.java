@@ -1,4 +1,4 @@
-package com.baeldung.convertcollectiontoarraylist;
+package com.ossez.convertcollectiontoarraylist;
 
 /**
  * This POJO is the element type of our collection. It has a deepCopy() method.

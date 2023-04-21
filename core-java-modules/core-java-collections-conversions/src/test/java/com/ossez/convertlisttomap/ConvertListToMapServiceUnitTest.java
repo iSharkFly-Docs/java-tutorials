@@ -1,4 +1,4 @@
-package com.baeldung.convertlisttomap;
+package com.ossez.convertlisttomap;
 
 import org.junit.Before;
 import org.junit.Test;

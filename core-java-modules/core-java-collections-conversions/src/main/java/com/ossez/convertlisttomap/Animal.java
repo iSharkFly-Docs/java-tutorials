@@ -1,4 +1,4 @@
-package com.baeldung.convertlisttomap;
+package com.ossez.convertlisttomap;
 
 public class Animal {
     private int id;

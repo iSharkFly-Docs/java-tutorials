@@ -1,4 +1,4 @@
-package com.baeldung.convertcollectiontoarraylist;
+package com.ossez.convertcollectiontoarraylist;
 
 import java.util.ArrayList;
 import java.util.Collection;
