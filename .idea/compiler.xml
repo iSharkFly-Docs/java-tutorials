@@ -21,6 +21,7 @@
         <module name="core-java-strings" />
         <module name="core-java" />
         <module name="core-java-11" />
+        <module name="core-java-collections-conversions" />
         <module name="core-java-collections-list-2" />
         <module name="core-java-collections" />
         <module name="core-java-datetime-conversion" />
