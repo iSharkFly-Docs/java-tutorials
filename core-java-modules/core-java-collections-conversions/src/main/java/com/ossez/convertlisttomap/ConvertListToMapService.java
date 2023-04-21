@@ -1,4 +1,4 @@
-package com.baeldung.convertlisttomap;
+package com.ossez.convertlisttomap;
 
 import com.google.common.collect.Maps;
 import org.apache.commons.collections4.MapUtils;

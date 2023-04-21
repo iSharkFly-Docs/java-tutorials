@@ -1,4 +1,4 @@
-package com.baeldung.java.collections;
+package com.ossez.java.collections;
 
 import static org.hamcrest.Matchers.contains;
 import static org.junit.Assert.assertThat;

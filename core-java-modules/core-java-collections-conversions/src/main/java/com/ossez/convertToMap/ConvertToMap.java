@@ -1,4 +1,4 @@
-package com.baeldung.convertToMap;
+package com.ossez.convertToMap;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;

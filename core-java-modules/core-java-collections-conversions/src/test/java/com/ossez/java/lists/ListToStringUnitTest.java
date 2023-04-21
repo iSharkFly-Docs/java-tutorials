@@ -1,4 +1,4 @@
-package com.baeldung.java.lists;
+package com.ossez.java.lists;
 
 import java.util.Arrays;
 import java.util.List;
