@@ -13,3 +13,4 @@
 - [Converting Iterable to Collection in Java](https://www.baeldung.com/java-iterable-to-collection)
 - [Converting Iterator to List](https://www.baeldung.com/java-convert-iterator-to-list)
 - 更多文章: [[next -->]](../core-java-collections-conversions-2)
+
