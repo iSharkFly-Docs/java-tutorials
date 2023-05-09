@@ -5,7 +5,7 @@
 ### 相关文章
 
 - [Java 如何在 Array 和 List 之间进行转换](https://www.ossez.com/t/java-array-list/14416)
-- [Converting Between an Array and a Set in Java](https://www.baeldung.com/convert-array-to-set-and-set-to-array)
+- [Java 如何在 Array 和 Set 之间进行转换](https://www.ossez.com/t/java-array-set/14417)
 - [Java 把 Map 的值（Value）转换为 Array, List 或 Set](https://www.ossez.com/t/java-map-value-array-list-set/14388)
 - [Converting a List to String in Java](https://www.baeldung.com/java-list-to-string)
 - [How to Convert List to Map in Java](https://www.baeldung.com/java-list-to-map)
