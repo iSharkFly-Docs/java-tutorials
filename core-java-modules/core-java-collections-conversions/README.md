@@ -1,9 +1,10 @@
 ## Java 集合（Collections）相关文章和实例
 
-本模块中的内容包含有 Java 集合（Collections）转换相关的方法。
+本模块中的内容包含有 Java 集合（Collections）和数组（arrays）中进行转换。
 
 ### 相关文章
-- [Converting between an Array and a List in Java](https://www.baeldung.com/convert-array-to-list-and-list-to-array)
+
+- [Java 如何在 Array 和 List 之间进行转换](https://www.ossez.com/t/java-array-list/14416)
 - [Converting Between an Array and a Set in Java](https://www.baeldung.com/convert-array-to-set-and-set-to-array)
 - [Java 把 Map 的值（Value）转换为 Array, List 或 Set](https://www.ossez.com/t/java-map-value-array-list-set/14388)
 - [Converting a List to String in Java](https://www.baeldung.com/java-list-to-string)
