@@ -3,6 +3,7 @@
 本模块中的内容包括有如何在 Java 的集合和数组（arrays）中进行转换。
 
 ### 相关文章：
+
 - [Java 如何在 Array 和 List 之间进行转换](https://www.ossez.com/t/java-array-list/14416)
 - [Converting between an Array and a Set in Java](https://www.baeldung.com/convert-array-to-set-and-set-to-array)
 - [Convert a Map to an Array, List or Set in Java](https://www.baeldung.com/convert-map-values-to-array-list-set)
