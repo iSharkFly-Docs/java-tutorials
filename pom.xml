@@ -43,6 +43,7 @@
         <!--        <module>jackson-modules</module>-->
         <!--        <module>jackson-simple</module>-->
         <!--        <module>parent-java</module>-->
+        <module>java-collections-conversions</module>
         <module>persistence-modules</module>
         <module>testing-modules</module>
         <module>toolkits</module>
