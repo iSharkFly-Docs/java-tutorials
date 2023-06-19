@@ -72,7 +72,7 @@
         <maven-war-plugin.version>3.0.0</maven-war-plugin.version>
 
         <!-- UTILS -->
-        <version.guava>31.1-jre</version.guava>
+        <version.guava>32.0.0-jre</version.guava>
 
         <!-- Hibernate / JPA -->
         <hibernate.version>4.3.5.Final</hibernate.version>
