@@ -286,7 +286,7 @@
         <xstream.version>1.4.9</xstream.version>
 
         <!-- util -->
-        <guava.version>19.0</guava.version>
+        <guava.version>32.0.0-android</guava.version>
         <javassist.version>3.25.0-GA</javassist.version>
 
         <!-- Maven plugins -->
