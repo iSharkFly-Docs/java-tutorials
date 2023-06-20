@@ -277,7 +277,7 @@
         <unix4j.version>0.4</unix4j.version>
         <grep4j.version>1.8.7</grep4j.version>
         <fscontext.version>4.6-b01</fscontext.version>
-        <protonpack.version>1.13</protonpack.version>
+        <protonpack.version>1.16</protonpack.version>
         <streamex.version>0.6.5</streamex.version>
         <vavr.version>0.9.0</vavr.version>
         <opencsv.version>4.1</opencsv.version>
