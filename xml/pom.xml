@@ -374,7 +374,7 @@
         <xmlunit-assertj.version>2.6.3</xmlunit-assertj.version>
         <junit-jupiter.version>5.5.0</junit-jupiter.version>
         <freemarker.version>2.3.29</freemarker.version>
-        <mustache.version>0.9.6</mustache.version>
+        <mustache.version>0.9.10</mustache.version>
         <!-- util -->
         <commons-lang.version>2.4</commons-lang.version>
         <!-- maven plugins -->
