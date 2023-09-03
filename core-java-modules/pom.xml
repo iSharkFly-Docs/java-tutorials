@@ -31,6 +31,7 @@
         <module>core-java-collections-list-3</module>
         <module>core-java-datetime-conversion</module>
         <module>core-java-io</module>
+        <module>core-java-io-2</module>
         <module>core-java-numbers</module>
         <module>core-java-streams</module>
         <module>core-java-strings</module>
