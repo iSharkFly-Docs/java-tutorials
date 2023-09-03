@@ -1,4 +1,4 @@
-package com.ossez.codebank.algorithm.tests;
+package com.ossez.toolkits.codebank.tests.algorithm;
 
 import junit.framework.TestCase;
 import org.junit.Test;

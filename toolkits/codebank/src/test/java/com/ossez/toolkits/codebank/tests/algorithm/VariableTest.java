@@ -1,4 +1,4 @@
-package com.ossez.codebank.algorithm.tests;
+package com.ossez.toolkits.codebank.tests.algorithm;
 
 import org.junit.Test;
 import org.slf4j.Logger;

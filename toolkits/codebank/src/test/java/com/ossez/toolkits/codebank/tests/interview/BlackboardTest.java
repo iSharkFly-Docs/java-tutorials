@@ -1,9 +1,6 @@
-package com.ossez.toolkits.codebank.tests;
+package com.ossez.toolkits.codebank.tests.interview;
 
-import com.google.api.gbase.client.NumberUnit;
-import com.ibm.icu.impl.CharTrie;
 import com.ossez.toolkits.codebank.common.model.request.TopicRequest;
-import org.apache.commons.lang3.CharUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.Test;
 import org.slf4j.Logger;
