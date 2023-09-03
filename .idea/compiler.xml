@@ -21,23 +21,21 @@
         <module name="core-java-collections-list" />
         <module name="spring-data-jpa-repo-2" />
         <module name="core-java-streams" />
+        <module name="core-java-io-2" />
         <module name="core-java-io" />
         <module name="core-java-8-2" />
         <module name="discourse" />
+        <module name="image-processing" />
         <module name="spring-data-redis" />
         <module name="core-java" />
         <module name="core-java-collections-list-2" />
-        <module name="core-java-collections-list-3" />
         <module name="core-java-collections-conversions-2" />
+        <module name="core-java-collections-list-3" />
         <module name="core-java-8" />
         <module name="core-java-collections-3" />
         <module name="core-java-collections-2" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="java-collections-conversions" target="11" />
-      <module name="java-collections-conversions-2" target="11" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
