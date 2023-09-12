@@ -43,6 +43,8 @@
     <file url="file://$PROJECT_DIR$/core-java-modules/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/image-processing/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/image-processing/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent-boot-2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent-boot-2/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/persistence-modules/activejdbc/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/persistence-modules/activejdbc/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/persistence-modules/spring-data-jpa-repo-2/src/main/java" charset="UTF-8" />
