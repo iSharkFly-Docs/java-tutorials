@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/remoting-http/remoting-http-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remoting-http/remoting-http-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remoting-http/remoting-http-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remoting-http/remoting-http-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remoting-http/remoting-http-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remoting-http/remoting-http-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remoting-http/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remoting-http/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remoting-jms/remoting-jms-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remoting-jms/remoting-jms-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remoting-jms/remoting-jms-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remoting-jms/remoting-jms-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remoting-jms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remoting-jms/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
