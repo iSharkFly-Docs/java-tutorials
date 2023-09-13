@@ -20,7 +20,7 @@ public class MQController {
     private final JmsProducer jmsProducer;
 
     @PostMapping("/send")
-    public String addContractorInfo(@RequestBody String request) {
+    public String sendToMQ(@RequestBody String request) {
         jmsProducer.send(request);
 
         return "Send";
