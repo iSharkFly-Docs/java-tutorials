@@ -5,6 +5,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * JmsProducer
+ * @author YuCheng Hu
  */
 @Component
 public class JmsProducer {
