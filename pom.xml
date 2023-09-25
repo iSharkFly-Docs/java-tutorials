@@ -45,6 +45,7 @@
         <!--        <module>jackson-simple</module>-->
         <!--        <module>parent-java</module>-->
         <module>parent-boot-2</module>
+        <module>parent-boot-3</module>
         <module>persistence-modules</module>
         <module>testing-modules</module>
         <module>toolkits</module>

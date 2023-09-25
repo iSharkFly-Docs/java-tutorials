@@ -1,7 +1,9 @@
 package com.ossez.toolkits.codebank;
 
 import java.util.Properties;
+import java.util.concurrent.ExecutorService;
 
+import com.google.gdata.data.docs.Size;
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
 import org.apache.commons.cli.GnuParser;
@@ -30,68 +32,119 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // get the idx feed properties file
-        Main.parseProperties();
+        SizeCount sizeCount = new SizeCount();
 
-        // load console options
-        Main.parseCommandLine(args);
+        sizeCount.setCustomer(70);
+        sizeCount.setTeller(3);
+        sizeCount.setQueueSize(3);
 
-        logger.debug("Starting feeds...");
-        System.out.println("starting feeds...");
+        SizeCount exeSizeCount = algorithmBanker(sizeCount);
+        logger.debug("time Require ->>> {}", exeSizeCount.getTimeRequire());
 
-        // execute the feeds
-        Main.executeFeeds();
-
-    }
-
-    /**
-     * Executes the feeds specified in the feeds.properties file.
-     */
-    private static void executeFeeds() {
-
-    }
-
-    /**
-     * Parses the properties file to get a list of all feeds.
-     */
-    private static void parseProperties() {
-        try {
-            // load the properties file
-            logger.debug("Parsing properties");
-            Main.properties.load(Main.class.getClassLoader().getResourceAsStream("rets.properties"));
-
-            // load the feeds
-
-        } catch (Exception ex) {
-            ex.printStackTrace();
-            logger.error("Could not parse feed properties", ex);
+        if (exeSizeCount.getCustomer() > 0) {
+            exeSizeCount = exeSizeCount = callOtherBank(exeSizeCount);
+            logger.debug("time Require - {}", exeSizeCount.getTimeRequire());
         }
+
+        // Current Size:
+        logger.debug("Spending Time: [{}]", exeSizeCount.getTimeRequire());
+
+        /**
+         * After this time, all process will done and we can re-check again.
+         *  if we set sizeCount.setCustomer(70);
+         *  After this value check function.
+         *  we still have 64 customer need to get processed.
+         *  In this case, we need may call callOtherBank more than once. to reach the value banker manager wanted.
+         */
+
+        /**
+         * How many Teller need for C.
+         * We need to set up time frame first.
+         *
+         * For current, will sizeCount.getCustomer - sizeCount.getQueueSize.
+         * Because, we don't want getCustomer waite.
+         */
+
+        /**
+         * About send tellter to home.
+         *
+         * There are three conditions:
+         * 1. Size of Customer == 0;
+         * 2. Size of Queue == 0;
+         * 3. No active Thread is running, or active thread < size of teller.
+         */
+
+        /**
+         * About how many teller.
+         * Time is matter, different tiller can process different business.
+         * We need to have average time for each business process may coast. in this case I was set time all == 1000ms (not in real world).
+         * And the Size of Queue too.
+         *
+         * Check the algorithmBanker function bellow.
+         *
+         * Run this function, if sizeCount.getCustomer > 0. All init teller should in.
+         * and we need to get extra teller for size sizeCount.getCustomer()
+         *
+         * if sizeCount.getCustomer < sizeCount.getQueueSize + sizeCount.getTeller(), we can send some teller to home.
+         *
+         * Check this every  exeSizeCount.getTimeRequire(), make sure  exeSizeCount.getTimeRequire() == 0 then do tellter call.
+         */
+
     }
 
-    /**
-     * Handles creation of console options.
-     */
-    private static void parseCommandLine(String[] args) {
 
-        // parse command line options
-        CommandLineParser parser = new GnuParser();
+    public static SizeCount algorithmBanker(SizeCount sizeCount) {
 
-        try {
-            Main.cl = parser.parse(Main.options, args);
+        if (sizeCount.getCustomer() <= sizeCount.getTeller()) {
+            Integer exeCount = sizeCount.getCustomer();
+            for (int i = 0; i < exeCount; i++) {
+                TellerThread R1 = new TellerThread("TellerThread-1", 1000);
+                R1.start();
+                sizeCount.setTimeRequire(sizeCount.getTimeRequire() + 1000);
+            }
+            sizeCount.setCustomer(0);
 
-            // get the dry run option
-            Main.dryRun = Main.cl.hasOption("d");
-            logger.trace("Value of dryRun: " + dryRun);
+        } else {
+            logger.debug("working / sleep teller - {}/{}", sizeCount.getTeller(), 0);
+            Integer exeCount = sizeCount.getCustomer();
+            for (int i = 0; i < sizeCount.getTeller(); i++) {
+                TellerThread R1 = new TellerThread("TellerThread-1", 1000);
+                R1.start();
+                sizeCount.setCustomer(sizeCount.getCustomer() - 1);
+                sizeCount.setTimeRequire(sizeCount.getTimeRequire() + 1000);
+            }
 
-            // get the limit option
-            // Main.limit = Utility.parseInt(Main.cl.getOptionValue("l", "0"));
-            logger.trace("Value of limit: " + Main.limit);
+            // Q
+            if ((exeCount - sizeCount.getTeller()) > sizeCount.getQueueSize()) {
+                for (int i = 0; i < sizeCount.getQueueSize(); i++) {
+                    TellerThread R1 = new TellerThread("TellerThread-1", 1000);
+                    R1.start();
+                    sizeCount.setCustomer(sizeCount.getCustomer() - 1);
+                    sizeCount.setTimeRequire(sizeCount.getTimeRequire() + 1000);
+                }
+            } else {
+                for (int i = 0; i < exeCount - sizeCount.getTeller(); i++) {
+                    TellerThread R1 = new TellerThread("TellerThread-1", 1000);
+                    R1.start();
+                    sizeCount.setCustomer(sizeCount.getCustomer() - 1);
+                    sizeCount.setTimeRequire(sizeCount.getTimeRequire() + 1000);
+                }
+            }
 
-            // get the force option
-            Main.force = Main.cl.hasOption("u");
-            logger.trace("Value of force: " + Main.force);
-        } catch (Exception ex) {
-            logger.error("An error ocurred parsing command line arguments", ex);
+
         }
+
+        return sizeCount;
     }
+
+    private static SizeCount callOtherBank(SizeCount sizeCount) {
+        TellerThread R1 = new TellerThread("TellerThread-1", 1000);
+        R1.start();
+        sizeCount.setCustomer(sizeCount.getCustomer() - 1);
+        sizeCount.setTimeRequire(sizeCount.getTimeRequire() + 1000);
+
+        return sizeCount;
+    }
+
+
 }

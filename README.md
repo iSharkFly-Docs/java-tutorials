@@ -52,3 +52,16 @@ Java 代码使用的是 JDK 11。
 | CN 博客          | [http://www.cwikius.cn/](http://www.cwikius.cn/)       | CWIKIUS.CN 一个有独立思考和温度的清新站  |
 
 ##
+
+
+| 基本类型    | 大小    | 包装器类型     |
+|---------|-------|-----------|
+| boolean | /     | Boolean   |
+| char    | 16bit | Character |
+| byte    | 8bit  | Byte      |
+| short   | 16bit | Short     |
+| int     | 32bit | Integer   |
+| long    | 64bit | Long      |
+| float   | 32bit | Float     |
+| double  | 64bit | Double    |
+| void    | /     | Void      |
