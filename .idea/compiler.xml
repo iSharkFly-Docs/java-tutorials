@@ -8,36 +8,34 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="assertion-libraries" />
+        <module name="core-java-annotations" />
+        <module name="core-java-numbers" />
+        <module name="core-java-strings" />
+        <module name="core-java-11" />
+        <module name="core-java-collections-conversions" />
+        <module name="core-java-collections" />
         <module name="core-java-datetime-conversion" />
         <module name="junit-5-basics" />
         <module name="activejdbc" />
         <module name="codebank" />
+        <module name="core-java-collections-list" />
         <module name="spring-data-jpa-repo-2" />
         <module name="core-java-streams" />
         <module name="core-java-io-2" />
         <module name="core-java-io" />
+        <module name="core-java-8-2" />
         <module name="discourse" />
         <module name="image-processing" />
         <module name="spring-data-redis" />
         <module name="core-java" />
         <module name="core-java-collections-list-2" />
+        <module name="core-java-collections-conversions-2" />
+        <module name="core-java-collections-list-3" />
         <module name="core-java-8" />
+        <module name="core-java-collections-3" />
+        <module name="core-java-collections-2" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="core-java-11" target="11" />
-      <module name="core-java-8-2" target="11" />
-      <module name="core-java-annotations" target="11" />
-      <module name="core-java-collections" target="11" />
-      <module name="core-java-collections-2" target="11" />
-      <module name="core-java-collections-3" target="11" />
-      <module name="core-java-collections-conversions" target="11" />
-      <module name="core-java-collections-conversions-2" target="11" />
-      <module name="core-java-collections-list" target="11" />
-      <module name="core-java-collections-list-3" target="11" />
-      <module name="core-java-numbers" target="11" />
-      <module name="core-java-strings" target="11" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
