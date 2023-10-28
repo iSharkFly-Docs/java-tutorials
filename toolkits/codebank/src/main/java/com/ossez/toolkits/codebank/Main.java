@@ -1,32 +1,50 @@
 package com.ossez.toolkits.codebank;
 
+import java.util.Properties;
+import java.util.concurrent.ExecutorService;
+
+import com.google.gdata.data.docs.Size;
 import org.apache.commons.cli.CommandLine;
+import org.apache.commons.cli.CommandLineParser;
+import org.apache.commons.cli.GnuParser;
 import org.apache.commons.cli.Options;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.util.Properties;
 
 /**
  * Main Test Class
  *
  * @author YuCheng Hu
  */
-public class Main {
+
+interface TestInterface1 {
+    // default method
+    default void show() {
+        System.out.println("Default TestInterface - 1 ");
+    }
+}
+
+interface TestInterface2 {
+    // Default method
+    default void show() {
+        System.out.println("Default TestInterface - 2");
+    }
+}
+
+
+public class Main implements TestInterface1, TestInterface2 {
     private static final Logger logger = LoggerFactory.getLogger(Main.class);
-
-    private static Options options = new Options();
-    private static Properties properties = new Properties();
-
-    private static CommandLine cl = null;
-
-    private static boolean dryRun = false;
-    private static int limit = 0;
-    private static boolean force = false;
 
 
     public static void main(String[] args) {
+        new Main().show();
 
+    }
 
+    @Override
+    public void show() {
+        TestInterface1.super.show();
+        TestInterface2.super.show();
     }
 }
