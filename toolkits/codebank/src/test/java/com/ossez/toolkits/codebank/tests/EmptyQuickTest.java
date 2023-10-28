@@ -46,9 +46,6 @@ public class EmptyQuickTest {
         testList.add(String.valueOf(2));
         testList.forEach(e -> log.debug("{}", e));
 
-
-        String index0 = (String) testList.get(0);
-        String index1 = (String) testList.get(1);
     }
 
 }
