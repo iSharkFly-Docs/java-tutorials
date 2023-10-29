@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="assertion-libraries" />
         <module name="core-java-annotations" />
+        <module name="core-java-uuid" />
         <module name="core-java-numbers" />
         <module name="core-java-strings" />
         <module name="core-java-11" />
