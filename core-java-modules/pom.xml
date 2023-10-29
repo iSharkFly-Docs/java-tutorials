@@ -35,6 +35,7 @@
         <module>core-java-numbers</module>
         <module>core-java-streams</module>
         <module>core-java-strings</module>
+        <module>core-java-uuid</module>
     </modules>
 
     <dependencyManagement>
