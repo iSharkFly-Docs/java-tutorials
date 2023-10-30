@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="assertion-libraries" />
+        <module name="core-java-serialization" />
         <module name="core-java-annotations" />
         <module name="core-java-uuid" />
         <module name="core-java-numbers" />
