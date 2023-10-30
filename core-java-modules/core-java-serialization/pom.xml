@@ -172,7 +172,7 @@
         <grep4j.version>1.8.7</grep4j.version>
         <javamoney.moneta.version>1.1</javamoney.moneta.version>
         <maven-javadoc-plugin.version>3.6.0</maven-javadoc-plugin.version>
-        <spring.core.version>4.3.20.RELEASE</spring.core.version>
+        <spring.core.version>5.2.24.RELEASE</spring.core.version>
     </properties>
 
 </project>
