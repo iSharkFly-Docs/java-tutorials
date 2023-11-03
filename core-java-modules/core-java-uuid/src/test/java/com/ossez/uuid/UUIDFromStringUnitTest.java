@@ -1,4 +1,4 @@
-package com.baeldung.uuid;
+package com.ossez.uuid;
 
 import org.junit.jupiter.api.Test;
 

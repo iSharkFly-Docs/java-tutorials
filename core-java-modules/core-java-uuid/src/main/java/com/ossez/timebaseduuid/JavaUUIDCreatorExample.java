@@ -1,4 +1,4 @@
-package com.baeldung.timebaseduuid;
+package com.ossez.timebaseduuid;
 
 import com.fasterxml.uuid.Generators;
 

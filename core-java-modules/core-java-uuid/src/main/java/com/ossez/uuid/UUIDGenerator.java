@@ -1,4 +1,4 @@
-package com.baeldung.uuid;
+package com.ossez.uuid;
 
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
