@@ -19,9 +19,7 @@ public class UUIDValidatorUnitTest {
 
         String invalidUUID = "invalid-uuid";
         Assertions.assertThrows(IllegalArgumentException.class, () -> UUID.fromString(invalidUUID));
-        assertThatThrownBy(() -> {
-            UUID.fromString(invalidUUID);
-        }).isInstanceOf(IllegalArgumentException.class);
+        assertThatThrownBy(() -> UUID.fromString(invalidUUID)).isInstanceOf(IllegalArgumentException.class);
 
     }
 
