@@ -75,7 +75,7 @@
     </build>
 
     <properties>
-        <truth.version>0.32</truth.version>
+        <truth.version>0.46</truth.version>
         <assertj-guava.version>3.4.0</assertj-guava.version>
         <assertj-generator.version>2.1.0</assertj-generator.version>
         <javalite.version>1.4.13</javalite.version>
