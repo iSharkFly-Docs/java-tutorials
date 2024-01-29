@@ -11,6 +11,7 @@
         <module name="core-java-serialization" />
         <module name="core-java-annotations" />
         <module name="core-java-uuid" />
+        <module name="core-java-numbers" />
         <module name="core-java-strings" />
         <module name="core-java-11" />
         <module name="core-java-collections-conversions" />
