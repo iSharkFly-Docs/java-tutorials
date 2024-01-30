@@ -1,31 +1,12 @@
 package com.isharkfly.toolkits.codebank.tests;
 
+import junit.framework.TestCase;
 import org.junit.Test;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.TestInstance;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import junit.framework.TestCase;
-
-/**
- * Object of VariableOssez
- * 
- * @author YuCheng
- *
- */
-
-class OssezVariable {
-	int s1, s2;
-	static int s3;
-
-	OssezVariable(int x, int y, int z) {
-		s1 = x;
-		s2 = y;
-		s3 = z;
-	}
-}
 
 /**
  * 
