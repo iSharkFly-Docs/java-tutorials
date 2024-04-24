@@ -2,7 +2,7 @@
     <a href="https://github.com/honeymoose">
         <img height=85 src="https://avatars1.githubusercontent.com/u/45009982?s=200&v=4">
     </a>
-    <br>提供 CWIKI.US 项目中使用的代码
+    <br>提供 iSharkFly.Com 项目中使用的代码
 </p>
 
 Java 代码使用的是 JDK 11。
@@ -10,7 +10,7 @@ Java 代码使用的是 JDK 11。
 你可以通过单击下面连接后访问我们网站，并且访问我们提供的最新有关 Java 的开发资料。
 
 * [概述](https://www.cwiki.us/pages/viewpage.action?pageId=37492282)
-* [社区和讨论](https://www.ossez.com/c/open-source/java/15)
+* [社区和讨论](https://www.isharkfly.com/c/computer-program/java/15)
 
 # 联系方式
 
