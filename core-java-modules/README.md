@@ -4,7 +4,7 @@
 
 ## 相关文章
 
-- [J2EE，Java EE，Jakarta EE 命名之间的恩恩怨怨](https://www.ossez.com/t/j2ee-java-ee-jakarta-ee/14382)
+- [J2EE，Java EE，Jakarta EE 命名之间的恩恩怨怨](https://track.ossez.com/articles/PL-A-37491644/J2EEJava-EEJakarta-EE)
 - [Understanding the NumberFormatException in Java](https://www.baeldung.com/java-number-format-exception)
 
 
