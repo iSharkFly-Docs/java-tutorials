@@ -4,10 +4,10 @@
 
 ### 相关文章
 
-- [Java 如何在 Array 和 List 之间进行转换](https://www.ossez.com/t/java-array-list/14416)
-- [Java 如何在 Array 和 Set 之间进行转换](https://www.ossez.com/t/java-array-set/14417)
-- [Java 把 Map 的值（Value）转换为 Array, List 或 Set](https://www.ossez.com/t/java-map-value-array-list-set/14388)
-- [Java 把一个 List 转换为字符串](https://www.ossez.com/t/converting-a-list-to-string-in-java/14427)
+- [Java 如何在 Array 和 List 之间进行转换](https://track.ossez.com/articles/PL-A-37491937/Java-Array-List)
+- [Java 如何在 Array 和 Set 之间进行转换](https://track.ossez.com/articles/PL-A-37491936/Java-Array-Set)
+- [Java 把 Map 的值（Value）转换为 Array, List 或 Set](https://track.ossez.com/articles/PL-A-37491647/Java-Map-Value-Array-List-Set)
+- [Java 把一个 List 转换为字符串](https://track.ossez.com/articles/PL-A-37491646/Java-List)
 - [How to Convert List to Map in Java](https://www.baeldung.com/java-list-to-map)
 - [Converting a Collection to ArrayList in Java](https://www.baeldung.com/java-convert-collection-arraylist)
 - [Java 8 Collectors toMap](https://www.baeldung.com/java-collectors-tomap)
