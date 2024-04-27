@@ -7,6 +7,6 @@ Java 语言中的类、方法、变量、参数和包等都可以被标注。和
 - [Java @Override Annotation](https://www.baeldung.com/java-override)
 - [Java @SuppressWarnings Annotation](https://www.baeldung.com/java-suppresswarnings)
 - [Java @SafeVarargs Annotation](https://www.baeldung.com/java-safevarargs)
-- [Java @Deprecated Annotation（注解）](https://www.cwiki.us/display/JAVAZH/Java+@Deprecated+Annotation)
+- [Java @Deprecated Annotation（注解）](https://track.ossez.com/articles/PL-A-37491765/Java-Deprecated-Annotation)
 - [Overview of Java Built-in Annotations](https://www.baeldung.com/java-default-annotations)
 - [Creating a Custom Annotation in Java](https://www.baeldung.com/java-custom-annotation)
