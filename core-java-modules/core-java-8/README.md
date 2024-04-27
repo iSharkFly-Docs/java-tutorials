@@ -5,7 +5,7 @@
 ### 相关文章: 
 - [New Features in Java 8](https://www.baeldung.com/java-8-new-features)
 - [Guide to Java 8 groupingBy Collector](https://www.baeldung.com/java-groupingby-collector)
-- [Java 8 中的设计模式策略](https://www.ossez.com/t/java-8/13978)
+- [Java 8 中的设计模式策略](https://track.ossez.com/articles/PL-A-37491935/Java-8)
 - [Guide to Java 8 Comparator.comparing()](https://www.baeldung.com/java-8-comparator-comparing)
 - [Guide to the Java 8 forEach](https://www.baeldung.com/foreach-java)
 - [Introduction to Spliterator in Java](https://www.baeldung.com/java-spliterator)
