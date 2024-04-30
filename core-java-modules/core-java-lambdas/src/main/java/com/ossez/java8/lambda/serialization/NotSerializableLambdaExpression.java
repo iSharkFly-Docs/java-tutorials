@@ -1,4 +1,4 @@
-package com.baeldung.java8.lambda.serialization;
+package com.ossez.java8.lambda.serialization;
 
 public class NotSerializableLambdaExpression {
     public static Object getLambdaExpressionObject() {
