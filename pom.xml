@@ -40,6 +40,7 @@
 
     <modules>
         <module>core-java-modules</module>
+        <module>image-compressing</module>
         <module>image-processing</module>
         <!--        <module>jackson-modules</module>-->
         <!--        <module>jackson-simple</module>-->
