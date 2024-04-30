@@ -3,8 +3,8 @@
 本模块中包含有关 Java 字符串（String）有关的文章。
 
 ### 相关文章
-- [Java 使用 char[] Array 还是 String 存储字符串密码](https://www.isharkfly.com/t/java-char-array-string/14015)
-- [Java 9 中的字符串（String）压缩](https://www.isharkfly.com/t/java-9-string/14024)
+- [Java 使用 char[] Array 还是 String 存储字符串密码](https://track.ossez.com/articles/PL-A-37491622/Java-char-Array-String)
+- [Java 9 中的字符串（String）压缩](https://track.ossez.com/articles/PL-A-37491635/Java-9-String)
 - [String Not Empty Test Assertions in Java](https://www.baeldung.com/java-assert-string-not-empty)
 - [String Performance Hints](https://www.baeldung.com/java-string-performance)
 - [Java Localization – Formatting Messages](https://www.baeldung.com/java-localization-messages-formatting)

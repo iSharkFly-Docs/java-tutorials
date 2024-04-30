@@ -23,6 +23,7 @@
         <module name="codebank" />
         <module name="core-java-collections-list" />
         <module name="image-compressing" />
+        <module name="spring-data-jpa-repo-2" />
         <module name="core-java-streams" />
         <module name="core-java-io-2" />
         <module name="core-java-io" />
@@ -30,6 +31,7 @@
         <module name="image-processing" />
         <module name="spring-data-redis" />
         <module name="core-java" />
+        <module name="core-java-collections-list-2" />
         <module name="core-java-collections-conversions-2" />
         <module name="core-java-8" />
         <module name="core-java-collections-3" />
@@ -39,9 +41,7 @@
     <bytecodeTargetLevel>
       <module name="core-java-11-2" target="11" />
       <module name="core-java-8-2" target="11" />
-      <module name="core-java-collections-list-2" target="11" />
-      <module name="core-java-collections-list-3" target="1.5" />
-      <module name="spring-data-jpa-repo-2" target="11" />
+      <module name="core-java-collections-list-3" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

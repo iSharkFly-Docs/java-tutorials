@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9a214efb-33c3-4fdb-a681-cd1ead063ee4" name="Changes" comment="Update Code for Spring MQ testing: https://www.isharkfly.com/t/activemq-artemis-spring/14881">
+      <change beforePath="$PROJECT_DIR$/../../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remoting-jms-artemis-client/src/main/java/com/ossez/artemis/client/JmsProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/remoting-jms-artemis-client/src/main/java/com/ossez/artemis/client/JmsProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-remoting-modules/remoting-jms/remoting-jms-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-remoting-modules/remoting-jms/remoting-jms-client/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-remoting-modules/remoting-jms/remoting-jms-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-remoting-modules/remoting-jms/remoting-jms-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-remoting-modules/remoting-jms/remoting-jms-server/src/main/java/com/baeldung/server/JmsServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-remoting-modules/remoting-jms/remoting-jms-server/src/main/java/com/baeldung/server/JmsServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-remoting-modules/remoting-jms/remoting-jms-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-remoting-modules/remoting-jms/remoting-jms-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../toolkits/codebank/src/main/java/com/ossez/toolkits/codebank/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../toolkits/codebank/src/main/java/com/ossez/toolkits/codebank/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../toolkits/codebank/src/test/java/com/ossez/toolkits/codebank/tests/EmptyQuickTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../toolkits/codebank/src/test/java/com/ossez/toolkits/codebank/tests/EmptyQuickTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="2VJbd3gmFv2GZ8cKz2vqpqcz4Or" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;active__mq&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;661cd39530eb3cb83b2769ea114fb8f6&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ossez.artemis.client.controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.JmsArtemisClientApplication">
+    <configuration name="JmsArtemisClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="remoting-jms-artemis-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ossez.artemis.client.JmsArtemisClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JmsArtemisServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="remoting-jms-artemis-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ossez.artemis.server.JmsArtemisServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a214efb-33c3-4fdb-a681-cd1ead063ee4" name="Changes" comment="" />
+      <created>1694557214636</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694557214636</updated>
+      <workItem from="1694557215694" duration="1026000" />
+      <workItem from="1694572754527" duration="2518000" />
+      <workItem from="1694610015071" duration="2942000" />
+      <workItem from="1694632887629" duration="2791000" />
+      <workItem from="1694745642765" duration="1182000" />
+      <workItem from="1694749300358" duration="604000" />
+      <workItem from="1694749947579" duration="3175000" />
+    </task>
+    <task id="LOCAL-00001" summary="Update Code for Spring MQ testing: https://www.isharkfly.com/t/activemq-artemis-spring/14881">
+      <created>1694611400536</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694611400536</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update Code for Spring MQ testing: https://www.isharkfly.com/t/activemq-artemis-spring/14881">
+      <created>1694611412956</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694611412956</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update Code for Spring MQ testing: https://www.isharkfly.com/t/activemq-artemis-spring/14881" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Code for Spring MQ testing: https://www.isharkfly.com/t/activemq-artemis-spring/14881" />
+  </component>
+</project>
