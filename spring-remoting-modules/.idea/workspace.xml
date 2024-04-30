@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5287b8d0-c374-4b80-bdab-1a85b5b24735" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remoting-jms/remoting-jms-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/remoting-jms/remoting-jms-client/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remoting-jms/remoting-jms-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/remoting-jms/remoting-jms-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remoting-jms/remoting-jms-server/src/main/java/com/baeldung/server/JmsServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/remoting-jms/remoting-jms-server/src/main/java/com/baeldung/server/JmsServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remoting-jms/remoting-jms-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/remoting-jms/remoting-jms-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../toolkits/codebank/src/test/java/com/ossez/toolkits/codebank/tests/EmptyQuickTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../toolkits/codebank/src/test/java/com/ossez/toolkits/codebank/tests/EmptyQuickTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="2VHcE8TbnuX1mgAqmJarNGI2jFB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "active__mq",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "ruby.rails.projectView.checked": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.JmsClient">
+    <configuration name="SpringContextLiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="remoting-jms-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baeldung.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.baeldung" />
+      <option name="MAIN_CLASS_NAME" value="com.baeldung.SpringContextLiveTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringContextLiveTest.whenSpringContextIsBootstrapped_thenNoExceptions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="remoting-jms-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baeldung.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.baeldung" />
+      <option name="MAIN_CLASS_NAME" value="com.baeldung.SpringContextLiveTest" />
+      <option name="METHOD_NAME" value="whenSpringContextIsBootstrapped_thenNoExceptions" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringContextTest.whenSpringContextIsBootstrapped_thenNoExceptions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="remoting-jms-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.baeldung.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.baeldung" />
+      <option name="MAIN_CLASS_NAME" value="org.baeldung.SpringContextTest" />
+      <option name="METHOD_NAME" value="whenSpringContextIsBootstrapped_thenNoExceptions" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JmsClient" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="remoting-jms-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.baeldung.client.JmsClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baeldung.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JmsServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="remoting-jms-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.baeldung.server.JmsServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baeldung.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.JmsClient" />
+        <item itemvalue="Spring Boot.JmsServer" />
+        <item itemvalue="JUnit.SpringContextLiveTest.whenSpringContextIsBootstrapped_thenNoExceptions" />
+        <item itemvalue="JUnit.SpringContextLiveTest" />
+        <item itemvalue="JUnit.SpringContextTest.whenSpringContextIsBootstrapped_thenNoExceptions" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5287b8d0-c374-4b80-bdab-1a85b5b24735" name="Changes" comment="" />
+      <created>1694496332421</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694496332421</updated>
+      <workItem from="1694496333448" duration="8168000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
