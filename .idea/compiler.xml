@@ -22,6 +22,7 @@
         <module name="activejdbc" />
         <module name="codebank" />
         <module name="core-java-collections-list" />
+        <module name="image-compressing" />
         <module name="core-java-streams" />
         <module name="core-java-io-2" />
         <module name="core-java-io" />
