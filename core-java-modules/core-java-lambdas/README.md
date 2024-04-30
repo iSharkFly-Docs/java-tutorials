@@ -1,4 +1,6 @@
-## Relevant articles:
+## Lambdas 函数
+
+本文件夹中包含有所有 Java 相关的 Lambdas 函数及其示例
 
 - [Why Do Local Variables Used in Lambdas Have to Be Final or Effectively Final?](https://www.baeldung.com/java-lambda-effectively-final-local-variables)
 - [Java 8 – Powerful Comparison with Lambdas](http://www.baeldung.com/java-8-sort-lambda)
