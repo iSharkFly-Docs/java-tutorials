@@ -32,6 +32,7 @@
         <module>core-java-datetime-conversion</module>
         <module>core-java-io</module>
         <module>core-java-io-2</module>
+        <module>core-java-lambdas</module>
         <module>core-java-serialization</module>
         <module>core-java-streams</module>
         <module>core-java-streams</module>
