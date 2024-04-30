@@ -6,9 +6,10 @@
     <artifactId>image-compressing</artifactId>
 
     <parent>
+        <groupId>com.ossez</groupId>
         <artifactId>parent-modules</artifactId>
-        <groupId>com.baeldung</groupId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>0.0.2-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <dependencies>
