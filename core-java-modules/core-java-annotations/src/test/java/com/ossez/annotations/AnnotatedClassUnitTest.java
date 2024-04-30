@@ -1,5 +1,6 @@
-package com.baeldung.annotations;
+package com.ossez.annotations;
 
+import com.ossez.annotations.AnnotatedClass;
 import org.junit.Test;
 
 import java.lang.annotation.Annotation;

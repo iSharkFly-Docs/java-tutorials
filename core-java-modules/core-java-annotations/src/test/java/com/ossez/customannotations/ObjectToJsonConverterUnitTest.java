@@ -1,4 +1,4 @@
-package com.baeldung.customannotations;
+package com.ossez.customannotations;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;

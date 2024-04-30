@@ -1,4 +1,4 @@
-package com.baeldung.readannotations;
+package com.ossez.readannotations;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

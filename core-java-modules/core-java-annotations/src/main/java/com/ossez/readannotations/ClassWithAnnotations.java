@@ -1,4 +1,4 @@
-package com.baeldung.readannotations;
+package com.ossez.readannotations;
 
 public class ClassWithAnnotations {
 

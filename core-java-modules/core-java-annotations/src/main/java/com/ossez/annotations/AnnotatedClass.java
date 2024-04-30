@@ -1,6 +1,6 @@
-package com.baeldung.annotations;
+package com.ossez.annotations;
 
-import javax.annotation.Generated;
+import javax.annotation.processing.Generated;
 
 @RetentionAnnotation
 @Generated("Available only on source code")

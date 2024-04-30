@@ -1,4 +1,4 @@
-package com.baeldung.missingannotation;
+package com.ossez.missingannotation;
 
 @A
 @C(D.class)

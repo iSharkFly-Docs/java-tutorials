@@ -1,4 +1,4 @@
-package com.baeldung.annotations;
+package com.ossez.annotations;
 
 import java.io.Serializable;
 import java.util.ArrayList;

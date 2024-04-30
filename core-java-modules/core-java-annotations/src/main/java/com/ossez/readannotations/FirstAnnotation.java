@@ -1,8 +1,8 @@
-package com.baeldung.missingannotation;
+package com.ossez.readannotations;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
 @Retention(RetentionPolicy.RUNTIME)
-public @interface A {
+public @interface FirstAnnotation {
 }
