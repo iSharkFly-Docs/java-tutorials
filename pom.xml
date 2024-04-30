@@ -79,6 +79,9 @@
         <version.guava>31.1-jre</version.guava>
         <lombok.version>1.18.28</lombok.version>
         <joda-time.version>2.12.5</joda-time.version>
+        <colt.version>1.2.0</colt.version>
+        <trove4j.version>3.0.3</trove4j.version>
+        <fastutil.version>5.0.9</fastutil.version>
 
         <!-- Hibernate / JPA -->
         <hibernate.version>4.3.5.Final</hibernate.version>
@@ -236,6 +239,13 @@
             <groupId>org.jasypt</groupId>
             <artifactId>jasypt</artifactId>
             <version>1.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+            <scope>provided</scope>
         </dependency>
 
         <dependency>

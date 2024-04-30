@@ -1,4 +1,4 @@
-package com.ossez.java.list;
+package com.ossez.list;
 
 import java.util.ArrayList;
 import java.util.Collections;
