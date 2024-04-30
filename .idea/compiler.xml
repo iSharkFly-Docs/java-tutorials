@@ -32,7 +32,6 @@
         <module name="image-processing" />
         <module name="spring-data-redis" />
         <module name="core-java" />
-        <module name="core-java-collections-list-2" />
         <module name="core-java-collections-conversions-2" />
         <module name="core-java-collections-list-3" />
         <module name="core-java-8" />
@@ -40,6 +39,9 @@
         <module name="core-java-collections-2" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="core-java-collections-list-2" target="11" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

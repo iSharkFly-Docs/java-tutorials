@@ -1,4 +1,4 @@
-package com.ossez.java.list;
+package com.ossez.list;
 
 import java.util.Arrays;
 import java.util.Iterator;

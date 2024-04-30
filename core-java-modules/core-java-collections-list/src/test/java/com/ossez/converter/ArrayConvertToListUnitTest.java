@@ -1,4 +1,4 @@
-package com.ossez.array.converter;
+package com.ossez.converter;
 
 import org.junit.Test;
 
