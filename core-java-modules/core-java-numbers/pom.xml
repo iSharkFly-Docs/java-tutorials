@@ -4,40 +4,30 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <artifactId>core-java-numbers</artifactId>
-    <name>core-java-strings</name>
     <packaging>jar</packaging>
+    <name>core-java-numbers</name>
 
     <parent>
-        <groupId>com.ossez.core-java-modules</groupId>
+        <groupId>com.baeldung.core-java-modules</groupId>
         <artifactId>core-java-modules</artifactId>
-        <version>0.0.2-SNAPSHOT</version>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
 
     <dependencies>
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
-            <version>${commons-lang3.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.openjdk.jmh</groupId>
-            <artifactId>jmh-core</artifactId>
-            <version>${jmh-core.version}</version>
-        </dependency>
         <dependency>
             <groupId>org.openjdk.jmh</groupId>
             <artifactId>jmh-generator-annprocess</artifactId>
             <version>${jmh-generator.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.ibm.icu</groupId>
-            <artifactId>icu4j</artifactId>
-            <version>${icu4j.version}</version>
+            <groupId>org.decimal4j</groupId>
+            <artifactId>decimal4j</artifactId>
+            <version>${decimal4j.version}</version>
         </dependency>
     </dependencies>
 
     <build>
-        <finalName>core-java-strings</finalName>
+        <finalName>core-java-numbers</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
@@ -47,8 +37,7 @@
     </build>
 
     <properties>
-        <icu4j.version>61.1</icu4j.version>
-        <maven.compiler.release>11</maven.compiler.release>
+        <decimal4j.version>1.0.3</decimal4j.version>
     </properties>
 
 </project>
