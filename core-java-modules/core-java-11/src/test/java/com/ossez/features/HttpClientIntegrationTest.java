@@ -25,7 +25,7 @@ class HttpClientIntegrationTest {
     @BeforeAll
     static void startServer() {
         port = PortFactory.findFreePort();
-        mockServer = startClientAndServer(port);
+        mockServer = ClientAndServer.startClientAndServer(port);
         mockServer.when(new org.mockserver.model.HttpRequest().withMethod("GET"))
           .respond(new org.mockserver.model.HttpResponse()
             .withStatusCode(HttpStatusCode.OK_200.code())

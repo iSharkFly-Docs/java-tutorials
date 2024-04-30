@@ -1,5 +1,5 @@
 
-package com.ossez.soap.ws.client.generated;
+package com.ossez.ws.client.generated;
 
 import java.net.MalformedURLException;
 import java.net.URL;

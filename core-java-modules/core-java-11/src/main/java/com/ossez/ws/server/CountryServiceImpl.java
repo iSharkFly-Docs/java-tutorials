@@ -1,8 +1,8 @@
-package com.ossez.soap.ws.server;
+package com.ossez.ws.server;
 
 import jakarta.jws.WebService;
 
-@WebService(endpointInterface = "com.ossez.soap.ws.server.CountryService")
+@WebService(endpointInterface = "com.ossez.ws.server.CountryService")
 public class CountryServiceImpl implements CountryService {
 
     private CountryRepository countryRepository = new CountryRepository();

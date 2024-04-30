@@ -1,5 +1,5 @@
 
-package com.ossez.soap.ws.client.generated;
+package com.ossez.ws.client.generated;
 
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;

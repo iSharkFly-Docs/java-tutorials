@@ -1,5 +1,5 @@
 
-package com.ossez.soap.ws.client.generated;
+package com.ossez.ws.client.generated;
 
 import jakarta.jws.WebMethod;
 import jakarta.jws.WebParam;

@@ -1,4 +1,4 @@
-package com.ossez.soap.ws.server;
+package com.ossez.ws.server;
 
 import java.util.HashMap;
 import java.util.Map;

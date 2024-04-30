@@ -1,4 +1,4 @@
-package com.ossez.soap.ws.server;
+package com.ossez.ws.server;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
