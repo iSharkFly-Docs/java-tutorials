@@ -110,7 +110,7 @@
         <start-class>com.baeldung.flips.ApplicationConfig</start-class>
         <flips-web.version>1.0.1</flips-web.version>
         <easymock.version>3.6</easymock.version>
-        <hsqldb.version>2.4.0</hsqldb.version>
+        <hsqldb.version>2.7.1</hsqldb.version>
         <hikaricp.version>5.1.0</hikaricp.version>
     </properties>
 
