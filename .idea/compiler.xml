@@ -18,6 +18,7 @@
         <module name="core-java-collections-conversions" />
         <module name="core-java-collections" />
         <module name="core-java-datetime-conversion" />
+        <module name="core-java-lambdas" />
         <module name="junit-5-basics" />
         <module name="activejdbc" />
         <module name="codebank" />
