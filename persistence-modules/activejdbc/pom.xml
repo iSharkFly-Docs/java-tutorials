@@ -27,9 +27,9 @@
             </exclusions>
         </dependency>
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>${mysql.connector.version}</version>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <version>${mysql-connector-j.version}</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -63,8 +63,8 @@
                 </configuration>
                 <dependencies>
                     <dependency>
-                        <groupId>mysql</groupId>
-                        <artifactId>mysql-connector-java</artifactId>
+                        <groupId>com.mysql</groupId>
+                        <artifactId>mysql-connector-j</artifactId>
                         <version>${mysql-connector-j.version}</version>
                     </dependency>
                 </dependencies>
@@ -73,9 +73,9 @@
     </build>
 
     <properties>
-        <activejdbc.version>3.4-j11</activejdbc.version>
+        <activejdbc.version>2.0</activejdbc.version>
         <environments>development.test,development</environments>
-        <mysql-connector-j.version>8.3.0</mysql-connector-j.version>
+        <mysql-connector-j.version>8.4.0</mysql-connector-j.version>
     </properties>
 
 </project>
