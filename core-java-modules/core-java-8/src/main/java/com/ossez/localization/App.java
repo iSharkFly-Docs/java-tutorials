@@ -1,6 +1,5 @@
 package com.ossez.localization;
 
-import java.text.ParseException;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;

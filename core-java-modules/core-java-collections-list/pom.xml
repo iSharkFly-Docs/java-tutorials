@@ -31,7 +31,7 @@
             <version>${trove4j.version}</version>
         </dependency>
         <dependency>
-            <groupId>it.unimi.dsi</groupId>
+            <groupId>fastutil</groupId>
             <artifactId>fastutil</artifactId>
             <version>${fastutil.version}</version>
         </dependency>
