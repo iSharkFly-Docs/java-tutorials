@@ -65,7 +65,7 @@
                     <dependency>
                         <groupId>mysql</groupId>
                         <artifactId>mysql-connector-java</artifactId>
-                        <version>${mysql.connector.version}</version>
+                        <version>${mysql-connector-j.version}</version>
                     </dependency>
                 </dependencies>
             </plugin>
@@ -75,7 +75,7 @@
     <properties>
         <activejdbc.version>3.4-j11</activejdbc.version>
         <environments>development.test,development</environments>
-        <mysql.connector.version>8.0.24</mysql.connector.version>
+        <mysql-connector-j.version>8.3.0</mysql-connector-j.version>
     </properties>
 
 </project>

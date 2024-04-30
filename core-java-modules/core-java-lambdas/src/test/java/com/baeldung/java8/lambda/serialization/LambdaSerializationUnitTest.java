@@ -1,5 +1,6 @@
 package com.baeldung.java8.lambda.serialization;
 
+import com.ossez.java8.lambda.serialization.NotSerializableLambdaExpression;
 import org.junit.Test;
 
 import java.io.*;
