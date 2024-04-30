@@ -82,9 +82,9 @@ public class AddText {
     /**
      * Draw a String centered in the middle of a Rectangle.
      *
-     * @param g    The Graphics instance.
      * @param text The String to draw.
-     * @param rect The Rectangle to center the text in.
+     * @param path
+     * @return
      * @throws IOException
      */
     public static BufferedImage signImageCenter(String text, String path) throws IOException {
@@ -110,9 +110,9 @@ public class AddText {
     /**
      * Draw a String centered in the middle of a Rectangle.
      *
-     * @param g    The Graphics instance.
      * @param text The String to draw.
-     * @param rect The Rectangle to center the text in.
+     * @param path
+     * @return
      * @throws IOException
      */
     public static BufferedImage signImageBottomRight(String text, String path) throws IOException {
@@ -139,9 +139,9 @@ public class AddText {
     /**
      * Draw a String centered in the middle of a Rectangle.
      *
-     * @param g    The Graphics instance.
      * @param text The String to draw.
-     * @param rect The Rectangle to center the text in.
+     * @param path
+     * @return
      * @throws IOException
      */
     public static BufferedImage signImageTopLeft(String text, String path) throws IOException {
@@ -168,9 +168,9 @@ public class AddText {
     /**
      * Draw a String centered in the middle of a Rectangle.
      *
-     * @param g    The Graphics instance.
      * @param text The String to draw.
-     * @param rect The Rectangle to center the text in.
+     * @param path
+     * @return
      * @throws IOException
      */
     public static BufferedImage signImageAdaptBasedOnImage(String text, String path) throws IOException {
