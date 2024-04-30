@@ -1,7 +1,16 @@
-## Java 数字（Number）
+## Java Number Cookbooks and Examples
 
-本模块中包含有关 Java 数字（Number）有关的文章。
+This module contains articles about numbers in Java.
 
-### 相关文章
-- [理解 Java 中的 NumberFormatException 异常](https://www.ossez.com/t/java-numberformatexception/13986)
-- 
+### Relevant Articles: 
+- [Number of Digits in an Integer in Java](https://www.baeldung.com/java-number-of-digits-in-int)
+- [How to Round a Number to N Decimal Places in Java](https://www.baeldung.com/java-round-decimal-number)
+- [BigDecimal and BigInteger in Java](https://www.baeldung.com/java-bigdecimal-biginteger)
+- [Find All Pairs of Numbers in an Array That Add Up to a Given Sum in Java](https://www.baeldung.com/java-algorithm-number-pairs-sum)
+- [Java – Random Long, Float, Integer and Double](https://www.baeldung.com/java-generate-random-long-float-integer-double)
+- [A Practical Guide to DecimalFormat](https://www.baeldung.com/java-decimalformat)
+- [Calculating the nth Root in Java](https://www.baeldung.com/java-nth-root)
+- [Convert Double to String, Removing Decimal Places](https://www.baeldung.com/java-double-to-string)
+- [Changing the Order in a Sum Operation Can Produce Different Results?](https://www.baeldung.com/java-floating-point-sum-order)
+- [Using Math.sin with Degrees](https://www.baeldung.com/java-math-sin-degrees)
+- More articles: [[next -->]](../core-java-numbers-2)

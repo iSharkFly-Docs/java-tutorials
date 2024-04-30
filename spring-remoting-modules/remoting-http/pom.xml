@@ -9,7 +9,7 @@
     <description>Parent for all modules related to HTTP Spring Remoting.</description>
 
     <parent>
-        <groupId>com.ossez</groupId>
+        <groupId>com.baeldung</groupId>
         <artifactId>spring-remoting-modules</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>

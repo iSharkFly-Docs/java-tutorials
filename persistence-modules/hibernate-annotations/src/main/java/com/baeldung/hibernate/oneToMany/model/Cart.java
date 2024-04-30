@@ -2,13 +2,13 @@ package com.baeldung.hibernate.oneToMany.model;
 
 import java.util.Set;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
-import javax.persistence.Table;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
+import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "CART")
@@ -19,9 +19,8 @@ public class Cart {
     @Column(name = "cart_id")
     private long id;
 
-
     @OneToMany(mappedBy = "cart")
-    private Set<Items> items;
+    private Set<Item> items;
 
     public long getId() {
         return id;
@@ -31,12 +30,11 @@ public class Cart {
         this.id = id;
     }
 
-
-    public Set<Items> getItems() {
+    public Set<Item> getItems() {
         return items;
     }
 
-    public void setItems(Set<Items> items) {
+    public void setItems(Set<Item> items) {
         this.items = items;
     }
 

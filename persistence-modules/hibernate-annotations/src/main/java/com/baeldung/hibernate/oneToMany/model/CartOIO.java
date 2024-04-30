@@ -1,15 +1,13 @@
 package com.baeldung.hibernate.oneToMany.model;
 
 import java.util.Set;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.OneToMany;
-import javax.persistence.Table;
-
-
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.OneToMany;
+import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "CARTOIO")
@@ -21,7 +19,7 @@ public class CartOIO {
 
     @OneToMany
     @JoinColumn(name = "cart_id") // we need to duplicate the physical information
-    private Set<ItemsOIO> items;
+    private Set<ItemOIO> items;
 
     public long getId() {
         return id;
@@ -31,11 +29,11 @@ public class CartOIO {
         this.id = id;
     }
 
-    public Set<ItemsOIO> getItems() {
+    public Set<ItemOIO> getItems() {
         return items;
     }
 
-    public void setItems(Set<ItemsOIO> items) {
+    public void setItems(Set<ItemOIO> items) {
         this.items = items;
     }
 

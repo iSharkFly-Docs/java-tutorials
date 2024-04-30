@@ -8,7 +8,7 @@
     <description>Shows how to expose a service using Spring Remoting HTTP.</description>
 
     <parent>
-        <groupId>com.ossez</groupId>
+        <groupId>com.baeldung</groupId>
         <artifactId>remoting-http</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
