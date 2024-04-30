@@ -17,7 +17,6 @@
     <modules>
         <module>core-java</module>
         <module>core-java-8</module>
-        <module>core-java-8-2</module>
         <module>core-java-11</module>
         <module>core-java-11-2</module>
         <module>core-java-annotations</module>
@@ -27,13 +26,11 @@
         <module>core-java-collections-conversions</module>
         <module>core-java-collections-conversions-2</module>
         <module>core-java-collections-list</module>
-        <module>core-java-collections-list-3</module>
         <module>core-java-datetime-conversion</module>
         <module>core-java-io</module>
         <module>core-java-io-2</module>
         <module>core-java-lambdas</module>
         <module>core-java-serialization</module>
-        <module>core-java-streams</module>
         <module>core-java-streams</module>
         <module>core-java-strings</module>
         <module>core-java-uuid</module>

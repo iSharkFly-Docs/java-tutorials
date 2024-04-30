@@ -1,4 +1,4 @@
-package com.ossez.java.list;
+package com.ossez.list;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;

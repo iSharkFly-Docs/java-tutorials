@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+import com.ossez.filtering.Employee;
 import org.hamcrest.Matchers;
 import org.junit.Assert;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package com.ossez.collection.filtering;
+package com.ossez.filtering;
 
 /**
  * Java 8 Collection Filtering by List of Values base class.
