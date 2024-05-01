@@ -1,4 +1,4 @@
-package com.baeldung.helpervsutilityclasses;
+package com.ossez.helpervsutilityclasses;
 
 public final class MyUtilityClass {
 

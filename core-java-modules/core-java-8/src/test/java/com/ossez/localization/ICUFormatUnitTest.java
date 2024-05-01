@@ -6,6 +6,8 @@ import java.util.Locale;
 
 import org.junit.Test;
 
+import com.ossez.localization.ICUFormat;
+
 public class ICUFormatUnitTest {
 
     @Test

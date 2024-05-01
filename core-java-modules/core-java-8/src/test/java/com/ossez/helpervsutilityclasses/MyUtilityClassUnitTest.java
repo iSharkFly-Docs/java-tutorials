@@ -1,4 +1,4 @@
-package com.baeldung.helpervsutilityclasses;
+package com.ossez.helpervsutilityclasses;
 
 import static org.junit.jupiter.api.Assertions.*;
 

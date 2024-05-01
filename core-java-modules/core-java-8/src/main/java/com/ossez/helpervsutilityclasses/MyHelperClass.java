@@ -1,4 +1,4 @@
-package com.baeldung.helpervsutilityclasses;
+package com.ossez.helpervsutilityclasses;
 
 class MyHelperClass {
     public double discount;

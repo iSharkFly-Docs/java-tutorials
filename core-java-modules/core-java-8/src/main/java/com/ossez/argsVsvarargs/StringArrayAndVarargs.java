@@ -1,4 +1,4 @@
-package com.baeldung.argsVsvarargs;
+package com.ossez.argsVsvarargs;
 
 public class StringArrayAndVarargs {
     public static void capitalizeNames(String[] args) {

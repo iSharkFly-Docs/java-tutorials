@@ -1,4 +1,4 @@
-package com.baeldung.anonymousclass;
+package com.ossez.anonymousclass;
 
 public class AnonymousClassExample{
 

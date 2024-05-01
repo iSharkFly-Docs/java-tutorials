@@ -1,4 +1,4 @@
-package com.baeldung.lambdaexpression;
+package com.ossez.lambdaexpression;
 
 public class LambdaExpressionExample{
 
