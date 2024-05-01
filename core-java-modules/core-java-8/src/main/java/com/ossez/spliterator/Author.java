@@ -1,4 +1,4 @@
-package com.baeldung.spliterator;
+package com.ossez.spliterator;
 
 public class Author {
     private String name;

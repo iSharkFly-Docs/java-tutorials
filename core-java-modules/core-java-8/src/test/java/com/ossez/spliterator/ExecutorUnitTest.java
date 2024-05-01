@@ -1,4 +1,4 @@
-package com.baeldung.spliterator;
+package com.ossez.spliterator;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -10,6 +10,10 @@ import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+import com.ossez.spliterator.Article;
+import com.ossez.spliterator.Author;
+import com.ossez.spliterator.CustomSpliterator;
 import org.junit.Before;
 import org.junit.Test;
 

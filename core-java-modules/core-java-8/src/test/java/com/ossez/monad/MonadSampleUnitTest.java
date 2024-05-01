@@ -1,5 +1,6 @@
-package com.baeldung.monad;
+package com.ossez.monad;
 
+import com.ossez.monad.*;
 import org.junit.Assert;
 import org.junit.Test;
 

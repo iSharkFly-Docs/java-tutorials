@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.stream.Stream;
+
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -14,7 +15,7 @@ import static org.junit.Assert.*;
  */
 public class NullSafeCollectionStreamsUsingNullDereferenceCheckUnitTest {
 
-    private final NullSafeCollectionStreamsUsingNullDereferenceCheck instance = 
+    private final NullSafeCollectionStreamsUsingNullDereferenceCheck instance =
             new NullSafeCollectionStreamsUsingNullDereferenceCheck();
 
     @Test
