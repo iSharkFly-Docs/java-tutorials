@@ -4,13 +4,14 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.stream.Stream;
+
 import org.junit.Test;
 import static org.junit.Assert.*;
 
 
 public class NullSafeCollectionStreamsUsingCommonsEmptyIfNullUnitTest {
 
-    private final NullSafeCollectionStreamsUsingCommonsEmptyIfNull instance = 
+    private final NullSafeCollectionStreamsUsingCommonsEmptyIfNull instance =
             new NullSafeCollectionStreamsUsingCommonsEmptyIfNull();
 
     @Test

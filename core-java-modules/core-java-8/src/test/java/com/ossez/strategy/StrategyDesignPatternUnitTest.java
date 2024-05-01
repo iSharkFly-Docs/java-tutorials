@@ -7,6 +7,9 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Function;
 
+import static com.ossez.strategy.Discounter.christmas;
+import static com.ossez.strategy.Discounter.easter;
+import static com.ossez.strategy.Discounter.newYear;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class StrategyDesignPatternUnitTest {
@@ -50,7 +53,7 @@ public class StrategyDesignPatternUnitTest {
 
     @Test
     public void shouldApplyAllDiscounts() {
-        List<Discounter> discounters = Arrays.asList(Discounter.christmas(), Discounter.newYear(), Discounter.easter());
+        List<Discounter> discounters = Arrays.asList(christmas(), newYear(), easter());
 
         BigDecimal amount = BigDecimal.valueOf(100);
 
@@ -65,7 +68,7 @@ public class StrategyDesignPatternUnitTest {
     public void shouldChainDiscounters() {
         final Function<BigDecimal, BigDecimal> combinedDiscounters = Discounter
           .christmas()
-          .andThen(Discounter.newYear());
+          .andThen(newYear());
 
         combinedDiscounters.apply(BigDecimal.valueOf(100));
     }

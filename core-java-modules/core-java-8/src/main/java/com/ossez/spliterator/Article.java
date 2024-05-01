@@ -1,4 +1,4 @@
-package com.baeldung.spliterator;
+package com.ossez.spliterator;
 
 import java.util.List;
 

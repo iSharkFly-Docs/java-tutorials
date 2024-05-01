@@ -1,4 +1,4 @@
-package com.baeldung.monad;
+package com.ossez.monad;
 
 import java.util.Optional;
 import java.util.function.Function;
