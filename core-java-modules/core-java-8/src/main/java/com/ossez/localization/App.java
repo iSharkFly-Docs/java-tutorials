@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Locale;
 
 public class App {
+
     /**
      * Runs all available formatter
      *

@@ -1,7 +1,7 @@
-package com.baeldung.argsVsvarargs;
+package com.ossez.argsVsvarargs;
 
-import static com.baeldung.argsVsvarargs.StringArrayAndVarargs.capitalizeNames;
-import static com.baeldung.argsVsvarargs.StringArrayAndVarargs.firstLetterOfWords;
+import static com.ossez.argsVsvarargs.StringArrayAndVarargs.capitalizeNames;
+import static com.ossez.argsVsvarargs.StringArrayAndVarargs.firstLetterOfWords;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;

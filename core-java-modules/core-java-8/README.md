@@ -18,4 +18,7 @@
 - [Interface With Default Methods vs Abstract Class](https://www.baeldung.com/java-interface-default-method-vs-abstract-class)
 - [Convert Between Byte Array and UUID in Java](https://www.baeldung.com/java-byte-array-to-uuid)
 - [Create a Simple “Rock-Paper-Scissors” Game in Java](https://www.baeldung.com/java-rock-paper-scissors)
+- [VarArgs vs Array Input Parameters in Java](https://www.baeldung.com/varargs-vs-array)
+- [Lambda Expression vs. Anonymous Inner Class](https://www.baeldung.com/java-lambdas-vs-anonymous-class)
+- [Java Helper vs. Utility Classes](https://www.baeldung.com/java-helper-vs-utility-classes)
 - [Java 8 开始新增的 Optional 类](https://www.ossez.com/t/java-8-optional/13964)

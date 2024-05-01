@@ -20,6 +20,7 @@
         <module name="core-java-lambdas" />
         <module name="junit-5-basics" />
         <module name="activejdbc" />
+        <module name="spring-data-jpa-repo" />
         <module name="codebank" />
         <module name="core-java-collections-list" />
         <module name="image-compressing" />
@@ -42,6 +43,7 @@
       <module name="core-java-11-2" target="11" />
       <module name="core-java-8-2" target="11" />
       <module name="core-java-collections-list-3" target="11" />
+      <module name="spring-data-jpa-repo-2" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
