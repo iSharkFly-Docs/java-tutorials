@@ -35,6 +35,7 @@
         <module name="core-java-collections-list-2" />
         <module name="core-java-collections-conversions-2" />
         <module name="core-java-8" />
+        <module name="apache-httpclient" />
         <module name="core-java-collections-3" />
         <module name="core-java-9" />
         <module name="core-java-collections-2" />

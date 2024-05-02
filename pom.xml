@@ -39,6 +39,7 @@
     </licenses>
 
     <modules>
+        <module>apache</module>
         <module>core-java-modules</module>
         <module>image-compressing</module>
         <module>image-processing</module>
