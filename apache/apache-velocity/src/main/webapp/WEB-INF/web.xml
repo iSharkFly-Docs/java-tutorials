@@ -6,12 +6,12 @@
 	<display-name>apache-velocity</display-name>
 	<servlet>
 		<servlet-name>ProductServlet</servlet-name>
-		<servlet-class>com.baeldung.apache.velocity.servlet.ProductServlet</servlet-class>
+		<servlet-class>com.ossez.apache.velocity.servlet.ProductServlet</servlet-class>
 	</servlet>
 
 	<servlet>
 		<servlet-name>LayoutServlet</servlet-name>
-		<servlet-class>com.baeldung.apache.velocity.servlet.LayoutServlet</servlet-class>
+		<servlet-class>com.ossez.apache.velocity.servlet.LayoutServlet</servlet-class>
 	</servlet>
 	<servlet>
 		<servlet-name>velocityLayout</servlet-name>
