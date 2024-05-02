@@ -21,6 +21,7 @@
         <module name="junit-5-basics" />
         <module name="activejdbc" />
         <module name="spring-data-jpa-repo" />
+        <module name="apache-velocity" />
         <module name="codebank" />
         <module name="core-java-collections-list" />
         <module name="image-compressing" />
