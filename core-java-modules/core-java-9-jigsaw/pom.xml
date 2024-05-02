@@ -12,9 +12,9 @@
     </modules>
 
     <parent>
-        <groupId>com.baeldung.core-java-modules</groupId>
+        <groupId>com.ossez.core-java-modules</groupId>
         <artifactId>core-java-modules</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.2-SNAPSHOT</version>
     </parent>
 
     <build>

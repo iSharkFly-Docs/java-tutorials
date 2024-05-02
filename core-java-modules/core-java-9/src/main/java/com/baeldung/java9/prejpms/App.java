@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.Marshaller;
 
-import com.sun.crypto.provider.SunJCE;
+//import com.sun.crypto.provider.SunJCE;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -28,7 +28,7 @@ public class App {
 
     private static void getCrytpographyProviderName() {
         try {
-            LOGGER.info("1. JCE Provider Name: {}\n", new SunJCE().getName());
+//            LOGGER.info("1. JCE Provider Name: {}\n", new SunJCE().getName());
         } catch (Throwable e) {
             LOGGER.error(e.toString());
         }
