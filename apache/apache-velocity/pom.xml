@@ -9,9 +9,9 @@
     <name>apache-velocity</name>
 
     <parent>
-        <groupId>com.baeldung</groupId>
-        <artifactId>parent-modules</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <groupId>com.ossez.apache</groupId>
+        <artifactId>apache</artifactId>
+        <version>0.0.2-SNAPSHOT</version>
     </parent>
 
     <dependencies>
