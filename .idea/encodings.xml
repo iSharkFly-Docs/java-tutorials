@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/apache/apache-httpclient/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apache/apache-httpclient/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/apache/apache-velocity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/apache/apache-velocity/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apache/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apache/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-java-modules/core-java-10/src/main/java" charset="UTF-8" />

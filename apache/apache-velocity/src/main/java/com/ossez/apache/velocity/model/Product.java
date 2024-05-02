@@ -1,4 +1,4 @@
-package com.baeldung.apache.velocity.model;
+package com.ossez.apache.velocity.model;
 
 public class Product {
 

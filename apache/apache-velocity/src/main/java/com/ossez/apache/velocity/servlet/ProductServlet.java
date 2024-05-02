@@ -1,10 +1,10 @@
-package com.baeldung.apache.velocity.servlet;
+package com.ossez.apache.velocity.servlet;
 
-import com.baeldung.apache.velocity.model.Product;
-import com.baeldung.apache.velocity.service.ProductService;
+import com.ossez.apache.velocity.model.Product;
+import com.ossez.apache.velocity.service.ProductService;
 import org.apache.velocity.Template;
 import org.apache.velocity.context.Context;
-import org.apache.velocity.tools.view.VelocityLayoutServlet;
+import org.apache.velocity.tools.view.VelocityViewServlet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,13 +12,14 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
-public class LayoutServlet extends VelocityLayoutServlet {
+public class ProductServlet extends VelocityViewServlet {
+
 	ProductService service = new ProductService();
 
 	@Override
 	public Template handleRequest(HttpServletRequest request, HttpServletResponse response, Context context) {
 
-        Logger logger= LoggerFactory.getLogger(LayoutServlet.class);
+		Logger logger= LoggerFactory.getLogger(ProductServlet.class);
 
 		List<Product> products = service.getProducts();
 
@@ -27,15 +28,13 @@ public class LayoutServlet extends VelocityLayoutServlet {
 		Template template = null;
 
 		try {
-			template = getTemplate("templates/layoutdemo.vm");
-
+			template = getTemplate("templates/index.vm");
 			response.setHeader("Template Returned", "Success");
 		} catch (Exception e) {
-			logger.error("Error while reading the template ",e);
+			logger.error("Error while reading the template ", e);
 		}
 
 		return template;
 
 	}
-
 }

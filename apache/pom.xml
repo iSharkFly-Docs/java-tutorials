@@ -16,6 +16,7 @@
 
     <modules>
         <module>apache-httpclient</module>
+        <module>apache-velocity</module>
     </modules>
 
     <dependencyManagement>
