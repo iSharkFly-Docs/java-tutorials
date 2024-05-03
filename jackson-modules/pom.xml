@@ -21,9 +21,15 @@
         <module>jackson-conversions-2</module>
         <module>jackson-custom-conversions</module>
         <module>jackson-exceptions</module>
+        <module>jackson-jr</module>
     </modules>
 
     <dependencies>
+        <dependency>
+            <groupId>jakarta.persistence</groupId>
+            <artifactId>jakarta.persistence-api</artifactId>
+            <version>${jakarta.persistence.version}</version>
+        </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
