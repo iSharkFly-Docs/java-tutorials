@@ -24,7 +24,7 @@ public class JacksonCollectionDeserializationUnitTest {
         final ObjectMapper mapper = new ObjectMapper();
 
         final List<MyDto> listOfDtos = Lists.newArrayList(new MyDto("a", 1, true), new MyDto("bc", 3, false));
-        listOfDtos
+
         final String jsonArray = mapper.writeValueAsString(listOfDtos);
         // [{"stringValue":"a","intValue":1,"booleanValue":true},{"stringValue":"bc","intValue":3,"booleanValue":false}]
 

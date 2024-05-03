@@ -43,7 +43,7 @@
         <module>core-java-modules</module>
         <module>image-compressing</module>
         <module>image-processing</module>
-        <!--        <module>jackson-modules</module>-->
+        <module>jackson-modules</module>
         <!--        <module>jackson-simple</module>-->
         <!--        <module>parent-java</module>-->
         <module>parent-boot-2</module>
@@ -86,6 +86,7 @@
         <fastutil.version>5.0.9</fastutil.version>
 
         <!-- Hibernate / JPA -->
+        <jakarta.persistence.version>3.2.0-M2</jakarta.persistence.version>
         <hibernate.version>4.3.5.Final</hibernate.version>
 
         <!-- Bean validation -->

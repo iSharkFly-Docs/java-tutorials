@@ -8,9 +8,9 @@
     <name>jackson-jr</name>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.ossez</groupId>
         <artifactId>jackson-modules</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.2-SNAPSHOT</version>
     </parent>
 
     <dependencies>

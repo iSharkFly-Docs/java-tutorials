@@ -9,9 +9,9 @@ import static org.junit.Assert.assertThat;
 
 import java.io.IOException;
 
-import com.ossez.jackson.bidirection.jsonview.Views;
 import org.junit.Test;
 
+import com.ossez.jackson.bidirection.jsonview.Views;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
