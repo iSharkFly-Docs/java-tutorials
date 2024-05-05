@@ -75,6 +75,8 @@
     <file url="file://$PROJECT_DIR$/jackson-modules/jackson-exceptions/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jackson-modules/jackson-jr/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jackson-modules/jackson-jr/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jackson-modules/jackson-polymorphic-deserialization/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jackson-modules/jackson-polymorphic-deserialization/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jackson-modules/jackson/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jackson-modules/jackson/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jackson-modules/src/main/java" charset="UTF-8" />
