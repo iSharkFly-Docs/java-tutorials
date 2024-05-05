@@ -52,6 +52,11 @@
       <option name="url" value="https://repo.isharkfly.com/repository/maven-snapshots/" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="" />
+      <option name="name" value="" />
+      <option name="url" value="https://repo.maven.apache.org/maven2/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="ossez-repo-snapshots" />
       <option name="name" value="OSSEZ Private Snapshots" />
       <option name="url" value="https://repo.isharkfly.com/repository/maven-snapshots/" />

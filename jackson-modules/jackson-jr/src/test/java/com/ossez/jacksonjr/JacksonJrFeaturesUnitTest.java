@@ -1,4 +1,4 @@
-package com.baeldung.jacksonjr;
+package com.ossez.jacksonjr;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
@@ -13,7 +13,7 @@ public class JacksonJrFeaturesUnitTest {
 
     @Test
     public void whenSerializingObject_thenReturnJson() throws IOException {
-        String json = JacksonJrFeatures.jsonObject();
+        String json = com.ossez.jacksonjr.JacksonJrFeatures.jsonObject();
         assertTrue(json.contains("name"));
         assertTrue(json.contains("age"));
     }

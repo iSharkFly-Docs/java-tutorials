@@ -34,6 +34,7 @@
         <module name="core-java-io" />
         <module name="discourse" />
         <module name="image-processing" />
+        <module name="jackson-jr" />
         <module name="spring-data-redis" />
         <module name="core-java" />
         <module name="jackson-custom-conversions" />
