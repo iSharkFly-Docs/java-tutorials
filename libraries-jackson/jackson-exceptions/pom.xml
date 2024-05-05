@@ -9,7 +9,7 @@
 
     <parent>
         <groupId>com.ossez</groupId>
-        <artifactId>jackson-modules</artifactId>
+        <artifactId>libraries-jackson</artifactId>
         <version>0.0.2-SNAPSHOT</version>
     </parent>
 

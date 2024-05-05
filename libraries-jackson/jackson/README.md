@@ -4,10 +4,10 @@
 
 ### 相关课程和讨论
 
-有关 "计算机设计相关的课程" ：https://www.ossez.com/
+有关 "计算机 Java 程序语言相关的教程" 请参考社区 ：https://www.isharkfly.com/c/computer-program/java/15
 
 ### 相关文章 
-- [Using Optional with Jackson](https://www.baeldung.com/jackson-optional)
+- [Jackson 中使用 Optional](https://track.ossez.com/articles/PL-A-37491940/Jackson-Optional)
 - [Compare Two JSON Objects with Jackson](https://www.baeldung.com/jackson-compare-two-json-objects)
 - [Jackson vs Gson](https://www.baeldung.com/jackson-vs-gson)
 - [Inheritance with Jackson](https://www.baeldung.com/jackson-inheritance)
