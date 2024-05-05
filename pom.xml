@@ -43,7 +43,7 @@
         <module>core-java-modules</module>
         <module>image-compressing</module>
         <module>image-processing</module>
-        <module>jackson-modules</module>
+        <module>libraries-jackson</module>
         <!--        <module>jackson-simple</module>-->
         <!--        <module>parent-java</module>-->
         <module>parent-boot-2</module>

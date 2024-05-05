@@ -63,22 +63,24 @@
     <file url="file://$PROJECT_DIR$/image-compressing/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/image-processing/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/image-processing/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jackson-modules/jackson-annotations/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jackson-modules/jackson-annotations/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jackson-modules/jackson-conversions-2/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jackson-modules/jackson-conversions-2/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jackson-modules/jackson-conversions/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jackson-modules/jackson-conversions/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jackson-modules/jackson-custom-conversions/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jackson-modules/jackson-custom-conversions/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jackson-modules/jackson-exceptions/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jackson-modules/jackson-exceptions/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jackson-modules/jackson-jr/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jackson-modules/jackson-jr/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jackson-modules/jackson/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jackson-modules/jackson/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jackson-modules/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jackson-modules/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libraries-jackson/jackson-annotations/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libraries-jackson/jackson-annotations/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libraries-jackson/jackson-conversions-2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libraries-jackson/jackson-conversions-2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libraries-jackson/jackson-conversions/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libraries-jackson/jackson-conversions/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libraries-jackson/jackson-custom-conversions/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libraries-jackson/jackson-custom-conversions/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libraries-jackson/jackson-exceptions/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libraries-jackson/jackson-exceptions/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libraries-jackson/jackson-jr/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libraries-jackson/jackson-jr/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libraries-jackson/jackson-polymorphic-deserialization/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libraries-jackson/jackson-polymorphic-deserialization/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libraries-jackson/jackson/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libraries-jackson/jackson/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libraries-jackson/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libraries-jackson/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent-boot-2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent-boot-2/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent-boot-3/src/main/java" charset="UTF-8" />
