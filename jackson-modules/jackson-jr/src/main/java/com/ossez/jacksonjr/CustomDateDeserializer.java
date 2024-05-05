@@ -1,4 +1,4 @@
-package com.baeldung.jacksonjr;
+package com.ossez.jacksonjr;
 
 import java.io.IOException;
 import java.time.LocalDate;

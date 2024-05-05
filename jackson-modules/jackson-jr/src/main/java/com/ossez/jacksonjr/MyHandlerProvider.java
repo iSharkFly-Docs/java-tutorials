@@ -1,4 +1,4 @@
-package com.baeldung.jacksonjr;
+package com.ossez.jacksonjr;
 
 import java.time.LocalDate;
 
