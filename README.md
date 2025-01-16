@@ -15,12 +15,12 @@ Java 代码使用的是 JDK 17。
 
 请使用下面的联系方式和我们联系：
 
-| 联系方式名称 | 联系方式                                          |
-|--------|-----------------------------------------------|
-| 电子邮件   | [service@ossez.com](mailto:service@ossez.com) |
-| QQ 或微信 | 103899765                                     |
-| QQ 交流群 | 15186112                                      |
-| 社区论坛   | https://www.ossez.com/c/open-source/java/15   |
+| 联系方式名称 | 联系方式                                                 |
+|--------|------------------------------------------------------|
+| 电子邮件   | [service@ossez.com](mailto:service@ossez.com)        |
+| QQ 或微信 | 103899765                                            |
+| QQ 交流群 | 15186112                                             |
+| 社区论坛   | https://www.isharkfly.com/c/computer-program/java/15 |
 
 # 公众平台
 
