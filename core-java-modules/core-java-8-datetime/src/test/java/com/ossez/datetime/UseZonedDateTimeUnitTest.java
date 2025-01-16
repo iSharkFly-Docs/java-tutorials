@@ -1,16 +1,12 @@
 package com.ossez.datetime;
 
-import static org.assertj.core.api.Assertions.assertThat;
-
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.LocalTime;
-import java.time.ZoneId;
-import java.time.ZonedDateTime;
-import java.util.Set;
-
 import org.junit.Assert;
 import org.junit.Test;
+
+import java.time.*;
+import java.util.Set;
+
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class UseZonedDateTimeUnitTest {
 

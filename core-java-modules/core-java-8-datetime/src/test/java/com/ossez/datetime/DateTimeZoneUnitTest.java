@@ -5,13 +5,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.time.LocalDateTime;
-import java.time.Month;
 import java.time.ZoneId;
 import java.time.ZoneOffset;
-import java.time.format.FormatStyle;
-import java.util.Locale;
-
-import static org.assertj.core.api.Assertions.assertThat;
+import java.time.ZonedDateTime;
 
 public class DateTimeZoneUnitTest {
     private static final Logger logger = LoggerFactory.getLogger(DateTimeZoneUnitTest.class);
@@ -29,5 +25,12 @@ public class DateTimeZoneUnitTest {
         ZoneId zone = ZoneId.of("Asia/Shanghai");
         ZoneOffset zoneOffSet = zone.getRules().getOffset(now);
         logger.debug("zoneOffSet: {}", zoneOffSet);
+    }
+
+    @Test
+    public void ZonedDateTime_out() {
+        ZoneId zone = ZoneId.of("Asia/Shanghai");
+        ZonedDateTime date = ZonedDateTime.now(zone);
+        logger.debug("date: {}", date);
     }
 }
