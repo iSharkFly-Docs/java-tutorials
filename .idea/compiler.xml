@@ -33,6 +33,7 @@
         <module name="core-java-streams" />
         <module name="core-java-io-2" />
         <module name="core-java-io" />
+        <module name="core-java-8-datetime" />
         <module name="discourse" />
         <module name="image-processing" />
         <module name="jackson-jr" />
