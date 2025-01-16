@@ -57,7 +57,7 @@
     <properties>
         <mustache.compiler.api.version>0.9.10</mustache.compiler.api.version>
         <datafactory.version>0.8</datafactory.version>
-        <webjars.bootstrap.version>3.3.7</webjars.bootstrap.version>
+        <webjars.bootstrap.version>5.0.0</webjars.bootstrap.version>
         <start-class>com.baeldung.springmustache.SpringMustacheApplication</start-class>
     </properties>
 
