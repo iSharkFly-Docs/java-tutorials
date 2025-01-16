@@ -8,12 +8,14 @@ import java.time.LocalDate;
 import java.time.Period;
 import java.time.temporal.ChronoUnit;
 
-import org.apache.log4j.Logger;
+
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class JavaPeriodUnitTest {
 
-    private static final Logger LOG = Logger.getLogger(JavaPeriodUnitTest.class);
+    private static final Logger logger = LoggerFactory.getLogger(JavaPeriodUnitTest.class);
 
     @Test
     public void givenADatePlus5Days_whenRequestingPeriod_thenExpectFive() {
@@ -44,7 +46,7 @@ public class JavaPeriodUnitTest {
 
         Period period = Period.between(startDate, endDate);
 
-        LOG.info(String.format("Years:%d months:%d days:%d", period.getYears(), period.getMonths(), period.getDays()));
+        logger.info(String.format("Years:%d months:%d days:%d", period.getYears(), period.getMonths(), period.getDays()));
 
         assertFalse(period.isNegative());
         assertEquals(56, period.plusDays(50)
