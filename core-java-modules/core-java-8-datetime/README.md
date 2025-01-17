@@ -9,7 +9,7 @@
 - [TemporalAdjuster in Java](http://www.baeldung.com/java-temporal-adjuster)
 - [Java 中的 ZoneOffset](https://www.isharkfly.com/t/java-zoneoffset/16803)
 - [Differences Between ZonedDateTime and OffsetDateTime](https://www.baeldung.com/java-zoneddatetime-offsetdatetime)
-- [Period and Duration in Java](http://www.baeldung.com/java-period-duration)
+- [Java 中的 Period 和 Duration](https://www.isharkfly.com/t/java-period-duration/16809)
 - [How to Get the Start and the End of a Day using Java](http://www.baeldung.com/java-day-start-end)
 - [Set the Time Zone of a Date in Java](https://www.baeldung.com/java-set-date-time-zone)
 - [Comparing Dates in Java](https://www.baeldung.com/java-comparing-dates)
