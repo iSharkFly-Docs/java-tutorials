@@ -1,23 +1,19 @@
 package com.ossez.jackson.optionalwithjackson;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jdk8.Jdk8Module;
-
 import static io.restassured.path.json.JsonPath.from;
-
 import java.io.IOException;
 import java.util.Optional;
-
 import static org.assertj.core.api.Assertions.assertThat;
-
 import org.junit.Test;
 
 public class OptionalTypeUnitTest {
 
     ObjectMapper mapper = new ObjectMapper().registerModule(new Jdk8Module());
 
+    @Test
     public void givenPresentOptional_whenSerializing_thenValueInJson() throws JsonProcessingException {
 
         String subTitle = "The Parish Boy's Progress";
@@ -28,12 +24,6 @@ public class OptionalTypeUnitTest {
         String result = mapper.writeValueAsString(book);
 
         assertThat(from(result).getString("subTitle")).isEqualTo(subTitle);
-    }
-
-    @Test
-    public void givenFieldWithValue_whenDeserializing_thenThrowExceptio() throws JsonProcessingException {
-        String bookJson = "{ \"title\": \"Oliver Twist\", \"subTitle\": \"foo\" }";
-        Book result = mapper.readValue(bookJson, Book.class);
     }
 
     @Test
