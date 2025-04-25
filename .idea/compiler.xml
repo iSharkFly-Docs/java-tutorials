@@ -13,6 +13,7 @@
         <module name="core-java-uuid" />
         <module name="core-java-numbers" />
         <module name="jackson-polymorphic-deserialization" />
+        <module name="ethereum" />
         <module name="core-java-strings" />
         <module name="jackson" />
         <module name="core-java-11" />

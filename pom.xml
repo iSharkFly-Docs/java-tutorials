@@ -41,6 +41,7 @@
     <modules>
         <module>apache</module>
         <module>core-java-modules</module>
+        <module>ethereum</module>
         <module>image-compressing</module>
         <module>image-processing</module>
         <module>libraries-jackson</module>
@@ -75,8 +76,6 @@
         <commons-cli.version>1.4</commons-cli.version>
         <commons-io.version>2.11.0</commons-io.version>
 
-
-
         <!-- UTILS -->
         <guava.version>31.1-jre</guava.version>
         <lombok.version>1.18.28</lombok.version>
@@ -84,6 +83,7 @@
         <colt.version>1.2.0</colt.version>
         <trove4j.version>3.0.3</trove4j.version>
         <fastutil.version>5.0.9</fastutil.version>
+        <jstl.version>1.2</jstl.version>
 
         <!-- Hibernate / JPA -->
         <jakarta.persistence.version>3.2.0-M2</jakarta.persistence.version>

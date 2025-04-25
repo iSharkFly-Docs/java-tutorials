@@ -67,6 +67,11 @@
       <option name="url" value="https://repo.isharkfly.com/repository/maven-snapshots/" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="Ethereum" />
+      <option name="name" value="Ethereum" />
+      <option name="url" value="https://dl.bintray.com/ethereum/maven/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
       <option name="url" value="https://repo.isharkfly.com/repository/maven/" />
