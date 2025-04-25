@@ -3,15 +3,14 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.baeldung.ethereum</groupId>
+    <groupId>com.ossez.ethereum</groupId>
     <artifactId>ethereum</artifactId>
     <name>ethereum</name>
 
     <parent>
-        <groupId>com.baeldung</groupId>
-        <artifactId>parent-spring-5</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../parent-spring-5</relativePath>
+        <groupId>com.ossez</groupId>
+        <artifactId>parent-modules</artifactId>
+        <version>0.0.2-SNAPSHOT</version>
     </parent>
 
     <dependencies>
@@ -76,14 +75,15 @@
         </dependency>
         <!-- Servlet -->
         <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>jstl</artifactId>
-            <version>${jstl.version}</version>
+            <groupId>jakarta.servlet.jsp.jstl</groupId>
+            <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+            <version>3.0.2</version>
         </dependency>
         <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-            <version>${javax.servlet-api.version}</version>
+            <groupId>jakarta.servlet</groupId>
+            <artifactId>jakarta.servlet-api</artifactId>
+            <version>6.1.0</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>javax.servlet.jsp.jstl</groupId>
@@ -91,9 +91,10 @@
             <version>${jstl.version}</version>
         </dependency>
         <dependency>
-            <groupId>javax.servlet.jsp</groupId>
-            <artifactId>javax.servlet.jsp-api</artifactId>
-            <version>${javax.servlet.jsp-api.version}</version>
+            <groupId>jakarta.servlet.jsp</groupId>
+            <artifactId>jakarta.servlet.jsp-api</artifactId>
+            <version>4.0.0</version>
+            <scope>provided</scope>
         </dependency>
         <!-- Spring Testing -->
         <dependency>
@@ -113,19 +114,19 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
-            <version>${spring.version}</version>
+            <version>7.0.0-M4</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
-            <version>${spring.version}</version>
+            <version>7.0.0-M4</version>
             <scope>test</scope>
         </dependency>
         <!-- Testing -->
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
-            <version>${mockito.version}</version>
+            <version>5.17.0</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.hamcrest</groupId>
@@ -170,15 +171,16 @@
     </build>
 
     <repositories>
-        <repository>
-            <id>Ethereum</id>
-            <name>Ethereum</name>
-            <url>https://dl.bintray.com/ethereum/maven/</url>
-        </repository>
+<!--        <repository>-->
+<!--            <id>Ethereum</id>-->
+<!--            <name>Ethereum</name>-->
+<!--            <url>https://dl.bintray.com/ethereum/maven/</url>-->
+<!--        </repository>-->
     </repositories>
 
     <properties>
-        <ethereumj-core.version>1.5.0-RELEASE</ethereumj-core.version>
+        <spring.version>7.0.0-M4</spring.version>
+        <ethereumj-core.version>1.9.0-RELEASE</ethereumj-core.version>
         <web3j.core.version>3.3.1</web3j.core.version>
         <spring.boot.version>1.5.6.RELEASE</spring.boot.version>
         <jsonpath.version>2.8.0</jsonpath.version>
