@@ -7,7 +7,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="jackson-annotations" />
         <module name="assertion-libraries" />
         <module name="core-java-serialization" />
         <module name="core-java-annotations" />
@@ -23,14 +22,14 @@
         <module name="core-java-datetime-conversion" />
         <module name="core-java-lambdas" />
         <module name="junit-5-basics" />
-        <module name="activejdbc" />
         <module name="spring-data-jpa-repo" />
         <module name="apache-velocity" />
         <module name="jackson-conversions-2" />
+        <module name="activejdbc" />
         <module name="codebank" />
         <module name="core-java-collections-list" />
-        <module name="image-compressing" />
         <module name="spring-data-jpa-repo-2" />
+        <module name="image-compressing" />
         <module name="core-java-streams" />
         <module name="core-java-io-2" />
         <module name="core-java-io" />
@@ -57,7 +56,9 @@
       <module name="core-java-11-2" target="11" />
       <module name="core-java-8-2" target="11" />
       <module name="core-java-collections-list-3" target="11" />
+      <module name="jackson-annotations" target="17" />
       <module name="spring-data-jpa-repo-2" target="17" />
+      <module name="xml" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

@@ -46,7 +46,7 @@ public class JavaPeriodUnitTest {
 
         Period period = Period.between(startDate, endDate);
 
-        logger.info(String.format("Years:%d months:%d days:%d", period.getYears(), period.getMonths(), period.getDays()));
+        logger.info("Years:{} months:{} days:{}", period.getYears(), period.getMonths(), period.getDays());
 
         assertFalse(period.isNegative());
         assertEquals(56, period.plusDays(50)
