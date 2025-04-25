@@ -42,7 +42,7 @@ public class LuceneAnalyzerIntegrationTest {
 
     @Test
     public void whenUseStopAnalyzer_thenAnalyzed() throws IOException {
-        List<String> result = analyze(SAMPLE_TEXT, new StopAnalyzer());
+        List<String> result = analyze(SAMPLE_TEXT, new StopAnalyzer(EnglishAnalyzer.ENGLISH_STOP_WORDS_SET));
 
         assertThat(result, contains("baeldung", "com", "lucene", "analyzers", "test"));
     }

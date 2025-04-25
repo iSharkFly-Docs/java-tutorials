@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="assertion-libraries" />
         <module name="core-java-serialization" />
+        <module name="lucene" />
         <module name="core-java-annotations" />
         <module name="core-java-uuid" />
         <module name="core-java-numbers" />
@@ -18,6 +19,7 @@
         <module name="jackson" />
         <module name="core-java-11" />
         <module name="core-java-collections-conversions" />
+        <module name="xml" />
         <module name="core-java-collections" />
         <module name="core-java-datetime-conversion" />
         <module name="core-java-lambdas" />
@@ -58,7 +60,6 @@
       <module name="core-java-collections-list-3" target="11" />
       <module name="jackson-annotations" target="17" />
       <module name="spring-data-jpa-repo-2" target="17" />
-      <module name="xml" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

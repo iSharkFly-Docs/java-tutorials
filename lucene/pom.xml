@@ -9,9 +9,9 @@
     <description>An Apache Lucene demo application</description>
 
     <parent>
-        <groupId>com.baeldung</groupId>
+        <groupId>com.ossez</groupId>
         <artifactId>parent-modules</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>0.0.2-SNAPSHOT</version>
     </parent>
 
     <dependencies>
@@ -33,7 +33,7 @@
     </dependencies>
 
     <properties>
-        <lucene.version>7.4.0</lucene.version>
+        <lucene.version>8.0.0</lucene.version>
     </properties>
 
 </project>
