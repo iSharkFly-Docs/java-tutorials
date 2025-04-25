@@ -33,7 +33,7 @@
     </dependencies>
 
     <properties>
-        <lucene.version>7.4.0</lucene.version>
+        <lucene.version>7.7.3</lucene.version>
     </properties>
 
 </project>
