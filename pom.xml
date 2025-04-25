@@ -42,9 +42,11 @@
         <module>apache</module>
         <module>core-java-modules</module>
         <module>ethereum</module>
+
         <module>image-compressing</module>
         <module>image-processing</module>
         <module>libraries-jackson</module>
+        <module>lucene</module>
         <!--        <module>jackson-simple</module>-->
         <!--        <module>parent-java</module>-->
         <module>parent-boot-2</module>
@@ -52,7 +54,7 @@
         <module>persistence-modules</module>
         <module>testing-modules</module>
         <module>toolkits</module>
-        <!--        <module>xml</module>-->
+        <module>xml</module>
     </modules>
 
     <properties>
