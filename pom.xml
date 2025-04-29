@@ -55,6 +55,7 @@
         <module>testing-modules</module>
         <module>toolkits</module>
         <module>xml</module>
+        <module>xml-2</module>
     </modules>
 
     <properties>
