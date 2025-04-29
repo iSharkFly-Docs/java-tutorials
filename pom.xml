@@ -65,9 +65,9 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <!-- Logging -->
-        <slf4j.version>1.7.36</slf4j.version>
+        <slf4j.version>2.0.0</slf4j.version>
         <log4j.version>1.2.17</log4j.version>
-        <log4j-over-slf4j.version>2.0.7</log4j-over-slf4j.version>
+        <log4j-over-slf4j.version>2.0.17</log4j-over-slf4j.version>
         <version.log4j2>2.18.0</version.log4j2>
 
         <!-- APACHE COMMONS-->
