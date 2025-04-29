@@ -6,6 +6,10 @@
     <artifactId>jackson-conversions</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>jackson-conversions</name>
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
 
     <parent>
         <groupId>com.ossez</groupId>

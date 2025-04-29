@@ -40,6 +40,7 @@
         <module name="image-processing" />
         <module name="jackson-jr" />
         <module name="spring-data-redis" />
+        <module name="xml-2" />
         <module name="core-java" />
         <module name="jackson-custom-conversions" />
         <module name="core-java-collections-list-2" />
