@@ -7,14 +7,8 @@
     <file url="file://$PROJECT_DIR$/apache/apache-velocity/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apache/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apache/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core-java-modules/core-java-10/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core-java-modules/core-java-10/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core-java-modules/core-java-11-2/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core-java-modules/core-java-11-2/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-java-modules/core-java-11/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-java-modules/core-java-11/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core-java-modules/core-java-8-2/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core-java-modules/core-java-8-2/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-java-modules/core-java-8-datetime/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-java-modules/core-java-8-datetime/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-java-modules/core-java-8/src/main/java" charset="UTF-8" />
@@ -31,10 +25,6 @@
     <file url="file://$PROJECT_DIR$/core-java-modules/core-java-collections-conversions-2/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-java-modules/core-java-collections-conversions/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-java-modules/core-java-collections-conversions/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core-java-modules/core-java-collections-list-2/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core-java-modules/core-java-collections-list-2/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core-java-modules/core-java-collections-list-3/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core-java-modules/core-java-collections-list-3/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-java-modules/core-java-collections-list/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-java-modules/core-java-collections/src/main/java" charset="UTF-8" />
@@ -47,8 +37,6 @@
     <file url="file://$PROJECT_DIR$/core-java-modules/core-java-io/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-java-modules/core-java-lambdas/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-java-modules/core-java-lambdas/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core-java-modules/core-java-numbers/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core-java-modules/core-java-numbers/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-java-modules/core-java-serialization/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-java-modules/core-java-serialization/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/core-java-modules/core-java-streams/src/main/java" charset="UTF-8" />
@@ -67,8 +55,6 @@
     <file url="file://$PROJECT_DIR$/image-compressing/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/image-processing/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/image-processing/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/libraries-jackson/jackson-annotations/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/libraries-jackson/jackson-annotations/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/libraries-jackson/jackson-conversions-2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/libraries-jackson/jackson-conversions-2/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/libraries-jackson/jackson-conversions/src/main/java" charset="UTF-8" />
@@ -93,10 +79,6 @@
     <file url="file://$PROJECT_DIR$/parent-boot-3/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/persistence-modules/activejdbc/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/persistence-modules/activejdbc/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/persistence-modules/spring-data-jpa-repo-2/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/persistence-modules/spring-data-jpa-repo-2/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/persistence-modules/spring-data-jpa-repo/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/persistence-modules/spring-data-jpa-repo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/persistence-modules/spring-data-redis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/persistence-modules/spring-data-redis/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/persistence-modules/src/main/java" charset="UTF-8" />
@@ -110,13 +92,11 @@
     <file url="file://$PROJECT_DIR$/testing-modules/junit-5-basics/src/test/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/testing-modules/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/testing-modules/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/toolkits/codebank/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/toolkits/codebank/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/toolkits/discourse/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/toolkits/discourse/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xml-2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xml-2/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xml/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xml/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xstream/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xstream/src/main/resources" charset="UTF-8" />
   </component>
 </project>
