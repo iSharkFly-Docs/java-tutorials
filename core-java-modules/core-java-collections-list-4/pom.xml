@@ -83,7 +83,7 @@
         <trove4j.version>3.0.2</trove4j.version>
         <fastutil.version>8.1.0</fastutil.version>
         <colt.version>1.2.0</colt.version>
-        <apache-commons.version>3.0</apache-commons.version>
+        <apache-commons.version>3.18.0</apache-commons.version>
         <spring.version>5.3.22</spring.version>
     </properties>
 
