@@ -164,7 +164,7 @@
     <properties>
         <dom4j.version>2.1.1</dom4j.version>
         <jaxen.version>1.2.0</jaxen.version>
-        <jdom2.version>2.0.6</jdom2.version>
+        <jdom2.version>2.0.6.1</jdom2.version>
         <jaxb-core.version>2.3.0.1</jaxb-core.version>
         <jaxb-impl.version>4.0.4</jaxb-impl.version>
         <freemarker.version>2.3.29</freemarker.version>
